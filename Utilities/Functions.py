@@ -15,13 +15,16 @@ class Functions:
     def bookmark(self, module, ts_id, tc_id, step_num):
         path = screenshot_folder + f'{module}\\{ts_id}'
         document = Document(path + f'\\{ts_id}.docx')
-        table = document.add_table(rows=0, cols=1, style=document.styles['Table Grid'])
+
 
         if step_num == 'Step 1':
+            table = document.add_table(rows=0, cols=1, style=document.styles['Table Grid'])
             data_row = table.add_row().cells
             data_row[0].text = self.get_tc_name(module, tc_id)  # Get_TC_bookmark
+            document.add_paragraph()
 
         if len(self.get_tc(module, tc_id, step_num)[0]) > 0:
+            table = document.add_table(rows=0, cols=1, style=document.styles['Table Grid'])
             if step_num != 'Step 1':
                 document.add_page_break()
 
