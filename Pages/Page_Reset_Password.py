@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from Utilities.Config import wait_time
+
 
 class ResetPasswordPage:
     new_password = "//input[@id = '527:2;a']"
@@ -11,10 +13,10 @@ class ResetPasswordPage:
 
 
     def get_new_password(self, driver):
-        return WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, self.new_password)))
+        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.new_password)))
 
     def get_confirm_password(self, driver):
-        return WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, self.confirm_password)))
+        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.confirm_password)))
 
     def get_set_password(self, driver):
-        return WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, self.set_password)))
+        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.set_password)))

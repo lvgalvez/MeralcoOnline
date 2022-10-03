@@ -6,16 +6,18 @@ from selenium.webdriver.common.by import By
 from docx import Document
 from docx.shared import Inches
 from selenium.webdriver import Keys, ActionChains
-
 from Utilities.Config import screenshot_folder, root_dir
+from Utilities.Utils import Utilities
 
+log = Utilities().getlogger()
 
 class Functions:
 
     def bookmark(self, module, ts_id, tc_id, step_num):
         path = screenshot_folder + f'{module}\\{ts_id}'
         document = Document(path + f'\\{ts_id}.docx')
-
+        tc_desc = self.get_tc(module, tc_id, step_num)[0]
+        tc_expected = self.get_tc(module, tc_id, step_num)[1]
 
         if step_num == 'Step 1':
             table = document.add_table(rows=0, cols=1, style=document.styles['Table Grid'])
@@ -23,15 +25,17 @@ class Functions:
             data_row[0].text = self.get_tc_name(module, tc_id)  # Get_TC_bookmark
             document.add_paragraph()
 
-        if len(self.get_tc(module, tc_id, step_num)[0]) > 0:
+        if len(tc_desc) > 0:
             table = document.add_table(rows=0, cols=1, style=document.styles['Table Grid'])
+
             if step_num != 'Step 1':
                 document.add_page_break()
 
             data_row = table.add_row().cells
-            data_row[0].text = step_num + " - " + self.get_tc(module, tc_id, step_num)[0]  # Get_Step_bookmark
+            data_row[0].text = step_num + " - " + tc_desc  # Get_Step_bookmark
             data_row = table.add_row().cells
-            data_row[0].text = self.get_tc(module, tc_id, step_num)[1]
+            data_row[0].text = tc_expected
+            log.info(tc_desc)
 
         document.save(path + f'\\{ts_id}.docx')  # update document
 
@@ -98,7 +102,7 @@ class Functions:
         tc_name = ""
 
         for i in range(2, total_rows + 1):
-            if tc_id + "_" in sheet.cell(row=i, column=1).value:
+            if sheet.cell(row=i, column=1).value is not None and tc_id + "_" in sheet.cell(row=i, column=1).value:
                 tc_name = sheet.cell(row=i, column=1).value
 
         return tc_name
@@ -107,8 +111,24 @@ class Functions:
         driver.execute_script("window.open('');")
         driver.switch_to.window(driver.window_handles[1])
         driver.get(url)
+        log.info("Opened: " + url)
         curr = driver.current_window_handle
         for handle in driver.window_handles:
             driver.switch_to.window(handle)
             if handle != curr:
                 driver.close()
+
+    def input_text(self, element, value):
+        element.send_keys(value)
+        log.info("input: "+element.text + value)
+
+    def click(self, element):
+        element.click()
+        try:
+            log.info(element.text + " clicked")
+        except:
+            log.info("Clicked")
+
+    def verify(self, element):
+        if element.is_displayed():
+            log.info(element.text + " exists")

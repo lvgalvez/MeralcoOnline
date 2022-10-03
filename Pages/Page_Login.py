@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from Utilities.Config import wait_time
+
 
 class LoginPage:
     email = "//input[@id = '113:2;a']"
@@ -13,7 +15,7 @@ class LoginPage:
 
 
     def get_email(self, driver):
-        return WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, self.email)))
+        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.email)))
 
     def get_password(self, driver):
         return driver.find_element(By.XPATH, self.password)
@@ -22,7 +24,8 @@ class LoginPage:
         return driver.find_element(By.XPATH, self.log_in)
 
     def get_forgot_password(self, driver):
-        return driver.find_element(By.XPATH, self.forgot_password)
+        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.forgot_password)))
+
 
     def get_new_password_confirmation(self, driver):
-        return WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, self.new_password_confirmation)))
+        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.new_password_confirmation)))
