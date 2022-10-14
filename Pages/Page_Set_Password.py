@@ -9,8 +9,8 @@ from Utilities.WebMisc import WebMisc
 
 class ResetPasswordPage:
     new_password = "//input[@placeholder= 'New Password *']"
-    confirm_password = "//input[@placeholder= 'Confirm New Password *']"
-    set_password = "//button[@class= 'slds-button slds-button--neutral slds-button mov-button mov-button_login responsive-width-button uiButton']"
+    confirm_password = "//input[@id = '555:2;a']"
+    set_password = "//button[@data-aura-rendered-by= '612:2;a']"
 
     def get_new_password(self, driver):
         return WebMisc().wait_element(driver, self.new_password, "new_password")

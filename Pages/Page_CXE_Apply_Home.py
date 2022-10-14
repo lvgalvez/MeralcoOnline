@@ -32,9 +32,6 @@ class CXEApplyHomePage:
     def get_individual_stop(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.individual_stop)))
 
-    #def get_popup_no(self, driver):
-    #    return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, "//a[starts-with(@onclick,'toIndexHtml')]")))
-
     def get_popup_no(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.popup_no)))
 
