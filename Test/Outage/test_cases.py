@@ -1,13 +1,8 @@
-import time
-
-from Pages.Page_External_Outage import ExternalOutagePage
-from Pages.Page_Home import HomePage
-from Pages.Page_Login import LoginPage
-from Test.Module_Functions.MO_Functions import *
+from Utilities.Drivers.MO_Functions import *
 from Utilities.Config import *
 from Utilities.Functions import *
 from Utilities.Utils import Utilities
-from Test.Module_Functions import MO_Functions
+
 fc = Functions()
 log = Utilities().getlogger()
 module = "Outage"
@@ -138,3 +133,64 @@ def TC127(driver, ts_id, email, password):
     fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
     Handle_GPS_Prompt(driver, "Disagree")
     fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+
+
+def TC143(driver, ts_id):
+    test_case = "TC143"
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, outage_external_guest)
+    external_outage = ExternalOutagePage()
+    external_outage.get_switch_frame(driver)
+    Handle_GPS_Prompt(driver, "Disagree")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    Adjust_Zoom_Level(driver, 8, 9)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+
+    fc.bookmark(module, ts_id, test_case, "Step 4")
+    Adjust_Zoom_Level(driver, 9, 8)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
+
+def TC144(driver, ts_id, email, password):
+    test_case = "TC144"
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, meralco_online)
+    Log_In_Meralco_Online(driver, email, password)
+    Verify_Successful_Login(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    Navigate_Outage(driver)
+    Check_Service_Located(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+
+    fc.bookmark(module, ts_id, test_case, "Step 4")
+    Adjust_Zoom_Level(driver, 8, 9)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
+
+    fc.bookmark(module, ts_id, test_case, "Step 5")
+    Adjust_Zoom_Level(driver, 9, 8)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 5")
+
+def TC145(driver, ts_id):
+    test_case = "TC143"
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, outage_external_guest)
+    external_outage = ExternalOutagePage()
+    external_outage.get_switch_frame(driver)
+    Handle_GPS_Prompt(driver, "Disagree")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
