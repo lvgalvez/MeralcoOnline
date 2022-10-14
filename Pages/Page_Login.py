@@ -4,6 +4,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from Utilities.Config import wait_time
+from Utilities.WebMisc import WebMisc
 
 
 class LoginPage:
@@ -17,7 +18,7 @@ class LoginPage:
 
 
     def get_email(self, driver):
-        return misc.wait_element(driver, self.email, "email")
+        return WebMisc().wait_element(driver, self.email, "email")
 
     def get_password(self, driver):
         return WebMisc().wait_element(driver, self.password, "password")
