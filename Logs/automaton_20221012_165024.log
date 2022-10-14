@@ -1,0 +1,29 @@
+2022-10-12 16:50:24,781 - INFO - setup : Browser Launched!
+2022-10-12 16:50:30,755 - INFO - <module> : Go to External Map 
+2022-10-12 16:50:30,755 - INFO - <module> : Go to External Map 
+2022-10-12 16:50:30,755 - INFO - <module> : Go to External Map 
+2022-10-12 16:50:31,856 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-12 16:50:31,856 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-12 16:50:31,856 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-12 16:50:37,014 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-12 16:50:37,014 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-12 16:50:37,014 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-12 16:50:39,890 - INFO - <module> : Select weather information to be displayed
+2022-10-12 16:50:39,890 - INFO - <module> : Select weather information to be displayed
+2022-10-12 16:50:39,890 - INFO - <module> : Select weather information to be displayed
+2022-10-12 16:50:39,993 - INFO - <module> : Disagree clicked
+2022-10-12 16:50:39,993 - INFO - <module> : Disagree clicked
+2022-10-12 16:50:39,993 - INFO - <module> : Disagree clicked
+2022-10-12 16:50:40,501 - INFO - <module> :  clicked
+2022-10-12 16:50:40,501 - INFO - <module> :  clicked
+2022-10-12 16:50:40,501 - INFO - <module> :  clicked
+2022-10-12 16:50:42,877 - INFO - <module> :  clicked
+2022-10-12 16:50:42,877 - INFO - <module> :  clicked
+2022-10-12 16:50:42,877 - INFO - <module> :  clicked
+2022-10-12 16:50:43,436 - INFO - <module> : close clicked
+2022-10-12 16:50:43,436 - INFO - <module> : close clicked
+2022-10-12 16:50:43,436 - INFO - <module> : close clicked
+2022-10-12 16:50:46,415 - INFO - <module> : Adjust outage map zoom level to greater than 8
+2022-10-12 16:50:46,415 - INFO - <module> : Adjust outage map zoom level to greater than 8
+2022-10-12 16:50:46,415 - INFO - <module> : Adjust outage map zoom level to greater than 8
+2022-10-12 16:50:47,655 - INFO - setup : Close Browser

@@ -1,0 +1,74 @@
+2022-10-13 15:08:43,482 - INFO - setup : Browser Launched!
+2022-10-13 15:08:51,561 - INFO - <module> : Go to External Map 
+2022-10-13 15:08:51,561 - INFO - <module> : Go to External Map 
+2022-10-13 15:08:51,561 - INFO - <module> : Go to External Map 
+2022-10-13 15:08:51,561 - INFO - <module> : Go to External Map 
+2022-10-13 15:08:56,818 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-13 15:08:56,818 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-13 15:08:56,818 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-13 15:08:56,818 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-13 15:08:59,835 - INFO - <module> : Select weather information to be displayed
+2022-10-13 15:08:59,835 - INFO - <module> : Select weather information to be displayed
+2022-10-13 15:08:59,835 - INFO - <module> : Select weather information to be displayed
+2022-10-13 15:08:59,835 - INFO - <module> : Select weather information to be displayed
+2022-10-13 15:08:59,887 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-13 15:08:59,887 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-13 15:08:59,887 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-13 15:08:59,887 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-13 15:09:00,349 - INFO - <module> : Disagree clicked
+2022-10-13 15:09:00,349 - INFO - <module> : Disagree clicked
+2022-10-13 15:09:00,349 - INFO - <module> : Disagree clicked
+2022-10-13 15:09:00,349 - INFO - <module> : Disagree clicked
+2022-10-13 15:09:04,441 - INFO - <module> :  clicked
+2022-10-13 15:09:04,441 - INFO - <module> :  clicked
+2022-10-13 15:09:04,441 - INFO - <module> :  clicked
+2022-10-13 15:09:04,441 - INFO - <module> :  clicked
+2022-10-13 15:09:06,769 - INFO - <module> :  clicked
+2022-10-13 15:09:06,769 - INFO - <module> :  clicked
+2022-10-13 15:09:06,769 - INFO - <module> :  clicked
+2022-10-13 15:09:06,769 - INFO - <module> :  clicked
+2022-10-13 15:09:07,333 - INFO - <module> : close clicked
+2022-10-13 15:09:07,333 - INFO - <module> : close clicked
+2022-10-13 15:09:07,333 - INFO - <module> : close clicked
+2022-10-13 15:09:07,333 - INFO - <module> : close clicked
+2022-10-13 15:09:22,417 - INFO - <module> :  clicked
+2022-10-13 15:09:22,417 - INFO - <module> :  clicked
+2022-10-13 15:09:22,417 - INFO - <module> :  clicked
+2022-10-13 15:09:22,417 - INFO - <module> :  clicked
+2022-10-13 15:09:25,215 - INFO - <module> : Adjust outage map zoom level to greater than 8
+2022-10-13 15:09:25,215 - INFO - <module> : Adjust outage map zoom level to greater than 8
+2022-10-13 15:09:25,215 - INFO - <module> : Adjust outage map zoom level to greater than 8
+2022-10-13 15:09:25,215 - INFO - <module> : Adjust outage map zoom level to greater than 8
+2022-10-13 15:09:25,388 - INFO - <module> : add clicked
+2022-10-13 15:09:25,388 - INFO - <module> : add clicked
+2022-10-13 15:09:25,388 - INFO - <module> : add clicked
+2022-10-13 15:09:25,388 - INFO - <module> : add clicked
+2022-10-13 15:09:25,537 - INFO - <module> : add clicked
+2022-10-13 15:09:25,537 - INFO - <module> : add clicked
+2022-10-13 15:09:25,537 - INFO - <module> : add clicked
+2022-10-13 15:09:25,537 - INFO - <module> : add clicked
+2022-10-13 15:09:25,650 - INFO - <module> : add clicked
+2022-10-13 15:09:25,650 - INFO - <module> : add clicked
+2022-10-13 15:09:25,650 - INFO - <module> : add clicked
+2022-10-13 15:09:25,650 - INFO - <module> : add clicked
+2022-10-13 15:09:25,731 - INFO - <module> : add clicked
+2022-10-13 15:09:25,731 - INFO - <module> : add clicked
+2022-10-13 15:09:25,731 - INFO - <module> : add clicked
+2022-10-13 15:09:25,731 - INFO - <module> : add clicked
+2022-10-13 15:09:25,808 - INFO - <module> : add clicked
+2022-10-13 15:09:25,808 - INFO - <module> : add clicked
+2022-10-13 15:09:25,808 - INFO - <module> : add clicked
+2022-10-13 15:09:25,808 - INFO - <module> : add clicked
+2022-10-13 15:09:26,489 - INFO - <module> : add clicked
+2022-10-13 15:09:26,489 - INFO - <module> : add clicked
+2022-10-13 15:09:26,489 - INFO - <module> : add clicked
+2022-10-13 15:09:26,489 - INFO - <module> : add clicked
+2022-10-13 15:09:26,569 - INFO - <module> : add clicked
+2022-10-13 15:09:26,569 - INFO - <module> : add clicked
+2022-10-13 15:09:26,569 - INFO - <module> : add clicked
+2022-10-13 15:09:26,569 - INFO - <module> : add clicked
+2022-10-13 15:09:29,413 - INFO - <module> : Validate weather icons in Internal Map
+2022-10-13 15:09:29,413 - INFO - <module> : Validate weather icons in Internal Map
+2022-10-13 15:09:29,413 - INFO - <module> : Validate weather icons in Internal Map
+2022-10-13 15:09:29,413 - INFO - <module> : Validate weather icons in Internal Map
+2022-10-13 15:09:31,870 - INFO - setup : Close Browser

@@ -1,0 +1,38 @@
+2022-10-11 13:39:52,740 - INFO - setup : Browser Launched!
+2022-10-11 13:40:02,088 - INFO - <module> : In Enroll A Service page, tick "I haven't received my first Meralco bill" > populate Customer Account Number field
+2022-10-11 13:40:02,088 - INFO - <module> : In Enroll A Service page, tick "I haven't received my first Meralco bill" > populate Customer Account Number field
+2022-10-11 13:40:02,088 - INFO - <module> : In Enroll A Service page, tick "I haven't received my first Meralco bill" > populate Customer Account Number field
+2022-10-11 13:40:03,078 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-11 13:40:03,078 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-11 13:40:03,078 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-11 13:40:03,270 - INFO - <module> : Log in with Google clicked
+2022-10-11 13:40:03,270 - INFO - <module> : Log in with Google clicked
+2022-10-11 13:40:03,270 - INFO - <module> : Log in with Google clicked
+2022-10-11 13:40:33,511 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 13:40:33,511 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 13:40:33,511 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 13:40:33,576 - INFO - <module> : Susunod clicked
+2022-10-11 13:40:33,576 - INFO - <module> : Susunod clicked
+2022-10-11 13:40:33,576 - INFO - <module> : Susunod clicked
+2022-10-11 13:40:50,044 - INFO - <module> : input: Meralco01
+2022-10-11 13:40:50,044 - INFO - <module> : input: Meralco01
+2022-10-11 13:40:50,044 - INFO - <module> : input: Meralco01
+2022-10-11 13:40:50,099 - INFO - <module> : Susunod clicked
+2022-10-11 13:40:50,099 - INFO - <module> : Susunod clicked
+2022-10-11 13:40:50,099 - INFO - <module> : Susunod clicked
+2022-10-11 13:41:30,152 - INFO - <module> : Hello, Automation exists
+2022-10-11 13:41:30,152 - INFO - <module> : Hello, Automation exists
+2022-10-11 13:41:30,152 - INFO - <module> : Hello, Automation exists
+2022-10-11 13:41:30,203 - INFO - <module> : Accounts clicked
+2022-10-11 13:41:30,203 - INFO - <module> : Accounts clicked
+2022-10-11 13:41:30,203 - INFO - <module> : Accounts clicked
+2022-10-11 13:41:30,243 - INFO - <module> :  clicked
+2022-10-11 13:41:30,243 - INFO - <module> :  clicked
+2022-10-11 13:41:30,243 - INFO - <module> :  clicked
+2022-10-11 13:41:32,877 - INFO - <module> : Enroll a Service exists
+2022-10-11 13:41:32,877 - INFO - <module> : Enroll a Service exists
+2022-10-11 13:41:32,877 - INFO - <module> : Enroll a Service exists
+2022-10-11 13:42:08,380 - ERROR - <module> : Cannot Locate: no_bill
+2022-10-11 13:42:08,380 - ERROR - <module> : Cannot Locate: no_bill
+2022-10-11 13:42:08,380 - ERROR - <module> : Cannot Locate: no_bill
+2022-10-11 13:42:08,411 - INFO - setup : Close Browser

@@ -1,0 +1,66 @@
+2022-10-13 10:31:17,301 - INFO - setup : Browser Launched!
+2022-10-13 10:31:28,870 - INFO - <module> : Go to External Map 
+2022-10-13 10:31:28,870 - INFO - <module> : Go to External Map 
+2022-10-13 10:31:28,870 - INFO - <module> : Go to External Map 
+2022-10-13 10:31:28,870 - INFO - <module> : Go to External Map 
+2022-10-13 10:31:29,010 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-13 10:31:29,010 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-13 10:31:29,010 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-13 10:31:29,010 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-13 10:31:29,083 - INFO - <module> : input: Meralco01
+2022-10-13 10:31:29,083 - INFO - <module> : input: Meralco01
+2022-10-13 10:31:29,083 - INFO - <module> : input: Meralco01
+2022-10-13 10:31:29,083 - INFO - <module> : input: Meralco01
+2022-10-13 10:31:29,140 - INFO - <module> : Log in clicked
+2022-10-13 10:31:29,140 - INFO - <module> : Log in clicked
+2022-10-13 10:31:29,140 - INFO - <module> : Log in clicked
+2022-10-13 10:31:29,140 - INFO - <module> : Log in clicked
+2022-10-13 10:31:33,960 - INFO - <module> : Hello, exists
+2022-10-13 10:31:33,960 - INFO - <module> : Hello, exists
+2022-10-13 10:31:33,960 - INFO - <module> : Hello, exists
+2022-10-13 10:31:33,960 - INFO - <module> : Hello, exists
+2022-10-13 10:31:33,978 - INFO - <module> : Hello, exists
+2022-10-13 10:31:33,978 - INFO - <module> : Hello, exists
+2022-10-13 10:31:33,978 - INFO - <module> : Hello, exists
+2022-10-13 10:31:33,978 - INFO - <module> : Hello, exists
+2022-10-13 10:31:36,214 - INFO - <module> : Outages & Incidents clicked
+2022-10-13 10:31:36,214 - INFO - <module> : Outages & Incidents clicked
+2022-10-13 10:31:36,214 - INFO - <module> : Outages & Incidents clicked
+2022-10-13 10:31:36,214 - INFO - <module> : Outages & Incidents clicked
+2022-10-13 10:31:36,267 - INFO - <module> :  clicked
+2022-10-13 10:31:36,267 - INFO - <module> :  clicked
+2022-10-13 10:31:36,267 - INFO - <module> :  clicked
+2022-10-13 10:31:36,267 - INFO - <module> :  clicked
+2022-10-13 10:31:40,746 - INFO - <module> : Select weather information to be displayed
+2022-10-13 10:31:40,746 - INFO - <module> : Select weather information to be displayed
+2022-10-13 10:31:40,746 - INFO - <module> : Select weather information to be displayed
+2022-10-13 10:31:40,746 - INFO - <module> : Select weather information to be displayed
+2022-10-13 10:31:41,927 - INFO - <module> :  clicked
+2022-10-13 10:31:41,927 - INFO - <module> :  clicked
+2022-10-13 10:31:41,927 - INFO - <module> :  clicked
+2022-10-13 10:31:41,927 - INFO - <module> :  clicked
+2022-10-13 10:31:44,613 - INFO - <module> :  clicked
+2022-10-13 10:31:44,613 - INFO - <module> :  clicked
+2022-10-13 10:31:44,613 - INFO - <module> :  clicked
+2022-10-13 10:31:44,613 - INFO - <module> :  clicked
+2022-10-13 10:31:45,182 - INFO - <module> : close clicked
+2022-10-13 10:31:45,182 - INFO - <module> : close clicked
+2022-10-13 10:31:45,182 - INFO - <module> : close clicked
+2022-10-13 10:31:45,182 - INFO - <module> : close clicked
+2022-10-13 10:31:58,024 - INFO - <module> : Adjust outage map zoom level to greater than 8
+2022-10-13 10:31:58,024 - INFO - <module> : Adjust outage map zoom level to greater than 8
+2022-10-13 10:31:58,024 - INFO - <module> : Adjust outage map zoom level to greater than 8
+2022-10-13 10:31:58,024 - INFO - <module> : Adjust outage map zoom level to greater than 8
+2022-10-13 10:31:58,131 - INFO - <module> :  clicked
+2022-10-13 10:31:58,131 - INFO - <module> :  clicked
+2022-10-13 10:31:58,131 - INFO - <module> :  clicked
+2022-10-13 10:31:58,131 - INFO - <module> :  clicked
+2022-10-13 10:31:58,256 - INFO - <module> : remove clicked
+2022-10-13 10:31:58,256 - INFO - <module> : remove clicked
+2022-10-13 10:31:58,256 - INFO - <module> : remove clicked
+2022-10-13 10:31:58,256 - INFO - <module> : remove clicked
+2022-10-13 10:32:01,124 - INFO - <module> : Validate weather icons in Internal Map
+2022-10-13 10:32:01,124 - INFO - <module> : Validate weather icons in Internal Map
+2022-10-13 10:32:01,124 - INFO - <module> : Validate weather icons in Internal Map
+2022-10-13 10:32:01,124 - INFO - <module> : Validate weather icons in Internal Map
+2022-10-13 10:32:03,650 - INFO - setup : Close Browser
