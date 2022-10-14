@@ -1,9 +1,21 @@
 
+
 SSO = {
     'normal_account_email': 'ATNewSAMO@yopmail.com',
     'normal_account_password': 'Meralco01',
     'forgot_pass_email': 'atmossoforgotpass@yopmail.com',
-    'forgot_pass_new_pass': 'Meralco03'
+    'forgot_pass_new_pass': 'Meralco03',
+    'lockout_email': 'AtTestLockout@yopmail.com',
+    'lockout_password': 'invalidpass',
+    'changepass_email': 'ATTestMOChangepassword@yopmail.com',
+    'changepass_password': 'Meralco04',
+    'changepass_new_password': 'Meralco05',
+    'facebook_email': 'htewuvrtny_1652860426@tfbnw.net',
+    'facebook_password': 'Test1234567890',
+    'google_email': 'mecoautomation01@gmail.com',
+    'google_password': 'M#ralco00',
+    'expired_email': 'atemaild01@yopmail.com',
+    'expired_password': 'Meralco123'
 }
 
 
@@ -47,4 +59,85 @@ SAMO = {
     'birthday': "08/08/1993"
 
 
+}
+
+Registration = {
+    'cxe_email': 'v-lvlgalvez@meralco.com.ph',
+    'cxe_password': 'Mecopass@@!!129',
+    'can_single_service': '3534823912',
+    'single_service_pay_email': 'paysingleservicerun2@yopmail.com',
+    'single_service_pay_password': 'Meralco01',
+    'single_service_first_name': 'Zero Eleven',
+    'single_service_last_name': 'TS',
+    'single_service_mobile_num': '9272437214',
+    'single_service_kwh': '224',
+    'single_service_bill_date': '08/02/2022',
+    'single_service_nonpay_email': 'nonpaysingleservice@yopmail.com',
+    'single_service_first_name_np': 'Non Pay',
+    'single_service_last_name_np': 'TS',
+    'single_service_mobile_num_np': '9273437214',
+    'multiple_service_email': 'nonpaymultipleservice@yopmail.com',
+    'multiple_service_password': 'Meralco01',
+    'multiple_service_first_name': 'Multipay Eleven',
+    'multiple_service_last_name': 'TS',
+    'multiple_service_mobile_num': '9274437214',
+    'multiple_service_kwh': '125',
+    'multiple_service_bill_date': '04/12/2022',
+    'can_multiple_service': '3535100272',
+    'multiple_service': '502863370101',
+    'multiple_service_pay_email': 'paymultipleservice@yopmail.com',
+    'multiple_service_pay_password': 'Meralco01',
+    'multiple_service_pay_first_name': 'IYON ATA',
+    'multiple_service_pay_last_name': 'YOWN',
+    'multiple_service_pay_mobile_num': '9275437214',
+    'can_no_bill': '3535120566',
+    'can_no_bill_pay_email': 'cannobillpayorbill@yopmail.com',
+    'can_no_bill_pay_password': 'Meralco01',
+    'can_no_bill_pay_first_name': 'ABE',
+    'can_no_bill_pay_middle_name': '',
+    'can_no_bill_pay_last_name': 'NICHOLS',
+    'can_no_bill_pay_mobile_num': '9276437215',
+    'can_no_bill_sing_bill_deposit': '800',
+    'can_no_bill_sing_payment_date': '06/02/2022',
+    'can_no_bill_email': 'cannobillnonbill@yopmail.com',
+    'can_no_bill_password': 'Meralco01',
+    'can_no_bill_first_name': 'Test',
+    'can_no_bill_middle_name': 'Automation',
+    'can_no_bill_last_name': 'Name',
+    'can_no_bill_mobile_num': '9277437215',
+    'can_no_bill_multiple': '3535126841',
+    'can_no_bill_service': '502813120102',
+    'can_no_bill_pmultiple_email': 'cannobillpaymulti@yopmail.com',
+    'can_no_bill_pmultiple_password': 'Meralco01',
+    'can_no_bill_pmultiple_first_name': 'ALEXA',
+    'can_no_bill_pmultiple_middle_name': 'CADAO',
+    'can_no_bill_pmultiple_last_name': 'SILAPAN',
+    'can_no_bill_pmultiple_mobile_num': '9277437215',
+    'can_no_bill_multiple_bill_deposit': '1200',
+    'can_no_bill_multiple_payment_date': '06/15/2022',
+    'can_no_bill_multiple_email': 'cannobillnonp@yopmail.com',
+    'can_no_bill_multiple_password': 'Meralco01',
+    'can_no_bill_multiple_first_name': 'Testing',
+    'can_no_bill_multiple_middle_name': 'Auto',
+    'can_no_bill_multiple_last_name': 'Name',
+    'can_no_bill_multiple_mobile_num': '9277437216',
+    'new_gmail': 'mecoautomationhybrid01@gmail.com',
+    'new_gpass': 'Meralco01',
+    'gmail_enroll_mobile': '9272331231',
+    'match_bills_can': '0136521935',
+    'match_bills_sin': '302004950101',
+    'match_bills_date': '06/16/2022',
+    'match_bills_kwh': '0',
+    'match_bills_email': 'matchbillsnonp@yopmail.com',
+    'match_bills_password': 'Meralco01',
+    'match_bills_first_name': 'matching',
+    'match_bills_middle_name': 'non',
+    'match_bills_last_name': 'pay',
+    'match_bills_mobile_num': '9299437216',
+    'can_no_bill_pmultiple_gmobile_num': '92231239078'
+}
+
+Outage = {
+    'outage_email': 'atmooutageaccount@yopmail.com',
+    'outage_password': 'Meralco01'
 }

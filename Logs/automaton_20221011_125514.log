@@ -1,0 +1,62 @@
+2022-10-11 12:55:14,436 - INFO - setup : Browser Launched!
+2022-10-11 12:55:20,608 - INFO - <module> : Go to Registration page
+2022-10-11 12:55:20,608 - INFO - <module> : Go to Registration page
+2022-10-11 12:55:20,608 - INFO - <module> : Go to Registration page
+2022-10-11 12:55:21,384 - INFO - <module> : Clicked
+2022-10-11 12:55:21,384 - INFO - <module> : Clicked
+2022-10-11 12:55:21,384 - INFO - <module> : Clicked
+2022-10-11 12:55:22,979 - INFO - <module> : Create a New Account exists
+2022-10-11 12:55:22,979 - INFO - <module> : Create a New Account exists
+2022-10-11 12:55:22,979 - INFO - <module> : Create a New Account exists
+2022-10-11 12:55:25,450 - INFO - <module> : Click Sign In with Google
+2022-10-11 12:55:25,450 - INFO - <module> : Click Sign In with Google
+2022-10-11 12:55:25,450 - INFO - <module> : Click Sign In with Google
+2022-10-11 12:55:25,528 - INFO - <module> : Log In with Google clicked
+2022-10-11 12:55:25,528 - INFO - <module> : Log In with Google clicked
+2022-10-11 12:55:25,528 - INFO - <module> : Log In with Google clicked
+2022-10-11 12:55:55,761 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 12:55:55,761 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 12:55:55,761 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 12:55:58,084 - INFO - <module> : Populate required credentials > Login
+2022-10-11 12:55:58,084 - INFO - <module> : Populate required credentials > Login
+2022-10-11 12:55:58,084 - INFO - <module> : Populate required credentials > Login
+2022-10-11 12:55:58,175 - INFO - <module> : Susunod clicked
+2022-10-11 12:55:58,175 - INFO - <module> : Susunod clicked
+2022-10-11 12:55:58,175 - INFO - <module> : Susunod clicked
+2022-10-11 12:55:59,272 - INFO - <module> : input: Meralco01
+2022-10-11 12:55:59,272 - INFO - <module> : input: Meralco01
+2022-10-11 12:55:59,272 - INFO - <module> : input: Meralco01
+2022-10-11 12:56:01,484 - INFO - <module> : Susunod clicked
+2022-10-11 12:56:01,484 - INFO - <module> : Susunod clicked
+2022-10-11 12:56:01,484 - INFO - <module> : Susunod clicked
+2022-10-11 12:56:41,738 - INFO - <module> : Upon registration, validate Enroll a Service window prompt
+2022-10-11 12:56:41,738 - INFO - <module> : Upon registration, validate Enroll a Service window prompt
+2022-10-11 12:56:41,738 - INFO - <module> : Upon registration, validate Enroll a Service window prompt
+2022-10-11 12:56:41,800 - INFO - <module> : Help us know more about you! exists
+2022-10-11 12:56:41,800 - INFO - <module> : Help us know more about you! exists
+2022-10-11 12:56:41,800 - INFO - <module> : Help us know more about you! exists
+2022-10-11 12:56:44,199 - INFO - <module> : Populate the following field:
+- Mobile Number
+- CAN
+- Service ID No.
+- Bill Deposit
+- Payment Date
+-Meralco Online Terms and Conditions tick box
+2022-10-11 12:56:44,199 - INFO - <module> : Populate the following field:
+- Mobile Number
+- CAN
+- Service ID No.
+- Bill Deposit
+- Payment Date
+-Meralco Online Terms and Conditions tick box
+2022-10-11 12:56:44,199 - INFO - <module> : Populate the following field:
+- Mobile Number
+- CAN
+- Service ID No.
+- Bill Deposit
+- Payment Date
+-Meralco Online Terms and Conditions tick box
+2022-10-11 12:57:14,457 - ERROR - <module> : Cannot Locate: no_bill
+2022-10-11 12:57:14,457 - ERROR - <module> : Cannot Locate: no_bill
+2022-10-11 12:57:14,457 - ERROR - <module> : Cannot Locate: no_bill
+2022-10-11 12:57:14,482 - INFO - setup : Close Browser

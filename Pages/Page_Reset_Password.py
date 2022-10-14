@@ -4,19 +4,19 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from Utilities.Config import wait_time
+from Utilities.WebMisc import WebMisc
 
 
 class ResetPasswordPage:
-    new_password = "//*[@id='526:2;a']"
-    confirm_password = "//*[@id='554:2;a']"
-    set_password = "/html/body/div[3]/div/div[2]/div/div/div/div/div/div[2]/div/div/div[3]/div/div[1]/div[3]/table/tr[2]/td[2]/button"
-
+    new_password = "//input[@placeholder= 'New Password *']"
+    confirm_password = "//input[@placeholder= 'Confirm New Password *']"
+    set_password = "//button[@class= 'slds-button slds-button--neutral slds-button mov-button mov-button_login responsive-width-button uiButton']"
 
     def get_new_password(self, driver):
-        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.new_password)))
+        return WebMisc().wait_element(driver, self.new_password, "new_password")
 
     def get_confirm_password(self, driver):
-        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.confirm_password)))
+        return WebMisc().wait_element(driver, self.confirm_password, "confirm_password")
 
     def get_set_password(self, driver):
-        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.set_password)))
+        return WebMisc().wait_element(driver, self.set_password, "set_password")

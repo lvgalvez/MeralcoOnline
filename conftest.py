@@ -29,4 +29,4 @@ def setup(request):
     request.cls.browser = browser
     yield
     log.info("Close Browser")
- #   driver.close()
+    #driver.close()

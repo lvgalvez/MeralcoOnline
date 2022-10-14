@@ -1,8 +1,10 @@
 import time
 
 from Pages.Page_Forgot_Password import ForgotPasswordPage
+from Pages.Page_Google_Login import GoogleLoginPage
 from Pages.Page_Home import HomePage
 from Pages.Page_Login import LoginPage
+from Pages.Page_My_Profile import MyProfilePage
 from Pages.Page_Reset_Password import ResetPasswordPage
 from Pages.Page_Yopmail_Home import YopmailHomePage
 from Pages.Page_Yopmail_Inbox import YopmailInboxPage
@@ -15,25 +17,55 @@ from Utilities.Utils import Utilities
 log = Utilities().getlogger()
 module = "SSO"
 
-def TC007(driver, ts_id, email, password):
-    test_case = "TC007"
-    log.info("==========Log in==========")
+
+def TC001(driver, ts_id, email):
+    test_case = "TC001"
 
     function = Functions()
     function.bookmark(module, ts_id, test_case, "Step 1")
     login = LoginPage()
-    function.input_text(login.get_email(driver), email)
-    function.input_text(login.get_password(driver), password)
+    function.click(login.get_forgot_password(driver))
     function.screen_capture(driver, module, ts_id, test_case, "Step 1")
-    function.click(login.get_log_in(driver))
+    function.bookmark(module, ts_id, test_case, "Step 2")
+    forgot_password = ForgotPasswordPage()
+    function.input_text(forgot_password.get_email(driver), email)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    function.click(forgot_password.get_send_confirmation_email(driver))
+    error_prompt = "Please use your Facebook, Google, or Apple account to login. Your Meralco Online account is registered and/or previously accessed in using these options."
+    function.verify_text(forgot_password.get_sso_forgot(driver), error_prompt)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 2b")
+
+
+def TC002(driver, ts_id, email, password):
+    test_case = "TC002"
+
+    function = Functions()
+    function.bookmark(module, ts_id, test_case, "Step 1")
+    login = LoginPage()
+    function.click(login.get_google_login(driver))
+    google_login = GoogleLoginPage()
+    function.option_click(google_login.get_use_another_account(driver))
+    function.input_text(google_login.get_email(driver), email)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    function.click(google_login.get_next(driver))
+    function.input_text(google_login.get_password(driver), password)
+    function.click(google_login.get_next(driver))
+    time.sleep(40)
     home = HomePage()
     function.verify(home.get_hello_message(driver))
     function.screen_capture(driver, module, ts_id, test_case, "Step 1b")
-    log.info(test_case + " Passed")
+    function.bookmark(module, ts_id, test_case, "Step 2")
+    function.click(home.get_profile_name(driver))
+    function.click(home.get_my_profile(driver))
+    my_profile = MyProfilePage()
+    function.click(my_profile.get_change_password(driver))
+    sso_prompt = "For added security, this function is unavailable as your Meralco Online account is linked to your Facebook, Google, or Apple Account."
+    function.verify_text(my_profile.get_sso_prompt(driver), sso_prompt)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
 
 def TC003(driver, ts_id, email, password):
     test_case = "TC003"
-    log.info("==========Forgot Password==========")
 
     function = Functions()
     function.bookmark(module, ts_id, test_case, "Step 1")
@@ -73,7 +105,182 @@ def TC003(driver, ts_id, email, password):
     log.info(test_case + " Passed")
 
 
+def TC004(driver, ts_id, email, password, new_password):
+    test_case = "TC004"
+
+    function = Functions()
+    function.bookmark(module, ts_id, test_case, "Step 1")
+    login = LoginPage()
+    function.input_text(login.get_email(driver), email)
+    function.input_text(login.get_password(driver), password)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    function.click(login.get_log_in(driver))
+    home = HomePage()
+    function.verify(home.get_hello_message(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+    function.bookmark(module, ts_id, test_case, "Step 2")
+    function.click(home.get_profile_name(driver))
+    function.click(home.get_my_profile(driver))
+    my_profile = MyProfilePage()
+    function.click(my_profile.get_change_password(driver))
+    function.input_text(my_profile.get_current_password(driver), password)
+    function.input_text(my_profile.get_new_password(driver), new_password)
+    function.input_text(my_profile.get_confirm_new_password(driver), new_password)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    function.click(my_profile.get_set_password(driver))
+    time.sleep(2)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 2b")
+    function.click(my_profile.get_password_confirmation(driver))
+    function.bookmark(module, ts_id, test_case, "Step 3")
+    function.input_text(login.get_email(driver), email)
+    function.input_text(login.get_password(driver), new_password)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    function.click(login.get_log_in(driver))
+    function.verify(home.get_hello_message(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 3b")
 
 
+def TC005(driver, ts_id, email, password):
+    test_case = "TC005"
+
+    function = Functions()
+    function.bookmark(module, ts_id, test_case, "Step 1")
+    login = LoginPage()
+    function.input_text(login.get_email(driver), email)
+    function.input_text(login.get_password(driver), password)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    function.click(login.get_log_in(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1b")
 
 
+def TC006(driver, ts_id, email, password):
+    test_case = "TC006"
+
+    function = Functions()
+    function.bookmark(module, ts_id, test_case, "Step 1")
+    login = LoginPage()
+    function.input_text(login.get_email(driver), email)
+    function.input_text(login.get_password(driver), password)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    function.click(login.get_log_in(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+    function.click(login.get_google_login(driver))
+    google_login = GoogleLoginPage()
+    function.bookmark(module, ts_id, test_case, "Step 2")
+    function.option_click(google_login.get_use_another_account(driver))
+    function.input_text(google_login.get_email(driver), email)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    function.click(google_login.get_next(driver))
+    function.input_text(google_login.get_password(driver), password)
+    function.click(google_login.get_next(driver))
+    time.sleep(20)
+    home = HomePage()
+    function.verify(home.get_hello_message(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 2b")
+
+
+def TC007(driver, ts_id, email, password):
+    test_case = "TC007"
+    log.info("==========Log in==========")
+
+    function = Functions()
+    function.bookmark(module, ts_id, test_case, "Step 1")
+    login = LoginPage()
+    function.input_text(login.get_email(driver), email)
+    function.input_text(login.get_password(driver), password)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    function.click(login.get_log_in(driver))
+    home = HomePage()
+    function.verify(home.get_hello_message(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+    log.info(test_case + " Passed")
+
+
+def TC008(driver, ts_id, email, password):
+    test_case = "TC008"
+
+    function = Functions()
+    function.bookmark(module, ts_id, test_case, "Step 1")
+    login = LoginPage()
+    function.click(login.get_google_login(driver))
+    google_login = GoogleLoginPage()
+    function.option_click(google_login.get_use_another_account(driver))
+    function.input_text(google_login.get_email(driver), email)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    function.click(google_login.get_next(driver))
+    function.input_text(google_login.get_password(driver), password)
+    function.click(google_login.get_next(driver))
+    time.sleep(40)
+    home = HomePage()
+    function.verify(home.get_hello_message(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+
+
+def TC009(driver, ts_id, email, password):
+    test_case = "TC009"
+
+    function = Functions()
+    function.bookmark(module, ts_id, test_case, "Step 1")
+    login = LoginPage()
+    function.input_text(login.get_email(driver), email)
+    function.input_text(login.get_password(driver), password)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    function.click(login.get_log_in(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+
+
+def TC010(driver, ts_id, email, password):
+    test_case = "TC010"
+    log.info("==========Log in==========")
+
+    function = Functions()
+    function.bookmark(module, ts_id, test_case, "Step 1")
+    login = LoginPage()
+    function.input_text(login.get_email(driver), email)
+    function.input_text(login.get_password(driver), password)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    function.click(login.get_log_in(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+    login.get_email(driver).clear()
+    login.get_password(driver).clear()
+    function.input_text(login.get_email(driver), email)
+    function.input_text(login.get_password(driver), password)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1c")
+    function.click(login.get_log_in(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1d")
+    login.get_email(driver).clear()
+    login.get_password(driver).clear()
+    function.input_text(login.get_email(driver), email)
+    function.input_text(login.get_password(driver), password)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1e")
+    function.click(login.get_log_in(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1f")
+    login.get_email(driver).clear()
+    login.get_password(driver).clear()
+    function.input_text(login.get_email(driver), email)
+    function.input_text(login.get_password(driver), password)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1g")
+    function.click(login.get_log_in(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1h")
+    login.get_email(driver).clear()
+    login.get_password(driver).clear()
+    function.input_text(login.get_email(driver), email)
+    function.input_text(login.get_password(driver), password)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1i")
+    function.click(login.get_log_in(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1j")
+
+
+def TC013(driver, ts_id, email):
+    test_case = "TC013"
+
+    function = Functions()
+    function.bookmark(module, ts_id, test_case, "Step 1")
+    login = LoginPage()
+    function.click(login.get_google_login(driver))
+    google_login = GoogleLoginPage()
+    function.option_click(google_login.get_use_another_account(driver))
+    function.input_text(google_login.get_email(driver), email)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    function.click(google_login.get_next(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1b")

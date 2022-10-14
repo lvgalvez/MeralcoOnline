@@ -1,0 +1,86 @@
+2022-10-11 13:08:58,749 - INFO - setup : Browser Launched!
+2022-10-11 13:09:05,842 - INFO - <module> : Go to Registration page
+2022-10-11 13:09:05,842 - INFO - <module> : Go to Registration page
+2022-10-11 13:09:05,842 - INFO - <module> : Go to Registration page
+2022-10-11 13:09:06,947 - INFO - <module> : Clicked
+2022-10-11 13:09:06,947 - INFO - <module> : Clicked
+2022-10-11 13:09:06,947 - INFO - <module> : Clicked
+2022-10-11 13:09:08,542 - INFO - <module> : Create a New Account exists
+2022-10-11 13:09:08,542 - INFO - <module> : Create a New Account exists
+2022-10-11 13:09:08,542 - INFO - <module> : Create a New Account exists
+2022-10-11 13:09:11,044 - INFO - <module> : Click Sign In with Google
+2022-10-11 13:09:11,044 - INFO - <module> : Click Sign In with Google
+2022-10-11 13:09:11,044 - INFO - <module> : Click Sign In with Google
+2022-10-11 13:09:11,122 - INFO - <module> : Log In with Google clicked
+2022-10-11 13:09:11,122 - INFO - <module> : Log In with Google clicked
+2022-10-11 13:09:11,122 - INFO - <module> : Log In with Google clicked
+2022-10-11 13:09:41,354 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 13:09:41,354 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 13:09:41,354 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 13:09:43,690 - INFO - <module> : Populate required credentials > Login
+2022-10-11 13:09:43,690 - INFO - <module> : Populate required credentials > Login
+2022-10-11 13:09:43,690 - INFO - <module> : Populate required credentials > Login
+2022-10-11 13:09:43,785 - INFO - <module> : Susunod clicked
+2022-10-11 13:09:43,785 - INFO - <module> : Susunod clicked
+2022-10-11 13:09:43,785 - INFO - <module> : Susunod clicked
+2022-10-11 13:09:44,902 - INFO - <module> : input: Meralco01
+2022-10-11 13:09:44,902 - INFO - <module> : input: Meralco01
+2022-10-11 13:09:44,902 - INFO - <module> : input: Meralco01
+2022-10-11 13:09:47,137 - INFO - <module> : Susunod clicked
+2022-10-11 13:09:47,137 - INFO - <module> : Susunod clicked
+2022-10-11 13:09:47,137 - INFO - <module> : Susunod clicked
+2022-10-11 13:10:27,420 - INFO - <module> : Upon registration, validate Enroll a Service window prompt
+2022-10-11 13:10:27,420 - INFO - <module> : Upon registration, validate Enroll a Service window prompt
+2022-10-11 13:10:27,420 - INFO - <module> : Upon registration, validate Enroll a Service window prompt
+2022-10-11 13:10:27,484 - INFO - <module> : Help us know more about you! exists
+2022-10-11 13:10:27,484 - INFO - <module> : Help us know more about you! exists
+2022-10-11 13:10:27,484 - INFO - <module> : Help us know more about you! exists
+2022-10-11 13:10:29,859 - INFO - <module> : Populate the following field:
+- Mobile Number
+- CAN
+- Service ID No.
+- Bill Deposit
+- Payment Date
+-Meralco Online Terms and Conditions tick box
+2022-10-11 13:10:29,859 - INFO - <module> : Populate the following field:
+- Mobile Number
+- CAN
+- Service ID No.
+- Bill Deposit
+- Payment Date
+-Meralco Online Terms and Conditions tick box
+2022-10-11 13:10:29,859 - INFO - <module> : Populate the following field:
+- Mobile Number
+- CAN
+- Service ID No.
+- Bill Deposit
+- Payment Date
+-Meralco Online Terms and Conditions tick box
+2022-10-11 13:10:29,946 - INFO - <module> : I haven't received my first Meralco bill clicked
+2022-10-11 13:10:29,946 - INFO - <module> : I haven't received my first Meralco bill clicked
+2022-10-11 13:10:29,946 - INFO - <module> : I haven't received my first Meralco bill clicked
+2022-10-11 13:10:30,011 - INFO - <module> : input: 92231239078
+2022-10-11 13:10:30,011 - INFO - <module> : input: 92231239078
+2022-10-11 13:10:30,011 - INFO - <module> : input: 92231239078
+2022-10-11 13:10:30,072 - INFO - <module> : input: 3535126841
+2022-10-11 13:10:30,072 - INFO - <module> : input: 3535126841
+2022-10-11 13:10:30,072 - INFO - <module> : input: 3535126841
+2022-10-11 13:10:30,121 - INFO - <module> : input: 1200
+2022-10-11 13:10:30,121 - INFO - <module> : input: 1200
+2022-10-11 13:10:30,121 - INFO - <module> : input: 1200
+2022-10-11 13:10:30,194 - INFO - <module> : input: 06/15/2022
+2022-10-11 13:10:30,194 - INFO - <module> : input: 06/15/2022
+2022-10-11 13:10:30,194 - INFO - <module> : input: 06/15/2022
+2022-10-11 13:10:30,793 - INFO - <module> : input: 502813120102
+2022-10-11 13:10:30,793 - INFO - <module> : input: 502813120102
+2022-10-11 13:10:30,793 - INFO - <module> : input: 502813120102
+2022-10-11 13:10:33,195 - INFO - <module> : Click Submit
+2022-10-11 13:10:33,195 - INFO - <module> : Click Submit
+2022-10-11 13:10:33,195 - INFO - <module> : Click Submit
+2022-10-11 13:10:55,749 - INFO - <module> : Validate Enrolled CAN and Service
+2022-10-11 13:10:55,749 - INFO - <module> : Validate Enrolled CAN and Service
+2022-10-11 13:10:55,749 - INFO - <module> : Validate Enrolled CAN and Service
+2022-10-11 13:11:25,868 - ERROR - <module> : Cannot Locate: manage_accounts_text
+2022-10-11 13:11:25,868 - ERROR - <module> : Cannot Locate: manage_accounts_text
+2022-10-11 13:11:25,868 - ERROR - <module> : Cannot Locate: manage_accounts_text
+2022-10-11 13:11:25,924 - INFO - setup : Close Browser
