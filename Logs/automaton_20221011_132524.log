@@ -1,0 +1,104 @@
+2022-10-11 13:25:24,529 - INFO - setup : Browser Launched!
+2022-10-11 13:25:31,202 - INFO - <module> : Go to Registration page
+2022-10-11 13:25:31,202 - INFO - <module> : Go to Registration page
+2022-10-11 13:25:31,202 - INFO - <module> : Go to Registration page
+2022-10-11 13:25:32,283 - INFO - <module> : Clicked
+2022-10-11 13:25:32,283 - INFO - <module> : Clicked
+2022-10-11 13:25:32,283 - INFO - <module> : Clicked
+2022-10-11 13:25:33,929 - INFO - <module> : Create a New Account exists
+2022-10-11 13:25:33,929 - INFO - <module> : Create a New Account exists
+2022-10-11 13:25:33,929 - INFO - <module> : Create a New Account exists
+2022-10-11 13:25:36,423 - INFO - <module> : Click Sign In with Google
+2022-10-11 13:25:36,423 - INFO - <module> : Click Sign In with Google
+2022-10-11 13:25:36,423 - INFO - <module> : Click Sign In with Google
+2022-10-11 13:25:36,510 - INFO - <module> : Log In with Google clicked
+2022-10-11 13:25:36,510 - INFO - <module> : Log In with Google clicked
+2022-10-11 13:25:36,510 - INFO - <module> : Log In with Google clicked
+2022-10-11 13:26:06,946 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 13:26:06,946 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 13:26:06,946 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 13:26:09,282 - INFO - <module> : Populate required credentials > Login
+2022-10-11 13:26:09,282 - INFO - <module> : Populate required credentials > Login
+2022-10-11 13:26:09,282 - INFO - <module> : Populate required credentials > Login
+2022-10-11 13:26:09,378 - INFO - <module> : Susunod clicked
+2022-10-11 13:26:09,378 - INFO - <module> : Susunod clicked
+2022-10-11 13:26:09,378 - INFO - <module> : Susunod clicked
+2022-10-11 13:26:10,483 - INFO - <module> : input: Meralco01
+2022-10-11 13:26:10,483 - INFO - <module> : input: Meralco01
+2022-10-11 13:26:10,483 - INFO - <module> : input: Meralco01
+2022-10-11 13:26:12,711 - INFO - <module> : Susunod clicked
+2022-10-11 13:26:12,711 - INFO - <module> : Susunod clicked
+2022-10-11 13:26:12,711 - INFO - <module> : Susunod clicked
+2022-10-11 13:26:52,992 - INFO - <module> : Upon registration, validate Enroll a Service window prompt
+2022-10-11 13:26:52,992 - INFO - <module> : Upon registration, validate Enroll a Service window prompt
+2022-10-11 13:26:52,992 - INFO - <module> : Upon registration, validate Enroll a Service window prompt
+2022-10-11 13:26:53,057 - INFO - <module> : Help us know more about you! exists
+2022-10-11 13:26:53,057 - INFO - <module> : Help us know more about you! exists
+2022-10-11 13:26:53,057 - INFO - <module> : Help us know more about you! exists
+2022-10-11 13:26:55,437 - INFO - <module> : Populate the following field:
+- Mobile Number
+- CAN
+- Service ID No.
+- Bill Deposit
+- Payment Date
+-Meralco Online Terms and Conditions tick box
+2022-10-11 13:26:55,437 - INFO - <module> : Populate the following field:
+- Mobile Number
+- CAN
+- Service ID No.
+- Bill Deposit
+- Payment Date
+-Meralco Online Terms and Conditions tick box
+2022-10-11 13:26:55,437 - INFO - <module> : Populate the following field:
+- Mobile Number
+- CAN
+- Service ID No.
+- Bill Deposit
+- Payment Date
+-Meralco Online Terms and Conditions tick box
+2022-10-11 13:26:55,523 - INFO - <module> : I haven't received my first Meralco bill clicked
+2022-10-11 13:26:55,523 - INFO - <module> : I haven't received my first Meralco bill clicked
+2022-10-11 13:26:55,523 - INFO - <module> : I haven't received my first Meralco bill clicked
+2022-10-11 13:26:55,583 - INFO - <module> : input: 92231239078
+2022-10-11 13:26:55,583 - INFO - <module> : input: 92231239078
+2022-10-11 13:26:55,583 - INFO - <module> : input: 92231239078
+2022-10-11 13:26:55,644 - INFO - <module> : input: 3535126841
+2022-10-11 13:26:55,644 - INFO - <module> : input: 3535126841
+2022-10-11 13:26:55,644 - INFO - <module> : input: 3535126841
+2022-10-11 13:26:55,690 - INFO - <module> : input: 1200
+2022-10-11 13:26:55,690 - INFO - <module> : input: 1200
+2022-10-11 13:26:55,690 - INFO - <module> : input: 1200
+2022-10-11 13:26:55,762 - INFO - <module> : input: 06/15/2022
+2022-10-11 13:26:55,762 - INFO - <module> : input: 06/15/2022
+2022-10-11 13:26:55,762 - INFO - <module> : input: 06/15/2022
+2022-10-11 13:26:56,903 - INFO - <module> : input: 502813120102
+2022-10-11 13:26:56,903 - INFO - <module> : input: 502813120102
+2022-10-11 13:26:56,903 - INFO - <module> : input: 502813120102
+2022-10-11 13:26:59,319 - INFO - <module> : Click Submit
+2022-10-11 13:26:59,319 - INFO - <module> : Click Submit
+2022-10-11 13:26:59,319 - INFO - <module> : Click Submit
+2022-10-11 13:27:21,831 - INFO - <module> : Validate Enrolled CAN and Service
+2022-10-11 13:27:21,831 - INFO - <module> : Validate Enrolled CAN and Service
+2022-10-11 13:27:21,831 - INFO - <module> : Validate Enrolled CAN and Service
+2022-10-11 13:27:21,919 - INFO - <module> : Manage your service account here. exists
+2022-10-11 13:27:21,919 - INFO - <module> : Manage your service account here. exists
+2022-10-11 13:27:21,919 - INFO - <module> : Manage your service account here. exists
+2022-10-11 13:27:24,335 - INFO - <module> : Validate Email Notification
+2022-10-11 13:27:24,335 - INFO - <module> : Validate Email Notification
+2022-10-11 13:27:24,335 - INFO - <module> : Validate Email Notification
+2022-10-11 13:27:31,317 - INFO - <module> : Opened: https://mail.google.com/mail/u/0/#inbox
+2022-10-11 13:27:31,317 - INFO - <module> : Opened: https://mail.google.com/mail/u/0/#inbox
+2022-10-11 13:27:31,317 - INFO - <module> : Opened: https://mail.google.com/mail/u/0/#inbox
+2022-10-11 13:27:53,933 - INFO - <module> : In Enroll A Service page, tick "I haven't received my first Meralco bill" > populate Customer Account Number field
+2022-10-11 13:27:53,933 - INFO - <module> : In Enroll A Service page, tick "I haven't received my first Meralco bill" > populate Customer Account Number field
+2022-10-11 13:27:53,933 - INFO - <module> : In Enroll A Service page, tick "I haven't received my first Meralco bill" > populate Customer Account Number field
+2022-10-11 13:27:56,660 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-11 13:27:56,660 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-11 13:27:56,660 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-11 13:27:56,805 - INFO - <module> : Log in with Google clicked
+2022-10-11 13:27:56,805 - INFO - <module> : Log in with Google clicked
+2022-10-11 13:27:56,805 - INFO - <module> : Log in with Google clicked
+2022-10-11 13:28:57,189 - ERROR - <module> : Cannot Locate: email
+2022-10-11 13:28:57,189 - ERROR - <module> : Cannot Locate: email
+2022-10-11 13:28:57,189 - ERROR - <module> : Cannot Locate: email
+2022-10-11 13:28:57,241 - INFO - setup : Close Browser

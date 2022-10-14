@@ -1,0 +1,68 @@
+2022-10-11 13:44:20,796 - INFO - setup : Browser Launched!
+2022-10-11 13:44:30,788 - INFO - <module> : In Enroll A Service page, tick "I haven't received my first Meralco bill" > populate Customer Account Number field
+2022-10-11 13:44:30,788 - INFO - <module> : In Enroll A Service page, tick "I haven't received my first Meralco bill" > populate Customer Account Number field
+2022-10-11 13:44:30,788 - INFO - <module> : In Enroll A Service page, tick "I haven't received my first Meralco bill" > populate Customer Account Number field
+2022-10-11 13:44:31,957 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-11 13:44:31,957 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-11 13:44:31,957 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-11 13:44:32,162 - INFO - <module> : Log in with Google clicked
+2022-10-11 13:44:32,162 - INFO - <module> : Log in with Google clicked
+2022-10-11 13:44:32,162 - INFO - <module> : Log in with Google clicked
+2022-10-11 13:45:02,383 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 13:45:02,383 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 13:45:02,383 - INFO - <module> : input: mecoautomationhybrid01@gmail.com
+2022-10-11 13:45:02,446 - INFO - <module> : Susunod clicked
+2022-10-11 13:45:02,446 - INFO - <module> : Susunod clicked
+2022-10-11 13:45:02,446 - INFO - <module> : Susunod clicked
+2022-10-11 13:45:18,863 - INFO - <module> : input: Meralco01
+2022-10-11 13:45:18,863 - INFO - <module> : input: Meralco01
+2022-10-11 13:45:18,863 - INFO - <module> : input: Meralco01
+2022-10-11 13:45:18,923 - INFO - <module> : Susunod clicked
+2022-10-11 13:45:18,923 - INFO - <module> : Susunod clicked
+2022-10-11 13:45:18,923 - INFO - <module> : Susunod clicked
+2022-10-11 13:45:58,976 - INFO - <module> : Hello, Automation exists
+2022-10-11 13:45:58,976 - INFO - <module> : Hello, Automation exists
+2022-10-11 13:45:58,976 - INFO - <module> : Hello, Automation exists
+2022-10-11 13:45:59,028 - INFO - <module> : Accounts clicked
+2022-10-11 13:45:59,028 - INFO - <module> : Accounts clicked
+2022-10-11 13:45:59,028 - INFO - <module> : Accounts clicked
+2022-10-11 13:45:59,068 - INFO - <module> :  clicked
+2022-10-11 13:45:59,068 - INFO - <module> :  clicked
+2022-10-11 13:45:59,068 - INFO - <module> :  clicked
+2022-10-11 13:46:00,648 - INFO - <module> : Enroll a Service exists
+2022-10-11 13:46:00,648 - INFO - <module> : Enroll a Service exists
+2022-10-11 13:46:00,648 - INFO - <module> : Enroll a Service exists
+2022-10-11 13:46:05,873 - INFO - <module> : I haven't received my first Meralco bill clicked
+2022-10-11 13:46:05,873 - INFO - <module> : I haven't received my first Meralco bill clicked
+2022-10-11 13:46:05,873 - INFO - <module> : I haven't received my first Meralco bill clicked
+2022-10-11 13:46:05,942 - INFO - <module> : input: 3535120566
+2022-10-11 13:46:05,942 - INFO - <module> : input: 3535120566
+2022-10-11 13:46:05,942 - INFO - <module> : input: 3535120566
+2022-10-11 13:46:08,253 - INFO - <module> : Populate Bill Deposit and Payment Date fields > Click Submit
+2022-10-11 13:46:08,253 - INFO - <module> : Populate Bill Deposit and Payment Date fields > Click Submit
+2022-10-11 13:46:08,253 - INFO - <module> : Populate Bill Deposit and Payment Date fields > Click Submit
+2022-10-11 13:46:08,324 - INFO - <module> : input: 800
+2022-10-11 13:46:08,324 - INFO - <module> : input: 800
+2022-10-11 13:46:08,324 - INFO - <module> : input: 800
+2022-10-11 13:46:08,406 - INFO - <module> : input: 06/02/2022
+2022-10-11 13:46:08,406 - INFO - <module> : input: 06/02/2022
+2022-10-11 13:46:08,406 - INFO - <module> : input: 06/02/2022
+2022-10-11 13:46:10,604 - INFO - <module> : Submit clicked
+2022-10-11 13:46:10,604 - INFO - <module> : Submit clicked
+2022-10-11 13:46:10,604 - INFO - <module> : Submit clicked
+2022-10-11 13:46:12,965 - INFO - <module> : Go to Accounts > Manage Accounts > Click Submit button > Validate Enrolled CAN and Service
+2022-10-11 13:46:12,965 - INFO - <module> : Go to Accounts > Manage Accounts > Click Submit button > Validate Enrolled CAN and Service
+2022-10-11 13:46:12,965 - INFO - <module> : Go to Accounts > Manage Accounts > Click Submit button > Validate Enrolled CAN and Service
+2022-10-11 13:46:33,031 - INFO - <module> : Manage your service account here. exists
+2022-10-11 13:46:33,031 - INFO - <module> : Manage your service account here. exists
+2022-10-11 13:46:33,031 - INFO - <module> : Manage your service account here. exists
+2022-10-11 13:46:33,079 - INFO - <module> : Submit clicked
+2022-10-11 13:46:33,079 - INFO - <module> : Submit clicked
+2022-10-11 13:46:33,079 - INFO - <module> : Submit clicked
+2022-10-11 13:46:35,590 - INFO - <module> : Validate Email Notification
+2022-10-11 13:46:35,590 - INFO - <module> : Validate Email Notification
+2022-10-11 13:46:35,590 - INFO - <module> : Validate Email Notification
+2022-10-11 13:46:42,085 - INFO - <module> : Opened: https://mail.google.com/mail/u/0/#inbox
+2022-10-11 13:46:42,085 - INFO - <module> : Opened: https://mail.google.com/mail/u/0/#inbox
+2022-10-11 13:46:42,085 - INFO - <module> : Opened: https://mail.google.com/mail/u/0/#inbox
+2022-10-11 13:47:04,419 - INFO - setup : Close Browser

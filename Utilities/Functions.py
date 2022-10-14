@@ -2,12 +2,14 @@ import os
 import time
 import docx
 import openpyxl
+from selenium.webdriver.common import keys
 from selenium.webdriver.common.by import By
 from docx import Document
 from docx.shared import Inches
 from selenium.webdriver import Keys, ActionChains
 from Utilities.Config import screenshot_folder, root_dir
 from Utilities.Utils import Utilities
+from Utilities.WebMisc import WebMisc
 
 log = Utilities().getlogger()
 
@@ -19,23 +21,30 @@ class Functions:
         tc_desc = self.get_tc(module, tc_id, step_num)[0]
         tc_expected = self.get_tc(module, tc_id, step_num)[1]
 
-        if step_num == 'Step 1':
+        if tc_id == 'Precondition':
             table = document.add_table(rows=0, cols=1, style=document.styles['Table Grid'])
             data_row = table.add_row().cells
-            data_row[0].text = self.get_tc_name(module, tc_id)  # Get_TC_bookmark
+            data_row[0].text = self.get_precondition(module, ts_id)  # Get_TC_bookmark
             document.add_paragraph()
 
-        if len(tc_desc) > 0:
-            table = document.add_table(rows=0, cols=1, style=document.styles['Table Grid'])
+        else:
+            if step_num == 'Step 1':
+                table = document.add_table(rows=0, cols=1, style=document.styles['Table Grid'])
+                data_row = table.add_row().cells
+                data_row[0].text = self.get_tc_name(module, tc_id)  # Get_TC_bookmark
+                document.add_paragraph()
 
-            if step_num != 'Step 1':
-                document.add_page_break()
+            if len(tc_desc) > 0:
+                table = document.add_table(rows=0, cols=1, style=document.styles['Table Grid'])
 
-            data_row = table.add_row().cells
-            data_row[0].text = step_num + " - " + tc_desc  # Get_Step_bookmark
-            data_row = table.add_row().cells
-            data_row[0].text = tc_expected
-            log.info(tc_desc)
+                if step_num != 'Step 1':
+                    document.add_page_break()
+
+                data_row = table.add_row().cells
+                data_row[0].text = step_num + " - " + tc_desc  # Get_Step_bookmark
+                data_row = table.add_row().cells
+                data_row[0].text = tc_expected
+                log.info(tc_desc)
 
         document.save(path + f'\\{ts_id}.docx')  # update document
 
@@ -107,6 +116,17 @@ class Functions:
 
         return tc_name
 
+    def get_precondition(self, module, ts_id):
+        workbook = openpyxl.load_workbook(root_dir.parent/f'Config/{module}.xlsx')
+        sheet = workbook["AT - Test Suite"]
+        total_rows = sheet.max_row
+        data = ""
+        column_tag = ts_id + " Precondition"
+        for i in range(2, total_rows + 1):
+            if sheet.cell(row=i, column=1).value == column_tag:
+                data = sheet.cell(row=i, column=2).value
+        return data
+
     def new_tab(self, driver, url):
         driver.execute_script("window.open('');")
         driver.switch_to.window(driver.window_handles[1])
@@ -122,13 +142,46 @@ class Functions:
         element.send_keys(value)
         log.info("input: "+element.text + value)
 
+    def enter(self, element):
+        element.send_keys(Keys.ENTER)
+        log.info("Enter: "+element.text)
+
+    def page_down(self, driver, count):
+        for x in range(count):
+            driver.find_element(By.TAG_NAME, "body").send_keys(Keys.PAGE_DOWN)
+            log.info("Page Down")
+            time.sleep(1)
+
     def click(self, element):
+        WebMisc().is_enabled(element)
         element.click()
         try:
             log.info(element.text + " clicked")
         except:
             log.info("Clicked")
 
+    def option_click(self, element):
+        if element is not None:
+            WebMisc().is_enabled(element)
+            element.click()
+            try:
+                log.info(element.text + " clicked")
+            except:
+                log.info("Clicked")
+
+    def modal_click(self, driver, element):
+        if element is not None:
+            WebMisc().is_enabled(element)
+            driver.execute_script("arguments[0].click();", element)
+            try:
+                log.info(element.text + " clicked")
+            except:
+                log.info("Clicked")
+
     def verify(self, element):
         if element.is_displayed():
             log.info(element.text + " exists")
+
+    def verify_text(self, element, text):
+        assert element.text == text
+        log.info(element.text + " exists")
