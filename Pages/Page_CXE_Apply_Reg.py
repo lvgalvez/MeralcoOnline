@@ -6,15 +6,16 @@ from Utilities.Config import wait_time
 
 
 class CXEApplyRegPage:
-    new_account = "//h3[@data-aura-rendered-by = '263:2;a']"
-    email = "//input[@id = '268:2;a']"
-    first_name = "//input[@id = '278:2;a']"
-    middle_name = "//input[@id = '295:2;a']"
-    last_name = "//input[@id = '305:2;a']"
-    mobile_number = "//input[@id = '327:2;a']"
-    terms_condition = "//div[@data-aura-rendered-by = '354:2;a']"
-    register = "//button[@data-aura-rendered-by = '360:2;a']"
-    confirmation = "//p[contains(text(), 'sent you a confirmation email')]"
+    new_account = "/html/body/div[3]/div/div[2]/div/div/div/div/div/div[2]/div/div/div[2]/h3"
+    email = "//*[@id='267:2;a']"
+    first_name = "//*[@id='277:2;a']"
+    middle_name = "//*[@id='294:2;a']"
+    last_name = "//*[@id='304:2;a']"
+    mobile_number = "//*[@id='326:2;a']"
+    birthday = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div/div/div/div/div/div[4]/div[3]/div/div/div/input"
+    terms_condition = "/html/body/div[3]/div/div[2]/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div[6]/div/div[1]/label/div"
+    register = "/html/body/div[3]/div/div[2]/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div[6]/div/div[2]/div[1]/button"
+    confirmation = "/html/body/div[3]/div/div[2]/div/div/div/div/div/div[2]/div/div/div[2]"
 
     def get_new_account(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.new_account)))
@@ -33,6 +34,9 @@ class CXEApplyRegPage:
 
     def get_mobile_number(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.mobile_number)))
+
+    def get_birthday(self, driver):
+        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.birthday)))
 
     def get_terms_condition(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.terms_condition)))

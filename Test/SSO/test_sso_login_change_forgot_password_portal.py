@@ -26,3 +26,5 @@ class TestSSOLoginChangeForgotPass:
         Functions().create_document(self.driver, module, test_scenario)
         TC003(self.driver, test_scenario, SSO['forgot_pass_email'], SSO['forgot_pass_new_pass'])
         Functions().tag_status(self.module, test_scenario, "Passed")
+
+

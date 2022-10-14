@@ -7,9 +7,9 @@ from Utilities.Config import wait_time
 
 
 class LoginPage:
-    email = "//input[@id = '113:2;a']"
-    password = "//input[@id = '125:2;a']"
-    log_in = "//button[@data-aura-rendered-by = '179:2;a']"
+    email = "//input[@class = 'slds-input mov-input custom-email input uiInput uiInputText uiInput--default uiInput--input']"
+    password = "//input[@class = 'slds-input mov-input custom-email input uiInput uiInputSecret uiInput--default uiInput--input']"
+    log_in = "//button[@class = 'slds-button slds-button--neutral slds-button mov-button mov-button_login uiButton']"
     forgot_password = "//span[@data-aura-rendered-by = '168:2;a']"
     new_password_confirmation = "//strong[@data-aura-rendered-by = '4:95;a']"
 
@@ -29,3 +29,4 @@ class LoginPage:
 
     def get_new_password_confirmation(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.new_password_confirmation)))
+

@@ -7,9 +7,9 @@ from Utilities.Config import wait_time
 
 
 class ResetPasswordPage:
-    new_password = "//input[@id = '527:2;a']"
-    confirm_password = "//input[@id = '555:2;a']"
-    set_password = "//button[@data-aura-rendered-by= '612:2;a']"
+    new_password = "//*[@id='526:2;a']"
+    confirm_password = "//*[@id='554:2;a']"
+    set_password = "/html/body/div[3]/div/div[2]/div/div/div/div/div/div[2]/div/div/div[3]/div/div[1]/div[3]/table/tr[2]/td[2]/button"
 
 
     def get_new_password(self, driver):
