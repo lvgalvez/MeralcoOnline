@@ -138,3 +138,10 @@ def Click_Anywhere_Map(driver):
     fc.coordinates_click(driver, 200, 200)
     time.sleep(5)
 
+
+
+def Click_Current_Location(driver):
+    fc.click(external_outage.get_current_address(driver))
+
+def Click_Outage_Pin(driver):
+    fc.click(external_outage.get_outage_pin(driver))

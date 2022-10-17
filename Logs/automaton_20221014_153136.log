@@ -1,0 +1,22 @@
+2022-10-14 15:31:38,073 - INFO - setup : Browser Launched!
+2022-10-14 15:31:53,331 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-14 15:31:53,331 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-14 15:31:53,331 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-14 15:31:53,331 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-14 15:31:58,017 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-14 15:31:58,017 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-14 15:31:58,017 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-14 15:31:58,017 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-14 15:32:01,936 - INFO - <module> : Disagree clicked
+2022-10-14 15:32:01,936 - INFO - <module> : Disagree clicked
+2022-10-14 15:32:01,936 - INFO - <module> : Disagree clicked
+2022-10-14 15:32:01,936 - INFO - <module> : Disagree clicked
+2022-10-14 15:32:10,890 - INFO - <module> : Go to lower right of Outage Map
+2022-10-14 15:32:10,890 - INFO - <module> : Go to lower right of Outage Map
+2022-10-14 15:32:10,890 - INFO - <module> : Go to lower right of Outage Map
+2022-10-14 15:32:10,890 - INFO - <module> : Go to lower right of Outage Map
+2022-10-14 15:32:41,443 - ERROR - <module> : Cannot Locate: address_radio
+2022-10-14 15:32:41,443 - ERROR - <module> : Cannot Locate: address_radio
+2022-10-14 15:32:41,443 - ERROR - <module> : Cannot Locate: address_radio
+2022-10-14 15:32:41,443 - ERROR - <module> : Cannot Locate: address_radio
+2022-10-14 15:32:41,556 - INFO - setup : Close Browser

@@ -80,6 +80,21 @@ class TestOutage:
         TC126(self.driver, test_scenario, Outage['outage_email'], Outage['outage_password'])
         TC127(self.driver, test_scenario, Outage['outage_email'], Outage['outage_password'])
         Functions().tag_status(self.module, test_scenario, "Passed")
+    @pytest.mark.tags("TS061")
+    def test_ts061(self):
+        test_scenario = "TS061"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC143(self.driver, test_scenario)
+        TC144(self.driver, test_scenario, Outage['outage_email'], Outage['outage_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS062")
+    def test_ts062(self):
+        test_scenario = "TS062"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC145(self.driver, test_scenario)
+        TC146(self.driver, test_scenario, Outage['outage_email'], Outage['outage_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
 
     @pytest.mark.tags("TS052")
     def test_ts052(self):
@@ -152,3 +167,19 @@ class TestOutage:
         TC142(self.driver, test_scenario, Outage['outage_email'], Outage['outage_password'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
+
+    @pytest.mark.tags("TS064")
+    def test_ts064(self):
+        test_scenario = "TS064"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC147(self.driver, test_scenario)
+       # TC146(self.driver, test_scenario, Outage['outage_email'], Outage['outage_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS072")
+    def test_ts072(self):
+        test_scenario = "TS072"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC157(self.driver, test_scenario)
+       # TC146(self.driver, test_scenario, Outage['outage_email'], Outage['outage_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
