@@ -152,6 +152,21 @@ class Functions:
             log.info("Page Down")
             time.sleep(1)
 
+    def coordinates_click(self, driver, x, y):
+        body = driver.find_element(By.TAG_NAME, "body")
+        action = ActionChains(driver).move_to_element_with_offset(body, x, y)
+        action.click()
+        action.perform()
+
+    def scroll_element(self, driver, element):
+        actions = ActionChains(driver)
+        actions.move_to_element(element).perform()
+
+    def full_enter(self, driver):
+        driver.Keyboard.PressKey(Keys.ENTER)
+        driver.find_element(By.TAG_NAME, "body").send_keys(Keys.ENTER)
+        log.info("Entered")
+
     def click(self, element):
         WebMisc().is_enabled(element)
         element.click()

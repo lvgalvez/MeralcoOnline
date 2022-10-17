@@ -50,7 +50,26 @@ def Select_Weather_Information(driver, weather):
         fc.click(external_outage.get_show_wind_speed(driver))
     elif weather == "clouds":
         fc.click(external_outage.get_show_clouds(driver))
+    elif weather == "default":
+        fc.click(external_outage.get_show_default(driver))
+    elif weather == "satellite":
+        fc.click(external_outage.get_show_satellite(driver))
+    elif weather == "terrain":
+        fc.click(external_outage.get_show_terrain(driver))
+
     fc.modal_click(driver, external_outage.get_weather_modal(driver))
+    time.sleep(15)
+    fc.click(external_outage.get_close_map_type(driver))
+
+
+def Select_Map_Type(driver, Type):
+    if Type == "Default":
+        fc.click(external_outage.get_show_default(driver))
+    elif Type == "Satellite":
+        fc.click(external_outage.get_show_satellite(driver))
+    elif Type == "Terrain":
+        fc.click(external_outage.get_show_terrain(driver))
+    #fc.modal_click(driver, external_outage.get_weather_modal(driver))
     time.sleep(15)
     fc.click(external_outage.get_close_map_type(driver))
 
@@ -82,3 +101,40 @@ def Verify_GPS_Prompt(driver):
 def Tick_Current_Address(driver):
     fc.click(external_outage.get_address_radio(driver))
     fc.click(external_outage.get_current_address_radio(driver))
+
+
+def Verify_Yellow_Banner(driver):
+    fc.verify(external_outage.get_yellow_banner(driver))
+
+
+def Click_Refresh_Button(driver):
+    fc.click(external_outage.get_refresh_button(driver))
+    time.sleep(9)
+
+
+def Click_Legends_Guest(driver):
+    fc.click(external_outage.get_legend_expand(driver))
+    fc.verify_text(external_outage.get_unplanned_outage_legend(driver), "Unplanned Outage")
+    fc.verify_text(external_outage.get_planned_outage_legend(driver), "Planned Outage")
+    fc.scroll_element(driver, external_outage.get_planned_outage_legend(driver))
+
+
+def Click_Legends_User(driver):
+    fc.click(external_outage.get_legend_expand(driver))
+    fc.verify_text(external_outage.get_restored_power_legend(driver), "Service with restored power")
+    fc.verify_text(external_outage.get_service_unplanned_legend(driver), "Service with unplanned outage")
+    fc.verify_text(external_outage.get_service_planned_legend(driver), "Service with planned outage")
+    fc.verify_text(external_outage.get_not_affected_legend(driver), "Service not affected by an outage")
+    fc.verify_text(external_outage.get_unplanned_outage_legend(driver), "Unplanned Outage")
+    fc.verify_text(external_outage.get_planned_outage_legend(driver), "Planned Outage")
+    fc.scroll_element(driver, external_outage.get_planned_outage_legend(driver))
+
+
+def Click_Other_Address(driver):
+    fc.click(external_outage.get_other_address_radio(driver))
+
+
+def Click_Anywhere_Map(driver):
+    fc.coordinates_click(driver, 200, 200)
+    time.sleep(5)
+
