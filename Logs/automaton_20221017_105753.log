@@ -1,0 +1,90 @@
+2022-10-17 10:57:53,973 - INFO - setup : Browser Launched!
+2022-10-17 10:58:07,337 - INFO - <module> : Login to Meralco Online
+2022-10-17 10:58:07,337 - INFO - <module> : Login to Meralco Online
+2022-10-17 10:58:07,337 - INFO - <module> : Login to Meralco Online
+2022-10-17 10:58:07,337 - INFO - <module> : Login to Meralco Online
+2022-10-17 10:58:08,901 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-17 10:58:08,901 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-17 10:58:08,901 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-17 10:58:08,901 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-10-17 10:58:09,215 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-17 10:58:09,215 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-17 10:58:09,215 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-17 10:58:09,215 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-17 10:58:09,302 - INFO - <module> : input: Meralco01
+2022-10-17 10:58:09,302 - INFO - <module> : input: Meralco01
+2022-10-17 10:58:09,302 - INFO - <module> : input: Meralco01
+2022-10-17 10:58:09,302 - INFO - <module> : input: Meralco01
+2022-10-17 10:58:09,393 - INFO - <module> : Log in clicked
+2022-10-17 10:58:09,393 - INFO - <module> : Log in clicked
+2022-10-17 10:58:09,393 - INFO - <module> : Log in clicked
+2022-10-17 10:58:09,393 - INFO - <module> : Log in clicked
+2022-10-17 10:58:13,581 - INFO - <module> : Hello, exists
+2022-10-17 10:58:13,581 - INFO - <module> : Hello, exists
+2022-10-17 10:58:13,581 - INFO - <module> : Hello, exists
+2022-10-17 10:58:13,581 - INFO - <module> : Hello, exists
+2022-10-17 10:58:13,600 - INFO - <module> : Hello, exists
+2022-10-17 10:58:13,600 - INFO - <module> : Hello, exists
+2022-10-17 10:58:13,600 - INFO - <module> : Hello, exists
+2022-10-17 10:58:13,600 - INFO - <module> : Hello, exists
+2022-10-17 10:58:16,279 - INFO - <module> : Go to Outages & Incidents > View/Report Outages
+2022-10-17 10:58:16,279 - INFO - <module> : Go to Outages & Incidents > View/Report Outages
+2022-10-17 10:58:16,279 - INFO - <module> : Go to Outages & Incidents > View/Report Outages
+2022-10-17 10:58:16,279 - INFO - <module> : Go to Outages & Incidents > View/Report Outages
+2022-10-17 10:58:16,344 - INFO - <module> : Outages & Incidents clicked
+2022-10-17 10:58:16,344 - INFO - <module> : Outages & Incidents clicked
+2022-10-17 10:58:16,344 - INFO - <module> : Outages & Incidents clicked
+2022-10-17 10:58:16,344 - INFO - <module> : Outages & Incidents clicked
+2022-10-17 10:58:16,388 - INFO - <module> :  clicked
+2022-10-17 10:58:16,388 - INFO - <module> :  clicked
+2022-10-17 10:58:16,388 - INFO - <module> :  clicked
+2022-10-17 10:58:16,388 - INFO - <module> :  clicked
+2022-10-17 10:58:25,121 - INFO - <module> : Okay clicked
+2022-10-17 10:58:25,121 - INFO - <module> : Okay clicked
+2022-10-17 10:58:25,121 - INFO - <module> : Okay clicked
+2022-10-17 10:58:25,121 - INFO - <module> : Okay clicked
+2022-10-17 10:58:27,917 - INFO - <module> : Validate View Outages by
+2022-10-17 10:58:27,917 - INFO - <module> : Validate View Outages by
+2022-10-17 10:58:27,917 - INFO - <module> : Validate View Outages by
+2022-10-17 10:58:27,917 - INFO - <module> : Validate View Outages by
+2022-10-17 10:58:27,977 - INFO - <module> :  exists
+2022-10-17 10:58:27,977 - INFO - <module> :  exists
+2022-10-17 10:58:27,977 - INFO - <module> :  exists
+2022-10-17 10:58:27,977 - INFO - <module> :  exists
+2022-10-17 10:58:28,008 - INFO - <module> :  exists
+2022-10-17 10:58:28,008 - INFO - <module> :  exists
+2022-10-17 10:58:28,008 - INFO - <module> :  exists
+2022-10-17 10:58:28,008 - INFO - <module> :  exists
+2022-10-17 10:58:28,042 - INFO - <module> :  exists
+2022-10-17 10:58:28,042 - INFO - <module> :  exists
+2022-10-17 10:58:28,042 - INFO - <module> :  exists
+2022-10-17 10:58:28,042 - INFO - <module> :  exists
+2022-10-17 10:58:30,874 - INFO - <module> : Select Service ID Number under Information panel
+2022-10-17 10:58:30,874 - INFO - <module> : Select Service ID Number under Information panel
+2022-10-17 10:58:30,874 - INFO - <module> : Select Service ID Number under Information panel
+2022-10-17 10:58:30,874 - INFO - <module> : Select Service ID Number under Information panel
+2022-10-17 10:58:30,998 - INFO - <module> :  clicked
+2022-10-17 10:58:30,998 - INFO - <module> :  clicked
+2022-10-17 10:58:30,998 - INFO - <module> :  clicked
+2022-10-17 10:58:30,998 - INFO - <module> :  clicked
+2022-10-17 10:58:33,829 - INFO - <module> : Tick Address under View Outages by
+2022-10-17 10:58:33,829 - INFO - <module> : Tick Address under View Outages by
+2022-10-17 10:58:33,829 - INFO - <module> : Tick Address under View Outages by
+2022-10-17 10:58:33,829 - INFO - <module> : Tick Address under View Outages by
+2022-10-17 10:58:41,987 - INFO - <module> : Tick Anywhere on the map
+2022-10-17 10:58:41,987 - INFO - <module> : Tick Anywhere on the map
+2022-10-17 10:58:41,987 - INFO - <module> : Tick Anywhere on the map
+2022-10-17 10:58:41,987 - INFO - <module> : Tick Anywhere on the map
+2022-10-17 10:58:42,115 - INFO - <module> :  clicked
+2022-10-17 10:58:42,115 - INFO - <module> :  clicked
+2022-10-17 10:58:42,115 - INFO - <module> :  clicked
+2022-10-17 10:58:42,115 - INFO - <module> :  clicked
+2022-10-17 10:58:42,668 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-17 10:58:42,668 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-17 10:58:42,668 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-17 10:58:42,668 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-17 10:58:42,742 - INFO - <module> : Agree clicked
+2022-10-17 10:58:42,742 - INFO - <module> : Agree clicked
+2022-10-17 10:58:42,742 - INFO - <module> : Agree clicked
+2022-10-17 10:58:42,742 - INFO - <module> : Agree clicked
+2022-10-17 10:58:49,249 - INFO - setup : Close Browser
