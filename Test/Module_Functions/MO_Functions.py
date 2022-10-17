@@ -82,3 +82,10 @@ def Verify_GPS_Prompt(driver):
 def Tick_Current_Address(driver):
     fc.click(external_outage.get_address_radio(driver))
     fc.click(external_outage.get_current_address_radio(driver))
+
+
+def Click_Current_Location(driver):
+    fc.click(external_outage.get_current_address(driver))
+
+def Click_Outage_Pin(driver):
+    fc.click(external_outage.get_outage_pin(driver))

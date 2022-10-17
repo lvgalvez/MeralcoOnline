@@ -23,6 +23,13 @@ class ExternalOutagePage:
     service_message_button = "//*[@id='alertModal']/div/div/div[2]/button"
     address_radio = "//md-radio-button[@ng-click=\"embed.onSelectSearchMode('location')\"]"
     current_address_radio = "//md-radio-button[@ng-click=\"embed.onSelectLocationMode('currentLocation')\"]"
+    current_address = "//*[@id='currentLocationMenu']/span"
+    outage_pin = "//*[@id='map-canvas']/div/div/div[2]/div[2]/div"
+
+
+    def get_outage_pin(self, driver):
+        return WebDriverWait(driver, wait_time).until(
+            EC.frame_to_be_available_and_switch_to_it((By.XPATH, "//iframe[@id='externalMap']")))
 
     def get_switch_frame(self, driver):
         return WebDriverWait(driver, wait_time).until(
@@ -69,6 +76,9 @@ class ExternalOutagePage:
 
     def get_address_radio(self, driver):
         return WebMisc().clickable_element(driver, self.address_radio, "address_radio")
+
+    def get_current_address(self, driver):
+        return WebMisc().clickable_element(driver, self.current_address, "current_address")
 
     def get_current_address_radio(self, driver):
         return WebMisc().clickable_element(driver, self.current_address_radio, "current_address_radio")
