@@ -25,21 +25,23 @@ class ExternalOutagePage:
     current_address_radio = "//md-radio-button[@ng-click=\"embed.onSelectLocationMode('currentLocation')\"]"
     current_address = "//*[@id='currentLocationMenu']/span"
     outage_pin = "//*[@id='map-canvas']/div/div/div[2]/div[2]/div"
-
-
-    def get_outage_pin(self, driver):
-        return WebDriverWait(driver, wait_time).until(
-            EC.frame_to_be_available_and_switch_to_it((By.XPATH, "//iframe[@id='externalMap']")))
     yellow_banner = "//div[@class='notify-panel scroll-left']"
     report_outage = "//span[contains(text(), 'Report an Outage')]"
     refresh_button = "//i[contains(text(), 'refresh')]"
     legend_expand = "//i[contains(text(), 'expand_more')]"
     unplanned_outage_legend = "//*[@id='embedLegend']/div/div[2]/p[contains(text(), 'Unplanned Outage')]"
     planned_outage_legend = "//*[@id='embedLegend']/div/div[2]/p[contains(text(), 'Planned Outage')]"
-    restored_power_legend ="//*[@id='embedLegend']/div/div[2]/p[contains(text(), 'Service with restored power')]"
+    restored_power_legend = "//*[@id='embedLegend']/div/div[2]/p[contains(text(), 'Service with restored power')]"
     service_unplanned_legend = "//*[@id='embedLegend']/div/div[2]/p[contains(text(), 'Service with unplanned outage')]"
     service_planned_legend = "//*[@id='embedLegend']/div/div[2]/p[contains(text(), 'Service with planned outage')]"
     not_affected_legend = "//*[@id='embedLegend']/div/div[2]/p[contains(text(), 'Service not affected by an outage')]"
+    service_radio = "//md-radio-button[@ng-click=\"embed.onSelectSearchMode('sin')\"]"
+    reports_radio = "//md-radio-button[@ng-click=\"embed.onSelectSearchMode('reports')\"]"
+    other_address_radio = "//md-radio-button[@ng-click=\"embed.onSelectLocationMode('otherLocation')\"]"
+
+    def get_outage_pin(self, driver):
+        return WebDriverWait(driver, wait_time).until(
+            EC.frame_to_be_available_and_switch_to_it((By.XPATH, "//iframe[@id='externalMap']")))
 
     def get_switch_frame(self, driver):
         return WebDriverWait(driver, wait_time).until(
