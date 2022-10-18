@@ -16,8 +16,29 @@ from Utilities.Utils import Utilities
 from Test.Module_Functions import MO_Functions
 fc = Functions()
 log = Utilities().getlogger()
+report_outage = ReportOutagePage()
 module = "Outage"
 
+
+def TC53(driver, ts_id):
+    test_case = "TC053"
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, outage_external_guest)
+    external_outage = ExternalOutagePage()
+    external_outage.get_switch_frame(driver)
+    Verify_GPS_Prompt(driver)
+    Handle_GPS_Prompt(driver, "Disagree")
+    Click_Report_Outage(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.click(report_outage.get_no_power_street_radio(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    fc.click(report_outage.get_select_damage(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
 
 def TC061a(driver, ts_id, email, password, weather, zoom_level):
     test_case = "TC061"
@@ -167,6 +188,7 @@ def TC143(driver, ts_id):
     Adjust_Zoom_Level(driver, 9, 8)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
 
+
 def TC144(driver, ts_id, email, password):
     test_case = "TC144"
 
@@ -239,9 +261,6 @@ def TC147(driver, ts_id):
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
 
-
-
-
 def TC128(driver, ts_id, email, password):
     test_case = "TC128"
 
@@ -272,7 +291,7 @@ def TC128(driver, ts_id, email, password):
     fc.screen_capture(driver, module, ts_id, test_case, "Step 5")
 
 
-def TC129(driver, ts_id, email, password):
+def TC129(driver, ts_id, sin):
     test_case = "TC129"
 
     fc.bookmark(module, ts_id, test_case, "Step 1")
@@ -282,14 +301,41 @@ def TC129(driver, ts_id, email, password):
     Verify_GPS_Prompt(driver)
     Handle_GPS_Prompt(driver, "Disagree")
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
-    fc.click(external_outage.get_report_outage(driver))
-    time.sleep(10)
-    print(len(driver.window_handlers))
-    actions = ActionChains(driver)
-    actions.move_to_element_with_offset(driver.find_element_by_tag_name('body'), 0, 0)
-    actions.move_by_offset(100, 100).click().perform()
 
-    driver.switch_to.alert.dismiss()
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    Click_Report_Outage(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    Required_Field_Population(driver, sin)
+    Tick_Location_Map(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+
+
+def TC130(driver, ts_id, sin, email, password):
+    test_case = "TC130"
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, meralco_online)
+    Log_In_Meralco_Online(driver, email, password)
+    Verify_Successful_Login(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    Navigate_Outage(driver)
+    Check_Service_Located(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    Click_Report_Outage(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+
+    fc.bookmark(module, ts_id, test_case, "Step 4")
+    Required_Field_Population_User(driver, sin)
+    Tick_Location_Map_User(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
+
+
 
 def TC131(driver, ts_id):
     test_case = "TC131"
@@ -533,13 +579,12 @@ def TC142(driver, ts_id, email, password):
     fc.bookmark(module, ts_id, test_case, "Step 7")
     fc.click(external_outage.get_current_address_radio(driver))
     Verify_GPS_Prompt(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 7")
     Handle_GPS_Prompt(driver, "Agree")
     fc.screen_capture(driver, module, ts_id, test_case, "Step 7")
 
     fc.bookmark(module, ts_id, test_case, "Step 8")
     fc.click(external_outage.get_reports_radio(driver))
-    Navigate_Outage(driver)
-    Check_Service_Located(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 8")
 
     fc.bookmark(module, ts_id, test_case, "Step 9")

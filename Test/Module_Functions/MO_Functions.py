@@ -1,6 +1,7 @@
 from Pages.Page_External_Outage import ExternalOutagePage
 from Pages.Page_Home import HomePage
 from Pages.Page_Login import LoginPage
+from Pages.Page_Report_Outage import ReportOutagePage
 from Utilities.Functions import Functions
 from Utilities.Utils import Utilities
 import time
@@ -10,6 +11,7 @@ log = Utilities().getlogger()
 home = HomePage()
 login = LoginPage()
 external_outage = ExternalOutagePage()
+report_outage = ReportOutagePage()
 
 def Log_In_Meralco_Online(driver, email, password):
 
@@ -69,7 +71,6 @@ def Select_Map_Type(driver, Type):
         fc.click(external_outage.get_show_satellite(driver))
     elif Type == "Terrain":
         fc.click(external_outage.get_show_terrain(driver))
-    #fc.modal_click(driver, external_outage.get_weather_modal(driver))
     time.sleep(15)
     fc.click(external_outage.get_close_map_type(driver))
 
@@ -91,6 +92,14 @@ def Handle_GPS_Prompt(driver, button):
         fc.click(external_outage.get_disagree_button(driver))
 
     time.sleep(4)
+
+
+def Click_Report_Outage(driver):
+    fc.click(external_outage.get_report_outage(driver))
+    fc.accept_alert(driver)
+    time.sleep(4)
+    report_outage = ReportOutagePage()
+    fc.verify(report_outage.get_report_outage_text(driver))
 
 
 def Verify_GPS_Prompt(driver):
@@ -139,9 +148,36 @@ def Click_Anywhere_Map(driver):
     time.sleep(5)
 
 
-
 def Click_Current_Location(driver):
     fc.click(external_outage.get_current_address(driver))
 
+
 def Click_Outage_Pin(driver):
     fc.click(external_outage.get_outage_pin(driver))
+
+
+def Required_Field_Population(driver, sin):
+    fc.click(report_outage.get_no_power_radio(driver))
+    fc.click(report_outage.get_service_id_radio(driver))
+    fc.input_text(report_outage.get_service_id_number(driver), sin)
+
+
+def Required_Field_Population_User(driver, sin):
+    fc.click(report_outage.get_no_power_radio(driver))
+    fc.click(report_outage.get_service_id_radio(driver))
+    #fc.click(report_outage.get_service_id_dropdown(driver))
+    fc.click(report_outage.get_service_select(driver))
+
+
+def Tick_Location_Map(driver):
+    fc.click(report_outage.get_location_map(driver))
+    time.sleep(5)
+    fc.click(report_outage.get_location_map(driver))
+    fc.page_down(driver, 1)
+
+
+def Tick_Location_Map_User(driver):
+    time.sleep(5)
+    fc.click(report_outage.get_location_map(driver))
+    time.sleep(5)
+    fc.page_down(driver, 1)

@@ -139,5 +139,6 @@ Registration = {
 
 Outage = {
     'outage_email': 'atmooutageaccount@yopmail.com',
-    'outage_password': 'Meralco01'
+    'outage_password': 'Meralco01',
+    'outage_sin': '461098700101'
 }

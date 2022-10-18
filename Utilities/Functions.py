@@ -170,10 +170,11 @@ class Functions:
     def click(self, element):
         WebMisc().is_enabled(element)
         element.click()
-        try:
-            log.info(element.text + " clicked")
-        except:
-            log.info("Clicked")
+        log.info("Clicked")
+        #try:
+        #    log.info(element.text + " clicked")
+        #except:
+        #    log.info("Clicked")
 
     def option_click(self, element):
         if element is not None:
@@ -183,6 +184,10 @@ class Functions:
                 log.info(element.text + " clicked")
             except:
                 log.info("Clicked")
+
+    def accept_alert(self, driver):
+        time.sleep(4)
+        driver.switch_to.alert.accept()
 
     def modal_click(self, driver, element):
         if element is not None:
