@@ -691,8 +691,10 @@ def TC149(driver, ts_id):
 
     fc.bookmark(module, ts_id, test_case, "Step 2")
     Verify_GPS_Prompt(driver)
-    Handle_GPS_Prompt(driver, "Disagree"
+    Handle_GPS_Prompt(driver, "Disagree")
     #Click_Outage_Report(driver)
+    accept_alert(driver)
+
 
 
 
