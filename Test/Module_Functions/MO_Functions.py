@@ -52,13 +52,10 @@ def Select_Weather_Information(driver, weather):
         fc.click(external_outage.get_show_wind_speed(driver))
     elif weather == "clouds":
         fc.click(external_outage.get_show_clouds(driver))
-    elif weather == "default":
-        fc.click(external_outage.get_show_default(driver))
-    elif weather == "satellite":
-        fc.click(external_outage.get_show_satellite(driver))
-    elif weather == "terrain":
-        fc.click(external_outage.get_show_terrain(driver))
 
+
+
+def Close_Weather_Modal(driver):
     fc.modal_click(driver, external_outage.get_weather_modal(driver))
     time.sleep(15)
     fc.click(external_outage.get_close_map_type(driver))
@@ -181,3 +178,10 @@ def Tick_Location_Map_User(driver):
     fc.click(report_outage.get_location_map(driver))
     time.sleep(5)
     fc.page_down(driver, 1)
+
+
+
+
+
+
+

@@ -41,7 +41,10 @@ class ExternalOutagePage:
     show_default = "//img[@src = '/resources/images/maptypes/default.png']"
     show_satellite = "//img[@src = '/resources/images/maptypes/satellite.png']"
     show_terrain = "//img[@src = '/resources/images/maptypes/terrain.png']"
+    tooltip_other_address = "//*[@id='externalSideNavMobile']/md-content/md-radio-group/div[2]/md-radio-group/div[1]/div[3]/div[2]/h5/i"
 
+    def get_tooltip_other_address(self, driver):
+        return WebMisc().wait_element(driver, self.tooltip_other_address, "tooltip_other_address")
     def get_outage_pin(self, driver):
         return WebDriverWait(driver, wait_time).until(
             EC.frame_to_be_available_and_switch_to_it((By.XPATH, "//iframe[@id='externalMap']")))
