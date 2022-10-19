@@ -140,5 +140,14 @@ Registration = {
 Outage = {
     'outage_email': 'atmooutageaccount@yopmail.com',
     'outage_password': 'Meralco01',
-    'outage_sin': '461098700101'
+    'outage_sin': '461098700101',
+    'report_outage_sin': '402213330101',
+    'first_name': 'sample',
+    'middle_name': 'middle',
+    'last_name': 'report',
+    'mobile_number': '+639276597262',
+    'landline': '',
+    'email': 'testautomationoutage@yopmail.com',
+    'cxe_email': 'v-lvlgalvez@meralco.com.ph',
+    'cxe_password': 'Mecopass@@!!129',
 }

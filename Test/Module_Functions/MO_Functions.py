@@ -83,6 +83,7 @@ def Adjust_Zoom_Level(driver, default_zoom, zoom_level):
 
 
 def Handle_GPS_Prompt(driver, button):
+    time.sleep(2)
     if button == "Agree":
         fc.click(external_outage.get_agree_button(driver))
     else:

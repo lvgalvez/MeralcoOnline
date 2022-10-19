@@ -7,7 +7,7 @@ from Utilities.WebMisc import WebMisc
 
 
 class CXELoginPage:
-    meralco_user_id = "//button[@class = 'button mb24 secondary wide' and span[contains(text(), 'Meralco User ID')]]"
+    meralco_user_id = "//button[contains(@class, 'secondary wide') and span[contains(text(), 'Meralco User ID')]]"
     use_another_account ="//div[contains(text(), 'Use another account')]"
     email = "//input[@class = 'form-control ltr_override input ext-input text-box ext-text-box']"
     next = "//input[@class = 'win-button button_primary button ext-button primary ext-primary']"
