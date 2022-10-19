@@ -7,7 +7,6 @@ from Pages.Page_External_Outage import ExternalOutagePage
 from Pages.Page_Home import HomePage
 from Pages.Page_Login import LoginPage
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
 
 from Test.Module_Functions.MO_Functions import *
 from Utilities.Config import *
@@ -610,9 +609,11 @@ def TC156(driver, ts_id, email, password):
     Select_Weather_Information(driver, "temperature")
     fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
 
+
     fc.bookmark(module, ts_id, test_case, "Step 4")
     Close_Weather_Modal(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
+
 
     fc.bookmark(module, ts_id, test_case, "Step 5")
     Click_Outage_Map_Views(driver)
@@ -661,12 +662,49 @@ def TC147(driver, ts_id):
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
 
     fc.bookmark(module, ts_id, test_case, "Step 2")
+    time.sleep(3)
     Verify_GPS_Prompt(driver)
     Handle_GPS_Prompt(driver, "Disagree")
+    time.sleep(3)
+    fc.click(external_outage.get_other_address_radio(driver))
     a = ActionChains(driver)
-    a.move_to_element(external_outage.get_tooltip_other_address).perform()
+    hover = a.move_to_element_with_offset(external_outage.get_tooltip_other_address(driver), 0, 0)
+    hover = a.drag_and_drop_by_offset(external_outage.get_tooltip_other_address(driver), .2, .2)
+    #hover = a.move_to_element(external_outage.get_tooltip_other_address(driver), 1, 1)
+    hover = a.move_by_offset(.1, .1)
+    hover.click().perform()
     time.sleep(5)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+def TC148(driver, ts_id, email, password):
+    test_case = "TC148"
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, meralco_online)
+    Log_In_Meralco_Online(driver, email, password)
+    Verify_Successful_Login(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    Navigate_Outage(driver)
+    default_zoom = Check_Service_Located(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    Click_Address(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+
+    fc.bookmark(module, ts_id, test_case, "Step 4")
+    time.sleep(3)
+    fc.click(external_outage.get_other_address_radio(driver))
+    a = ActionChains(driver)
+    hover = a.move_to_element_with_offset(external_outage.get_tooltip_other_address(driver), 0, 0)
+    hover = a.drag_and_drop_by_offset(external_outage.get_tooltip_other_address(driver), .2, .2)
+    # hover = a.move_to_element(external_outage.get_tooltip_other_address(driver), 1, 1)
+    hover = a.move_by_offset(.1, .1)
+    hover.click().perform()
+    time.sleep(5)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
 
 def TC149(driver, ts_id):
     test_case = "TC149"
@@ -680,8 +718,8 @@ def TC149(driver, ts_id):
     fc.bookmark(module, ts_id, test_case, "Step 2")
     #click on outage pin // outage element not find.
 
-def TC149(driver, ts_id):
-    test_case = "TC149"
+def TC151(driver, ts_id, referencenumber, lastname):
+    test_case = "TC151"
 
     fc.bookmark(module, ts_id, test_case, "Step 1")
     fc.new_tab(driver, outage_external_guest)
@@ -692,9 +730,129 @@ def TC149(driver, ts_id):
     fc.bookmark(module, ts_id, test_case, "Step 2")
     Verify_GPS_Prompt(driver)
     Handle_GPS_Prompt(driver, "Disagree")
-    #Click_Outage_Report(driver)
-    accept_alert(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    Click_Outage_Report(driver)
+    fc.accept_alert(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    Inp_Reference_Number(driver, referencenumber)
+    Inp_Last_Name(driver, lastname)
+    Click_Submit(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
 
 
 
+def TC152(driver, ts_id, email, password):
+    test_case = "TC152"
 
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    Log_In_Meralco_Online(driver, email, password)
+    Verify_Successful_Login(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    Navigate_Outage(driver)
+    default_zoom = Check_Service_Located(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    Click_Outage_Map_Views(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    Select_Outage_Type(driver, "selectall")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    Close_Outage_Modal(driver)
+
+    fc.bookmark(module, ts_id, test_case, "Step 5")
+    Click_Outage_Map_Views(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 5")
+    Click_Select_Unplanned(driver, "unplanned")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 5")
+    Close_Outage_Modal(driver)
+
+    fc.bookmark(module, ts_id, test_case, "Step 7")
+    Click_Outage_Map_Views(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 7")
+    Click_Select_Planned(driver, "planned")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 7")
+    Close_Outage_Modal(driver)
+
+def TC153(driver, ts_id):
+    test_case = "TC153"
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, outage_external_guest)
+    external_outage = ExternalOutagePage()
+    external_outage.get_switch_frame(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+
+
+
+def TC154(driver, ts_id, email, password):
+    test_case = "TC154"
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    Log_In_Meralco_Online(driver, email, password)
+    Verify_Successful_Login(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    Navigate_Outage(driver)
+    default_zoom = Check_Service_Located(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    Click_Outage_Map_Views(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    Select_Meralco_BusinessCenter(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+
+    fc.bookmark(module, ts_id, test_case, "Step 4")
+    Close_BusinessOutage_Modal(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
+
+def TC155(driver, ts_id):
+    test_case = "TC155"
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, outage_external_guest)
+    external_outage = ExternalOutagePage()
+    external_outage.get_switch_frame(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    Verify_GPS_Prompt(driver)
+    Handle_GPS_Prompt(driver, "Disagree")
+    Click_Outage_Map_Views(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    Select_Meralco_BusinessCenter(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    time.sleep(3)
+
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    Close_BusinessOutage_Modal(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+
+def TC059(driver, ts_id):
+    test_case = "TC059"
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, outage_external_guest)
+    external_outage.get_switch_frame(driver)
+    Verify_GPS_Prompt(driver)
+    Handle_GPS_Prompt(driver, "Disagree")
+    Click_Report_Outage(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.click(report_outage.get_streelight_power(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    fc.click(report_outage.get_no(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+
+    fc.bookmark(module, ts_id, test_case, "Step 4")
+    fc.click(report_outage.get_learn_more(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")

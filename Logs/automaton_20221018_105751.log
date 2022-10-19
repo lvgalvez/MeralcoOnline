@@ -1,0 +1,38 @@
+2022-10-18 10:57:52,259 - INFO - setup : Browser Launched!
+2022-10-18 10:58:09,005 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-18 10:58:09,005 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-18 10:58:09,005 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-18 10:58:09,005 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-18 10:58:15,414 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-18 10:58:15,414 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-18 10:58:15,414 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-18 10:58:15,414 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-18 10:58:20,867 - INFO - <module> : Click Track your Outage Report
+2022-10-18 10:58:20,867 - INFO - <module> : Click Track your Outage Report
+2022-10-18 10:58:20,867 - INFO - <module> : Click Track your Outage Report
+2022-10-18 10:58:20,867 - INFO - <module> : Click Track your Outage Report
+2022-10-18 10:58:21,062 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-18 10:58:21,062 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-18 10:58:21,062 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-18 10:58:21,062 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-18 10:58:21,246 - INFO - <module> : Clicked
+2022-10-18 10:58:21,246 - INFO - <module> : Clicked
+2022-10-18 10:58:21,246 - INFO - <module> : Clicked
+2022-10-18 10:58:21,246 - INFO - <module> : Clicked
+2022-10-18 10:58:28,094 - INFO - <module> : Clicked
+2022-10-18 10:58:28,094 - INFO - <module> : Clicked
+2022-10-18 10:58:28,094 - INFO - <module> : Clicked
+2022-10-18 10:58:28,094 - INFO - <module> : Clicked
+2022-10-18 10:58:37,659 - INFO - <module> : Populate Reference No. and Last Name > click Submit
+2022-10-18 10:58:37,659 - INFO - <module> : Populate Reference No. and Last Name > click Submit
+2022-10-18 10:58:37,659 - INFO - <module> : Populate Reference No. and Last Name > click Submit
+2022-10-18 10:58:37,659 - INFO - <module> : Populate Reference No. and Last Name > click Submit
+2022-10-18 10:58:43,628 - INFO - <module> : input: 22102250650
+2022-10-18 10:58:43,628 - INFO - <module> : input: 22102250650
+2022-10-18 10:58:43,628 - INFO - <module> : input: 22102250650
+2022-10-18 10:58:43,628 - INFO - <module> : input: 22102250650
+2022-10-18 10:58:43,862 - INFO - <module> : input: outage
+2022-10-18 10:58:43,862 - INFO - <module> : input: outage
+2022-10-18 10:58:43,862 - INFO - <module> : input: outage
+2022-10-18 10:58:43,862 - INFO - <module> : input: outage
+2022-10-18 10:58:43,968 - INFO - setup : Close Browser

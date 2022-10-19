@@ -1,0 +1,62 @@
+2022-10-18 12:36:20,276 - INFO - setup : Browser Launched!
+2022-10-18 12:36:32,923 - INFO - <module> : Login to Meralco Online
+2022-10-18 12:36:32,923 - INFO - <module> : Login to Meralco Online
+2022-10-18 12:36:32,923 - INFO - <module> : Login to Meralco Online
+2022-10-18 12:36:32,923 - INFO - <module> : Login to Meralco Online
+2022-10-18 12:36:33,108 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-18 12:36:33,108 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-18 12:36:33,108 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-18 12:36:33,108 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-18 12:36:33,209 - INFO - <module> : input: Meralco01
+2022-10-18 12:36:33,209 - INFO - <module> : input: Meralco01
+2022-10-18 12:36:33,209 - INFO - <module> : input: Meralco01
+2022-10-18 12:36:33,209 - INFO - <module> : input: Meralco01
+2022-10-18 12:36:33,312 - INFO - <module> : Clicked
+2022-10-18 12:36:33,312 - INFO - <module> : Clicked
+2022-10-18 12:36:33,312 - INFO - <module> : Clicked
+2022-10-18 12:36:33,312 - INFO - <module> : Clicked
+2022-10-18 12:36:37,341 - INFO - <module> : Hello, exists
+2022-10-18 12:36:37,341 - INFO - <module> : Hello, exists
+2022-10-18 12:36:37,341 - INFO - <module> : Hello, exists
+2022-10-18 12:36:37,341 - INFO - <module> : Hello, exists
+2022-10-18 12:36:37,372 - INFO - <module> : Hello, exists
+2022-10-18 12:36:37,372 - INFO - <module> : Hello, exists
+2022-10-18 12:36:37,372 - INFO - <module> : Hello, exists
+2022-10-18 12:36:37,372 - INFO - <module> : Hello, exists
+2022-10-18 12:36:40,727 - INFO - <module> : Go to Outages & Incidents > View/Report Outages
+2022-10-18 12:36:40,727 - INFO - <module> : Go to Outages & Incidents > View/Report Outages
+2022-10-18 12:36:40,727 - INFO - <module> : Go to Outages & Incidents > View/Report Outages
+2022-10-18 12:36:40,727 - INFO - <module> : Go to Outages & Incidents > View/Report Outages
+2022-10-18 12:36:40,840 - INFO - <module> : Clicked
+2022-10-18 12:36:40,840 - INFO - <module> : Clicked
+2022-10-18 12:36:40,840 - INFO - <module> : Clicked
+2022-10-18 12:36:40,840 - INFO - <module> : Clicked
+2022-10-18 12:36:40,923 - INFO - <module> :  clicked
+2022-10-18 12:36:40,923 - INFO - <module> :  clicked
+2022-10-18 12:36:40,923 - INFO - <module> :  clicked
+2022-10-18 12:36:40,923 - INFO - <module> :  clicked
+2022-10-18 12:36:53,153 - INFO - <module> : Okay clicked
+2022-10-18 12:36:53,153 - INFO - <module> : Okay clicked
+2022-10-18 12:36:53,153 - INFO - <module> : Okay clicked
+2022-10-18 12:36:53,153 - INFO - <module> : Okay clicked
+2022-10-18 12:36:56,855 - INFO - <module> : Click on Map Views button > Select All under Outage Type
+2022-10-18 12:36:56,855 - INFO - <module> : Click on Map Views button > Select All under Outage Type
+2022-10-18 12:36:56,855 - INFO - <module> : Click on Map Views button > Select All under Outage Type
+2022-10-18 12:36:56,855 - INFO - <module> : Click on Map Views button > Select All under Outage Type
+2022-10-18 12:36:57,001 - INFO - <module> : Clicked
+2022-10-18 12:36:57,001 - INFO - <module> : Clicked
+2022-10-18 12:36:57,001 - INFO - <module> : Clicked
+2022-10-18 12:36:57,001 - INFO - <module> : Clicked
+2022-10-18 12:36:59,569 - INFO - <module> : Clicked
+2022-10-18 12:36:59,569 - INFO - <module> : Clicked
+2022-10-18 12:36:59,569 - INFO - <module> : Clicked
+2022-10-18 12:36:59,569 - INFO - <module> : Clicked
+2022-10-18 12:37:02,959 - INFO - <module> : Click on Map Views button > Select Unplanned under Outage Type
+2022-10-18 12:37:02,959 - INFO - <module> : Click on Map Views button > Select Unplanned under Outage Type
+2022-10-18 12:37:02,959 - INFO - <module> : Click on Map Views button > Select Unplanned under Outage Type
+2022-10-18 12:37:02,959 - INFO - <module> : Click on Map Views button > Select Unplanned under Outage Type
+2022-10-18 12:37:33,478 - ERROR - <module> : Cannot Locate: map_views
+2022-10-18 12:37:33,478 - ERROR - <module> : Cannot Locate: map_views
+2022-10-18 12:37:33,478 - ERROR - <module> : Cannot Locate: map_views
+2022-10-18 12:37:33,478 - ERROR - <module> : Cannot Locate: map_views
+2022-10-18 12:37:33,518 - INFO - setup : Close Browser
