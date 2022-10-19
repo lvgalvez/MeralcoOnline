@@ -9,6 +9,33 @@ from Utilities.Functions import Functions
 class TestOutage:
     module = "Outage"
 
+    @pytest.mark.tags("TS016")
+    def test_ts016(self):
+        test_scenario = "TS016"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC053(self.driver, test_scenario, Outage['report_outage_sin'], Outage['first_name'], Outage['middle_name'],
+              Outage['last_name'], Outage['mobile_number'], Outage['landline'], Outage['email'], Outage['cxe_email'],
+              Outage['cxe_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS017")
+    def test_ts017(self):
+        test_scenario = "TS017"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC054(self.driver, test_scenario, Outage['report_outage_sin'], Outage['first_name'], Outage['middle_name'],
+              Outage['last_name'], Outage['mobile_number'], Outage['landline'], Outage['email'], Outage['cxe_email'],
+              Outage['cxe_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS018")
+    def test_ts018(self):
+        test_scenario = "TS018"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC055(self.driver, test_scenario, Outage['report_outage_sin'], Outage['first_name'], Outage['middle_name'],
+              Outage['last_name'], Outage['mobile_number'], Outage['landline'], Outage['email'], Outage['cxe_email'],
+              Outage['cxe_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
     @pytest.mark.tags("TS027")
     def test_ts027(self):
         test_scenario = "TS027"

@@ -34,7 +34,7 @@ class Functions:
                 data_row[0].text = self.get_tc_name(module, tc_id)  # Get_TC_bookmark
                 document.add_paragraph()
 
-            if len(tc_desc) > 0:
+            if tc_desc is not None and len(tc_desc) > 0:
                 table = document.add_table(rows=0, cols=1, style=document.styles['Table Grid'])
 
                 if step_num != 'Step 1':
