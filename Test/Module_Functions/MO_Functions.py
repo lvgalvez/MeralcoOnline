@@ -53,13 +53,27 @@ def Select_Weather_Information(driver, weather):
     elif weather == "clouds":
         fc.click(external_outage.get_show_clouds(driver))
 
+def Select_Outage_Type(driver, outage):
+    if outage == "selectall":
+        fc.click(report_outage.get_selectall(driver))
+    elif outage == "planned":
+        fc.click(report_outage.get_planned(driver))
+    elif outage == "unplanned":
+        fc.click(report_outage.get_unplanned(driver))
+
 
 
 def Close_Weather_Modal(driver):
     fc.modal_click(driver, external_outage.get_weather_modal(driver))
     time.sleep(15)
     fc.click(external_outage.get_close_map_type(driver))
+def Close_Outage_Modal(driver):
+    fc.modal_click(driver, external_outage.get_outage_modal(driver))
+    time.sleep(15)
 
+def Close_BusinessOutage_Modal(driver):
+    fc.modal_click(driver, external_outage.get_businessoutage_modal(driver))
+    time.sleep(15)
 
 def Select_Map_Type(driver, Type):
     if Type == "Default":
@@ -119,6 +133,10 @@ def Click_Refresh_Button(driver):
     time.sleep(9)
 
 
+def Select_Meralco_BusinessCenter(driver):
+    fc.click(external_outage.get_meralco_icon(driver))
+
+
 def Click_Legends_Guest(driver):
     fc.click(external_outage.get_legend_expand(driver))
     fc.verify_text(external_outage.get_unplanned_outage_legend(driver), "Unplanned Outage")
@@ -154,11 +172,38 @@ def Click_Outage_Pin(driver):
     fc.click(external_outage.get_outage_pin(driver))
 
 
+def Click_Submit(driver):
+    fc.click(report_outage.get_submit(driver))
+
+def Click_Select_All(driver):
+    fc.click(report_outage.get_selectall(driver))
+
+def Click_Select_Planned(driver):
+    fc.click(report_outage.get_planned(driver))
+
+def Click_Select_Unplanned(driver):
+    fc.click(report_outage.get_unplanned(driver))
+
+def Click_Outage_Report(driver):
+    fc.click(external_outage.get_outage_report(driver))
+
+
+def Click_Address(driver):
+    fc.click(external_outage.get_address(driver))
+
+def Click_ToolTip_Hover(driver):
+    fc.click(external_outage.get_tooltip_other_address(driver))
+
 def Required_Field_Population(driver, sin):
     fc.click(report_outage.get_no_power_radio(driver))
     fc.click(report_outage.get_service_id_radio(driver))
     fc.input_text(report_outage.get_service_id_number(driver), sin)
 
+def Inp_Reference_Number(driver, referencenumber):
+    fc.input_text(report_outage.get_reference_number(driver), referencenumber)
+
+def Inp_Last_Name(driver, lastname):
+    fc.input_text(report_outage.get_last_name(driver), lastname)
 
 def Required_Field_Population_User(driver, sin):
     fc.click(report_outage.get_no_power_radio(driver))

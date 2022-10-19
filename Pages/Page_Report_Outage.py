@@ -22,6 +22,36 @@ class ReportOutagePage:
     service_select = "//*[@class='slds-select mov-select-aftersales CXE_selectInvalid select uiInput uiInputSelect uiInput--default uiInput--select']/option[2]"
     service_id_number = "//input[@class = 'slds-input mov-input-contact mov-placeholder input-toggle mov-placeholder-bold input uiInput uiInputText uiInput--default uiInput--input']"
     location_map = "//strong[contains(text(), 'Location in Map')]"
+    reference_number = "//*[@id='54:2;a']"
+    submit = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div[1]/button[2]"
+    lastname = "//*[@id='68:2;a']"
+    selectall = "/html/body/div[2]/div[11]/div[3]/div/div[2]/div[1]/img"
+    unplanned = "/html/body/div[2]/div[11]/div[3]/div/div[2]/div[2]"
+    planned = "//html/body/div[2]/div[11]/div[3]/div/div[2]/div[3]"
+    streelight = "//span[contains(text(), 'Streetlight Concern')]"
+    clkno = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[1]/div[1]/div[5]/div/div[1]/div[2]/label/span[2]"
+    learnmore = "//button[contains(text(), 'Learn More')]"
+
+
+    def get_learn_more(self, driver):
+        return WebMisc().wait_element(driver, self.learnmore, "learnmore")
+    def get_no(self, driver):
+        return WebMisc().wait_element(driver, self.clkno, "clkno")
+    def get_streelight_power(self, driver):
+        return WebMisc().wait_element(driver, self.streelight, "streelight")
+    def get_planned(self, driver):
+        return WebMisc().wait_element(driver, self.planned, "planned")
+    def get_selectall(self, driver):
+        return WebMisc().wait_element(driver, self.selectall, "selectall")
+
+    def get_unplanned(self, driver):
+        return WebMisc().wait_element(driver, self.unplanned, "unplanned")
+    def get_last_name(self, driver):
+        return WebMisc().wait_element(driver, self.lastname, "lastname")
+    def get_submit(self, driver):
+        return WebMisc().wait_element(driver, self.submit, "submit")
+    def get_reference_number(self, driver):
+        return WebMisc().wait_element(driver, self.reference_number, "reference_number")
     upload_button = "//i[@class = 'fa fa-plus browse-upload']"
     upload_element = "//input[@id = 'file-upload-input-01']"
     landmark_radio = "//strong[contains(text(), 'Landmarks/Directions ')]"

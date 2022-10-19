@@ -15,6 +15,7 @@ class ExternalOutagePage:
     zoom_out = "//div[@title= 'Zoom Out']"
     map_views = "//div[@title= 'Map Views']"
     weather_modal = "//i[@class= 'material-icons closeButton ng-scope']"
+    outage_modal = "/html/body/div[2]/div[11]/div[1]/img"
     show_temperature = "//img[@ng-src = '/resources/images/icons/temperature.png']"
     show_rainfall = "//img[@ng-src = '/resources/images/icons/light-rain.png']"
     show_wind_speed = "//img[@src = '/resources/images/icons/wind-moderate.png']"
@@ -41,8 +42,19 @@ class ExternalOutagePage:
     show_default = "//img[@src = '/resources/images/maptypes/default.png']"
     show_satellite = "//img[@src = '/resources/images/maptypes/satellite.png']"
     show_terrain = "//img[@src = '/resources/images/maptypes/terrain.png']"
-    tooltip_other_address = "//*[@id='externalSideNavMobile']/md-content/md-radio-group/div[2]/md-radio-group/div[1]/div[3]/div[2]/h5/i"
+    tooltip_other_address = "//i[contains(text(),'info')]"
+    outage_report = "//*[@id='externalSideNavMobile']/md-content/div[4]/p/a"
+    address = "//*[@id='radio_1']/div[1]/div[1]"
+    meralcoicon = "/html/body/div[2]/div[10]/div[4]/div/div[2]/div/img"
+    businessoutage_modal = "//*[@id='alertModal']/div/div/i"
 
+
+    def get_meralco_icon(self, driver):
+        return WebMisc().wait_element(driver, self.meralcoicon, "meralcoicon")
+    def get_address(self, driver):
+        return WebMisc().wait_element(driver, self.address, "address")
+    def get_outage_report(self, driver):
+        return WebMisc().wait_element(driver, self.outage_report, "outage_report")
     def get_tooltip_other_address(self, driver):
         return WebMisc().wait_element(driver, self.tooltip_other_address, "tooltip_other_address")
     def get_outage_pin(self, driver):
@@ -68,6 +80,11 @@ class ExternalOutagePage:
     def get_weather_modal(self, driver):
         return WebMisc().clickable_element(driver, self.weather_modal, "weather_modal")
 
+    def get_outage_modal(self, driver):
+        return WebMisc().clickable_element(driver, self.outage_modal, "outage_modal")
+
+    def get_businessoutage_modal(self, driver):
+        return WebMisc().clickable_element(driver, self.businessoutage_modal, "businessoutage_modal")
     def get_show_temperature(self, driver):
         return WebMisc().clickable_element(driver, self.show_temperature, "show_temperature")
 

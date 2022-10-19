@@ -1,0 +1,54 @@
+2022-10-19 10:37:57,630 - INFO - setup : Browser Launched!
+2022-10-19 10:38:05,819 - INFO - <module> : Login to Meralco Online
+2022-10-19 10:38:05,819 - INFO - <module> : Login to Meralco Online
+2022-10-19 10:38:05,819 - INFO - <module> : Login to Meralco Online
+2022-10-19 10:38:05,819 - INFO - <module> : Login to Meralco Online
+2022-10-19 10:38:05,985 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-19 10:38:05,985 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-19 10:38:05,985 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-19 10:38:05,985 - INFO - <module> : input: atmooutageaccount@yopmail.com
+2022-10-19 10:38:06,084 - INFO - <module> : input: Meralco01
+2022-10-19 10:38:06,084 - INFO - <module> : input: Meralco01
+2022-10-19 10:38:06,084 - INFO - <module> : input: Meralco01
+2022-10-19 10:38:06,084 - INFO - <module> : input: Meralco01
+2022-10-19 10:38:06,147 - INFO - <module> : Clicked
+2022-10-19 10:38:06,147 - INFO - <module> : Clicked
+2022-10-19 10:38:06,147 - INFO - <module> : Clicked
+2022-10-19 10:38:06,147 - INFO - <module> : Clicked
+2022-10-19 10:38:10,267 - INFO - <module> : Hello, exists
+2022-10-19 10:38:10,267 - INFO - <module> : Hello, exists
+2022-10-19 10:38:10,267 - INFO - <module> : Hello, exists
+2022-10-19 10:38:10,267 - INFO - <module> : Hello, exists
+2022-10-19 10:38:10,300 - INFO - <module> : Hello, exists
+2022-10-19 10:38:10,300 - INFO - <module> : Hello, exists
+2022-10-19 10:38:10,300 - INFO - <module> : Hello, exists
+2022-10-19 10:38:10,300 - INFO - <module> : Hello, exists
+2022-10-19 10:38:13,365 - INFO - <module> : Go to Outages & Incidents > View/Report Outages
+2022-10-19 10:38:13,365 - INFO - <module> : Go to Outages & Incidents > View/Report Outages
+2022-10-19 10:38:13,365 - INFO - <module> : Go to Outages & Incidents > View/Report Outages
+2022-10-19 10:38:13,365 - INFO - <module> : Go to Outages & Incidents > View/Report Outages
+2022-10-19 10:38:13,441 - INFO - <module> : Clicked
+2022-10-19 10:38:13,441 - INFO - <module> : Clicked
+2022-10-19 10:38:13,441 - INFO - <module> : Clicked
+2022-10-19 10:38:13,441 - INFO - <module> : Clicked
+2022-10-19 10:38:13,527 - INFO - <module> :  clicked
+2022-10-19 10:38:13,527 - INFO - <module> :  clicked
+2022-10-19 10:38:13,527 - INFO - <module> :  clicked
+2022-10-19 10:38:13,527 - INFO - <module> :  clicked
+2022-10-19 10:38:21,839 - INFO - <module> : Okay clicked
+2022-10-19 10:38:21,839 - INFO - <module> : Okay clicked
+2022-10-19 10:38:21,839 - INFO - <module> : Okay clicked
+2022-10-19 10:38:21,839 - INFO - <module> : Okay clicked
+2022-10-19 10:38:25,122 - INFO - <module> : Click on Map Views button > Click Meralco Business Center under Map Layers
+2022-10-19 10:38:25,122 - INFO - <module> : Click on Map Views button > Click Meralco Business Center under Map Layers
+2022-10-19 10:38:25,122 - INFO - <module> : Click on Map Views button > Click Meralco Business Center under Map Layers
+2022-10-19 10:38:25,122 - INFO - <module> : Click on Map Views button > Click Meralco Business Center under Map Layers
+2022-10-19 10:38:25,277 - INFO - <module> : Clicked
+2022-10-19 10:38:25,277 - INFO - <module> : Clicked
+2022-10-19 10:38:25,277 - INFO - <module> : Clicked
+2022-10-19 10:38:25,277 - INFO - <module> : Clicked
+2022-10-19 10:38:57,962 - ERROR - <module> : Cannot Locate: meralcoicon
+2022-10-19 10:38:57,962 - ERROR - <module> : Cannot Locate: meralcoicon
+2022-10-19 10:38:57,962 - ERROR - <module> : Cannot Locate: meralcoicon
+2022-10-19 10:38:57,962 - ERROR - <module> : Cannot Locate: meralcoicon
+2022-10-19 10:38:58,040 - INFO - setup : Close Browser

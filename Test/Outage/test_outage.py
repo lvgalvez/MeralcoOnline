@@ -196,12 +196,12 @@ class TestOutage:
         Functions().tag_status(self.module, test_scenario, "Passed")
 
 
-    @pytest.mark.tags("TS064")
-    def test_ts064(self):
-        test_scenario = "TS064"
+    @pytest.mark.tags("TS063")
+    def test_ts063(self):
+        test_scenario = "TS063"
         Functions().create_document(self.driver, self.module, test_scenario)
         TC147(self.driver, test_scenario)
-       # TC146(self.driver, test_scenario, Outage['outage_email'], Outage['outage_password'])
+        TC148(self.driver, test_scenario, Outage['outage_email'], Outage['outage_password'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
     @pytest.mark.tags("TS071")
@@ -224,4 +224,46 @@ class TestOutage:
         test_scenario = "TS064"
         Functions().create_document(self.driver, self.module, test_scenario)
         TC149(self.driver, test_scenario)
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS066")
+    def test_ts066(self):
+        test_scenario = "TS066"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC151(self.driver, test_scenario, Outage['reference_number'], Outage['lastname'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS067")
+    def test_ts067(self):
+        test_scenario = "TS067"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC152(self.driver, test_scenario, Outage['outage_email'], Outage['outage_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS068")
+    def test_ts068(self):
+        test_scenario = "TS068"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC153(self.driver, test_scenario)
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS069")
+    def test_ts069(self):
+        test_scenario = "TS069"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC154(self.driver, test_scenario, Outage['outage_email'], Outage['outage_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS070")
+    def test_ts070(self):
+        test_scenario = "TS070"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC155(self.driver, test_scenario)
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS022")
+    def test_ts072(self):
+        test_scenario = "TS022"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC059(self.driver, test_scenario)
         Functions().tag_status(self.module, test_scenario, "Passed")

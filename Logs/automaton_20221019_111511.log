@@ -1,0 +1,30 @@
+2022-10-19 11:15:12,149 - INFO - setup : Browser Launched!
+2022-10-19 11:15:19,194 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-19 11:15:19,194 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-19 11:15:19,194 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-19 11:15:19,194 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-19 11:15:23,910 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-19 11:15:23,910 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-19 11:15:23,910 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-19 11:15:23,910 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-19 11:15:27,242 - INFO - <module> : Click on Map Views button > Click Meralco Business Center under Map Layers
+2022-10-19 11:15:27,242 - INFO - <module> : Click on Map Views button > Click Meralco Business Center under Map Layers
+2022-10-19 11:15:27,242 - INFO - <module> : Click on Map Views button > Click Meralco Business Center under Map Layers
+2022-10-19 11:15:27,242 - INFO - <module> : Click on Map Views button > Click Meralco Business Center under Map Layers
+2022-10-19 11:15:27,309 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-19 11:15:27,309 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-19 11:15:27,309 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-19 11:15:27,309 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-19 11:15:27,400 - INFO - <module> : Clicked
+2022-10-19 11:15:27,400 - INFO - <module> : Clicked
+2022-10-19 11:15:27,400 - INFO - <module> : Clicked
+2022-10-19 11:15:27,400 - INFO - <module> : Clicked
+2022-10-19 11:15:31,475 - INFO - <module> : Clicked
+2022-10-19 11:15:31,475 - INFO - <module> : Clicked
+2022-10-19 11:15:31,475 - INFO - <module> : Clicked
+2022-10-19 11:15:31,475 - INFO - <module> : Clicked
+2022-10-19 11:16:04,048 - ERROR - <module> : Cannot Locate: meralcoicon
+2022-10-19 11:16:04,048 - ERROR - <module> : Cannot Locate: meralcoicon
+2022-10-19 11:16:04,048 - ERROR - <module> : Cannot Locate: meralcoicon
+2022-10-19 11:16:04,048 - ERROR - <module> : Cannot Locate: meralcoicon
+2022-10-19 11:16:04,094 - INFO - setup : Close Browser
