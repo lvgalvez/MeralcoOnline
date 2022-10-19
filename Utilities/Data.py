@@ -145,7 +145,7 @@ Outage = {
     'first_name': 'sample',
     'middle_name': 'middle',
     'last_name': 'report',
-    'mobile_number': '+639276597262',
+    'mobile_number': '+639758880793',
     'landline': '',
     'email': 'testautomationoutage@yopmail.com',
     'cxe_email': 'v-lvlgalvez@meralco.com.ph',

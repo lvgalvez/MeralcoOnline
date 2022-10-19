@@ -31,7 +31,25 @@ class ReportOutagePage:
     streelight = "//span[contains(text(), 'Streetlight Concern')]"
     clkno = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[1]/div[1]/div[5]/div/div[1]/div[2]/label/span[2]"
     learnmore = "//button[contains(text(), 'Learn More')]"
+    select_yes = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[1]/div[1]/div[5]/div/div[1]/div[1]/label/span[2]"
+    dropdown = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[1]/div[1]/div[6]/div/div/select"
+    dropdownvalue =  "//option[@value = 'Streetlight is always on, even during daytime']"
+    polenumber = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[3]/div[3]/input"
+    flickeringvalue = "//span[contains(text(), 'Streetlight is flickering')]"
 
+
+    def get_pole_number(self, driver):
+        return WebMisc().wait_element(driver, self.polenumber, "polenumber")
+    def get_dropdown_value(self, driver):
+        return WebMisc().wait_element(driver, self.dropdownvalue, "dropdownvalue")
+
+    def get_dropdown_value_flickering(self, driver):
+        return WebMisc().wait_element(driver, self.dropdownvalue, "flickeringvalue")
+
+    def get_dropdown(self, driver):
+        return WebMisc().wait_element(driver, self.dropdown, "dropdown")
+    def get_select_yes(self, driver):
+        return WebMisc().wait_element(driver, self.select_yes, "select_yes")
 
     def get_learn_more(self, driver):
         return WebMisc().wait_element(driver, self.learnmore, "learnmore")
@@ -54,8 +72,8 @@ class ReportOutagePage:
         return WebMisc().wait_element(driver, self.reference_number, "reference_number")
     upload_button = "//i[@class = 'fa fa-plus browse-upload']"
     upload_element = "//input[@id = 'file-upload-input-01']"
-    landmark_radio = "//strong[contains(text(), 'Landmarks/Directions ')]"
-    landmark_text = "//textarea[@class = 'slds-textarea mov-contact-textarea textarea uiInput uiInputTextArea uiInput--default uiInput--textarea']"
+    landmark_radio = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div[1]/div[4]/div[1]/div[1]/div/label/span[2]/strong"
+    landmark_text = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[4]/div[1]/div[2]/textarea"
     first_name = "//input[@placeholder= 'First Name']"
     middle_name = "//input[@placeholder= 'Middle Name']"
     last_name = "//input[@placeholder= 'Last Name']"
@@ -72,7 +90,7 @@ class ReportOutagePage:
     city_pasig = "//option[@label= 'PASIG CITY']"
     barangay_bagong_ilog ="//option[@label= 'BAGONG ILOG']"
     subdivision_kawilihan = "//option[@label= 'KAWILIHAN VILL']"
-    street_kabutihan = "//option[@label= 'KABUTIHAN']"
+    street_kabutihan = "//option[@label= 'KALAYAAN']"
     street_no = "//input[@placeholder= 'Enter House/Unit/Floor/Building Number here*']"
 
     def get_report_outage_text(self, driver):

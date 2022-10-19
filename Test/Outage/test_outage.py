@@ -36,6 +36,15 @@ class TestOutage:
               Outage['cxe_password'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
+    @pytest.mark.tags("TS021")
+    def test_ts021(self):
+        test_scenario = "TS021"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC058(self.driver, test_scenario, Outage['report_outage_sin'], Outage['first_name'], Outage['middle_name'],
+              Outage['last_name'], Outage['mobile_number'], Outage['landline'], Outage['email'], Outage['cxe_email'],
+              Outage['cxe_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
     @pytest.mark.tags("TS027")
     def test_ts027(self):
         test_scenario = "TS027"
@@ -260,6 +269,8 @@ class TestOutage:
         Functions().create_document(self.driver, self.module, test_scenario)
         TC155(self.driver, test_scenario)
         Functions().tag_status(self.module, test_scenario, "Passed")
+
+
 
     @pytest.mark.tags("TS022")
     def test_ts072(self):
