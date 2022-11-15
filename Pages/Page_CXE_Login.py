@@ -14,9 +14,11 @@ class CXELoginPage:
     password = "//input[@class = 'form-control input ext-input text-box ext-text-box']"
     sign_in = "//input[@value= 'Sign in']"
     stay_sign_no = "//input[@class= 'win-button button-secondary button ext-button secondary ext-secondary']"
-
+    sms = "//*[@id='idDiv_SAOTCS_Proofs']/div[1]/div/div/div[2]"
     def get_meralco_user_id(self, driver):
         return WebMisc().optional_wait_element(driver, self.meralco_user_id, "meralco_user_id")
+    def get_sms(self, driver):
+        return WebMisc().optional_wait_element(driver, self.sms, "sms")
 
     def get_use_another_account(self, driver):
         return WebMisc().wait_element(driver, self.use_another_account, "use_another_account")

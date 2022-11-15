@@ -1,0 +1,54 @@
+2022-10-27 14:00:17,517 - INFO - setup : Browser Launched!
+2022-10-27 14:00:24,676 - INFO - <module> : Go to Map Displays -> Establishment -> Tick Vital Customers
+2022-10-27 14:00:24,676 - INFO - <module> : Go to Map Displays -> Establishment -> Tick Vital Customers
+2022-10-27 14:00:24,676 - INFO - <module> : Go to Map Displays -> Establishment -> Tick Vital Customers
+2022-10-27 14:00:24,676 - INFO - <module> : Go to Map Displays -> Establishment -> Tick Vital Customers
+2022-10-27 14:00:26,559 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-27 14:00:26,559 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-27 14:00:26,559 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-27 14:00:26,559 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-27 14:00:28,269 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-27 14:00:28,269 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-27 14:00:28,269 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-27 14:00:28,269 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-27 14:00:28,326 - INFO - <module> : Clicked
+2022-10-27 14:00:28,326 - INFO - <module> : Clicked
+2022-10-27 14:00:28,326 - INFO - <module> : Clicked
+2022-10-27 14:00:28,326 - INFO - <module> : Clicked
+2022-10-27 14:00:29,428 - INFO - <module> : input: Mecopass@@!!129
+2022-10-27 14:00:29,428 - INFO - <module> : input: Mecopass@@!!129
+2022-10-27 14:00:29,428 - INFO - <module> : input: Mecopass@@!!129
+2022-10-27 14:00:29,428 - INFO - <module> : input: Mecopass@@!!129
+2022-10-27 14:00:29,864 - INFO - <module> : Clicked
+2022-10-27 14:00:29,864 - INFO - <module> : Clicked
+2022-10-27 14:00:29,864 - INFO - <module> : Clicked
+2022-10-27 14:00:29,864 - INFO - <module> : Clicked
+2022-10-27 14:00:30,450 - INFO - <module> : Clicked
+2022-10-27 14:00:30,450 - INFO - <module> : Clicked
+2022-10-27 14:00:30,450 - INFO - <module> : Clicked
+2022-10-27 14:00:30,450 - INFO - <module> : Clicked
+2022-10-27 14:00:59,774 - INFO - <module> : Clicked
+2022-10-27 14:00:59,774 - INFO - <module> : Clicked
+2022-10-27 14:00:59,774 - INFO - <module> : Clicked
+2022-10-27 14:00:59,774 - INFO - <module> : Clicked
+2022-10-27 14:01:03,860 - INFO - <module> :  clicked
+2022-10-27 14:01:03,860 - INFO - <module> :  clicked
+2022-10-27 14:01:03,860 - INFO - <module> :  clicked
+2022-10-27 14:01:03,860 - INFO - <module> :  clicked
+2022-10-27 14:01:04,439 - INFO - <module> : Map Displays clicked
+2022-10-27 14:01:04,439 - INFO - <module> : Map Displays clicked
+2022-10-27 14:01:04,439 - INFO - <module> : Map Displays clicked
+2022-10-27 14:01:04,439 - INFO - <module> : Map Displays clicked
+2022-10-27 14:01:05,010 - INFO - <module> :  clicked
+2022-10-27 14:01:05,010 - INFO - <module> :  clicked
+2022-10-27 14:01:05,010 - INFO - <module> :  clicked
+2022-10-27 14:01:05,010 - INFO - <module> :  clicked
+2022-10-27 14:01:28,035 - INFO - <module> : Click on any Vital Customer pin
+2022-10-27 14:01:28,035 - INFO - <module> : Click on any Vital Customer pin
+2022-10-27 14:01:28,035 - INFO - <module> : Click on any Vital Customer pin
+2022-10-27 14:01:28,035 - INFO - <module> : Click on any Vital Customer pin
+2022-10-27 14:01:58,584 - ERROR - <module> : Cannot Locate: vital_pin
+2022-10-27 14:01:58,584 - ERROR - <module> : Cannot Locate: vital_pin
+2022-10-27 14:01:58,584 - ERROR - <module> : Cannot Locate: vital_pin
+2022-10-27 14:01:58,584 - ERROR - <module> : Cannot Locate: vital_pin
+2022-10-27 14:01:58,656 - INFO - setup : Close Browser

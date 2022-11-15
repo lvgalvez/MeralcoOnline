@@ -1,0 +1,130 @@
+2022-10-20 15:17:15,426 - INFO - setup : Browser Launched!
+2022-10-20 15:17:22,496 - INFO - <module> : Access outage reporting form for Guest users.
+2022-10-20 15:17:22,496 - INFO - <module> : Access outage reporting form for Guest users.
+2022-10-20 15:17:22,496 - INFO - <module> : Access outage reporting form for Guest users.
+2022-10-20 15:17:22,496 - INFO - <module> : Access outage reporting form for Guest users.
+2022-10-20 15:17:24,551 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-20 15:17:24,551 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-20 15:17:24,551 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-20 15:17:24,551 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-20 15:17:30,500 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-20 15:17:30,500 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-20 15:17:30,500 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-20 15:17:30,500 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-20 15:17:32,591 - INFO - <module> : Clicked
+2022-10-20 15:17:32,591 - INFO - <module> : Clicked
+2022-10-20 15:17:32,591 - INFO - <module> : Clicked
+2022-10-20 15:17:32,591 - INFO - <module> : Clicked
+2022-10-20 15:17:36,687 - INFO - <module> : Clicked
+2022-10-20 15:17:36,687 - INFO - <module> : Clicked
+2022-10-20 15:17:36,687 - INFO - <module> : Clicked
+2022-10-20 15:17:36,687 - INFO - <module> : Clicked
+2022-10-20 15:17:44,749 - INFO - <module> : Report an Outage or Incident exists
+2022-10-20 15:17:44,749 - INFO - <module> : Report an Outage or Incident exists
+2022-10-20 15:17:44,749 - INFO - <module> : Report an Outage or Incident exists
+2022-10-20 15:17:44,749 - INFO - <module> : Report an Outage or Incident exists
+2022-10-20 15:17:47,774 - INFO - <module> : Choose 'Streetlight Concern' from the 'What are you reporting?' option.
+2022-10-20 15:17:47,774 - INFO - <module> : Choose 'Streetlight Concern' from the 'What are you reporting?' option.
+2022-10-20 15:17:47,774 - INFO - <module> : Choose 'Streetlight Concern' from the 'What are you reporting?' option.
+2022-10-20 15:17:47,774 - INFO - <module> : Choose 'Streetlight Concern' from the 'What are you reporting?' option.
+2022-10-20 15:17:47,856 - INFO - <module> : Clicked
+2022-10-20 15:17:47,856 - INFO - <module> : Clicked
+2022-10-20 15:17:47,856 - INFO - <module> : Clicked
+2022-10-20 15:17:47,856 - INFO - <module> : Clicked
+2022-10-20 15:17:50,638 - INFO - <module> : Choose 'Yes' from the options.
+2022-10-20 15:17:50,638 - INFO - <module> : Choose 'Yes' from the options.
+2022-10-20 15:17:50,638 - INFO - <module> : Choose 'Yes' from the options.
+2022-10-20 15:17:50,638 - INFO - <module> : Choose 'Yes' from the options.
+2022-10-20 15:17:50,704 - INFO - <module> : Clicked
+2022-10-20 15:17:50,704 - INFO - <module> : Clicked
+2022-10-20 15:17:50,704 - INFO - <module> : Clicked
+2022-10-20 15:17:50,704 - INFO - <module> : Clicked
+2022-10-20 15:17:53,633 - INFO - <module> : Click the dropdown field for Q2.
+2022-10-20 15:17:53,633 - INFO - <module> : Click the dropdown field for Q2.
+2022-10-20 15:17:53,633 - INFO - <module> : Click the dropdown field for Q2.
+2022-10-20 15:17:53,633 - INFO - <module> : Click the dropdown field for Q2.
+2022-10-20 15:17:53,715 - INFO - <module> : Clicked
+2022-10-20 15:17:53,715 - INFO - <module> : Clicked
+2022-10-20 15:17:53,715 - INFO - <module> : Clicked
+2022-10-20 15:17:53,715 - INFO - <module> : Clicked
+2022-10-20 15:17:56,568 - INFO - <module> : Choose 'Streetlight is always on, even during daytime' from the option.
+2022-10-20 15:17:56,568 - INFO - <module> : Choose 'Streetlight is always on, even during daytime' from the option.
+2022-10-20 15:17:56,568 - INFO - <module> : Choose 'Streetlight is always on, even during daytime' from the option.
+2022-10-20 15:17:56,568 - INFO - <module> : Choose 'Streetlight is always on, even during daytime' from the option.
+2022-10-20 15:17:56,635 - INFO - <module> : Clicked
+2022-10-20 15:17:56,635 - INFO - <module> : Clicked
+2022-10-20 15:17:56,635 - INFO - <module> : Clicked
+2022-10-20 15:17:56,635 - INFO - <module> : Clicked
+2022-10-20 15:17:59,522 - INFO - <module> : Populate the following fields by selecting from one of the picklist values, as applicable:
+- Province
+- City/Municipality
+- Barangay
+- Subdivision
+- Street
+- House/Unit No./ Floor/ Building
+2022-10-20 15:17:59,522 - INFO - <module> : Populate the following fields by selecting from one of the picklist values, as applicable:
+- Province
+- City/Municipality
+- Barangay
+- Subdivision
+- Street
+- House/Unit No./ Floor/ Building
+2022-10-20 15:17:59,522 - INFO - <module> : Populate the following fields by selecting from one of the picklist values, as applicable:
+- Province
+- City/Municipality
+- Barangay
+- Subdivision
+- Street
+- House/Unit No./ Floor/ Building
+2022-10-20 15:17:59,522 - INFO - <module> : Populate the following fields by selecting from one of the picklist values, as applicable:
+- Province
+- City/Municipality
+- Barangay
+- Subdivision
+- Street
+- House/Unit No./ Floor/ Building
+2022-10-20 15:17:59,607 - INFO - <module> : Clicked
+2022-10-20 15:17:59,607 - INFO - <module> : Clicked
+2022-10-20 15:17:59,607 - INFO - <module> : Clicked
+2022-10-20 15:17:59,607 - INFO - <module> : Clicked
+2022-10-20 15:18:00,166 - INFO - <module> : Clicked
+2022-10-20 15:18:00,166 - INFO - <module> : Clicked
+2022-10-20 15:18:00,166 - INFO - <module> : Clicked
+2022-10-20 15:18:00,166 - INFO - <module> : Clicked
+2022-10-20 15:18:00,728 - INFO - <module> : Clicked
+2022-10-20 15:18:00,728 - INFO - <module> : Clicked
+2022-10-20 15:18:00,728 - INFO - <module> : Clicked
+2022-10-20 15:18:00,728 - INFO - <module> : Clicked
+2022-10-20 15:18:01,284 - INFO - <module> : Clicked
+2022-10-20 15:18:01,284 - INFO - <module> : Clicked
+2022-10-20 15:18:01,284 - INFO - <module> : Clicked
+2022-10-20 15:18:01,284 - INFO - <module> : Clicked
+2022-10-20 15:18:01,841 - INFO - <module> : Clicked
+2022-10-20 15:18:01,841 - INFO - <module> : Clicked
+2022-10-20 15:18:01,841 - INFO - <module> : Clicked
+2022-10-20 15:18:01,841 - INFO - <module> : Clicked
+2022-10-20 15:18:01,928 - INFO - <module> : input: 123
+2022-10-20 15:18:01,928 - INFO - <module> : input: 123
+2022-10-20 15:18:01,928 - INFO - <module> : input: 123
+2022-10-20 15:18:01,928 - INFO - <module> : input: 123
+2022-10-20 15:18:05,021 - INFO - <module> : Populate 'Pole Number' field.
+Note: There should be no pending case associated to the encoded Pole Number.
+2022-10-20 15:18:05,021 - INFO - <module> : Populate 'Pole Number' field.
+Note: There should be no pending case associated to the encoded Pole Number.
+2022-10-20 15:18:05,021 - INFO - <module> : Populate 'Pole Number' field.
+Note: There should be no pending case associated to the encoded Pole Number.
+2022-10-20 15:18:05,021 - INFO - <module> : Populate 'Pole Number' field.
+Note: There should be no pending case associated to the encoded Pole Number.
+2022-10-20 15:18:05,121 - INFO - <module> : input: 41
+2022-10-20 15:18:05,121 - INFO - <module> : input: 41
+2022-10-20 15:18:05,121 - INFO - <module> : input: 41
+2022-10-20 15:18:05,121 - INFO - <module> : input: 41
+2022-10-20 15:18:08,046 - INFO - <module> : Select the 'Landmarks/Directions' option and input values in the text box.
+2022-10-20 15:18:08,046 - INFO - <module> : Select the 'Landmarks/Directions' option and input values in the text box.
+2022-10-20 15:18:08,046 - INFO - <module> : Select the 'Landmarks/Directions' option and input values in the text box.
+2022-10-20 15:18:08,046 - INFO - <module> : Select the 'Landmarks/Directions' option and input values in the text box.
+2022-10-20 15:18:08,174 - INFO - <module> : Clicked
+2022-10-20 15:18:08,174 - INFO - <module> : Clicked
+2022-10-20 15:18:08,174 - INFO - <module> : Clicked
+2022-10-20 15:18:08,174 - INFO - <module> : Clicked
+2022-10-20 15:18:09,444 - INFO - setup : Close Browser

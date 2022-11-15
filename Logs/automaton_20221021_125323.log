@@ -1,0 +1,242 @@
+2022-10-21 12:53:25,491 - INFO - setup : Browser Launched!
+2022-10-21 12:53:43,414 - INFO - <module> : Access outage reporting form for Guest users.
+2022-10-21 12:53:43,414 - INFO - <module> : Access outage reporting form for Guest users.
+2022-10-21 12:53:43,414 - INFO - <module> : Access outage reporting form for Guest users.
+2022-10-21 12:53:43,414 - INFO - <module> : Access outage reporting form for Guest users.
+2022-10-21 12:53:51,451 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-21 12:53:51,451 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-21 12:53:51,451 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-21 12:53:51,451 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-21 12:53:55,505 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-21 12:53:55,505 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-21 12:53:55,505 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-21 12:53:55,505 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-21 12:53:57,797 - INFO - <module> : Clicked
+2022-10-21 12:53:57,797 - INFO - <module> : Clicked
+2022-10-21 12:53:57,797 - INFO - <module> : Clicked
+2022-10-21 12:53:57,797 - INFO - <module> : Clicked
+2022-10-21 12:54:02,061 - INFO - <module> : Clicked
+2022-10-21 12:54:02,061 - INFO - <module> : Clicked
+2022-10-21 12:54:02,061 - INFO - <module> : Clicked
+2022-10-21 12:54:02,061 - INFO - <module> : Clicked
+2022-10-21 12:54:10,171 - INFO - <module> : Report an Outage or Incident exists
+2022-10-21 12:54:10,171 - INFO - <module> : Report an Outage or Incident exists
+2022-10-21 12:54:10,171 - INFO - <module> : Report an Outage or Incident exists
+2022-10-21 12:54:10,171 - INFO - <module> : Report an Outage or Incident exists
+2022-10-21 12:54:15,392 - INFO - <module> : Choose 'No Power - My house/building ' from the 'What are you reporting?' option.
+2022-10-21 12:54:15,392 - INFO - <module> : Choose 'No Power - My house/building ' from the 'What are you reporting?' option.
+2022-10-21 12:54:15,392 - INFO - <module> : Choose 'No Power - My house/building ' from the 'What are you reporting?' option.
+2022-10-21 12:54:15,392 - INFO - <module> : Choose 'No Power - My house/building ' from the 'What are you reporting?' option.
+2022-10-21 12:54:15,624 - INFO - <module> : Clicked
+2022-10-21 12:54:15,624 - INFO - <module> : Clicked
+2022-10-21 12:54:15,624 - INFO - <module> : Clicked
+2022-10-21 12:54:15,624 - INFO - <module> : Clicked
+2022-10-21 12:54:21,202 - INFO - <module> : Click the dropdown field for Q1.
+2022-10-21 12:54:21,202 - INFO - <module> : Click the dropdown field for Q1.
+2022-10-21 12:54:21,202 - INFO - <module> : Click the dropdown field for Q1.
+2022-10-21 12:54:21,202 - INFO - <module> : Click the dropdown field for Q1.
+2022-10-21 12:54:21,485 - INFO - <module> : Clicked
+2022-10-21 12:54:21,485 - INFO - <module> : Clicked
+2022-10-21 12:54:21,485 - INFO - <module> : Clicked
+2022-10-21 12:54:21,485 - INFO - <module> : Clicked
+2022-10-21 12:54:27,178 - INFO - <module> : Choose 'None' from the option.
+2022-10-21 12:54:27,178 - INFO - <module> : Choose 'None' from the option.
+2022-10-21 12:54:27,178 - INFO - <module> : Choose 'None' from the option.
+2022-10-21 12:54:27,178 - INFO - <module> : Choose 'None' from the option.
+2022-10-21 12:54:27,416 - INFO - <module> : Clicked
+2022-10-21 12:54:27,416 - INFO - <module> : Clicked
+2022-10-21 12:54:27,416 - INFO - <module> : Clicked
+2022-10-21 12:54:27,416 - INFO - <module> : Clicked
+2022-10-21 12:54:33,246 - INFO - <module> : Input the SIN with no pending No Power case but with pending incident in ADMS under the 'Where is your concern located?' section.
+2022-10-21 12:54:33,246 - INFO - <module> : Input the SIN with no pending No Power case but with pending incident in ADMS under the 'Where is your concern located?' section.
+2022-10-21 12:54:33,246 - INFO - <module> : Input the SIN with no pending No Power case but with pending incident in ADMS under the 'Where is your concern located?' section.
+2022-10-21 12:54:33,246 - INFO - <module> : Input the SIN with no pending No Power case but with pending incident in ADMS under the 'Where is your concern located?' section.
+2022-10-21 12:54:33,572 - INFO - <module> : Clicked
+2022-10-21 12:54:33,572 - INFO - <module> : Clicked
+2022-10-21 12:54:33,572 - INFO - <module> : Clicked
+2022-10-21 12:54:33,572 - INFO - <module> : Clicked
+2022-10-21 12:54:33,894 - INFO - <module> : input: 100004470101
+2022-10-21 12:54:33,894 - INFO - <module> : input: 100004470101
+2022-10-21 12:54:33,894 - INFO - <module> : input: 100004470101
+2022-10-21 12:54:33,894 - INFO - <module> : input: 100004470101
+2022-10-21 12:54:34,060 - INFO - <module> : Clicked
+2022-10-21 12:54:34,060 - INFO - <module> : Clicked
+2022-10-21 12:54:34,060 - INFO - <module> : Clicked
+2022-10-21 12:54:34,060 - INFO - <module> : Clicked
+2022-10-21 12:54:39,722 - INFO - <module> : Select No.
+2022-10-21 12:54:39,722 - INFO - <module> : Select No.
+2022-10-21 12:54:39,722 - INFO - <module> : Select No.
+2022-10-21 12:54:39,722 - INFO - <module> : Select No.
+2022-10-21 12:54:45,452 - INFO - <module> : Access outage reporting form for Guest users.
+2022-10-21 12:54:45,452 - INFO - <module> : Access outage reporting form for Guest users.
+2022-10-21 12:54:45,452 - INFO - <module> : Access outage reporting form for Guest users.
+2022-10-21 12:54:45,452 - INFO - <module> : Access outage reporting form for Guest users.
+2022-10-21 12:54:49,087 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-21 12:54:49,087 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-21 12:54:49,087 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-21 12:54:49,087 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2022-10-21 12:54:52,749 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-21 12:54:52,749 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-21 12:54:52,749 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-21 12:54:52,749 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2022-10-21 12:54:54,957 - INFO - <module> : Clicked
+2022-10-21 12:54:54,957 - INFO - <module> : Clicked
+2022-10-21 12:54:54,957 - INFO - <module> : Clicked
+2022-10-21 12:54:54,957 - INFO - <module> : Clicked
+2022-10-21 12:54:59,149 - INFO - <module> : Clicked
+2022-10-21 12:54:59,149 - INFO - <module> : Clicked
+2022-10-21 12:54:59,149 - INFO - <module> : Clicked
+2022-10-21 12:54:59,149 - INFO - <module> : Clicked
+2022-10-21 12:55:07,230 - INFO - <module> : Report an Outage or Incident exists
+2022-10-21 12:55:07,230 - INFO - <module> : Report an Outage or Incident exists
+2022-10-21 12:55:07,230 - INFO - <module> : Report an Outage or Incident exists
+2022-10-21 12:55:07,230 - INFO - <module> : Report an Outage or Incident exists
+2022-10-21 12:55:13,016 - INFO - <module> : Choose 'No Power - My house/building ' from the 'What are you reporting?' option.
+2022-10-21 12:55:13,016 - INFO - <module> : Choose 'No Power - My house/building ' from the 'What are you reporting?' option.
+2022-10-21 12:55:13,016 - INFO - <module> : Choose 'No Power - My house/building ' from the 'What are you reporting?' option.
+2022-10-21 12:55:13,016 - INFO - <module> : Choose 'No Power - My house/building ' from the 'What are you reporting?' option.
+2022-10-21 12:55:13,356 - INFO - <module> : Clicked
+2022-10-21 12:55:13,356 - INFO - <module> : Clicked
+2022-10-21 12:55:13,356 - INFO - <module> : Clicked
+2022-10-21 12:55:13,356 - INFO - <module> : Clicked
+2022-10-21 12:55:19,194 - INFO - <module> : Click the dropdown field for Q1.
+2022-10-21 12:55:19,194 - INFO - <module> : Click the dropdown field for Q1.
+2022-10-21 12:55:19,194 - INFO - <module> : Click the dropdown field for Q1.
+2022-10-21 12:55:19,194 - INFO - <module> : Click the dropdown field for Q1.
+2022-10-21 12:55:19,550 - INFO - <module> : Clicked
+2022-10-21 12:55:19,550 - INFO - <module> : Clicked
+2022-10-21 12:55:19,550 - INFO - <module> : Clicked
+2022-10-21 12:55:19,550 - INFO - <module> : Clicked
+2022-10-21 12:55:25,262 - INFO - <module> : Choose 'None' from the option.
+2022-10-21 12:55:25,262 - INFO - <module> : Choose 'None' from the option.
+2022-10-21 12:55:25,262 - INFO - <module> : Choose 'None' from the option.
+2022-10-21 12:55:25,262 - INFO - <module> : Choose 'None' from the option.
+2022-10-21 12:55:25,536 - INFO - <module> : Clicked
+2022-10-21 12:55:25,536 - INFO - <module> : Clicked
+2022-10-21 12:55:25,536 - INFO - <module> : Clicked
+2022-10-21 12:55:25,536 - INFO - <module> : Clicked
+2022-10-21 12:55:31,282 - INFO - <module> : Input the SIN with no pending No Power case but with pending incident in ADMS under the 'Where is your concern located?' section.
+2022-10-21 12:55:31,282 - INFO - <module> : Input the SIN with no pending No Power case but with pending incident in ADMS under the 'Where is your concern located?' section.
+2022-10-21 12:55:31,282 - INFO - <module> : Input the SIN with no pending No Power case but with pending incident in ADMS under the 'Where is your concern located?' section.
+2022-10-21 12:55:31,282 - INFO - <module> : Input the SIN with no pending No Power case but with pending incident in ADMS under the 'Where is your concern located?' section.
+2022-10-21 12:55:31,664 - INFO - <module> : Clicked
+2022-10-21 12:55:31,664 - INFO - <module> : Clicked
+2022-10-21 12:55:31,664 - INFO - <module> : Clicked
+2022-10-21 12:55:31,664 - INFO - <module> : Clicked
+2022-10-21 12:55:31,941 - INFO - <module> : input: 100004470101
+2022-10-21 12:55:31,941 - INFO - <module> : input: 100004470101
+2022-10-21 12:55:31,941 - INFO - <module> : input: 100004470101
+2022-10-21 12:55:31,941 - INFO - <module> : input: 100004470101
+2022-10-21 12:55:32,102 - INFO - <module> : Clicked
+2022-10-21 12:55:32,102 - INFO - <module> : Clicked
+2022-10-21 12:55:32,102 - INFO - <module> : Clicked
+2022-10-21 12:55:32,102 - INFO - <module> : Clicked
+2022-10-21 12:55:37,861 - INFO - <module> : Select Yes.
+2022-10-21 12:55:37,861 - INFO - <module> : Select Yes.
+2022-10-21 12:55:37,861 - INFO - <module> : Select Yes.
+2022-10-21 12:55:37,861 - INFO - <module> : Select Yes.
+2022-10-21 12:55:43,937 - INFO - <module> : Select the 'Landmarks/Directions' option and input values in the text box.
+2022-10-21 12:55:43,937 - INFO - <module> : Select the 'Landmarks/Directions' option and input values in the text box.
+2022-10-21 12:55:43,937 - INFO - <module> : Select the 'Landmarks/Directions' option and input values in the text box.
+2022-10-21 12:55:43,937 - INFO - <module> : Select the 'Landmarks/Directions' option and input values in the text box.
+2022-10-21 12:55:44,267 - INFO - <module> : Clicked
+2022-10-21 12:55:44,267 - INFO - <module> : Clicked
+2022-10-21 12:55:44,267 - INFO - <module> : Clicked
+2022-10-21 12:55:44,267 - INFO - <module> : Clicked
+2022-10-21 12:55:44,606 - INFO - <module> : input: Sample Text
+2022-10-21 12:55:44,606 - INFO - <module> : input: Sample Text
+2022-10-21 12:55:44,606 - INFO - <module> : input: Sample Text
+2022-10-21 12:55:44,606 - INFO - <module> : input: Sample Text
+2022-10-21 12:55:55,087 - INFO - <module> : Populate the following fields:
+a) First Name
+b) Middle Name
+c) Last Name
+d) Mobile Number
+e) Landline
+f) Email
+2022-10-21 12:55:55,087 - INFO - <module> : Populate the following fields:
+a) First Name
+b) Middle Name
+c) Last Name
+d) Mobile Number
+e) Landline
+f) Email
+2022-10-21 12:55:55,087 - INFO - <module> : Populate the following fields:
+a) First Name
+b) Middle Name
+c) Last Name
+d) Mobile Number
+e) Landline
+f) Email
+2022-10-21 12:55:55,087 - INFO - <module> : Populate the following fields:
+a) First Name
+b) Middle Name
+c) Last Name
+d) Mobile Number
+e) Landline
+f) Email
+2022-10-21 12:55:55,443 - INFO - <module> : input: sample
+2022-10-21 12:55:55,443 - INFO - <module> : input: sample
+2022-10-21 12:55:55,443 - INFO - <module> : input: sample
+2022-10-21 12:55:55,443 - INFO - <module> : input: sample
+2022-10-21 12:55:55,667 - INFO - <module> : input: middle
+2022-10-21 12:55:55,667 - INFO - <module> : input: middle
+2022-10-21 12:55:55,667 - INFO - <module> : input: middle
+2022-10-21 12:55:55,667 - INFO - <module> : input: middle
+2022-10-21 12:55:55,926 - INFO - <module> : input: report
+2022-10-21 12:55:55,926 - INFO - <module> : input: report
+2022-10-21 12:55:55,926 - INFO - <module> : input: report
+2022-10-21 12:55:55,926 - INFO - <module> : input: report
+2022-10-21 12:55:56,177 - INFO - <module> : input: +639758880793
+2022-10-21 12:55:56,177 - INFO - <module> : input: +639758880793
+2022-10-21 12:55:56,177 - INFO - <module> : input: +639758880793
+2022-10-21 12:55:56,177 - INFO - <module> : input: +639758880793
+2022-10-21 12:55:56,368 - INFO - <module> : input: 
+2022-10-21 12:55:56,368 - INFO - <module> : input: 
+2022-10-21 12:55:56,368 - INFO - <module> : input: 
+2022-10-21 12:55:56,368 - INFO - <module> : input: 
+2022-10-21 12:55:56,608 - INFO - <module> : input: testautomationoutage@yopmail.com
+2022-10-21 12:55:56,608 - INFO - <module> : input: testautomationoutage@yopmail.com
+2022-10-21 12:55:56,608 - INFO - <module> : input: testautomationoutage@yopmail.com
+2022-10-21 12:55:56,608 - INFO - <module> : input: testautomationoutage@yopmail.com
+2022-10-21 12:56:02,356 - INFO - <module> : Verify if 'Yes' is selected from the options under 'Do you want to receive updates related to this report?'
+2022-10-21 12:56:02,356 - INFO - <module> : Verify if 'Yes' is selected from the options under 'Do you want to receive updates related to this report?'
+2022-10-21 12:56:02,356 - INFO - <module> : Verify if 'Yes' is selected from the options under 'Do you want to receive updates related to this report?'
+2022-10-21 12:56:02,356 - INFO - <module> : Verify if 'Yes' is selected from the options under 'Do you want to receive updates related to this report?'
+2022-10-21 12:56:08,285 - INFO - <module> : Select SMS and Email as preferred Case Notification Channel.
+Note: Ensure that 'Email' field has valid value if Email has been selected as preferred Case Notification Channel.
+2022-10-21 12:56:08,285 - INFO - <module> : Select SMS and Email as preferred Case Notification Channel.
+Note: Ensure that 'Email' field has valid value if Email has been selected as preferred Case Notification Channel.
+2022-10-21 12:56:08,285 - INFO - <module> : Select SMS and Email as preferred Case Notification Channel.
+Note: Ensure that 'Email' field has valid value if Email has been selected as preferred Case Notification Channel.
+2022-10-21 12:56:08,285 - INFO - <module> : Select SMS and Email as preferred Case Notification Channel.
+Note: Ensure that 'Email' field has valid value if Email has been selected as preferred Case Notification Channel.
+2022-10-21 12:56:08,641 - INFO - <module> : Clicked
+2022-10-21 12:56:08,641 - INFO - <module> : Clicked
+2022-10-21 12:56:08,641 - INFO - <module> : Clicked
+2022-10-21 12:56:08,641 - INFO - <module> : Clicked
+2022-10-21 12:56:08,841 - INFO - <module> : Clicked
+2022-10-21 12:56:08,841 - INFO - <module> : Clicked
+2022-10-21 12:56:08,841 - INFO - <module> : Clicked
+2022-10-21 12:56:08,841 - INFO - <module> : Clicked
+2022-10-21 12:56:14,753 - INFO - <module> : Select the checkbox for:
+I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy.
+2022-10-21 12:56:14,753 - INFO - <module> : Select the checkbox for:
+I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy.
+2022-10-21 12:56:14,753 - INFO - <module> : Select the checkbox for:
+I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy.
+2022-10-21 12:56:14,753 - INFO - <module> : Select the checkbox for:
+I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy.
+2022-10-21 12:56:15,128 - INFO - <module> : Clicked
+2022-10-21 12:56:15,128 - INFO - <module> : Clicked
+2022-10-21 12:56:15,128 - INFO - <module> : Clicked
+2022-10-21 12:56:15,128 - INFO - <module> : Clicked
+2022-10-21 12:56:20,535 - INFO - <module> : Click ‘Submit’ button.
+2022-10-21 12:56:20,535 - INFO - <module> : Click ‘Submit’ button.
+2022-10-21 12:56:20,535 - INFO - <module> : Click ‘Submit’ button.
+2022-10-21 12:56:20,535 - INFO - <module> : Click ‘Submit’ button.
+2022-10-21 12:56:50,994 - ERROR - <module> : Cannot Locate: submit
+2022-10-21 12:56:50,994 - ERROR - <module> : Cannot Locate: submit
+2022-10-21 12:56:50,994 - ERROR - <module> : Cannot Locate: submit
+2022-10-21 12:56:50,994 - ERROR - <module> : Cannot Locate: submit
+2022-10-21 12:56:51,211 - INFO - setup : Close Browser

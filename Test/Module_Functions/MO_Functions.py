@@ -1,4 +1,5 @@
 from Pages.Page_External_Outage import ExternalOutagePage
+from Pages.Page_Internal_Outage import InternalOutagePage
 from Pages.Page_Home import HomePage
 from Pages.Page_Login import LoginPage
 from Pages.Page_Report_Outage import ReportOutagePage
@@ -12,6 +13,8 @@ home = HomePage()
 login = LoginPage()
 external_outage = ExternalOutagePage()
 report_outage = ReportOutagePage()
+internal_outage = InternalOutagePage()
+
 
 def Log_In_Meralco_Online(driver, email, password):
 
@@ -19,6 +22,8 @@ def Log_In_Meralco_Online(driver, email, password):
     fc.input_text(login.get_password(driver), password)
     fc.click(login.get_log_in(driver))
     fc.verify(home.get_hello_message(driver))
+
+
 
 
 def Verify_Successful_Login(driver):
@@ -94,6 +99,15 @@ def Adjust_Zoom_Level(driver, default_zoom, zoom_level):
     if zoom < 0:
         for x in range(abs(zoom)):
             fc.click(external_outage.get_zoom_in(driver))
+
+def Adjust_Zoom_Level_Internal(driver, default_zoom, zoom_level):
+    zoom = default_zoom - zoom_level
+    if zoom > 0:
+        for x in range(zoom):
+            fc.click(internal_outage.get_zoom_out(driver))
+    if zoom < 0:
+        for x in range(abs(zoom)):
+            fc.click(internal_outage.get_zoom_in(driver))
 
 
 def Handle_GPS_Prompt(driver, button):

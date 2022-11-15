@@ -1,0 +1,42 @@
+2022-10-25 15:37:58,115 - INFO - setup : Browser Launched!
+2022-10-25 15:38:13,226 - INFO - <module> : Go to Internal Map 
+2022-10-25 15:38:13,226 - INFO - <module> : Go to Internal Map 
+2022-10-25 15:38:13,226 - INFO - <module> : Go to Internal Map 
+2022-10-25 15:38:13,226 - INFO - <module> : Go to Internal Map 
+2022-10-25 15:38:14,801 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-25 15:38:14,801 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-25 15:38:14,801 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-25 15:38:14,801 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-25 15:38:15,795 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-25 15:38:15,795 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-25 15:38:15,795 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-25 15:38:15,795 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-25 15:38:15,945 - INFO - <module> : Clicked
+2022-10-25 15:38:15,945 - INFO - <module> : Clicked
+2022-10-25 15:38:15,945 - INFO - <module> : Clicked
+2022-10-25 15:38:15,945 - INFO - <module> : Clicked
+2022-10-25 15:38:17,142 - INFO - <module> : input: Mecopass@@!!129
+2022-10-25 15:38:17,142 - INFO - <module> : input: Mecopass@@!!129
+2022-10-25 15:38:17,142 - INFO - <module> : input: Mecopass@@!!129
+2022-10-25 15:38:17,142 - INFO - <module> : input: Mecopass@@!!129
+2022-10-25 15:38:17,704 - INFO - <module> : Clicked
+2022-10-25 15:38:17,704 - INFO - <module> : Clicked
+2022-10-25 15:38:17,704 - INFO - <module> : Clicked
+2022-10-25 15:38:17,704 - INFO - <module> : Clicked
+2022-10-25 15:38:18,424 - INFO - <module> : Clicked
+2022-10-25 15:38:18,424 - INFO - <module> : Clicked
+2022-10-25 15:38:18,424 - INFO - <module> : Clicked
+2022-10-25 15:38:18,424 - INFO - <module> : Clicked
+2022-10-25 15:38:47,140 - INFO - <module> : Clicked
+2022-10-25 15:38:47,140 - INFO - <module> : Clicked
+2022-10-25 15:38:47,140 - INFO - <module> : Clicked
+2022-10-25 15:38:47,140 - INFO - <module> : Clicked
+2022-10-25 15:38:58,155 - INFO - <module> : Open Menu -> Map Displays -> tick weather
+2022-10-25 15:38:58,155 - INFO - <module> : Open Menu -> Map Displays -> tick weather
+2022-10-25 15:38:58,155 - INFO - <module> : Open Menu -> Map Displays -> tick weather
+2022-10-25 15:38:58,155 - INFO - <module> : Open Menu -> Map Displays -> tick weather
+2022-10-25 15:39:28,773 - ERROR - <module> : Cannot Locate: menu
+2022-10-25 15:39:28,773 - ERROR - <module> : Cannot Locate: menu
+2022-10-25 15:39:28,773 - ERROR - <module> : Cannot Locate: menu
+2022-10-25 15:39:28,773 - ERROR - <module> : Cannot Locate: menu
+2022-10-25 15:39:29,134 - INFO - setup : Close Browser

@@ -9,6 +9,7 @@ cxe_apply = "https://fuat-meralco.cs73.force.com/customers/s/cxe-apply"
 cxe = "https://meralco--fuat.lightning.force.com/lightning/page/home"
 gmail = "https://mail.google.com/mail/u/0/#inbox"
 outage_external_guest = "https://fuat-meralco.cs73.force.com/customers/s/outagemap"
+internal_outage = "https://outage-api.meralco.com.ph/"
 root_dir = Path(__file__).parent
 
 # screenshot folder
