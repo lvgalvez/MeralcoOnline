@@ -1,0 +1,54 @@
+2022-10-27 12:59:27,106 - INFO - setup : Browser Launched!
+2022-10-27 12:59:35,360 - INFO - <module> : Go to Map Displays -> Establishment -> Tick Sector Offices
+2022-10-27 12:59:35,360 - INFO - <module> : Go to Map Displays -> Establishment -> Tick Sector Offices
+2022-10-27 12:59:35,360 - INFO - <module> : Go to Map Displays -> Establishment -> Tick Sector Offices
+2022-10-27 12:59:35,360 - INFO - <module> : Go to Map Displays -> Establishment -> Tick Sector Offices
+2022-10-27 12:59:36,923 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-27 12:59:36,923 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-27 12:59:36,923 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-27 12:59:36,923 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-27 12:59:39,242 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-27 12:59:39,242 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-27 12:59:39,242 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-27 12:59:39,242 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-27 12:59:39,300 - INFO - <module> : Clicked
+2022-10-27 12:59:39,300 - INFO - <module> : Clicked
+2022-10-27 12:59:39,300 - INFO - <module> : Clicked
+2022-10-27 12:59:39,300 - INFO - <module> : Clicked
+2022-10-27 12:59:43,506 - INFO - <module> : input: Mecopass@@!!129
+2022-10-27 12:59:43,506 - INFO - <module> : input: Mecopass@@!!129
+2022-10-27 12:59:43,506 - INFO - <module> : input: Mecopass@@!!129
+2022-10-27 12:59:43,506 - INFO - <module> : input: Mecopass@@!!129
+2022-10-27 12:59:43,929 - INFO - <module> : Clicked
+2022-10-27 12:59:43,929 - INFO - <module> : Clicked
+2022-10-27 12:59:43,929 - INFO - <module> : Clicked
+2022-10-27 12:59:43,929 - INFO - <module> : Clicked
+2022-10-27 12:59:44,534 - INFO - <module> : Clicked
+2022-10-27 12:59:44,534 - INFO - <module> : Clicked
+2022-10-27 12:59:44,534 - INFO - <module> : Clicked
+2022-10-27 12:59:44,534 - INFO - <module> : Clicked
+2022-10-27 13:00:14,238 - INFO - <module> : Clicked
+2022-10-27 13:00:14,238 - INFO - <module> : Clicked
+2022-10-27 13:00:14,238 - INFO - <module> : Clicked
+2022-10-27 13:00:14,238 - INFO - <module> : Clicked
+2022-10-27 13:00:19,426 - INFO - <module> :  clicked
+2022-10-27 13:00:19,426 - INFO - <module> :  clicked
+2022-10-27 13:00:19,426 - INFO - <module> :  clicked
+2022-10-27 13:00:19,426 - INFO - <module> :  clicked
+2022-10-27 13:00:19,497 - INFO - <module> : Map Displays clicked
+2022-10-27 13:00:19,497 - INFO - <module> : Map Displays clicked
+2022-10-27 13:00:19,497 - INFO - <module> : Map Displays clicked
+2022-10-27 13:00:19,497 - INFO - <module> : Map Displays clicked
+2022-10-27 13:00:20,096 - INFO - <module> :  clicked
+2022-10-27 13:00:20,096 - INFO - <module> :  clicked
+2022-10-27 13:00:20,096 - INFO - <module> :  clicked
+2022-10-27 13:00:20,096 - INFO - <module> :  clicked
+2022-10-27 13:00:23,275 - INFO - <module> : Click on any Sector Office pin
+2022-10-27 13:00:23,275 - INFO - <module> : Click on any Sector Office pin
+2022-10-27 13:00:23,275 - INFO - <module> : Click on any Sector Office pin
+2022-10-27 13:00:23,275 - INFO - <module> : Click on any Sector Office pin
+2022-10-27 13:00:53,787 - ERROR - <module> : Cannot Locate: sector_pin
+2022-10-27 13:00:53,787 - ERROR - <module> : Cannot Locate: sector_pin
+2022-10-27 13:00:53,787 - ERROR - <module> : Cannot Locate: sector_pin
+2022-10-27 13:00:53,787 - ERROR - <module> : Cannot Locate: sector_pin
+2022-10-27 13:00:53,934 - INFO - setup : Close Browser

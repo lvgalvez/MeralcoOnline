@@ -146,6 +146,10 @@ class Functions:
         element.send_keys(Keys.ENTER)
         log.info("Enter: "+element.text)
 
+    def arrow_down(self, element):
+        element.send_keys(Keys.ARROW_DOWN)
+        log.info("ArrowDown: " + element.text)
+
     def page_down(self, driver, count):
         for x in range(count):
             driver.find_element(By.TAG_NAME, "body").send_keys(Keys.PAGE_DOWN)

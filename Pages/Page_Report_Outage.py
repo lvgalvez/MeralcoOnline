@@ -23,7 +23,6 @@ class ReportOutagePage:
     service_id_number = "//input[@class = 'slds-input mov-input-contact mov-placeholder input-toggle mov-placeholder-bold input uiInput uiInputText uiInput--default uiInput--input']"
     location_map = "//strong[contains(text(), 'Location in Map')]"
     reference_number = "//*[@id='54:2;a']"
-    submit = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div[1]/button[2]"
     lastname = "//*[@id='68:2;a']"
     selectall = "/html/body/div[2]/div[11]/div[3]/div/div[2]/div[1]/img"
     unplanned = "/html/body/div[2]/div[11]/div[3]/div/div[2]/div[2]"
@@ -35,16 +34,56 @@ class ReportOutagePage:
     dropdown = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[1]/div[1]/div[6]/div/div/select"
     dropdownvalue =  "//option[@value = 'Streetlight is always on, even during daytime']"
     polenumber = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[3]/div[3]/input"
-    flickeringvalue = "//span[contains(text(), 'Streetlight is flickering')]"
+    flickeringvalue = "//option[@label = 'Streetlight is flickering']"
+    no_option = "//*[@id='modal-content-id-5']/div/a[1]"
+    streetlightisnot = "//option[@value = 'Streetlight is always on, even during daytime']"
+    yes_option = "//*[@id='modal-content-id-5']/div/a[2]"
+    label = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[3]/div[2]/input"
+    none = "//option[@value = 'None']"
+    report_dropdown = "//*[@id='9:249;a']"
+    upload_button = "//i[@class = 'fa fa-plus browse-upload']"
+    upload_element = "//input[@id = 'file-upload-input-01']"
+    landmark_radio = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div[1]/div[4]/div[1]/div[1]/div/label/span[2]/strong"
+    landmark_text = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[4]/div[1]/div[2]/textarea"
+    first_name = "//input[@placeholder= 'First Name']"
+    middle_name = "//input[@placeholder= 'Middle Name']"
+    last_name = "//input[@placeholder= 'Last Name']"
+    mobile_number = "//input[@placeholder= '+63xxxxxxxxxx']"
+    landline = "//input[@placeholder= '+63(area code)xxxxxxx']"
+    email = "//input[@placeholder= 'Email']"
+    sms_checkbox = "//span[contains(text(), 'SMS')]"
+    email_checkbox = "//span[contains(text(), 'Email')]"
+    terms_checkbox = "//span[contains(text(), 'I have read and agree to the Meralco Online')]"
+    submit = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div[1]/div[8]/div[2]/div/div/div/button"
+    case_number = "//span[@class = 'text-orange mov-text_weight-bold']"
+    existing_sin_report = "//li[contains(text(), 'A report has already been made for this Service ID Number.')]"
+    province_metro_manila = "//option[@label= 'METRO MANILA']"
+    city_pasig = "//option[@label= 'PASIG CITY']"
+    barangay_bagong_ilog = "//option[@label= 'BAGONG ILOG']"
+    subdivision_kawilihan = "//option[@label= 'KAWILIHAN VILL']"
+    street_kabutihan = "//option[@label= 'KALAYAAN']"
+    street_no = "//input[@placeholder= 'Enter House/Unit/Floor/Building Number here*']"
 
-
+    def get_report_dropdown(self, driver):
+        return WebMisc().wait_element(driver, self.report_dropdown, "report_dropdown")
+    def get_none(self, driver):
+        return WebMisc().wait_element(driver, self.none, "none")
+    def get_label(self, driver):
+        return WebMisc().wait_element(driver, self.label, "label")
+    def get_yes_option(self, driver):
+        return WebMisc().clickable_element(driver, self.yes_option, "yes_option")
+    def  get_no_option(self, driver):
+        return WebMisc().clickable_element(driver, self.no_option, "no_option")
     def get_pole_number(self, driver):
         return WebMisc().wait_element(driver, self.polenumber, "polenumber")
     def get_dropdown_value(self, driver):
         return WebMisc().wait_element(driver, self.dropdownvalue, "dropdownvalue")
 
     def get_dropdown_value_flickering(self, driver):
-        return WebMisc().wait_element(driver, self.dropdownvalue, "flickeringvalue")
+        return WebMisc().wait_element(driver, self.flickeringvalue, "flickeringvalue")
+
+    def get_value_streetlightisnot(self, driver):
+        return WebMisc().wait_element(driver, self.streetlightisnot, "streetlightisnot")
 
     def get_dropdown(self, driver):
         return WebMisc().wait_element(driver, self.dropdown, "dropdown")
@@ -66,32 +105,10 @@ class ReportOutagePage:
         return WebMisc().wait_element(driver, self.unplanned, "unplanned")
     def get_last_name(self, driver):
         return WebMisc().wait_element(driver, self.lastname, "lastname")
-    def get_submit(self, driver):
-        return WebMisc().wait_element(driver, self.submit, "submit")
+
     def get_reference_number(self, driver):
         return WebMisc().wait_element(driver, self.reference_number, "reference_number")
-    upload_button = "//i[@class = 'fa fa-plus browse-upload']"
-    upload_element = "//input[@id = 'file-upload-input-01']"
-    landmark_radio = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div[1]/div[4]/div[1]/div[1]/div/label/span[2]/strong"
-    landmark_text = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[4]/div[1]/div[2]/textarea"
-    first_name = "//input[@placeholder= 'First Name']"
-    middle_name = "//input[@placeholder= 'Middle Name']"
-    last_name = "//input[@placeholder= 'Last Name']"
-    mobile_number = "//input[@placeholder= '+63xxxxxxxxxx']"
-    landline = "//input[@placeholder= '+63(area code)xxxxxxx']"
-    email = "//input[@placeholder= 'Email']"
-    sms_checkbox = "//span[contains(text(), 'SMS')]"
-    email_checkbox = "//span[contains(text(), 'Email')]"
-    terms_checkbox = "//span[contains(text(), 'I have read and agree to the Meralco Online')]"
-    submit = "//button[contains(text(), 'Submit')]"
-    case_number = "//span[@class = 'text-orange mov-text_weight-bold']"
-    existing_sin_report = "//li[contains(text(), 'A report has already been made for this Service ID Number.')]"
-    province_metro_manila = "//option[@label= 'METRO MANILA']"
-    city_pasig = "//option[@label= 'PASIG CITY']"
-    barangay_bagong_ilog ="//option[@label= 'BAGONG ILOG']"
-    subdivision_kawilihan = "//option[@label= 'KAWILIHAN VILL']"
-    street_kabutihan = "//option[@label= 'KALAYAAN']"
-    street_no = "//input[@placeholder= 'Enter House/Unit/Floor/Building Number here*']"
+
 
     def get_report_outage_text(self, driver):
         return WebMisc().wait_element(driver, self.report_outage_text, "report_outage_text")

@@ -1,0 +1,62 @@
+2022-10-26 10:43:24,029 - INFO - setup : Browser Launched!
+2022-10-26 10:43:35,023 - INFO - <module> : Go to Internal Map 
+2022-10-26 10:43:35,023 - INFO - <module> : Go to Internal Map 
+2022-10-26 10:43:35,023 - INFO - <module> : Go to Internal Map 
+2022-10-26 10:43:35,023 - INFO - <module> : Go to Internal Map 
+2022-10-26 10:43:37,405 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-26 10:43:37,405 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-26 10:43:37,405 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-26 10:43:37,405 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-10-26 10:43:40,364 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-26 10:43:40,364 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-26 10:43:40,364 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-26 10:43:40,364 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-10-26 10:43:40,449 - INFO - <module> : Clicked
+2022-10-26 10:43:40,449 - INFO - <module> : Clicked
+2022-10-26 10:43:40,449 - INFO - <module> : Clicked
+2022-10-26 10:43:40,449 - INFO - <module> : Clicked
+2022-10-26 10:43:41,561 - INFO - <module> : input: Mecopass@@!!129
+2022-10-26 10:43:41,561 - INFO - <module> : input: Mecopass@@!!129
+2022-10-26 10:43:41,561 - INFO - <module> : input: Mecopass@@!!129
+2022-10-26 10:43:41,561 - INFO - <module> : input: Mecopass@@!!129
+2022-10-26 10:43:42,176 - INFO - <module> : Clicked
+2022-10-26 10:43:42,176 - INFO - <module> : Clicked
+2022-10-26 10:43:42,176 - INFO - <module> : Clicked
+2022-10-26 10:43:42,176 - INFO - <module> : Clicked
+2022-10-26 10:43:42,793 - INFO - <module> : Clicked
+2022-10-26 10:43:42,793 - INFO - <module> : Clicked
+2022-10-26 10:43:42,793 - INFO - <module> : Clicked
+2022-10-26 10:43:42,793 - INFO - <module> : Clicked
+2022-10-26 10:44:11,473 - INFO - <module> : Clicked
+2022-10-26 10:44:11,473 - INFO - <module> : Clicked
+2022-10-26 10:44:11,473 - INFO - <module> : Clicked
+2022-10-26 10:44:11,473 - INFO - <module> : Clicked
+2022-10-26 10:44:19,043 - INFO - <module> : Open Menu -> Map Displays -> tick weather
+2022-10-26 10:44:19,043 - INFO - <module> : Open Menu -> Map Displays -> tick weather
+2022-10-26 10:44:19,043 - INFO - <module> : Open Menu -> Map Displays -> tick weather
+2022-10-26 10:44:19,043 - INFO - <module> : Open Menu -> Map Displays -> tick weather
+2022-10-26 10:44:19,190 - INFO - <module> :  clicked
+2022-10-26 10:44:19,190 - INFO - <module> :  clicked
+2022-10-26 10:44:19,190 - INFO - <module> :  clicked
+2022-10-26 10:44:19,190 - INFO - <module> :  clicked
+2022-10-26 10:44:19,282 - INFO - <module> : Map Displays clicked
+2022-10-26 10:44:19,282 - INFO - <module> : Map Displays clicked
+2022-10-26 10:44:19,282 - INFO - <module> : Map Displays clicked
+2022-10-26 10:44:19,282 - INFO - <module> : Map Displays clicked
+2022-10-26 10:44:20,642 - INFO - <module> : tick weather icon to be displayed according to the scenario
+2022-10-26 10:44:20,642 - INFO - <module> : tick weather icon to be displayed according to the scenario
+2022-10-26 10:44:20,642 - INFO - <module> : tick weather icon to be displayed according to the scenario
+2022-10-26 10:44:20,642 - INFO - <module> : tick weather icon to be displayed according to the scenario
+2022-10-26 10:44:20,772 - INFO - <module> :  clicked
+2022-10-26 10:44:20,772 - INFO - <module> :  clicked
+2022-10-26 10:44:20,772 - INFO - <module> :  clicked
+2022-10-26 10:44:20,772 - INFO - <module> :  clicked
+2022-10-26 10:44:23,215 - INFO - <module> : OK clicked
+2022-10-26 10:44:23,215 - INFO - <module> : OK clicked
+2022-10-26 10:44:23,215 - INFO - <module> : OK clicked
+2022-10-26 10:44:23,215 - INFO - <module> : OK clicked
+2022-10-26 10:44:26,725 - INFO - <module> : Adjust zoom level according to scenario
+2022-10-26 10:44:26,725 - INFO - <module> : Adjust zoom level according to scenario
+2022-10-26 10:44:26,725 - INFO - <module> : Adjust zoom level according to scenario
+2022-10-26 10:44:26,725 - INFO - <module> : Adjust zoom level according to scenario
+2022-10-26 10:44:28,282 - INFO - setup : Close Browser
