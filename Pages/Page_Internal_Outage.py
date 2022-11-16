@@ -74,7 +74,10 @@ class InternalOutagePage:
     vital_pin = "//*[@id='map-canvas']/div/div/div[2]/div[2]/div/div[3]/div[7]/img"
     mapview_internal = "//*[@id='map-canvas-container']/div[9]"
     sattelite = "//*[@id='map-canvas-container']/div[10]/div[2]/div[2]/img"
+    scheduled_intrp = "//*[@id='map-canvas']/div/div/div[2]/div[2]/div/div[3]/div[4]/div"
 
+    def get_scheduled_interp(self, driver):
+        return WebMisc().clickable_element(driver, self.scheduled_intrp, "scheduled_intrp")
     def get_sattelite(self, driver):
         return WebMisc().clickable_element(driver, self.sattelite, "sattelite")
     def get_map_view_internal(self, driver):

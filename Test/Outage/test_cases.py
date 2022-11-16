@@ -2182,6 +2182,43 @@ def TC078(driver, ts_id, email, password):
     fc.modal_click(driver, internaloutage.get_sattelite(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
 
+def TC101(driver, ts_id, email, password):
+    test_case = "TC101"
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, internal_outage)
+    fc.input_text(cxe_login.get_email(driver), email)
+    fc.click(cxe_login.get_next(driver))
+    fc.input_text(cxe_login.get_password(driver), password)
+    fc.click(cxe_login.get_sign_in(driver))
+    fc.click(cxe_login.get_sms(driver))
+    time.sleep(25)
+    fc.click(cxe_login.get_stay_sign_no(driver))
+    internaloutage = InternalOutagePage()
+   # internaloutage.get_switch_frame(driver)
+    time.sleep(4)
+    fc.click(internaloutage.get_scheduled_interp(driver))
+    #fc.coordinates_click(driver, 150, 150)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+def TC102(driver, ts_id, email, password):
+    test_case = "TC102"
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, internal_outage)
+    fc.input_text(cxe_login.get_email(driver), email)
+    fc.click(cxe_login.get_next(driver))
+    fc.input_text(cxe_login.get_password(driver), password)
+    fc.click(cxe_login.get_sign_in(driver))
+    fc.click(cxe_login.get_sms(driver))
+    time.sleep(25)
+    fc.click(cxe_login.get_stay_sign_no(driver))
+    internaloutage = InternalOutagePage()
+   # internaloutage.get_switch_frame(driver)
+    time.sleep(4)
+    fc.click(internaloutage.get_scheduled_interp(driver))
+    fc.coordinates_click(driver, 150, 150)
+
+
+
 
 
 

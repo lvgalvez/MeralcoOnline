@@ -87,6 +87,14 @@ class TestOutage:
         TC061a(self.driver, test_scenario, Outage['outage_email'], Outage['outage_password'], "clouds", 13)
         Functions().tag_status(self.module, test_scenario, "Passed")
 
+    @pytest.mark.tags("TS042")
+    def test_ts042(self):
+        test_scenario = "TS042"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC101(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'])
+        TC102(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
     @pytest.mark.tags("TS031")
     def test_ts031(self):
         test_scenario = "TS031"
