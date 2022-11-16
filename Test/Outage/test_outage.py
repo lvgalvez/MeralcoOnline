@@ -8,6 +8,7 @@ from Utilities.Functions import Functions
 @pytest.mark.usefixtures("setup")
 class TestOutage:
     module = "Outage"
+    function = Functions()
 
     @pytest.mark.tags("TS016")
     def test_ts016(self):
@@ -123,20 +124,14 @@ class TestOutage:
         TC061b(self.driver, test_scenario, "clouds", 16)
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS050")
-    def test_ts050(self):
-        test_scenario = "TS050"
-        Functions().create_document(self.driver, self.module, test_scenario)
-        TC124(self.driver, test_scenario)
-        TC125(self.driver, test_scenario)
-        Functions().tag_status(self.module, test_scenario, "Passed")
-
     @pytest.mark.tags("TS035")
     def test_ts035(self):
+        print("Start of Exceution")
         test_scenario = "TS035"
         Functions().create_document(self.driver, self.module, test_scenario)
-        TC062(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'])
-        #TC063(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'])
+        #TC062(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'])
+        TC063(self.driver, test_scenario)
+        TC065(self.driver, test_scenario)
         Functions().tag_status(self.module, test_scenario, "Passed")
 
     @pytest.mark.tags("TS036")
@@ -192,6 +187,14 @@ class TestOutage:
         Functions().create_document(self.driver, self.module, test_scenario)
         #TC116(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'], Outage['outage_internal_sin']) VALIDATED
         TC117(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'], Outage['outage_internal_sin']) #toBeContinue
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS050")
+    def test_ts050(self):
+        test_scenario = "TS050"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC124(self.driver, test_scenario)
+        TC125(self.driver, test_scenario)
         Functions().tag_status(self.module, test_scenario, "Passed")
 
     @pytest.mark.tags("TS051")

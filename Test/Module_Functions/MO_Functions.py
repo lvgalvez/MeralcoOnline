@@ -5,6 +5,8 @@ from Pages.Page_Login import LoginPage
 from Pages.Page_Report_Outage import ReportOutagePage
 from Utilities.Functions import Functions
 from Utilities.Utils import Utilities
+from Utilities.Data import *
+from Pages.Page_CXE_Login import CXELoginPage
 import time
 
 fc = Functions()
@@ -240,7 +242,15 @@ def Tick_Location_Map_User(driver):
     fc.page_down(driver, 1)
 
 
-
+def Login_CXE(driver):
+    cxe_login = CXELoginPage()
+    fc.input_text(cxe_login.get_email(driver), Outage['cxe_email'])
+    fc.click(cxe_login.get_next(driver))
+    fc.input_text(cxe_login.get_password(driver), Outage['cxe_password'])
+    fc.click(cxe_login.get_sign_in(driver))
+    fc.click(cxe_login.get_sms(driver))
+    time.sleep(25)
+    fc.click(cxe_login.get_stay_sign_no(driver))
 
 
 
