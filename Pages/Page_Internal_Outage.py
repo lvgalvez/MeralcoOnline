@@ -74,6 +74,8 @@ class InternalOutagePage:
     vital_pin = "//*[@id='map-canvas']/div/div/div[2]/div[2]/div/div[3]/div[7]/img"
     mapview_internal = "//*[@id='map-canvas-container']/div[9]"
     sattelite = "//*[@id='map-canvas-container']/div[10]/div[2]/div[2]/img"
+    FAQ_header = "//li[@label='FAQ']"
+    QRG_header = "//li[@label='QRG']"
 
     def get_sattelite(self, driver):
         return WebMisc().clickable_element(driver, self.sattelite, "sattelite")
@@ -247,5 +249,11 @@ class InternalOutagePage:
 
     def get_not_affected_legend(self, driver):
         return WebMisc().clickable_element(driver, self.not_affected_legend, "not_affected_legend")
+
+    def get_faq_header(self, driver):
+        return WebMisc().clickable_element(driver, self.FAQ_header, "FAQ_header")
+
+    def get_qrg_header(self, driver):
+        return WebMisc().clickable_element(driver, self.QRG_header, "QRG_header")
 
 
