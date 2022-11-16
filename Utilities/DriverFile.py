@@ -11,14 +11,14 @@ from Utilities.Config import *
 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
 chromeOption = Options()
 chromeOption.add_argument(f'user-agent={user_agent}')
-chromeOption.add_argument("--disable-notifications")
-
+options = webdriver.ChromeOptions()
+options.add_experimental_option("detach", True)
 class Drivers:
 
     def getDriver( browser):
         if browser == "Chrome":
             #driver = uc.Chrome(service=ChromeService(ChromeDriverManager().install()))
-            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chromeOption)
+            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
         elif browser == "Edge":
             driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
         elif browser == "Firefox":

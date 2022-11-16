@@ -14,9 +14,9 @@ def setup(request):
     log.info("Browser Launched!")
 
     browser = request.config.getoption('--browser')
-    tags = request.config.getoption('--tags')
+    #tags = request.config.getoption('--tags')
 
-    request.cls.tags = tags
+    #request.cls.tags = tags
 
     if browser.lower() == "chrome":
         driver = Drivers.getDriver("Chrome")
