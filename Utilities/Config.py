@@ -15,4 +15,4 @@ root_dir = Path(__file__).parent
 # screenshot folder
 stamp = time.strftime("%Y%m%d_%H%M%S")
 
-screenshot_folder = f"{root_dir.parent}\\Screenshots\\"
+screenshot_folder = f"{root_dir.parent}/Screenshots/"

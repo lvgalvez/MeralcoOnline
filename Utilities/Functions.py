@@ -16,8 +16,8 @@ log = Utilities().getlogger()
 class Functions:
 
     def bookmark(self, module, ts_id, tc_id, step_num):
-        path = screenshot_folder + f'{module}\\{ts_id}'
-        document = Document(path + f'\\{ts_id}.docx')
+        path = screenshot_folder + f'{module}/{ts_id}'
+        document = Document(path + f'/{ts_id}.docx')
         tc_desc = self.get_tc(module, tc_id, step_num)[0]
         tc_expected = self.get_tc(module, tc_id, step_num)[1]
 
@@ -46,28 +46,28 @@ class Functions:
                 data_row[0].text = tc_expected
                 log.info(tc_desc)
 
-        document.save(path + f'\\{ts_id}.docx')  # update document
+        document.save(path + f'/{ts_id}.docx')  # update document
 
     def screen_capture(self, driver, module, ts_id, tc_id, step_num):
         time.sleep(2)
-        path = screenshot_folder + f'{module}\\{ts_id}'
-        document = Document(path + f'\\{ts_id}.docx')
+        path = screenshot_folder + f'{module}/{ts_id}'
+        document = Document(path + f'/{ts_id}.docx')
         driver.save_screenshot(path + f'/{ts_id}_{tc_id} {step_num}.png')
         p = document.add_paragraph()
         r = p.add_run()
         r.add_picture(path + f'/{ts_id}_{tc_id} {step_num}.png', width=Inches(5.8))
 
-        document.save(path + f'\\{ts_id}.docx')  # update document
+        document.save(path + f'/{ts_id}.docx')  # update document
 
     def tag_status(self, module, ts_id, status):
-        path = screenshot_folder + f'{module}\\{ts_id}'
-        document = Document(path + f'\\{ts_id}.docx')
+        path = screenshot_folder + f'{module}/{ts_id}'
+        document = Document(path + f'/{ts_id}.docx')
         document.add_page_break()
         document.add_paragraph(status)
-        document.save(path + f'\\{ts_id}.docx')
+        document.save(path + f'/{ts_id}.docx')
 
     def create_document(self, driver, module, ts_id):
-        path = screenshot_folder + f'{module}\\{ts_id}'
+        path = screenshot_folder + f'{module}/{ts_id}'
         document = docx.Document()
 
         is_exist = os.path.exists(path)
@@ -78,7 +78,7 @@ class Functions:
         row = table.rows[0].cells
         row[0].text = ts_id + " - " + self.get_ts(module, ts_id)
         document.add_paragraph()
-        document.save(path + f'\\{ts_id}.docx')
+        document.save(path + f'/{ts_id}.docx')
 
     def get_ts(self, module, ts_id):
         workbook = openpyxl.load_workbook(root_dir.parent/f'Config/{module}.xlsx')
@@ -132,6 +132,13 @@ class Functions:
         driver.switch_to.window(driver.window_handles[1])
         driver.get(url)
         log.info("Opened: " + url)
+        curr = driver.current_window_handle
+        for handle in driver.window_handles:
+            driver.switch_to.window(handle)
+            if handle != curr:
+                driver.close()
+
+    def close_tab(self, driver):
         curr = driver.current_window_handle
         for handle in driver.window_handles:
             driver.switch_to.window(handle)

@@ -16,6 +16,7 @@ login = LoginPage()
 external_outage = ExternalOutagePage()
 report_outage = ReportOutagePage()
 internal_outage = InternalOutagePage()
+cxe_login = CXELoginPage()
 
 
 def Log_In_Meralco_Online(driver, email, password):
@@ -251,6 +252,16 @@ def Login_CXE(driver):
     fc.click(cxe_login.get_sms(driver))
     time.sleep(25)
     fc.click(cxe_login.get_stay_sign_no(driver))
+
+def Login_Internal_Outage(driver, email, password):
+    fc.input_text(cxe_login.get_email(driver), email)
+    fc.click(cxe_login.get_next(driver))
+    fc.input_text(cxe_login.get_password(driver), password)
+    fc.click(cxe_login.get_sign_in(driver))
+    fc.click(cxe_login.get_sms(driver))
+    time.sleep(25)
+    fc.click(cxe_login.get_stay_sign_no(driver))
+    time.sleep(12)
 
 
 

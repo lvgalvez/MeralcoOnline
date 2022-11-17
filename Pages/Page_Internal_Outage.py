@@ -48,7 +48,7 @@ class InternalOutagePage:
     meralcoicon = "/html/body/div[2]/div[10]/div[4]/div/div[2]/div/img"
     businessoutage_modal = "//*[@id='alertModal']/div/div/i"
     menu = "/html/body/div[3]/div[2]/md-list-item/div/button"
-    map_display = "//*[@id='accordion-menulistTEST']/div/div[2]/div[1]/button"
+    map_display = "//img[@src= '/resources/images/map-display-hover.png']"
     weather = "//*[@id='headingOne']/h4/input"
     internal_modal = "//*[@id='weatherModal']/div/div/div[2]/button"
     meralco_header = "//*[@id='mainAppBody']/div[1]/div/div[1]/img"
@@ -77,6 +77,26 @@ class InternalOutagePage:
     scheduled_intrp = "//*[@id='map-canvas']/div/div/div[2]/div[2]/div/div[3]/div[4]/div"
     FAQ_header = "//li[@label='FAQ']"
     QRG_header = "//li[@label='QRG']"
+    hamburger_menu = "//span[contains(text(), 'menu')]"
+    outage_pins_filter = "//i[contains(text(), 'filter_list') and @id = 'ongoingFilterBtn']"
+    scheduled_interruption = "//span[contains(text(), 'Scheduled Interruptions')]"
+    incident_type = "//md-radio-button[@aria-label= 'incident_type']"
+    date_restoration = "//md-radio-button[@aria-label= 'date_restore']"
+    restoration_today = "//div[14]/div[2]/div/div[2]/div/span[@class= 'flatpickr-day today']"
+    affected_facility_type = "//md-radio-button[@value= 'facility_type']"
+    outage_load_shedding = "//span[contains(text(), 'Planned Outage- Load Shedding')]"
+    type_no_device = "//span[contains(text(), 'No Device')]"
+    menu_affected_areas = "//div[4]/input[@data-ng-model = 'layerItemInner.show']"
+    by_count = "//md-radio-button[@value = 'count']"
+    by_percentage = "//md-radio-button[@value = 'percentage']"
+    select_cluster = "//img[1][@src = '/resources/images/cluster/red1.png']"
+    affected_areas = "//button[contains(text(), 'Affected Areas')]"
+    get_directions = "//button[contains(text(), 'Get Directions')]"
+    incident_status_history = "//button[contains(text(), 'Incident Status History')]"
+    interruption_back = "//button[contains(text(), 'Back')]"
+    calendar_show = "//i[contains(text(), 'calendar_view_day')]"
+    alert_modal = "//*[@id='alertModal']/div/div/div[2]/button"
+
 
     def get_scheduled_interp(self, driver):
         return WebMisc().clickable_element(driver, self.scheduled_intrp, "scheduled_intrp")
@@ -259,4 +279,59 @@ class InternalOutagePage:
     def get_qrg_header(self, driver):
         return WebMisc().clickable_element(driver, self.QRG_header, "QRG_header")
 
+    def get_hamburger_menu(self, driver):
+        return WebMisc().clickable_element(driver, self.hamburger_menu, "hamburger_menu")
 
+    def get_outage_pins_filter(self, driver):
+        return WebMisc().clickable_element(driver, self.outage_pins_filter, "outage_pins_filter")
+
+    def get_scheduled_interruption(self, driver):
+        return WebMisc().clickable_element(driver, self.scheduled_interruption, "scheduled_interruption")
+
+    def get_incident_type(self, driver):
+        return WebMisc().clickable_element(driver, self.incident_type, "incident_type")
+
+    def get_date_restoration(self, driver):
+        return WebMisc().clickable_element(driver, self.date_restoration, "date_restoration")
+
+    def get_affected_facility_type(self, driver):
+        return WebMisc().clickable_element(driver, self.affected_facility_type, "affected_facility_type")
+
+    def get_outage_load_shedding(self, driver):
+        return WebMisc().clickable_element(driver, self.outage_load_shedding, "outage_load_shedding")
+
+    def get_restoration_today(self, driver):
+        return WebMisc().clickable_element(driver, self.restoration_today, "restoration_today")
+
+    def get_type_no_device(self, driver):
+        return WebMisc().clickable_element(driver, self.type_no_device, "type_no_device")
+
+    def get_menu_affected_areas(self, driver):
+        return WebMisc().clickable_element(driver, self.menu_affected_areas, "menu_affected_areas")
+
+    def get_by_percentage(self, driver):
+        return WebMisc().clickable_element(driver, self.by_percentage, "by_percentage")
+
+    def get_by_count(self, driver):
+        return WebMisc().clickable_element(driver, self.by_count, "by_count")
+
+    def get_select_cluster(self, driver):
+        return WebMisc().clickable_element(driver, self.select_cluster, "select_cluster")
+
+    def get_affected_areas(self, driver):
+        return WebMisc().clickable_element(driver, self.affected_areas, "affected_areas")
+
+    def get_get_directions(self, driver):
+        return WebMisc().clickable_element(driver, self.get_directions, "get_directions")
+
+    def get_incident_status_history(self, driver):
+        return WebMisc().clickable_element(driver, self.incident_status_history, "incident_status_history")
+
+    def get_interruption_back(self, driver):
+        return WebMisc().clickable_element(driver, self.interruption_back, "interruption_back")
+
+    def get_calendar_show(self, driver):
+        return WebMisc().clickable_element(driver, self.calendar_show, "calendar_show")
+
+    def get_alert_modal(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.alert_modal, "alert_modal")
