@@ -93,7 +93,8 @@ class TestOutage:
         test_scenario = "TS042"
         Functions().create_document(self.driver, self.module, test_scenario)
         TC101(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'])
-        TC102(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'])
+        TC102(self.driver, test_scenario)
+        TC103(self.driver, test_scenario)
         Functions().tag_status(self.module, test_scenario, "Passed")
 
     @pytest.mark.tags("TS031")
