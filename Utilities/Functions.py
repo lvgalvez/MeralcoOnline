@@ -209,3 +209,6 @@ class Functions:
     def verify_text(self, element, text):
         assert element.text == text
         log.info(element.text + " exists")
+
+    def switch_window_tab(self,driver,tab):
+        driver.switch_to.window(tab)

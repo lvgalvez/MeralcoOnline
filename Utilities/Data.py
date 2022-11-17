@@ -152,6 +152,8 @@ Outage = {
     'cxe_password': 'Mecopass@@!!121',
     'outage_sin': '461098700101',
     'reference_number': '22102250650',
-    'lastname': 'outage'
+    'lastname': 'outage',
+    'auto-search-data': 'Pasig',
+    'outage_area_sector': 'Plaridel Sector'
 }
 

@@ -1,9 +1,11 @@
+from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from Utilities.Config import wait_time
 from Utilities.WebMisc import WebMisc
+from Utilities.Data import *
 
 
 class InternalOutagePage:
@@ -47,7 +49,8 @@ class InternalOutagePage:
     address = "//*[@id='radio_1']/div[1]/div[1]"
     meralcoicon = "/html/body/div[2]/div[10]/div[4]/div/div[2]/div/img"
     businessoutage_modal = "//*[@id='alertModal']/div/div/i"
-    menu = "/html/body/div[3]/div[2]/md-list-item/div/button"
+    #menu = "/html/body/div[3]/div[2]/md-list-item/div/button"
+    menu = ".md-secondary-container b .material-icons"
     map_display = "//*[@id='accordion-menulistTEST']/div/div[2]/div[1]/button"
     weather = "//*[@id='headingOne']/h4/input"
     internal_modal = "//*[@id='weatherModal']/div/div/div[2]/button"
@@ -62,7 +65,7 @@ class InternalOutagePage:
     clear = "//*[@id='searchBoxArea']/div/div[2]/md-autocomplete/md-autocomplete-wrap/button"
     outage_area = "//*[@id='accordion-menulistTEST']/div/div[1]/div[1]/button"
     sector = "//*[@id='outageinfo']/div/div[1]/div/div/button/i"
-    sector_value = "//a[contains(text(), 'Plaridel Sector')]"
+    sector_value = "//a[contains(text()," + Outage['outage_area_sector'] +")]"
     area_level = "//*[@id='outageinfo']/div/div[2]/div/div/button/i"
     area_value = "//a[contains(text(), 'City/Municipality')]"
     political_boundary = "//*[@id='mapLayerDragHandler']/i"
@@ -76,6 +79,10 @@ class InternalOutagePage:
     sattelite = "//*[@id='map-canvas-container']/div[10]/div[2]/div[2]/img"
     FAQ_header = "//li[@label='FAQ']"
     QRG_header = "//li[@label='QRG']"
+    #quick_links = "div div button[href='#collapse5']"
+    quick_links = "//button[@href='#collapse5']"
+    search_input = ".txtboxSearch1"
+    bfp_link = "div[id='quickLinks'] md-list-item a[href='http://bfp.gov.ph/']"
 
     def get_sattelite(self, driver):
         return WebMisc().clickable_element(driver, self.sattelite, "sattelite")
@@ -132,7 +139,9 @@ class InternalOutagePage:
     def get_map_display(self, driver):
         return WebMisc().clickable_element(driver, self.map_display, "map_display")
     def get_menu(self, driver):
-        return WebMisc().clickable_element(driver, self.menu, "menu")
+        #return WebMisc().clickable_element(driver, self.menu, "menu")
+        #return WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, self.menu))).click()
+        return driver.find_element(By.CSS_SELECTOR, self.menu)
     def get_meralco_icon(self, driver):
         return WebMisc().wait_element(driver, self.meralcoicon, "meralcoicon")
     def get_address(self, driver):
@@ -255,5 +264,21 @@ class InternalOutagePage:
 
     def get_qrg_header(self, driver):
         return WebMisc().clickable_element(driver, self.QRG_header, "QRG_header")
+
+    def get_quick_links(self, driver):
+        #return WebMisc().clickable_element(driver, self.quick_links, "quick_links")
+        print("Quick Links")
+        return driver.find_element(By.XPATH,self.quick_links).click()
+
+    def enter_search(self,driver,searchData):
+        return driver.find_element(By.CSS_SELECTOR,self.search_input).send_keys(searchData)
+
+    def get_auto_suggest(self,driver):
+        element = driver.find_element(By.CSS_SELECTOR, self.search_input)
+        element.send_keys(Keys.ARROW_DOWN)
+        element.send_keys(Keys.ENTER)
+
+    def get_bfp_link(self,driver):
+        return driver.find_element(By.CSS_SELECTOR, self.bfp_link)
 
 

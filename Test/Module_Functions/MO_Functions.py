@@ -251,6 +251,7 @@ def Login_CXE(driver):
     fc.click(cxe_login.get_sms(driver))
     time.sleep(25)
     fc.click(cxe_login.get_stay_sign_no(driver))
+    time.sleep(20)
 
 
 
