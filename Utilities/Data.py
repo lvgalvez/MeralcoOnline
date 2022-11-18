@@ -150,6 +150,8 @@ Outage = {
     'email': 'testautomationoutage@yopmail.com',
     'cxe_email': 'v-lvlgalvez@meralco.com.ph',
     'cxe_password': 'Mecopass@@!!121',
+    'cxe_email_2': 'v-agsealmoy@meralco.com.ph',
+    'cxe_password_2': 'Meco@@##00018',
     'outage_sin': '461098700101',
     'reference_number': '22102250650',
     'lastname': 'outage'

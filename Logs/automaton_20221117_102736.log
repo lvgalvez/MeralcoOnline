@@ -1,0 +1,42 @@
+2022-11-17 10:27:37,602 - INFO - setup : Browser Launched!
+2022-11-17 10:27:51,334 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruption -> tick Outage Pins
+2022-11-17 10:27:51,334 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruption -> tick Outage Pins
+2022-11-17 10:27:51,334 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruption -> tick Outage Pins
+2022-11-17 10:27:51,334 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruption -> tick Outage Pins
+2022-11-17 10:27:52,694 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-17 10:27:52,694 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-17 10:27:52,694 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-17 10:27:52,694 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-17 10:27:56,006 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-11-17 10:27:56,006 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-11-17 10:27:56,006 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-11-17 10:27:56,006 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-11-17 10:27:56,068 - INFO - <module> : Clicked
+2022-11-17 10:27:56,068 - INFO - <module> : Clicked
+2022-11-17 10:27:56,068 - INFO - <module> : Clicked
+2022-11-17 10:27:56,068 - INFO - <module> : Clicked
+2022-11-17 10:27:57,698 - INFO - <module> : input: Mecopass@@!!121
+2022-11-17 10:27:57,698 - INFO - <module> : input: Mecopass@@!!121
+2022-11-17 10:27:57,698 - INFO - <module> : input: Mecopass@@!!121
+2022-11-17 10:27:57,698 - INFO - <module> : input: Mecopass@@!!121
+2022-11-17 10:27:58,125 - INFO - <module> : Clicked
+2022-11-17 10:27:58,125 - INFO - <module> : Clicked
+2022-11-17 10:27:58,125 - INFO - <module> : Clicked
+2022-11-17 10:27:58,125 - INFO - <module> : Clicked
+2022-11-17 10:27:58,785 - INFO - <module> : Clicked
+2022-11-17 10:27:58,785 - INFO - <module> : Clicked
+2022-11-17 10:27:58,785 - INFO - <module> : Clicked
+2022-11-17 10:27:58,785 - INFO - <module> : Clicked
+2022-11-17 10:28:27,023 - INFO - <module> : Clicked
+2022-11-17 10:28:27,023 - INFO - <module> : Clicked
+2022-11-17 10:28:27,023 - INFO - <module> : Clicked
+2022-11-17 10:28:27,023 - INFO - <module> : Clicked
+2022-11-17 10:28:59,104 - INFO - <module> : Clicked
+2022-11-17 10:28:59,104 - INFO - <module> : Clicked
+2022-11-17 10:28:59,104 - INFO - <module> : Clicked
+2022-11-17 10:28:59,104 - INFO - <module> : Clicked
+2022-11-17 10:29:31,228 - ERROR - <module> : Cannot Locate: map_display
+2022-11-17 10:29:31,228 - ERROR - <module> : Cannot Locate: map_display
+2022-11-17 10:29:31,228 - ERROR - <module> : Cannot Locate: map_display
+2022-11-17 10:29:31,228 - ERROR - <module> : Cannot Locate: map_display
+2022-11-17 10:29:31,363 - INFO - setup : Close Browser

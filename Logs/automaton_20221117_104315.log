@@ -1,0 +1,46 @@
+2022-11-17 10:43:16,125 - INFO - setup : Browser Launched!
+2022-11-17 10:43:23,525 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruption -> tick Outage Pins
+2022-11-17 10:43:23,525 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruption -> tick Outage Pins
+2022-11-17 10:43:23,525 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruption -> tick Outage Pins
+2022-11-17 10:43:23,525 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruption -> tick Outage Pins
+2022-11-17 10:43:24,845 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-17 10:43:24,845 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-17 10:43:24,845 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-17 10:43:24,845 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-17 10:43:26,586 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-11-17 10:43:26,586 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-11-17 10:43:26,586 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-11-17 10:43:26,586 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-11-17 10:43:26,634 - INFO - <module> : Clicked
+2022-11-17 10:43:26,634 - INFO - <module> : Clicked
+2022-11-17 10:43:26,634 - INFO - <module> : Clicked
+2022-11-17 10:43:26,634 - INFO - <module> : Clicked
+2022-11-17 10:43:28,226 - INFO - <module> : input: Mecopass@@!!121
+2022-11-17 10:43:28,226 - INFO - <module> : input: Mecopass@@!!121
+2022-11-17 10:43:28,226 - INFO - <module> : input: Mecopass@@!!121
+2022-11-17 10:43:28,226 - INFO - <module> : input: Mecopass@@!!121
+2022-11-17 10:43:28,675 - INFO - <module> : Clicked
+2022-11-17 10:43:28,675 - INFO - <module> : Clicked
+2022-11-17 10:43:28,675 - INFO - <module> : Clicked
+2022-11-17 10:43:28,675 - INFO - <module> : Clicked
+2022-11-17 10:43:29,260 - INFO - <module> : Clicked
+2022-11-17 10:43:29,260 - INFO - <module> : Clicked
+2022-11-17 10:43:29,260 - INFO - <module> : Clicked
+2022-11-17 10:43:29,260 - INFO - <module> : Clicked
+2022-11-17 10:44:08,723 - INFO - <module> : Clicked
+2022-11-17 10:44:08,723 - INFO - <module> : Clicked
+2022-11-17 10:44:08,723 - INFO - <module> : Clicked
+2022-11-17 10:44:08,723 - INFO - <module> : Clicked
+2022-11-17 10:44:40,882 - INFO - <module> : Clicked
+2022-11-17 10:44:40,882 - INFO - <module> : Clicked
+2022-11-17 10:44:40,882 - INFO - <module> : Clicked
+2022-11-17 10:44:40,882 - INFO - <module> : Clicked
+2022-11-17 10:44:42,962 - INFO - <module> : Clicked
+2022-11-17 10:44:42,962 - INFO - <module> : Clicked
+2022-11-17 10:44:42,962 - INFO - <module> : Clicked
+2022-11-17 10:44:42,962 - INFO - <module> : Clicked
+2022-11-17 10:45:15,133 - ERROR - <module> : Cannot Locate: outage_pins_filter
+2022-11-17 10:45:15,133 - ERROR - <module> : Cannot Locate: outage_pins_filter
+2022-11-17 10:45:15,133 - ERROR - <module> : Cannot Locate: outage_pins_filter
+2022-11-17 10:45:15,133 - ERROR - <module> : Cannot Locate: outage_pins_filter
+2022-11-17 10:45:15,195 - INFO - setup : Close Browser
