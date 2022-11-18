@@ -1067,7 +1067,29 @@ def TC063(driver, ts_id):
 
 def TC064(driver, ts_id):
     test_case = "TC064"
+    homepage = CXEHomePage()
+    fc.new_tab(driver, internal_outage)
+
+    Login_CXE(driver)
+
     fc.bookmark(module, ts_id, test_case, "Step 1")
+    homepage.get_profile_options(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.click(homepage.click_switch_profile(driver))
+    element = homepage.switch_account(driver)
+    fc.modal_click(driver, element)
+
+    homepage.get_profile(driver)
+    time.sleep(3)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    homepage.get_profile_value(driver)
+    time.sleep(10)
+    homepage.get_profile_options(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
 
 def TC065(driver, ts_id):
     test_case = "TC065"
@@ -1154,9 +1176,11 @@ def TC069(driver, ts_id):
     time.sleep(10)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
     driver.close()
+    #fc.close_tab(driver)
     time.sleep(5)
 
     #COE Link
+    fc.switch_window_tab(driver, outageTab)
     fc.bookmark(module, ts_id, test_case, "Step 3")
     fc.modal_click(driver, outagePage.get_coe_link(driver))
     outagePage.get_coe_link(driver)

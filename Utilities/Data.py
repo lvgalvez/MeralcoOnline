@@ -160,6 +160,7 @@ Outage = {
     'search_loc_facility':'076094',
     'search_loc_incident_id': 'INC 19001841',
     'search_loc_case_id': '21102227891',
-    'search_loc_call_id': 'CALL 19002340'
+    'search_loc_call_id': 'CALL 19002340',
+    'switch_profile': 'w/ Meralco Online Account'
 }
 
