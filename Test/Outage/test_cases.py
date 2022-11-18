@@ -1275,7 +1275,7 @@ def TC078(driver, ts_id, email, password):
     fc.modal_click(driver, internaloutage.get_sattelite(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
 
-def TC085(driver, ts_id, email, password):
+def TC085(driver, ts_id):
     test_case = "TC085"
     fc.bookmark(module, ts_id, test_case, "Step 1")
     fc.new_tab(driver, internal_outage)
@@ -1293,10 +1293,14 @@ def TC085(driver, ts_id, email, password):
     fc.modal_click(driver, internaloutage.get_sector_value(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
-def TC086(driver, ts_id, email, password):
+    time.sleep(2)
+    fc.modal_click(driver, internaloutage.get_outage_area(driver))
+    internaloutage.close_burger_menu(driver)
+
+def TC086(driver, ts_id):
     test_case = "TC086"
     fc.bookmark(module, ts_id, test_case, "Step 1")
-    fc.new_tab(driver, internal_outage)
+
     internaloutage = InternalOutagePage()
    # internaloutage.get_switch_frame(driver)
     time.sleep(4)
@@ -1310,10 +1314,10 @@ def TC086(driver, ts_id, email, password):
     fc.modal_click(driver, internaloutage.get_area_value(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
-def TC087(driver, ts_id, email, password):
+def TC087(driver, ts_id):
     test_case = "TC087"
     fc.bookmark(module, ts_id, test_case, "Step 1")
-    fc.new_tab(driver, internal_outage)
+
     internaloutage = InternalOutagePage()
    # internaloutage.get_switch_frame(driver)
     time.sleep(4)
@@ -1464,6 +1468,83 @@ def TC100(driver, ts_id):
     time.sleep(10)
     fc.click(int_outage.get_affected_areas(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+def TC115(driver, ts_id):
+    test_case = "TC0115"
+    internalOutage = InternalOutagePage()
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, internal_outage)
+
+    Login_CXE(driver)
+
+
+
+    fc.modal_click(driver, internalOutage.get_menu(driver))
+    internalOutage.get_search_locations(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    internalOutage.search_by_sin(driver, Outage['search_loc_sin'])
+    time.sleep(5)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    internalOutage.get_search_locations(driver)
+    internalOutage.close_burger_menu(driver)
+
+def TC116(driver, ts_id):
+    test_case = "TC0116"
+    internaloutage = InternalOutagePage()
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.modal_click(driver, internaloutage.get_menu(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    internaloutage.get_search_locations(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    internaloutage.get_search_locations(driver)
+    internaloutage.close_burger_menu(driver)
+
+
+def TC117(driver, ts_id):
+    time.sleep(5)
+    test_case = "TC0117"
+    internalOutage = InternalOutagePage()
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.modal_click(driver, internalOutage.get_menu(driver))
+    internalOutage.get_search_locations(driver)
+    internalOutage.search_by_sin(driver, Outage['search_loc_sin'])
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    internalOutage.get_search_locations(driver)
+    internalOutage.close_burger_menu(driver)
+
+def TC118(driver, ts_id):
+    test_case = "TC0118"
+    internalOutage = InternalOutagePage()
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.modal_click(driver, internalOutage.get_menu(driver))
+    internalOutage.get_search_locations(driver)
+    fc.modal_click(internalOutage.search_select_services(driver))
+    fc.modal_click(internalOutage.get_search_service(driver,'Facility'))
+    internalOutage.search_by_facility(driver, Outage['search_loc_facility'])
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+def TC119(driver, ts_id):
+    test_case = "TC0118"
+    internalOutage = InternalOutagePage()
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.modal_click(internalOutage.search_select_services(driver))
+    fc.modal_click(internalOutage.get_search_service(driver, 'Incident ID'))
+
+
+
+
+
 
 
 
@@ -2256,64 +2337,6 @@ def TC122(driver, ts_id, email, password):
     fc.bookmark(module, ts_id, test_case, "Step 2")
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
-def TC116(driver, ts_id, email, password, SIN):
-    test_case = "TC116"
-    fc.bookmark(module, ts_id, test_case, "Step 1")
-    fc.new_tab(driver, internal_outage)
-    fc.input_text(cxe_login.get_email(driver), email)
-    fc.click(cxe_login.get_next(driver))
-    fc.input_text(cxe_login.get_password(driver), password)
-    fc.click(cxe_login.get_sign_in(driver))
-    fc.click(cxe_login.get_sms(driver))
-    time.sleep(25)
-    fc.click(cxe_login.get_stay_sign_no(driver))
-    internaloutage = InternalOutagePage()
-   # internaloutage.get_switch_frame(driver)
-    time.sleep(4)
-
-    fc.modal_click(driver, internaloutage.get_menu(driver))
-    fc.modal_click(driver, internaloutage.get_search(driver))
-    fc.modal_click(driver, internaloutage.get_facility(driver))
-    fc.modal_click(driver, internaloutage.get_facility_value(driver))
-    fc.input_text(internaloutage.get_SIN(driver), SIN)
-    fc.enter(internaloutage.get_SIN(driver))
-    time.sleep(3)
-    fc.modal_click(driver, internaloutage.get_clear(driver))
-    fc.input_text(internaloutage.get_SIN(driver), SIN)
-    time.sleep(7)
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
-
-def TC117(driver, ts_id, email, password, SIN):
-    test_case = "TC117"
-    fc.bookmark(module, ts_id, test_case, "Step 1")
-    fc.new_tab(driver, internal_outage)
-    fc.input_text(cxe_login.get_email(driver), email)
-    fc.click(cxe_login.get_next(driver))
-    fc.input_text(cxe_login.get_password(driver), password)
-    fc.click(cxe_login.get_sign_in(driver))
-    fc.click(cxe_login.get_sms(driver))
-    time.sleep(25)
-    fc.click(cxe_login.get_stay_sign_no(driver))
-    internaloutage = InternalOutagePage()
-   # internaloutage.get_switch_frame(driver)
-    time.sleep(4)
-
-    fc.modal_click(driver, internaloutage.get_menu(driver))
-    fc.modal_click(driver, internaloutage.get_search(driver))
-    fc.modal_click(driver, internaloutage.get_facility(driver))
-    fc.modal_click(driver, internaloutage.get_facility_value(driver))
-    fc.input_text(internaloutage.get_SIN(driver), SIN)
-    fc.enter(internaloutage.get_SIN(driver))
-    time.sleep(3)
-    fc.modal_click(driver, internaloutage.get_clear(driver))
-    fc.input_text(internaloutage.get_SIN(driver), SIN)
-    time.sleep(5)
-    fc.arrow_down(internaloutage.get_SIN(driver))
-    fc.enter(internaloutage.get_SIN(driver))
-    time.sleep(6)
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
-
-    #to be continued
 
 
 

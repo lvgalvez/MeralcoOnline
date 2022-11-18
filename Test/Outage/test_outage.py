@@ -141,10 +141,25 @@ class TestOutage:
     def test_ts040(self):
         test_scenario = "TS040"
         Functions().create_document(self.driver, self.module, test_scenario)
-        TC085(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'])
-        #TC086(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'])
-        #TC087(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'])
+        TC085(self.driver, test_scenario)
+        TC086(self.driver, test_scenario)
+        #TC087(self.driver, test_scenario)
         Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS045")
+    def test_ts045(self):
+        test_scenario = "TS045"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC115(self.driver, test_scenario)
+        #TC116(self.driver, test_scenario)
+        #TC117(self.driver, test_scenario)
+        TC118(self.driver, test_scenario)
+        #TC119(self.driver, test_scenario)
+
+        #TC116(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'], Outage['outage_internal_sin']) VALIDATED
+        #TC117(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'], Outage['outage_internal_sin']) #toBeContinue
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
 
     @pytest.mark.tags("TS046")
     def test_ts046(self):
@@ -198,13 +213,6 @@ class TestOutage:
         TC100(self.driver, test_scenario)
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS045")
-    def test_ts045(self):
-        test_scenario = "TS045"
-        Functions().create_document(self.driver, self.module, test_scenario)
-        #TC116(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'], Outage['outage_internal_sin']) VALIDATED
-        TC117(self.driver, test_scenario, Outage['cxe_email'], Outage['cxe_password'], Outage['outage_internal_sin']) #toBeContinue
-        Functions().tag_status(self.module, test_scenario, "Passed")
 
     @pytest.mark.tags("TS050")
     def test_ts050(self):

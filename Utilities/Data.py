@@ -154,6 +154,9 @@ Outage = {
     'reference_number': '22102250650',
     'lastname': 'outage',
     'auto-search-data': 'Pasig',
-    'outage_area_sector': 'Plaridel Sector'
+    'outage_area_sector': 'Plaridel Sector',
+    'outage_area_value': 'City/Municipality',
+    'search_loc_sin': '453786590101',
+    'search_loc_facility':'076094'
 }
 

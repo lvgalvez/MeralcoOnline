@@ -1,7 +1,10 @@
+import time
+
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import Select
 
 from Utilities.Config import wait_time
 from Utilities.WebMisc import WebMisc
@@ -64,9 +67,9 @@ class InternalOutagePage:
     clear = "//*[@id='searchBoxArea']/div/div[2]/md-autocomplete/md-autocomplete-wrap/button"
     outage_area = "//*[@id='accordion-menulistTEST']/div/div[1]/div[1]/button"
     sector = "//*[@id='outageinfo']/div/div[1]/div/div/button/i"
-    sector_value = "//a[contains(text()," + Outage['outage_area_sector'] +")]"
+    sector_value = "//a[contains(text(),'" + Outage['outage_area_sector'] + "')]"
     area_level = "//*[@id='outageinfo']/div/div[2]/div/div/button/i"
-    area_value = "//a[contains(text(), 'City/Municipality')]"
+    area_value = "//a[contains(text(), '" + Outage['outage_area_value'] + "')]"
     political_boundary = "//*[@id='mapLayerDragHandler']/i"
     sector_office = "//*[@id='layer_category_2']/div/ul/li[1]/div[2]/input"
     sector_pin = "//*[@id='map-canvas']/div/div/div[2]/div[2]/div/div[3]/div[4]/img"
@@ -101,6 +104,12 @@ class InternalOutagePage:
     interruption_back = "//button[contains(text(), 'Back')]"
     calendar_show = "//i[contains(text(), 'calendar_view_day')]"
     alert_modal = "//*[@id='alertModal']/div/div/div[2]/button"
+    burger_menu = "//img[@src='/resources/images/close-icon.png']"
+    search_locations = "//button[@href='#collapse3']"
+    search_loc_sin_no = "//input[@placeholder='Enter Service ID No.']"
+    search_service = "//*[@id='searchBoxArea']/div/div[1]/div/button/i"
+    search_loc_facility = "//input[@placeholder='Enter TLN / Circuit No.']"
+    search_loc_incident_id = "//input[@placeholder='Enter Incident ID']"
 
 
     def get_sattelite(self, driver):
@@ -356,3 +365,42 @@ class InternalOutagePage:
 
     def get_alert_modal(self, driver):
         return WebMisc().optional_clickable_element(driver, self.alert_modal, "alert_modal")
+
+    def close_burger_menu(self, driver):
+        return driver.find_element(By.XPATH, self.burger_menu).click()
+
+    def get_search_locations(self, driver):
+        return driver.find_element(By.XPATH, self.search_locations).click()
+
+    def search_by_sin(self, driver, sinNo):
+        element = driver.find_element(By.XPATH, self.search_loc_sin_no)
+        element.send_keys(sinNo)
+        time.sleep(5)
+        element.send_keys(Keys.ARROW_DOWN)
+        element.send_keys(Keys.ENTER)
+
+    def validate_search_by_sin(self, driver, sinNo):
+        element = driver.find_element(By.XPATH, self.search_loc_sin_no)
+        element.send_keys(sinNo)
+        return element
+
+    def search_select_services(self,driver):
+        return WebMisc().clickable_element(driver, self.search_service, "sector_value")
+
+    def get_search_service(self,driver,searchedBy):
+        search_value = "//a[contains(text(),'" + searchedBy + "')]"
+        return WebMisc().clickable_element(driver, search_value, "search_value")
+
+    def search_by_facility(self, driver, circuitNo):
+        element = driver.find_element(By.XPATH, self.search_loc_facility)
+        element.send_keys(circuitNo)
+        element.send_keys(Keys.ARROW_DOWN)
+        element.send_keys(Keys.ENTER)
+
+    def search_by_incident_id(self, driver, incidentID):
+        element = driver.find_element(By.XPATH, self.search_loc_incident_id)
+        element.send_keys(incidentID)
+        element.send_keys(Keys.ARROW_DOWN)
+        element.send_keys(Keys.ENTER)
+
+
