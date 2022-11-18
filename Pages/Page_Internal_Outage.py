@@ -84,7 +84,15 @@ class InternalOutagePage:
     #quick_links = "div div button[href='#collapse5']"
     quick_links = "//button[@href='#collapse5']"
     search_input = ".txtboxSearch1"
-    bfp_link = "div[id='quickLinks'] md-list-item a[href='http://bfp.gov.ph/']"
+    bfp_link = "//a[@href='http://bfp.gov.ph/']"
+    coe_link = "//a[@href='https://www.comelec.gov.ph/']"
+    doe_link = "//a[@href='https://www.doe.gov.ph/']"
+    dost_link = "//a[@href='http://www.dost.gov.ph/']"
+    ndrrmc_link = "//a[@href='http://www.ndrrmc.gov.ph/']"
+    ngcp_link = "//a[@href='https://www.ngcp.ph/']"
+    pagasa_link = "//a[@href='http://www.ndrrmc.gov.ph/']"
+    phivolcs_link = "//a[@href='https://www.phivolcs.dost.gov.ph/']"
+    pnp_link = "//a[@href='https://pnp.gov.ph/']"
     hamburger_menu = "//span[contains(text(), 'menu')]"
     outage_pins_filter = "//i[contains(text(), 'filter_list') and @id = 'ongoingFilterBtn']"
     scheduled_interruption = "//span[contains(text(), 'Scheduled Interruptions')]"
@@ -110,6 +118,8 @@ class InternalOutagePage:
     search_service = "//*[@id='searchBoxArea']/div/div[1]/div/button/i"
     search_loc_facility = "//input[@placeholder='Enter TLN / Circuit No.']"
     search_loc_incident_id = "//input[@placeholder='Enter Incident ID']"
+    search_loc_case_id = "//input[@placeholder='Enter 11-digit Case ID']"
+    search_loc_call_id = "//input[@placeholder='Enter Call ID']"
     concern_reported_chk = "//*/md-radio-group/li[1]/div/div[2]/input"
     concern_reported_filter = "//i[@data-target='#concernFilterCollapse']"
     concern_type = "//md-radio-button[@value='concern_type']"
@@ -120,7 +130,7 @@ class InternalOutagePage:
     text_vital_customers = "//div/div/span[contains(text(), 'Vital Customers')]"
     text_sector_office = "//div/div/span[contains(text(), 'Sector Office')]"
     main_affected_facility = "//div[last()]/div/b[@class='ng-binding']"
-
+    auto_suggested = "//*[@id='searchBoxArea']/div/div[2]/div[2]/div"
 
 
 
@@ -307,7 +317,6 @@ class InternalOutagePage:
 
     def get_quick_links(self, driver):
         #return WebMisc().clickable_element(driver, self.quick_links, "quick_links")
-        print("Quick Links")
         return driver.find_element(By.XPATH,self.quick_links).click()
 
     def enter_search(self,driver,searchData):
@@ -319,7 +328,32 @@ class InternalOutagePage:
         element.send_keys(Keys.ENTER)
 
     def get_bfp_link(self,driver):
-        return driver.find_element(By.CSS_SELECTOR, self.bfp_link)
+        return WebMisc().clickable_element(driver, self.bfp_link, "bfp_link")
+
+    def get_coe_link(self,driver):
+        #return WebMisc().clickable_element(driver, self.coe_link, "coe_link")
+        driver.find_element(By.XPATH, self.coe_link).click()
+
+    def get_doe_link(self,driver):
+        return WebMisc().clickable_element(driver, self.doe_link, "doe_link")
+
+    def get_dost_link(self, driver):
+        return WebMisc().clickable_element(driver, self.dost_link, "dost_link")
+
+    def get_ndrrmc_link(self,driver):
+        return WebMisc().clickable_element(driver, self.ndrrmc_link, "ndrrmc_link")
+
+    def get_ngcp_link(self, driver):
+        return WebMisc().clickable_element(driver, self.ngcp_link, "ngcp_link")
+
+    def get_pagasa_link(self, driver):
+        return WebMisc().clickable_element(driver, self.pagasa_link, "pagasa_link")
+
+    def get_phivolcs_link(self,driver):
+        return WebMisc().clickable_element(driver, self.phivolcs_link, "phivolcs_link")
+
+    def get_pnp_link(self, driver):
+        return WebMisc().clickable_element(driver, self.pnp_link, "pnp_link")
 
     def get_hamburger_menu(self, driver):
         return WebMisc().clickable_element(driver, self.hamburger_menu, "hamburger_menu")
@@ -387,9 +421,8 @@ class InternalOutagePage:
     def search_by_sin(self, driver, sinNo):
         element = driver.find_element(By.XPATH, self.search_loc_sin_no)
         element.send_keys(sinNo)
-        time.sleep(5)
-        element.send_keys(Keys.ARROW_DOWN)
-        element.send_keys(Keys.ENTER)
+        time.sleep(10)
+        return element
 
     def validate_search_by_sin(self, driver, sinNo):
         element = driver.find_element(By.XPATH, self.search_loc_sin_no)
@@ -397,7 +430,7 @@ class InternalOutagePage:
         return element
 
     def search_select_services(self,driver):
-        return WebMisc().clickable_element(driver, self.search_service, "sector_value")
+        return WebMisc().clickable_element(driver, self.search_service, "search_service")
 
     def get_search_service(self,driver,searchedBy):
         search_value = "//a[contains(text(),'" + searchedBy + "')]"
@@ -406,14 +439,33 @@ class InternalOutagePage:
     def search_by_facility(self, driver, circuitNo):
         element = driver.find_element(By.XPATH, self.search_loc_facility)
         element.send_keys(circuitNo)
-        element.send_keys(Keys.ARROW_DOWN)
         element.send_keys(Keys.ENTER)
+        time.sleep(5)
+        driver.find_element(By.XPATH,self.auto_suggested).click()
+
 
     def search_by_incident_id(self, driver, incidentID):
         element = driver.find_element(By.XPATH, self.search_loc_incident_id)
         element.send_keys(incidentID)
-        element.send_keys(Keys.ARROW_DOWN)
         element.send_keys(Keys.ENTER)
+        time.sleep(5)
+        driver.find_element(By.XPATH,self.auto_suggested).click()
+
+
+    def search_by_case_id(self, driver,caseID):
+        element = driver.find_element(By.XPATH, self.search_loc_case_id)
+        element.send_keys(caseID)
+        element.send_keys(Keys.ENTER)
+        time.sleep(5)
+        driver.find_element(By.XPATH, self.auto_suggested).click()
+
+    def search_by_call_id(self, driver, callID):
+        element = driver.find_element(By.XPATH, self.search_loc_call_id)
+        element.send_keys(callID)
+        element.send_keys(Keys.ENTER)
+        time.sleep(5)
+        if element.is_displayed():
+            driver.find_element(By.XPATH, self.auto_suggested).click()
 
 
     def get_concern_reported_chk(self, driver):
@@ -445,3 +497,4 @@ class InternalOutagePage:
 
     def get_main_affected_facility(self, driver):
         return WebMisc().optional_clickable_element(driver, self.main_affected_facility, "main_affected_facility")
+

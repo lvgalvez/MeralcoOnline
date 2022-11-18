@@ -15,6 +15,8 @@ class CXELoginPage:
     sign_in = "//input[@value= 'Sign in']"
     stay_sign_no = "//input[@class= 'win-button button-secondary button ext-button secondary ext-secondary']"
     sms = "//*[@id='idDiv_SAOTCS_Proofs']/div[1]/div/div/div[2]"
+    loginBtn = "//*[@id='mainAppBody']/div[2]/md-content/md-card/md-card-content/form/button"
+
     def get_meralco_user_id(self, driver):
         return WebMisc().optional_wait_element(driver, self.meralco_user_id, "meralco_user_id")
     def get_sms(self, driver):
@@ -37,3 +39,6 @@ class CXELoginPage:
 
     def get_stay_sign_no(self, driver):
         return WebMisc().optional_wait_element(driver, self.stay_sign_no, "stay_sign_no")
+
+    def get_default_login(self,driver):
+        return WebMisc().optional_clickable_element(driver, self.loginBtn, "loginBtn")
