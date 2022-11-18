@@ -81,7 +81,7 @@ class InternalOutagePage:
     scheduled_interruption = "//span[contains(text(), 'Scheduled Interruptions')]"
     incident_type = "//md-radio-button[@aria-label= 'incident_type']"
     date_restoration = "//md-radio-button[@aria-label= 'date_restore']"
-    restoration_today = "//div[14]/div[2]/div/div[2]/div/span[@class= 'flatpickr-day today']"
+    restoration_today = "//div/div[2]/div/div[2]/div/span[@class= 'flatpickr-day today']"
     affected_facility_type = "//md-radio-button[@value= 'facility_type']"
     outage_load_shedding = "//span[contains(text(), 'Planned Outage- Load Shedding')]"
     type_no_device = "//span[contains(text(), 'No Device')]"
@@ -95,6 +95,18 @@ class InternalOutagePage:
     interruption_back = "//button[contains(text(), 'Back')]"
     calendar_show = "//i[contains(text(), 'calendar_view_day')]"
     alert_modal = "//*[@id='alertModal']/div/div/div[2]/button"
+    concern_reported_chk = "//*/md-radio-group/li[1]/div/div[2]/input"
+    concern_reported_filter = "//i[@data-target='#concernFilterCollapse']"
+    concern_type = "//md-radio-button[@value='concern_type']"
+    case_status = "//md-radio-button[@value='case_status']"
+    reported_date = "//md-radio-button[@value='reported_date']"
+    date_highlight = "//tr/td[@class=' dateHighlight'][1]"
+    text_election_centers = "//div/div/span[contains(text(), 'Election Centers')]"
+    text_vital_customers = "//div/div/span[contains(text(), 'Vital Customers')]"
+    text_sector_office = "//div/div/span[contains(text(), 'Sector Office')]"
+    main_affected_facility = "//div[last()]/div/b[@class='ng-binding']"
+
+
 
 
     def get_sattelite(self, driver):
@@ -332,3 +344,33 @@ class InternalOutagePage:
 
     def get_alert_modal(self, driver):
         return WebMisc().optional_clickable_element(driver, self.alert_modal, "alert_modal")
+
+    def get_concern_reported_chk(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.concern_reported_chk, "concern_reported_chk")
+
+    def get_concern_reported_filter(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.concern_reported_filter, "concern_reported_filter")
+
+    def get_concern_type(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.concern_type, "concern_type")
+
+    def get_case_status(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.case_status, "case_status")
+
+    def get_reported_date(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.reported_date, "reported_date")
+
+    def get_date_highlight(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.date_highlight, "date_highlight")
+
+    def get_text_sector_office(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.text_sector_office, "text_sector_office")
+
+    def get_text_vital_customers(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.text_vital_customers, "text_vital_customers")
+
+    def get_text_election_centers(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.text_election_centers, "text_election_centers")
+
+    def get_main_affected_facility(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.main_affected_facility, "main_affected_facility")
