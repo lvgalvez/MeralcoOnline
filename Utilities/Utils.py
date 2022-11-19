@@ -13,7 +13,7 @@ class Utilities():
         logger = logging.getLogger(logger_name)
         # create console handler or file handler and set the log level
         logger.setLevel(logging.DEBUG)
-        fh = logging.FileHandler(f'{root_dir.parent}' + "\\Logs\\automaton_" + stamp + ".log")
+        fh = logging.FileHandler(f'{root_dir.parent}' + "/Logs/automaton_" + stamp + ".log")
         # create formatter - how you want your logs to be formatted
         formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(name)s : %(message)s')
         # add formatter to file handler

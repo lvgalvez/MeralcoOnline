@@ -60,6 +60,8 @@ def Select_Weather_Information(driver, weather):
         fc.click(external_outage.get_show_wind_speed(driver))
     elif weather == "clouds":
         fc.click(external_outage.get_show_clouds(driver))
+    time.sleep(5)
+
 
 def Select_Outage_Type(driver, outage):
     if outage == "selectall":
@@ -258,7 +260,7 @@ def Login_Internal_Outage(driver, email, password):
     fc.click(cxe_login.get_next(driver))
     fc.input_text(cxe_login.get_password(driver), password)
     fc.click(cxe_login.get_sign_in(driver))
-#    fc.click(cxe_login.get_sms(driver))
+#   fc.click(cxe_login.get_sms(driver))
     time.sleep(5)
     fc.click(cxe_login.get_stay_sign_no(driver))
     time.sleep(12)

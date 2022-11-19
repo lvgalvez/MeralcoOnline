@@ -6,7 +6,7 @@ from Utilities.Utils import *
 
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome")
-
+#    parser.addoption("--tags")
 
 @pytest.fixture(scope="function")
 def setup(request):
@@ -14,9 +14,9 @@ def setup(request):
     log.info("Browser Launched!")
 
     browser = request.config.getoption('--browser')
-    #tags = request.config.getoption('--tags')
+    tags = request.config.getoption('--tags')
 
-    #request.cls.tags = tags
+    request.cls.tags = tags
 
     if browser.lower() == "chrome":
         driver = Drivers.getDriver("Chrome")
@@ -29,4 +29,4 @@ def setup(request):
     request.cls.browser = browser
     yield
     log.info("Close Browser")
-    #driver.close()
+    driver.close()

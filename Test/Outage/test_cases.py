@@ -1004,6 +1004,7 @@ def TC061a(driver, ts_id, email, password, weather, zoom_level):
     Click_Outage_Map_Views(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
     Select_Weather_Information(driver, weather)
+    Close_Weather_Modal(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
     fc.bookmark(module, ts_id, test_case, "Step 3")
@@ -1029,6 +1030,7 @@ def TC061b(driver, ts_id, weather, zoom_level):
     Click_Outage_Map_Views(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
     Select_Weather_Information(driver, weather)
+    Close_Weather_Modal(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
     fc.bookmark(module, ts_id, test_case, "Step 3")
