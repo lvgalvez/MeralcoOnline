@@ -152,6 +152,15 @@ Outage = {
     'cxe_password': 'Mecopass@@!!121',
     'outage_sin': '461098700101',
     'reference_number': '22102250650',
-    'lastname': 'outage'
+    'lastname': 'outage',
+    'auto-search-data': 'Pasig',
+    'outage_area_sector': 'Plaridel Sector',
+    'outage_area_value': 'City/Municipality',
+    'search_loc_sin': '453786590101',
+    'search_loc_facility':'076094',
+    'search_loc_incident_id': 'INC 19001841',
+    'search_loc_case_id': '21102227891',
+    'search_loc_call_id': 'CALL 19002340',
+    'switch_profile': 'w/ Meralco Online Account'
 }
 

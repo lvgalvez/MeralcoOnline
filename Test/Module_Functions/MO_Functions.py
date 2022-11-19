@@ -254,6 +254,9 @@ def Login_CXE(driver):
     fc.click(cxe_login.get_sms(driver))
     time.sleep(25)
     fc.click(cxe_login.get_stay_sign_no(driver))
+    time.sleep(3)
+    fc.option_click(cxe_login.get_default_login(driver))
+    time.sleep(30)
 
 def Login_Internal_Outage(driver, email, password):
     fc.input_text(cxe_login.get_email(driver), email)
@@ -263,6 +266,8 @@ def Login_Internal_Outage(driver, email, password):
 #   fc.click(cxe_login.get_sms(driver))
     time.sleep(5)
     fc.click(cxe_login.get_stay_sign_no(driver))
+    time.sleep(3)
+    fc.option_click(cxe_login.get_default_login(driver))
     time.sleep(12)
 
 
