@@ -47,14 +47,14 @@ class ReportOutagePage:
     landmark_text = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[4]/div[1]/div[2]/textarea"
     first_name = "//input[@placeholder= 'First Name']"
     middle_name = "//input[@placeholder= 'Middle Name']"
-    last_name = "//input[@placeholder= 'Last Name']"
+    last_name = "//div[2]/div/input[@class='slds-input mov-input-contact input uiInput uiInputText uiInput--default uiInput--input']"
     mobile_number = "//input[@placeholder= '+63xxxxxxxxxx']"
     landline = "//input[@placeholder= '+63(area code)xxxxxxx']"
     email = "//input[@placeholder= 'Email']"
     sms_checkbox = "//span[contains(text(), 'SMS')]"
     email_checkbox = "//span[contains(text(), 'Email')]"
     terms_checkbox = "//span[contains(text(), 'I have read and agree to the Meralco Online')]"
-    submit = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div[1]/div[8]/div[2]/div/div/div/button"
+    submit = "//button[contains(text(), 'Submit')]"
     case_number = "//span[@class = 'text-orange mov-text_weight-bold']"
     existing_sin_report = "//li[contains(text(), 'A report has already been made for this Service ID Number.')]"
     province_metro_manila = "//option[@label= 'METRO MANILA']"
@@ -103,8 +103,6 @@ class ReportOutagePage:
 
     def get_unplanned(self, driver):
         return WebMisc().wait_element(driver, self.unplanned, "unplanned")
-    def get_last_name(self, driver):
-        return WebMisc().wait_element(driver, self.lastname, "lastname")
 
     def get_reference_number(self, driver):
         return WebMisc().wait_element(driver, self.reference_number, "reference_number")

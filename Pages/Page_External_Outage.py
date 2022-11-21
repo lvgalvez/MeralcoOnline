@@ -15,7 +15,7 @@ class ExternalOutagePage:
     zoom_out = "//div[@title= 'Zoom Out']"
     map_views = "//div[@title= 'Map Views']"
     weather_modal = "//i[@class= 'material-icons closeButton ng-scope']"
-    outage_modal = "/html/body/div[2]/div[11]/div[1]/img"
+    outage_modal = "//*[@id='alertModal']/div/div/i"
     show_temperature = "//img[@ng-src = '/resources/images/icons/temperature.png']"
     show_rainfall = "//img[@ng-src = '/resources/images/icons/light-rain.png']"
     show_wind_speed = "//img[@src = '/resources/images/icons/wind-moderate.png']"
@@ -38,15 +38,16 @@ class ExternalOutagePage:
     service_radio = "//md-radio-button[@ng-click=\"embed.onSelectSearchMode('sin')\"]"
     reports_radio = "//md-radio-button[@ng-click=\"embed.onSelectSearchMode('reports')\"]"
     other_address_radio = "//md-radio-button[@ng-click=\"embed.onSelectLocationMode('otherLocation')\"]"
-    legend_expand = "//i[contains(text(), 'expand_more')]"
+    legend_expand = "//i[@data-target = '#embedLegend']"
     show_default = "//img[@src = '/resources/images/maptypes/default.png']"
     show_satellite = "//img[@src = '/resources/images/maptypes/satellite.png']"
     show_terrain = "//img[@src = '/resources/images/maptypes/terrain.png']"
     tooltip_other_address = "//i[contains(text(),'info')]"
     outage_report = "//*[@id='externalSideNavMobile']/md-content/div[4]/p/a"
     address = "//*[@id='radio_1']/div[1]/div[1]"
-    meralcoicon = "/html/body/div[2]/div[10]/div[4]/div/div[2]/div/img"
+    meralcoicon = "//img[@src='/resources/images/icons/business-center2.png']"
     businessoutage_modal = "//*[@id='alertModal']/div/div/i"
+    current_location = "//span[contains(text(), 'gps_fixed')]"
 
 
     def get_meralco_icon(self, driver):
@@ -166,4 +167,6 @@ class ExternalOutagePage:
     def get_not_affected_legend(self, driver):
         return WebMisc().clickable_element(driver, self.not_affected_legend, "not_affected_legend")
 
+    def get_current_location(self, driver):
+        return WebMisc().clickable_element(driver, self.current_location, "current_location")
 

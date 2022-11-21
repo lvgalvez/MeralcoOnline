@@ -37,6 +37,7 @@ def Navigate_Outage(driver):
     fc.click(home.get_outage_incidents(driver))
     fc.modal_click(driver, home.get_report_outage(driver))
     external_outage.get_switch_frame(driver)
+    time.sleep(5)
 
 
 def Check_Service_Located(driver):
@@ -78,8 +79,9 @@ def Close_Weather_Modal(driver):
     time.sleep(15)
     fc.click(external_outage.get_close_map_type(driver))
 def Close_Outage_Modal(driver):
-    fc.modal_click(driver, external_outage.get_outage_modal(driver))
     time.sleep(15)
+    fc.modal_click(driver, external_outage.get_outage_modal(driver))
+
 
 def Close_BusinessOutage_Modal(driver):
     fc.modal_click(driver, external_outage.get_businessoutage_modal(driver))
@@ -184,7 +186,7 @@ def Click_Anywhere_Map(driver):
 
 
 def Click_Current_Location(driver):
-    fc.click(external_outage.get_current_address(driver))
+    fc.click(external_outage.get_current_location(driver))
 
 
 def Click_Outage_Pin(driver):
@@ -193,6 +195,7 @@ def Click_Outage_Pin(driver):
 
 def Click_Submit(driver):
     fc.click(report_outage.get_submit(driver))
+    time.sleep(5)
 
 def Click_Select_All(driver):
     fc.click(report_outage.get_selectall(driver))

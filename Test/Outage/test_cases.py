@@ -2016,7 +2016,8 @@ def TC145(driver, ts_id):
     fc.new_tab(driver, outage_external_guest)
     external_outage = ExternalOutagePage()
     external_outage.get_switch_frame(driver)
-    Handle_GPS_Prompt(driver, "Disagree")
+    time.sleep(5)
+    Handle_GPS_Prompt(driver, "Agree")
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
 
     fc.bookmark(module, ts_id, test_case, "Step 2")
@@ -2139,6 +2140,7 @@ def TC131(driver, ts_id):
     fc.new_tab(driver, outage_external_guest)
     external_outage = ExternalOutagePage()
     external_outage.get_switch_frame(driver)
+    time.sleep(5)
     Handle_GPS_Prompt(driver, "Disagree")
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
 
@@ -2471,8 +2473,9 @@ def TC151(driver, ts_id, referencenumber, lastname):
     fc.bookmark(module, ts_id, test_case, "Step 3")
     Inp_Reference_Number(driver, referencenumber)
     Inp_Last_Name(driver, lastname)
-    Click_Submit(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    Click_Submit(driver)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3b")
 
 def TC152(driver, ts_id, email, password):
     test_case = "TC152"
@@ -2497,14 +2500,14 @@ def TC152(driver, ts_id, email, password):
     fc.bookmark(module, ts_id, test_case, "Step 5")
     Click_Outage_Map_Views(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 5")
-    Click_Select_Unplanned(driver, "unplanned")
+    Click_Select_Unplanned(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 5")
     Close_Outage_Modal(driver)
 
     fc.bookmark(module, ts_id, test_case, "Step 7")
     Click_Outage_Map_Views(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 7")
-    Click_Select_Planned(driver, "planned")
+    Click_Select_Planned(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 7")
     Close_Outage_Modal(driver)
 
@@ -2544,6 +2547,11 @@ def TC154(driver, ts_id, email, password):
     Close_BusinessOutage_Modal(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
 
+    fc.bookmark(module, ts_id, test_case, "Step 4")
+    time.sleep(15)
+    #SELECT Meralco Business Center Pin
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
+
 def TC155(driver, ts_id):
     test_case = "TC155"
 
@@ -2565,6 +2573,11 @@ def TC155(driver, ts_id):
     fc.bookmark(module, ts_id, test_case, "Step 3")
     Close_BusinessOutage_Modal(driver)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+
+    fc.bookmark(module, ts_id, test_case, "Step 4")
+    time.sleep(15)
+    # SELECT Meralco Business Center Pin
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
 
 
 def TC156(driver, ts_id, email, password):
