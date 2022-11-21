@@ -1,0 +1,66 @@
+2022-11-17 11:12:51,733 - INFO - setup : Browser Launched!
+2022-11-17 11:12:56,979 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruption -> tick Outage Pins
+2022-11-17 11:12:56,979 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruption -> tick Outage Pins
+2022-11-17 11:12:56,979 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruption -> tick Outage Pins
+2022-11-17 11:12:56,979 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruption -> tick Outage Pins
+2022-11-17 11:12:58,622 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-17 11:12:58,622 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-17 11:12:58,622 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-17 11:12:58,622 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-17 11:13:00,832 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-11-17 11:13:00,832 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-11-17 11:13:00,832 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-11-17 11:13:00,832 - INFO - <module> : input: v-lvlgalvez@meralco.com.ph
+2022-11-17 11:13:00,881 - INFO - <module> : Clicked
+2022-11-17 11:13:00,881 - INFO - <module> : Clicked
+2022-11-17 11:13:00,881 - INFO - <module> : Clicked
+2022-11-17 11:13:00,881 - INFO - <module> : Clicked
+2022-11-17 11:13:02,498 - INFO - <module> : input: Mecopass@@!!121
+2022-11-17 11:13:02,498 - INFO - <module> : input: Mecopass@@!!121
+2022-11-17 11:13:02,498 - INFO - <module> : input: Mecopass@@!!121
+2022-11-17 11:13:02,498 - INFO - <module> : input: Mecopass@@!!121
+2022-11-17 11:13:02,979 - INFO - <module> : Clicked
+2022-11-17 11:13:02,979 - INFO - <module> : Clicked
+2022-11-17 11:13:02,979 - INFO - <module> : Clicked
+2022-11-17 11:13:02,979 - INFO - <module> : Clicked
+2022-11-17 11:13:03,567 - INFO - <module> : Clicked
+2022-11-17 11:13:03,567 - INFO - <module> : Clicked
+2022-11-17 11:13:03,567 - INFO - <module> : Clicked
+2022-11-17 11:13:03,567 - INFO - <module> : Clicked
+2022-11-17 11:13:38,244 - INFO - <module> : Clicked
+2022-11-17 11:13:38,244 - INFO - <module> : Clicked
+2022-11-17 11:13:38,244 - INFO - <module> : Clicked
+2022-11-17 11:13:38,244 - INFO - <module> : Clicked
+2022-11-17 11:14:10,368 - INFO - <module> : Clicked
+2022-11-17 11:14:10,368 - INFO - <module> : Clicked
+2022-11-17 11:14:10,368 - INFO - <module> : Clicked
+2022-11-17 11:14:10,368 - INFO - <module> : Clicked
+2022-11-17 11:14:12,445 - INFO - <module> : Clicked
+2022-11-17 11:14:12,445 - INFO - <module> : Clicked
+2022-11-17 11:14:12,445 - INFO - <module> : Clicked
+2022-11-17 11:14:12,445 - INFO - <module> : Clicked
+2022-11-17 11:14:14,532 - INFO - <module> : Clicked
+2022-11-17 11:14:14,532 - INFO - <module> : Clicked
+2022-11-17 11:14:14,532 - INFO - <module> : Clicked
+2022-11-17 11:14:14,532 - INFO - <module> : Clicked
+2022-11-17 11:14:18,241 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruptions -> tick Outage pins
+2022-11-17 11:14:18,241 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruptions -> tick Outage pins
+2022-11-17 11:14:18,241 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruptions -> tick Outage pins
+2022-11-17 11:14:18,241 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruptions -> tick Outage pins
+2022-11-17 11:14:21,719 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruptions -> tick Outage pins
+2022-11-17 11:14:21,719 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruptions -> tick Outage pins
+2022-11-17 11:14:21,719 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruptions -> tick Outage pins
+2022-11-17 11:14:21,719 - INFO - <module> : Go to Map Displays -> tick Scheduled Interruptions -> tick Outage pins
+2022-11-17 11:14:21,918 - INFO - <module> : Clicked
+2022-11-17 11:14:21,918 - INFO - <module> : Clicked
+2022-11-17 11:14:21,918 - INFO - <module> : Clicked
+2022-11-17 11:14:21,918 - INFO - <module> : Clicked
+2022-11-17 11:14:25,392 - INFO - <module> : Go to Map Displays -> tick Affected Areas under Scheduled Interruption
+2022-11-17 11:14:25,392 - INFO - <module> : Go to Map Displays -> tick Affected Areas under Scheduled Interruption
+2022-11-17 11:14:25,392 - INFO - <module> : Go to Map Displays -> tick Affected Areas under Scheduled Interruption
+2022-11-17 11:14:25,392 - INFO - <module> : Go to Map Displays -> tick Affected Areas under Scheduled Interruption
+2022-11-17 11:14:55,987 - ERROR - <module> : Cannot Locate: scheduled_intrp
+2022-11-17 11:14:55,987 - ERROR - <module> : Cannot Locate: scheduled_intrp
+2022-11-17 11:14:55,987 - ERROR - <module> : Cannot Locate: scheduled_intrp
+2022-11-17 11:14:55,987 - ERROR - <module> : Cannot Locate: scheduled_intrp
+2022-11-17 11:14:56,068 - INFO - setup : Close Browser

@@ -52,6 +52,8 @@ class InternalOutagePage:
     address = "//*[@id='radio_1']/div[1]/div[1]"
     meralcoicon = "/html/body/div[2]/div[10]/div[4]/div/div[2]/div/img"
     businessoutage_modal = "//*[@id='alertModal']/div/div/i"
+    menu = "/html/body/div[3]/div[2]/md-list-item/div/button"
+    map_display = "//*[@id='accordion-menulistTEST']/div/div[2]/div[1]/button"
     menu = ".md-secondary-container b .material-icons"
     map_display = "//img[@src= '/resources/images/map-display-hover.png']"
     weather = "//*[@id='headingOne']/h4/input"
@@ -79,6 +81,7 @@ class InternalOutagePage:
     vital_pin = "//*[@id='map-canvas']/div/div/div[2]/div[2]/div/div[3]/div[7]/img"
     mapview_internal = "//*[@id='map-canvas-container']/div[9]"
     sattelite = "//*[@id='map-canvas-container']/div[10]/div[2]/div[2]/img"
+    scheduled_intrp = "//*[@id='map-canvas']/div/div/div[2]/div[2]/div/div[3]/div[4]/div"
     FAQ_header = "//li[@label='FAQ']"
     QRG_header = "//li[@label='QRG']"
     #quick_links = "div div button[href='#collapse5']"
@@ -112,6 +115,11 @@ class InternalOutagePage:
     interruption_back = "//button[contains(text(), 'Back')]"
     calendar_show = "//i[contains(text(), 'calendar_view_day')]"
     alert_modal = "//*[@id='alertModal']/div/div/div[2]/button"
+    int_cluster = "//*[@id='map-canvas']/div/div/div[2]/div[2]/div/div[3]/div[4]/div"
+    current_location = "//*[@id='currentLocationMenu']/span"
+    street_view = "//*[@id='map-canvas']/div/div/div[13]/div/div"
+    close_street = "//*[@id='map-canvas']/div/div[2]/div[13]/div[3]/div/button/div"
+    refresh_data = "//*[@id='navbarContainer']/ul[1]/li/div[2]/div[1]/div[1]/button"
     burger_menu = "//img[@src='/resources/images/close-icon.png']"
     search_locations = "//button[@href='#collapse3']"
     search_loc_sin_no = "//input[@placeholder='Enter Service ID No.']"
@@ -133,7 +141,18 @@ class InternalOutagePage:
     auto_suggested = "//*[@id='searchBoxArea']/div/div[2]/div[2]/div"
 
 
-
+    def get_refresh_data(self, driver):
+        return WebMisc().clickable_element(driver, self.refresh_data, "refresh_data")
+    def get_close_street(self, driver):
+        return WebMisc().clickable_element(driver, self.close_street, "close_street")
+    def get_street_view(self, driver):
+        return WebMisc().clickable_element(driver, self.street_view, "street_view")
+    def get_current_location(self, driver):
+        return WebMisc().clickable_element(driver, self.current_location, "current_location")
+    def get_int_cluster(self, driver):
+        return WebMisc().clickable_element(driver, self.int_cluster, "int_cluster")
+    def get_scheduled_interp(self, driver):
+        return WebMisc().clickable_element(driver, self.scheduled_intrp, "scheduled_intrp")
     def get_sattelite(self, driver):
         return WebMisc().clickable_element(driver, self.sattelite, "sattelite")
     def get_map_view_internal(self, driver):

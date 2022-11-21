@@ -1,0 +1,50 @@
+2022-11-18 14:49:07,738 - INFO - setup : Browser Launched!
+2022-11-18 14:49:13,967 - INFO - <module> : Go to lower right of Internal Map
+2022-11-18 14:49:13,967 - INFO - <module> : Go to lower right of Internal Map
+2022-11-18 14:49:13,967 - INFO - <module> : Go to lower right of Internal Map
+2022-11-18 14:49:13,967 - INFO - <module> : Go to lower right of Internal Map
+2022-11-18 14:49:15,881 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-18 14:49:15,881 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-18 14:49:15,881 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-18 14:49:15,881 - INFO - <module> : Opened: https://outage-api.meralco.com.ph/
+2022-11-18 14:49:17,141 - INFO - <module> : input: v-agsealmoy@meralco.com.ph
+2022-11-18 14:49:17,141 - INFO - <module> : input: v-agsealmoy@meralco.com.ph
+2022-11-18 14:49:17,141 - INFO - <module> : input: v-agsealmoy@meralco.com.ph
+2022-11-18 14:49:17,141 - INFO - <module> : input: v-agsealmoy@meralco.com.ph
+2022-11-18 14:49:17,193 - INFO - <module> : Clicked
+2022-11-18 14:49:17,193 - INFO - <module> : Clicked
+2022-11-18 14:49:17,193 - INFO - <module> : Clicked
+2022-11-18 14:49:17,193 - INFO - <module> : Clicked
+2022-11-18 14:49:18,279 - INFO - <module> : input: Meco@@##00018
+2022-11-18 14:49:18,279 - INFO - <module> : input: Meco@@##00018
+2022-11-18 14:49:18,279 - INFO - <module> : input: Meco@@##00018
+2022-11-18 14:49:18,279 - INFO - <module> : input: Meco@@##00018
+2022-11-18 14:49:19,259 - INFO - <module> : Clicked
+2022-11-18 14:49:19,259 - INFO - <module> : Clicked
+2022-11-18 14:49:19,259 - INFO - <module> : Clicked
+2022-11-18 14:49:19,259 - INFO - <module> : Clicked
+2022-11-18 14:49:19,855 - INFO - <module> : Clicked
+2022-11-18 14:49:19,855 - INFO - <module> : Clicked
+2022-11-18 14:49:19,855 - INFO - <module> : Clicked
+2022-11-18 14:49:19,855 - INFO - <module> : Clicked
+2022-11-18 14:49:47,975 - INFO - <module> : Clicked
+2022-11-18 14:49:47,975 - INFO - <module> : Clicked
+2022-11-18 14:49:47,975 - INFO - <module> : Clicked
+2022-11-18 14:49:47,975 - INFO - <module> : Clicked
+2022-11-18 14:50:20,801 - INFO - <module> : Go to lower right of Internal Map
+2022-11-18 14:50:20,801 - INFO - <module> : Go to lower right of Internal Map
+2022-11-18 14:50:20,801 - INFO - <module> : Go to lower right of Internal Map
+2022-11-18 14:50:20,801 - INFO - <module> : Go to lower right of Internal Map
+2022-11-18 14:50:24,166 - INFO - <module> : Click Street View icon
+2022-11-18 14:50:24,166 - INFO - <module> : Click Street View icon
+2022-11-18 14:50:24,166 - INFO - <module> : Click Street View icon
+2022-11-18 14:50:24,166 - INFO - <module> : Click Street View icon
+2022-11-18 14:50:38,561 - INFO - <module> : Click X at the lower right
+2022-11-18 14:50:38,561 - INFO - <module> : Click X at the lower right
+2022-11-18 14:50:38,561 - INFO - <module> : Click X at the lower right
+2022-11-18 14:50:38,561 - INFO - <module> : Click X at the lower right
+2022-11-18 14:51:08,693 - ERROR - <module> : Cannot Locate: street_view
+2022-11-18 14:51:08,693 - ERROR - <module> : Cannot Locate: street_view
+2022-11-18 14:51:08,693 - ERROR - <module> : Cannot Locate: street_view
+2022-11-18 14:51:08,693 - ERROR - <module> : Cannot Locate: street_view
+2022-11-18 14:51:08,777 - INFO - setup : Close Browser

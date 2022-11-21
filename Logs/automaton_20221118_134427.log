@@ -1,0 +1,14 @@
+2022-11-18 13:44:27,682 - INFO - setup : Browser Launched!
+2022-11-18 13:44:34,641 - INFO - <module> : Go to lower right of Internal Map
+2022-11-18 13:44:34,641 - INFO - <module> : Go to lower right of Internal Map
+2022-11-18 13:44:34,641 - INFO - <module> : Go to lower right of Internal Map
+2022-11-18 13:44:34,641 - INFO - <module> : Go to lower right of Internal Map
+2022-11-18 13:44:37,830 - INFO - <module> : Click Street View icon
+2022-11-18 13:44:37,830 - INFO - <module> : Click Street View icon
+2022-11-18 13:44:37,830 - INFO - <module> : Click Street View icon
+2022-11-18 13:44:37,830 - INFO - <module> : Click Street View icon
+2022-11-18 13:45:07,951 - ERROR - <module> : Cannot Locate: refresh_button
+2022-11-18 13:45:07,951 - ERROR - <module> : Cannot Locate: refresh_button
+2022-11-18 13:45:07,951 - ERROR - <module> : Cannot Locate: refresh_button
+2022-11-18 13:45:07,951 - ERROR - <module> : Cannot Locate: refresh_button
+2022-11-18 13:45:08,014 - INFO - setup : Close Browser
