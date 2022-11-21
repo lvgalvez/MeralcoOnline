@@ -25,3 +25,14 @@ customer_document = CXECustomerDocumentPage()
 int_outage = InternalOutagePage()
 document = CXEDocumentPage()
 module = "Concern"
+
+
+def TC007(driver, ts_id):
+    test_case = "TC063"
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, internal_outage)
+    Login_CXE(driver)
+
+
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    print("Done")
