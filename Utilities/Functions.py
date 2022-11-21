@@ -219,3 +219,7 @@ class Functions:
 
     def switch_window_tab(self,driver,tab):
         driver.switch_to.window(tab)
+
+    def select_dropdown_element(self,driver,element,selectedOption):
+        select = element
+        select.select_by_visible_text(selectedOption)

@@ -166,3 +166,7 @@ Outage = {
     'switch_profile': 'w/ Meralco Online Account'
 }
 
+Concern = {
+    'inquiry_remarks': 'Sample Remarks',
+    'inquiry_concern_type': 'Billing & Payments'
+}
