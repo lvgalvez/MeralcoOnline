@@ -34,11 +34,18 @@ def TC001(driver,ts_id):
     homePage = HomePage()
     contactUsPage = ContactUsPage()
 
+    Log_In_Meralco_Online(driver, Concern['username_single_service'], Concern['password'])
+    time.sleep(10)
     fc.bookmark(module, ts_id, test_case, "Step 1")
-    fc.click(homePage.get_contact_us(driver))
+    #fc.click(homePage.get_contact_us(driver))
+    homePage.get_contact_us(driver).click()
     fc.click(contactUsPage.get_log_inquiry(driver))
     fc.scroll_element(driver, contactUsPage.get_log_remarks(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+def TC003(driver, ts_id):
+    test_case = "TC003"
+    contactUsPage = ContactUsPage()
 
 def TC005(driver, ts_id):
     test_case = "TC005"
@@ -61,6 +68,12 @@ def TC006(driver, ts_id):
     contactUsPage = ContactUsPage()
 
     fc.bookmark(module, ts_id, test_case, "Step 1")
+    contactUsPage.get_log_inquiry_ok_btn(driver)
+    time.sleep(5)
+    #insert Assert for validation
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+
 
 
 

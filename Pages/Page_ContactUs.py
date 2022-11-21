@@ -10,6 +10,7 @@ class ContactUsPage:
     log_inquiry_concern_type = "//select[@id='1107:0']"
     log_inquiry_submit = "//button[contains(text(), 'Submit')]"
     log_inquiry_reference_number = "//span[contains(@class, 'text-orange')]"
+    log_inquiry_ok_btn = "//button[contains(text(),'OK')]"
 
     def get_log_inquiry(self,driver):
         return WebMisc().clickable_element(driver, self.log_inquiry, "log_inquiry")
@@ -28,3 +29,6 @@ class ContactUsPage:
 
     def get_log_inquiry_reference_number(self, driver):
         return driver.find_element(By.XPATH, self.log_inquiry_reference_number).text()
+
+    def get_log_inquiry_ok_btn(self,driver):
+        return WebMisc().clickable_element(driver, self.log_inquiry_ok_btn, "log_inquiry_ok_btn")

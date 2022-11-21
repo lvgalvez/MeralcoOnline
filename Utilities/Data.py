@@ -167,6 +167,8 @@ Outage = {
 }
 
 Concern = {
+    'username_single_service': 'atconcernsingle@yopmail.com',
+    'password': 'Meralco01',
     'inquiry_remarks': 'Sample Remarks',
     'inquiry_concern_type': 'Billing & Payments'
 }
