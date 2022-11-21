@@ -110,5 +110,5 @@ class HomePage:
         return WebMisc().clickable_element(driver, self.report_outage, "report_outage")
 
     def get_contact_us(self, driver):
-        #return WebMisc().clickable_element(driver, self.contact_us, "contact_us")
-        return driver.find_element(By.XPATH,self.contact_us)
+        return WebMisc().clickable_element(driver, self.contact_us, "contact_us")
+        #return driver.find_element(By.XPATH,self.contact_us)

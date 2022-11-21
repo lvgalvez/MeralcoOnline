@@ -168,7 +168,11 @@ Outage = {
 
 Concern = {
     'username_single_service': 'atconcernsingle@yopmail.com',
+    'username_multiple_service': 'atconcernmultiple@yopmail.com',
     'password': 'Meralco01',
-    'inquiry_remarks': 'Sample Remarks',
-    'inquiry_concern_type': 'Billing & Payments'
+    'remarks': 'Sample Remarks',
+    'inquiry_concern_type': 'General Inquiry',
+    'feedback_concern_type': 'Customer Service Feedback',
+    'request_concern_type': 'Service Maintenance',
+    'change_selected_sin': '302004950101'
 }
