@@ -33,7 +33,7 @@ class HomePage:
     enroll_service = "//a[@href = '/customers/s/manageservice']"
     report_outage = "//a[@href = '/customers/s/outagemap']"
     sin_multiple = "//input[@placeholder='Service ID Number *']"
-
+    contact_us = "//a[contains(text(), 'Contact Us')]"
 
     def get_popupNO(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.popupNO)))
@@ -109,4 +109,5 @@ class HomePage:
     def get_report_outage(self, driver):
         return WebMisc().clickable_element(driver, self.report_outage, "report_outage")
 
-
+    def get_contact_us(self, driver):
+        return WebMisc().clickable_element(driver, self.contact_us, "contact_us")
