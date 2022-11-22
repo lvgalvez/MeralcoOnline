@@ -1,3 +1,5 @@
+
+
 import pytest
 from Utilities.DriverFile import Drivers
 from Utilities.Functions import Functions
@@ -6,7 +8,7 @@ from Utilities.Utils import *
 
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome")
-
+    parser.addoption("--tags")
 
 @pytest.fixture(scope="function")
 def setup(request):
@@ -15,6 +17,8 @@ def setup(request):
 
     browser = request.config.getoption('--browser')
     tags = request.config.getoption('--tags')
+
+
 
     request.cls.tags = tags
 
