@@ -1,0 +1,22 @@
+2022-11-22 13:37:13,003 - INFO - setup : Browser Launched!
+2022-11-22 13:37:22,248 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 13:37:22,248 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 13:37:22,248 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 13:37:22,248 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 13:37:22,537 - INFO - <module> : Clicked
+2022-11-22 13:37:22,537 - INFO - <module> : Clicked
+2022-11-22 13:37:22,537 - INFO - <module> : Clicked
+2022-11-22 13:37:22,537 - INFO - <module> : Clicked
+2022-11-22 13:37:36,076 - INFO - <module> :  exists
+2022-11-22 13:37:36,076 - INFO - <module> :  exists
+2022-11-22 13:37:36,076 - INFO - <module> :  exists
+2022-11-22 13:37:36,076 - INFO - <module> :  exists
+2022-11-22 13:37:39,696 - INFO - <module> : input: automation
+2022-11-22 13:37:39,696 - INFO - <module> : input: automation
+2022-11-22 13:37:39,696 - INFO - <module> : input: automation
+2022-11-22 13:37:39,696 - INFO - <module> : input: automation
+2022-11-22 13:38:10,073 - ERROR - <module> : Cannot Locate: lastname
+2022-11-22 13:38:10,073 - ERROR - <module> : Cannot Locate: lastname
+2022-11-22 13:38:10,073 - ERROR - <module> : Cannot Locate: lastname
+2022-11-22 13:38:10,073 - ERROR - <module> : Cannot Locate: lastname
+2022-11-22 13:38:10,091 - INFO - setup : Close Browser

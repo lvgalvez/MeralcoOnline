@@ -7,11 +7,13 @@ from Utilities.Functions import Functions
 from Utilities.Utils import Utilities
 from Utilities.Data import *
 from Pages.Page_CXE_Login import CXELoginPage
+from Pages.Page_ContactUs import ContactUsPage
 import time
 
 fc = Functions()
 log = Utilities().getlogger()
 home = HomePage()
+contact = ContactUsPage()
 login = LoginPage()
 external_outage = ExternalOutagePage()
 report_outage = ReportOutagePage()

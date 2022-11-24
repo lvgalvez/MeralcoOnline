@@ -1,0 +1,14 @@
+2022-11-22 14:38:31,340 - INFO - setup : Browser Launched!
+2022-11-22 14:38:39,425 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 14:38:39,425 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 14:38:39,425 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 14:38:39,425 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 14:38:39,641 - INFO - <module> : Clicked
+2022-11-22 14:38:39,641 - INFO - <module> : Clicked
+2022-11-22 14:38:39,641 - INFO - <module> : Clicked
+2022-11-22 14:38:39,641 - INFO - <module> : Clicked
+2022-11-22 14:39:13,323 - ERROR - <module> : Cannot Locate: can
+2022-11-22 14:39:13,323 - ERROR - <module> : Cannot Locate: can
+2022-11-22 14:39:13,323 - ERROR - <module> : Cannot Locate: can
+2022-11-22 14:39:13,323 - ERROR - <module> : Cannot Locate: can
+2022-11-22 14:39:13,356 - INFO - setup : Close Browser

@@ -872,6 +872,8 @@ def TC016(driver, ts_id, firstname, lastname, emailaddress, mobilenumber, can, b
     log.info(test_case + " Passed")
 
 
+
+
 def TC010(driver, ts_id, email, password, birthday):
     test_case = "TC010"
     log.info("==========Log in==========")
@@ -1002,6 +1004,11 @@ def TC016(driver, ts_id, firstname, lastname, emailaddress, mobilenumber, can, d
     function.screen_capture(driver, module, ts_id, test_case, "Step 9b")
 
     log.info(test_case + " Passed")
+
+
+
+
+
 
 
 

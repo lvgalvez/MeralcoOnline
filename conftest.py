@@ -1,3 +1,5 @@
+
+
 import pytest
 from Utilities.DriverFile import Drivers
 from Utilities.Functions import Functions
@@ -15,6 +17,8 @@ def setup(request):
 
     browser = request.config.getoption('--browser')
     tags = request.config.getoption('--tags')
+
+
 
     request.cls.tags = tags
 
