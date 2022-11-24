@@ -33,7 +33,7 @@ class InternalOutagePage:
     outage_pin = "//*[@id='map-canvas']/div/div/div[2]/div[2]/div"
     yellow_banner = "//div[@class='notify-panel scroll-left']"
     report_outage = "//span[contains(text(), 'Report an Outage')]"
-    refresh_button = "//*[@id='navbarContainer']/ul[1]/li/div[2]/div[1]/div[1]/button"
+    refresh_button = "//button[@class='refreshDataBTN btn ng-scope']"
     unplanned_outage_legend = "//*[@id='embedLegend']/div/div[2]/p[contains(text(), 'Unplanned Outage')]"
     planned_outage_legend = "//*[@id='embedLegend']/div/div[2]/p[contains(text(), 'Planned Outage')]"
     restored_power_legend = "//*[@id='embedLegend']/div/div[2]/p[contains(text(), 'Service with restored power')]"
@@ -57,9 +57,13 @@ class InternalOutagePage:
     menu = ".md-secondary-container b .material-icons"
     map_display = "//img[@src= '/resources/images/map-display-hover.png']"
     weather = "//*[@id='headingOne']/h4/input"
+    temperature = "//md-radio-button[@value = 'Temperature']"
+    rainfall = "//md-radio-button[@value = 'Rainfall']"
+    wind_speed = "//md-radio-button[@value = 'Wind Speed']"
+    clouds = "//md-radio-button[@value = 'Clouds']"
     internal_modal = "//*[@id='weatherModal']/div/div/div[2]/button"
     meralco_header = "//*[@id='mainAppBody']/div[1]/div/div[1]/img"
-    center_map = "//*[@id='map-canvas']/div/div/div[2]/div[2]/div/div[3]/div[1]/div"
+    center_map = "//*[@id='mainAppBody']/div[1]/div/div[1]/button[1]"
     admin = "//*[@id='accordion-menulistTEST']/button"
     legends = "//*[@id='accordion-menulistTEST']/div/div[6]/div[1]/button"
     search = "//*[@id='accordion-menulistTEST']/div/div[3]/div[1]/button"
@@ -89,12 +93,12 @@ class InternalOutagePage:
     search_input = ".txtboxSearch1"
     bfp_link = "//a[@href='http://bfp.gov.ph/']"
     coe_link = "//a[@href='https://www.comelec.gov.ph/']"
-    doe_link = "//a[@href='https://www.doe.gov.ph/']"
+    doe_link = "//a[@href='https://www.doe.gov.ph']"
     dost_link = "//a[@href='http://www.dost.gov.ph/']"
-    ndrrmc_link = "//a[@href='http://www.ndrrmc.gov.ph/']"
+    ndrrmc_link = "//a[@href='http://www.ndrrmc.gov.ph']"
     ngcp_link = "//a[@href='https://www.ngcp.ph/']"
-    pagasa_link = "//a[@href='http://www.ndrrmc.gov.ph/']"
-    phivolcs_link = "//a[@href='https://www.phivolcs.dost.gov.ph/']"
+    pagasa_link = "//a[@href='http://www.pagasa.dost.gov.ph']"
+    phivolcs_link = "//a[@href='https://www.phivolcs.dost.gov.ph']"
     pnp_link = "//a[@href='https://pnp.gov.ph/']"
     hamburger_menu = "//span[contains(text(), 'menu')]"
     outage_pins_filter = "//i[contains(text(), 'filter_list') and @id = 'ongoingFilterBtn']"
@@ -517,3 +521,14 @@ class InternalOutagePage:
     def get_main_affected_facility(self, driver):
         return WebMisc().optional_clickable_element(driver, self.main_affected_facility, "main_affected_facility")
 
+    def get_temperature(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.temperature, "temperature")
+
+    def get_rainfall(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.rainfall, "rainfall")
+
+    def get_wind_speed(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.wind_speed, "wind_speed")
+
+    def get_clouds(self, driver):
+        return WebMisc().optional_clickable_element(driver, self.clouds, "clouds")

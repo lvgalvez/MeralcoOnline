@@ -15,7 +15,7 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 class Drivers:
 
-    def getDriver( browser):
+    def getDriver(browser):
         if browser == "Chrome":
             #driver = uc.Chrome(service=ChromeService(ChromeDriverManager().install()))
             driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
