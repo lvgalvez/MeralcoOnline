@@ -52,6 +52,27 @@ def TC001(driver,ts_id, page):
     fc.scroll_element(driver, contactUsPage.get_log_remarks(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
 
+def TC002(driver, ts_id, page):
+    test_case = "TC002"
+    contactUsPage = ContactUsPage()
+    homePage = HomePage()
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    Log_In_Meralco_Online(driver, Concern['username_multiple_can'], Concern['password'])
+    time.sleep(10)
+    fc.modal_click(driver, homePage.get_contact_us(driver))
+
+    if page == 'Inquiry':
+        fc.click(contactUsPage.get_log_inquiry(driver))
+    elif page == 'Feedback':
+        fc.click(contactUsPage.get_give_feedback(driver))
+    elif page == "Request":
+        fc.click(contactUsPage.get_request(driver))
+
+    fc.select_dropdown_element(contactUsPage.get_can(driver), Concern['change_selected_can'])
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+
 def TC003(driver, ts_id, page):
     test_case = "TC003"
     contactUsPage = ContactUsPage()

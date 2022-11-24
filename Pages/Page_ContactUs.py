@@ -14,6 +14,7 @@ class ContactUsPage:
     log_inquiry_reference_number = "//span[contains(@class, 'text-orange')]"
     ok_btn = "//button[contains(text(),'OK')]"
     select_sin = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/div[1]/div[1]/div/div[3]/div/div/select"
+    select_can = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/div/div/select"
 
     def get_log_inquiry(self,driver):
         return WebMisc().clickable_element(driver, self.log_inquiry, "log_inquiry")
@@ -48,3 +49,6 @@ class ContactUsPage:
 
     def get_sin(self, driver):
         return Select(driver.find_element(By.XPATH, self.select_sin))
+
+    def get_can(self,driver):
+        return Select(driver.find_element(By.XPATH, self.select_can))
