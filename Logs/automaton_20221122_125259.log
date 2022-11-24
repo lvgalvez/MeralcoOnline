@@ -1,0 +1,14 @@
+2022-11-22 12:53:00,382 - INFO - setup : Browser Launched!
+2022-11-22 12:53:11,728 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 12:53:11,728 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 12:53:11,728 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 12:53:11,728 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 12:53:12,001 - INFO - <module> : Clicked
+2022-11-22 12:53:12,001 - INFO - <module> : Clicked
+2022-11-22 12:53:12,001 - INFO - <module> : Clicked
+2022-11-22 12:53:12,001 - INFO - <module> : Clicked
+2022-11-22 12:53:55,731 - ERROR - <module> : Cannot Locate: log_inquiry
+2022-11-22 12:53:55,731 - ERROR - <module> : Cannot Locate: log_inquiry
+2022-11-22 12:53:55,731 - ERROR - <module> : Cannot Locate: log_inquiry
+2022-11-22 12:53:55,731 - ERROR - <module> : Cannot Locate: log_inquiry
+2022-11-22 12:53:55,805 - INFO - setup : Close Browser

@@ -13,16 +13,19 @@ class CXETerminateIndividual:
     reactivate_service = "//*[@id='accordion-details-01']/div/a[3]"
     stop_service = "//*[@id='accordion-details-01']/div/a[4]"
     stop_lbl = "//*[@id='request_to_modify']/div/div/div/div/div/h3[1]"
-    CAN = "//*[@id='491:0']"
-    firstname = "//*[@id='521:0']"
-    lastname = "//*[@id='541:0']"
-    emailaddress = "//*[@id='553:0']"
-    mobile_number = "//*[@id='565:0']"
+    CAN = "//*[@id='494:0']"
+    SIN = "//input[@placeholder= 'Service ID Number']"
+    firstname = "//input[@placeholder= 'First Name']"
+    lastname = "//input[@placeholder= 'Last Name']"
+    emailaddress = "//input[@placeholder= 'Email Address']"
+    mobile_number = "//input[@placeholder= 'Mobile Number']"
     next1 = "//*[@id='request_to_modify']/div/div/div/div/div/div[6]/div/button"
     terms_cond = "//*[@id='terms_and_conditions']/div[2]/div[1]/div/h3"
     yes = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[2]/div[2]/div[2]/label/div"
     submit = "//*[@id='terms_and_conditions']/div[2]/div[4]/button"
 
+    def get_SIN(self, driver):
+        return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.SIN)))
     def  get_submit(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.submit)))
     def  get_yes(self, driver):

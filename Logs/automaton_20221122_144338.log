@@ -1,0 +1,22 @@
+2022-11-22 14:43:39,398 - INFO - setup : Browser Launched!
+2022-11-22 14:43:47,051 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 14:43:47,051 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 14:43:47,051 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 14:43:47,051 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 14:43:47,265 - INFO - <module> : Clicked
+2022-11-22 14:43:47,265 - INFO - <module> : Clicked
+2022-11-22 14:43:47,265 - INFO - <module> : Clicked
+2022-11-22 14:43:47,265 - INFO - <module> : Clicked
+2022-11-22 14:43:51,004 - INFO - <module> : input: 100056683
+2022-11-22 14:43:51,004 - INFO - <module> : input: 100056683
+2022-11-22 14:43:51,004 - INFO - <module> : input: 100056683
+2022-11-22 14:43:51,004 - INFO - <module> : input: 100056683
+2022-11-22 14:43:51,039 - INFO - <module> :  exists
+2022-11-22 14:43:51,039 - INFO - <module> :  exists
+2022-11-22 14:43:51,039 - INFO - <module> :  exists
+2022-11-22 14:43:51,039 - INFO - <module> :  exists
+2022-11-22 14:44:21,522 - ERROR - <module> : Cannot Locate: sin
+2022-11-22 14:44:21,522 - ERROR - <module> : Cannot Locate: sin
+2022-11-22 14:44:21,522 - ERROR - <module> : Cannot Locate: sin
+2022-11-22 14:44:21,522 - ERROR - <module> : Cannot Locate: sin
+2022-11-22 14:44:21,542 - INFO - setup : Close Browser

@@ -1,0 +1,41 @@
+2022-11-23 14:08:05,438 - INFO - setup : Browser Launched!
+2022-11-23 14:08:13,731 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-23 14:08:13,731 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-23 14:08:13,731 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-23 14:08:14,961 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-23 14:08:14,961 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-23 14:08:14,961 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-23 14:08:15,658 - INFO - <module> : Service Application exists
+2022-11-23 14:08:15,658 - INFO - <module> : Service Application exists
+2022-11-23 14:08:15,658 - INFO - <module> : Service Application exists
+2022-11-23 14:08:18,367 - INFO - <module> : Click on Individual
+2022-11-23 14:08:18,367 - INFO - <module> : Click on Individual
+2022-11-23 14:08:18,367 - INFO - <module> : Click on Individual
+2022-11-23 14:08:18,442 - INFO - <module> : Clicked
+2022-11-23 14:08:18,442 - INFO - <module> : Clicked
+2022-11-23 14:08:18,442 - INFO - <module> : Clicked
+2022-11-23 14:08:18,491 - INFO - <module> : Start Service exists
+2022-11-23 14:08:18,491 - INFO - <module> : Start Service exists
+2022-11-23 14:08:18,491 - INFO - <module> : Start Service exists
+2022-11-23 14:08:18,527 - INFO - <module> : Modify Service exists
+2022-11-23 14:08:18,527 - INFO - <module> : Modify Service exists
+2022-11-23 14:08:18,527 - INFO - <module> : Modify Service exists
+2022-11-23 14:08:18,569 - INFO - <module> : Reactivate Service exists
+2022-11-23 14:08:18,569 - INFO - <module> : Reactivate Service exists
+2022-11-23 14:08:18,569 - INFO - <module> : Reactivate Service exists
+2022-11-23 14:08:18,605 - INFO - <module> : Stop Service exists
+2022-11-23 14:08:18,605 - INFO - <module> : Stop Service exists
+2022-11-23 14:08:18,605 - INFO - <module> : Stop Service exists
+2022-11-23 14:08:21,405 - INFO - <module> : Select Stop Electric Service
+2022-11-23 14:08:21,405 - INFO - <module> : Select Stop Electric Service
+2022-11-23 14:08:21,405 - INFO - <module> : Select Stop Electric Service
+2022-11-23 14:08:21,610 - INFO - <module> : Clicked
+2022-11-23 14:08:21,610 - INFO - <module> : Clicked
+2022-11-23 14:08:21,610 - INFO - <module> : Clicked
+2022-11-23 14:08:21,694 - INFO - <module> : Stop Service exists
+2022-11-23 14:08:21,694 - INFO - <module> : Stop Service exists
+2022-11-23 14:08:21,694 - INFO - <module> : Stop Service exists
+2022-11-23 14:08:24,366 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-11-23 14:08:24,366 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-11-23 14:08:24,366 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-11-23 14:08:54,866 - INFO - setup : Close Browser

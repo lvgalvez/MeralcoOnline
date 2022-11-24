@@ -16,13 +16,28 @@ class ContactUsPage:
     log_inquiry_concern_type = "//select[contains(@class, 'slds-select')]"
     submit_btn = "//button[contains(text(), 'Submit')]"
     log_inquiry_reference_number = "//span[contains(@class, 'text-orange')]"
-    lastname = "//*[@id='68:2;a']"
-    can = "//*[@id='7:199;a']"
+    lastname = "//input[@id='50:199;a']"
+    can = "//input[@id='7:199;a']"
     feedback = "//h3[contains(text(), 'Give Feedback')]"
     make_request = "//h3[contains(text(), 'Make a Request')]"
     ok_btn = "//button[contains(text(),'OK')]"
     select_sin = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/div[1]/div[1]/div/div[3]/div/div/select"
+    firstname = "//input[@id='36:199;a']"
+    email = "//input[@id='64:199;a']"
+    mobile = "//input[@id='76:199;a']"
+    remarks = "//textarea[@id='569:0']"
+    sin = "//input[@id='22:199;a']"
 
+    def get_concern_sn(self, driver):
+        return WebMisc().clickable_element(driver, self.sin, "sin")
+    def get_remarks(self, driver):
+        return WebMisc().clickable_element(driver, self.remarks, "remarks")
+    def get_mobile(self, driver):
+        return WebMisc().clickable_element(driver, self.mobile, "mobile")
+    def get_email(self, driver):
+        return WebMisc().clickable_element(driver, self.email, "email")
+    def get_firstname(self, driver):
+        return WebMisc().clickable_element(driver, self.firstname, "firstname")
     def get_make_request(self, driver):
         return WebMisc().clickable_element(driver, self.make_request, "make_request")
     def get_feedback(self, driver):

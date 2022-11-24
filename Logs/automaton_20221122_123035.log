@@ -1,0 +1,14 @@
+2022-11-22 12:30:36,362 - INFO - setup : Browser Launched!
+2022-11-22 12:30:49,137 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 12:30:49,137 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 12:30:49,137 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 12:30:49,137 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 12:30:49,436 - INFO - <module> : Clicked
+2022-11-22 12:30:49,436 - INFO - <module> : Clicked
+2022-11-22 12:30:49,436 - INFO - <module> : Clicked
+2022-11-22 12:30:49,436 - INFO - <module> : Clicked
+2022-11-22 12:31:21,898 - ERROR - <module> : Cannot Locate: email
+2022-11-22 12:31:21,898 - ERROR - <module> : Cannot Locate: email
+2022-11-22 12:31:21,898 - ERROR - <module> : Cannot Locate: email
+2022-11-22 12:31:21,898 - ERROR - <module> : Cannot Locate: email
+2022-11-22 12:31:21,929 - INFO - setup : Close Browser

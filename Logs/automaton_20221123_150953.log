@@ -1,0 +1,18 @@
+2022-11-23 15:09:54,381 - INFO - setup : Browser Launched!
+2022-11-23 15:10:10,148 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-11-23 15:10:10,148 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-11-23 15:10:10,148 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-11-23 15:10:10,148 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-11-23 15:10:10,356 - INFO - <module> : input: automationteam@gmail.com
+2022-11-23 15:10:10,356 - INFO - <module> : input: automationteam@gmail.com
+2022-11-23 15:10:10,356 - INFO - <module> : input: automationteam@gmail.com
+2022-11-23 15:10:10,356 - INFO - <module> : input: automationteam@gmail.com
+2022-11-23 15:10:11,253 - INFO - <module> : Clicked
+2022-11-23 15:10:11,253 - INFO - <module> : Clicked
+2022-11-23 15:10:11,253 - INFO - <module> : Clicked
+2022-11-23 15:10:11,253 - INFO - <module> : Clicked
+2022-11-23 15:10:43,708 - ERROR - <module> : Cannot Locate: log_inquiry_ok_btn
+2022-11-23 15:10:43,708 - ERROR - <module> : Cannot Locate: log_inquiry_ok_btn
+2022-11-23 15:10:43,708 - ERROR - <module> : Cannot Locate: log_inquiry_ok_btn
+2022-11-23 15:10:43,708 - ERROR - <module> : Cannot Locate: log_inquiry_ok_btn
+2022-11-23 15:10:43,777 - INFO - setup : Close Browser

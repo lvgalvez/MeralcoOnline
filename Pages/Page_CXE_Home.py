@@ -19,7 +19,15 @@ class CXEHomePage:
     #profile_account = "//li[text() = '"+ Outage['switch_profile'] + "']"
     profile_account = "//*[@id='profileModal']/div/div/md-card/md-card-content/form/div[1]/div/ul/li[2]"
     okay_btn = "//*[@id='profileModal']/div/div/md-card/md-card-content/form/div[4]/button[1]"
+    accountdetails = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div[2]/div[6]/div/div/div[2]/div/a[3]"
+    payment_history = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div[2]/div[6]/div/div/div[1]/div/div[3]/div[2]/div/ul/li[3]/a"
 
+    def get_payment_history(self, driver):
+        return WebMisc().optional_wait_element(driver, self.payment_history, "payment_history")
+    def get_submit(self, driver):
+        return WebMisc().optional_wait_element(driver, self.submit, "submit")
+    def get_account_details(self, driver):
+        return WebMisc().optional_wait_element(driver, self.accountdetails, "accountdetails")
     def get_search_button(self, driver):
         return WebMisc().optional_wait_element(driver, self.search_button, "search_button")
 
