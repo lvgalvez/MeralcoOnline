@@ -1,0 +1,65 @@
+2022-11-23 14:18:51,430 - INFO - setup : Browser Launched!
+2022-11-23 14:18:58,300 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-23 14:18:58,300 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-23 14:18:58,300 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-23 14:18:58,982 - INFO - <module> : Service Application exists
+2022-11-23 14:18:58,982 - INFO - <module> : Service Application exists
+2022-11-23 14:18:58,982 - INFO - <module> : Service Application exists
+2022-11-23 14:19:01,771 - INFO - <module> : Clicked
+2022-11-23 14:19:01,771 - INFO - <module> : Clicked
+2022-11-23 14:19:01,771 - INFO - <module> : Clicked
+2022-11-23 14:19:01,819 - INFO - <module> : Start Service exists
+2022-11-23 14:19:01,819 - INFO - <module> : Start Service exists
+2022-11-23 14:19:01,819 - INFO - <module> : Start Service exists
+2022-11-23 14:19:01,859 - INFO - <module> : Modify Service exists
+2022-11-23 14:19:01,859 - INFO - <module> : Modify Service exists
+2022-11-23 14:19:01,859 - INFO - <module> : Modify Service exists
+2022-11-23 14:19:01,897 - INFO - <module> : Reactivate Service exists
+2022-11-23 14:19:01,897 - INFO - <module> : Reactivate Service exists
+2022-11-23 14:19:01,897 - INFO - <module> : Reactivate Service exists
+2022-11-23 14:19:01,939 - INFO - <module> : Stop Service exists
+2022-11-23 14:19:01,939 - INFO - <module> : Stop Service exists
+2022-11-23 14:19:01,939 - INFO - <module> : Stop Service exists
+2022-11-23 14:19:04,927 - INFO - <module> : Clicked
+2022-11-23 14:19:04,927 - INFO - <module> : Clicked
+2022-11-23 14:19:04,927 - INFO - <module> : Clicked
+2022-11-23 14:19:05,010 - INFO - <module> : Stop Service exists
+2022-11-23 14:19:05,010 - INFO - <module> : Stop Service exists
+2022-11-23 14:19:05,010 - INFO - <module> : Stop Service exists
+2022-11-23 14:19:07,840 - INFO - <module> :  exists
+2022-11-23 14:19:07,840 - INFO - <module> :  exists
+2022-11-23 14:19:07,840 - INFO - <module> :  exists
+2022-11-23 14:19:10,755 - INFO - <module> : input: 1890802138
+2022-11-23 14:19:10,755 - INFO - <module> : input: 1890802138
+2022-11-23 14:19:10,755 - INFO - <module> : input: 1890802138
+2022-11-23 14:19:16,490 - INFO - <module> : input: atFirstname
+2022-11-23 14:19:16,490 - INFO - <module> : input: atFirstname
+2022-11-23 14:19:16,490 - INFO - <module> : input: atFirstname
+2022-11-23 14:19:16,575 - INFO - <module> : input: atLastname
+2022-11-23 14:19:16,575 - INFO - <module> : input: atLastname
+2022-11-23 14:19:16,575 - INFO - <module> : input: atLastname
+2022-11-23 14:19:16,649 - INFO - <module> : input: automationteam@gmail.com
+2022-11-23 14:19:16,649 - INFO - <module> : input: automationteam@gmail.com
+2022-11-23 14:19:16,649 - INFO - <module> : input: automationteam@gmail.com
+2022-11-23 14:19:16,713 - INFO - <module> : input: +639234567891
+2022-11-23 14:19:16,713 - INFO - <module> : input: +639234567891
+2022-11-23 14:19:16,713 - INFO - <module> : input: +639234567891
+2022-11-23 14:19:19,014 - INFO - <module> : Clicked
+2022-11-23 14:19:19,014 - INFO - <module> : Clicked
+2022-11-23 14:19:19,014 - INFO - <module> : Clicked
+2022-11-23 14:19:19,065 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2022-11-23 14:19:19,065 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2022-11-23 14:19:19,065 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2022-11-23 14:19:21,966 - INFO - <module> : Clicked
+2022-11-23 14:19:21,966 - INFO - <module> : Clicked
+2022-11-23 14:19:21,966 - INFO - <module> : Clicked
+2022-11-23 14:19:24,230 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2022-11-23 14:19:24,230 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2022-11-23 14:19:24,230 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2022-11-23 14:19:28,357 - INFO - setup : Close Browser

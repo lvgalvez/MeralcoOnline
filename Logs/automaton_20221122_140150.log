@@ -1,0 +1,74 @@
+2022-11-22 14:01:51,127 - INFO - setup : Browser Launched!
+2022-11-22 14:02:05,283 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 14:02:05,283 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 14:02:05,283 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 14:02:05,283 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/contact
+2022-11-22 14:02:05,552 - INFO - <module> : Clicked
+2022-11-22 14:02:05,552 - INFO - <module> : Clicked
+2022-11-22 14:02:05,552 - INFO - <module> : Clicked
+2022-11-22 14:02:05,552 - INFO - <module> : Clicked
+2022-11-22 14:02:19,624 - INFO - <module> :  exists
+2022-11-22 14:02:19,624 - INFO - <module> :  exists
+2022-11-22 14:02:19,624 - INFO - <module> :  exists
+2022-11-22 14:02:19,624 - INFO - <module> :  exists
+2022-11-22 14:02:23,300 - INFO - <module> : input: 3535100272
+2022-11-22 14:02:23,300 - INFO - <module> : input: 3535100272
+2022-11-22 14:02:23,300 - INFO - <module> : input: 3535100272
+2022-11-22 14:02:23,300 - INFO - <module> : input: 3535100272
+2022-11-22 14:02:23,379 - INFO - <module> : input: automation
+2022-11-22 14:02:23,379 - INFO - <module> : input: automation
+2022-11-22 14:02:23,379 - INFO - <module> : input: automation
+2022-11-22 14:02:23,379 - INFO - <module> : input: automation
+2022-11-22 14:02:23,464 - INFO - <module> : input: outage
+2022-11-22 14:02:23,464 - INFO - <module> : input: outage
+2022-11-22 14:02:23,464 - INFO - <module> : input: outage
+2022-11-22 14:02:23,464 - INFO - <module> : input: outage
+2022-11-22 14:02:23,543 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-11-22 14:02:23,543 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-11-22 14:02:23,543 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-11-22 14:02:23,543 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-11-22 14:02:23,632 - INFO - <module> : input: +639758880795
+2022-11-22 14:02:23,632 - INFO - <module> : input: +639758880795
+2022-11-22 14:02:23,632 - INFO - <module> : input: +639758880795
+2022-11-22 14:02:23,632 - INFO - <module> : input: +639758880795
+2022-11-22 14:02:23,732 - INFO - <module> : input: Sample Remarks
+2022-11-22 14:02:23,732 - INFO - <module> : input: Sample Remarks
+2022-11-22 14:02:23,732 - INFO - <module> : input: Sample Remarks
+2022-11-22 14:02:23,732 - INFO - <module> : input: Sample Remarks
+2022-11-22 14:02:23,788 - INFO - <module> : input: Sample Remarks
+2022-11-22 14:02:23,788 - INFO - <module> : input: Sample Remarks
+2022-11-22 14:02:23,788 - INFO - <module> : input: Sample Remarks
+2022-11-22 14:02:23,788 - INFO - <module> : input: Sample Remarks
+2022-11-22 14:02:26,739 - INFO - <module> : Clicked
+2022-11-22 14:02:26,739 - INFO - <module> : Clicked
+2022-11-22 14:02:26,739 - INFO - <module> : Clicked
+2022-11-22 14:02:26,739 - INFO - <module> : Clicked
+2022-11-22 14:02:35,847 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/concernstatus
+2022-11-22 14:02:35,847 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/concernstatus
+2022-11-22 14:02:35,847 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/concernstatus
+2022-11-22 14:02:35,847 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/concernstatus
+2022-11-22 14:02:36,220 - INFO - <module> : input: 22112251408
+2022-11-22 14:02:36,220 - INFO - <module> : input: 22112251408
+2022-11-22 14:02:36,220 - INFO - <module> : input: 22112251408
+2022-11-22 14:02:36,220 - INFO - <module> : input: 22112251408
+2022-11-22 14:02:36,342 - INFO - <module> : input: outage
+2022-11-22 14:02:36,342 - INFO - <module> : input: outage
+2022-11-22 14:02:36,342 - INFO - <module> : input: outage
+2022-11-22 14:02:36,342 - INFO - <module> : input: outage
+2022-11-22 14:02:36,422 - INFO - <module> : Clicked
+2022-11-22 14:02:36,422 - INFO - <module> : Clicked
+2022-11-22 14:02:36,422 - INFO - <module> : Clicked
+2022-11-22 14:02:36,422 - INFO - <module> : Clicked
+2022-11-22 14:02:49,000 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-11-22 14:02:49,000 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-11-22 14:02:49,000 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-11-22 14:02:49,000 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-11-22 14:02:49,162 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-11-22 14:02:49,162 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-11-22 14:02:49,162 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-11-22 14:02:49,162 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-11-22 14:02:50,718 - INFO - <module> : Clicked
+2022-11-22 14:02:50,718 - INFO - <module> : Clicked
+2022-11-22 14:02:50,718 - INFO - <module> : Clicked
+2022-11-22 14:02:50,718 - INFO - <module> : Clicked
+2022-11-22 14:02:55,210 - INFO - setup : Close Browser

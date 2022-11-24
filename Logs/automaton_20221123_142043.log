@@ -1,0 +1,50 @@
+2022-11-23 14:20:44,433 - INFO - setup : Browser Launched!
+2022-11-23 14:20:52,140 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-23 14:20:52,140 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-23 14:20:52,140 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-23 14:20:52,413 - INFO - <module> : Service Application exists
+2022-11-23 14:20:52,413 - INFO - <module> : Service Application exists
+2022-11-23 14:20:52,413 - INFO - <module> : Service Application exists
+2022-11-23 14:20:55,268 - INFO - <module> : Clicked
+2022-11-23 14:20:55,268 - INFO - <module> : Clicked
+2022-11-23 14:20:55,268 - INFO - <module> : Clicked
+2022-11-23 14:20:55,321 - INFO - <module> : Start Service exists
+2022-11-23 14:20:55,321 - INFO - <module> : Start Service exists
+2022-11-23 14:20:55,321 - INFO - <module> : Start Service exists
+2022-11-23 14:20:55,375 - INFO - <module> : Modify Service exists
+2022-11-23 14:20:55,375 - INFO - <module> : Modify Service exists
+2022-11-23 14:20:55,375 - INFO - <module> : Modify Service exists
+2022-11-23 14:20:55,421 - INFO - <module> : Reactivate Service exists
+2022-11-23 14:20:55,421 - INFO - <module> : Reactivate Service exists
+2022-11-23 14:20:55,421 - INFO - <module> : Reactivate Service exists
+2022-11-23 14:20:55,481 - INFO - <module> : Stop Service exists
+2022-11-23 14:20:55,481 - INFO - <module> : Stop Service exists
+2022-11-23 14:20:55,481 - INFO - <module> : Stop Service exists
+2022-11-23 14:20:58,536 - INFO - <module> : Clicked
+2022-11-23 14:20:58,536 - INFO - <module> : Clicked
+2022-11-23 14:20:58,536 - INFO - <module> : Clicked
+2022-11-23 14:20:58,615 - INFO - <module> : Stop Service exists
+2022-11-23 14:20:58,615 - INFO - <module> : Stop Service exists
+2022-11-23 14:20:58,615 - INFO - <module> : Stop Service exists
+2022-11-23 14:21:01,600 - INFO - <module> :  exists
+2022-11-23 14:21:01,600 - INFO - <module> :  exists
+2022-11-23 14:21:01,600 - INFO - <module> :  exists
+2022-11-23 14:21:04,721 - INFO - <module> : input: 353510027
+2022-11-23 14:21:04,721 - INFO - <module> : input: 353510027
+2022-11-23 14:21:04,721 - INFO - <module> : input: 353510027
+2022-11-23 14:21:10,353 - INFO - <module> : input: atFirstname
+2022-11-23 14:21:10,353 - INFO - <module> : input: atFirstname
+2022-11-23 14:21:10,353 - INFO - <module> : input: atFirstname
+2022-11-23 14:21:10,431 - INFO - <module> : input: atLastname
+2022-11-23 14:21:10,431 - INFO - <module> : input: atLastname
+2022-11-23 14:21:10,431 - INFO - <module> : input: atLastname
+2022-11-23 14:21:10,505 - INFO - <module> : input: automationteam@gmail.com
+2022-11-23 14:21:10,505 - INFO - <module> : input: automationteam@gmail.com
+2022-11-23 14:21:10,505 - INFO - <module> : input: automationteam@gmail.com
+2022-11-23 14:21:10,568 - INFO - <module> : input: +639234567891
+2022-11-23 14:21:10,568 - INFO - <module> : input: +639234567891
+2022-11-23 14:21:10,568 - INFO - <module> : input: +639234567891
+2022-11-23 14:21:12,861 - INFO - <module> : Clicked
+2022-11-23 14:21:12,861 - INFO - <module> : Clicked
+2022-11-23 14:21:12,861 - INFO - <module> : Clicked
+2022-11-23 14:21:33,282 - INFO - setup : Close Browser

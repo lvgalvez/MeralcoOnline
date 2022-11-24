@@ -51,7 +51,8 @@ SAMO = {
     'contractor_mobileNumber': '+639234567891',
     'contractor_birthday': '10/04/1993',
     'contractor_landline': '+63945113252',
-    'CAN': '1890802138',
+    'CAN': '1780945897',
+    'SIN': '502863370101',
     'firstname': 'atFirstname',
     'lastname': 'atLastname',
     'emailaddress': "automationteam@gmail.com",
@@ -168,6 +169,13 @@ Outage = {
 }
 
 Concern = {
+    'inquiry_remarks': 'Sample Remarks',
+    'inquiry_concern_type': 'Billing & Payments',
+    'reference_number': '22112251408',
+    'first_name': 'automation',
+    'last_name': 'outage',
+    'mobile': '+639758880795',
+    'concern_email': 'atmooutageaccount@yopmail.com',
     'username_single_service': 'atconcernsingle@yopmail.com',
     'username_multiple_service': 'atconcernmultiple@yopmail.com',
     'username_multiple_can': 'multiplecansinglesin@yopmail.com',
@@ -178,6 +186,9 @@ Concern = {
     'request_concern_type': 'Service Maintenance',
     'change_selected_sin': '302004950101',
     'change_selected_can': '3533513231',
+    'can_single_sin': '3535100272',
+    'sin_multiple': '502863370101'
+
 }
 
 
