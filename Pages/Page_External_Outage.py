@@ -108,7 +108,7 @@ class ExternalOutagePage:
         return WebMisc().clickable_element(driver, self.close_map_type, "close_map_type")
 
     def get_service_message_button(self, driver):
-        return WebMisc().clickable_element(driver, self.service_message_button, "service_message_button")
+        return WebMisc().optional_clickable_element(driver, self.service_message_button, "service_message_button")
 
     def get_address_radio(self, driver):
         return WebMisc().clickable_element(driver, self.address_radio, "address_radio")
