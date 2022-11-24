@@ -183,7 +183,7 @@ def Click_Other_Address(driver):
 
 
 def Click_Anywhere_Map(driver):
-    fc.coordinates_click(driver, 200, 200)
+    fc.coordinates_click(driver, 150, 150)
     time.sleep(5)
 
 
@@ -268,12 +268,28 @@ def Login_Internal_Outage(driver, email, password):
     fc.click(cxe_login.get_next(driver))
     fc.input_text(cxe_login.get_password(driver), password)
     fc.click(cxe_login.get_sign_in(driver))
-#   fc.click(cxe_login.get_sms(driver))
+    fc.click(cxe_login.get_sms(driver))
     time.sleep(5)
     fc.click(cxe_login.get_stay_sign_no(driver))
-    time.sleep(3)
-    fc.option_click(cxe_login.get_default_login(driver))
     time.sleep(12)
+    fc.option_click(cxe_login.get_default_login(driver))
+    time.sleep(15)
+
+def Select_Internal_Weather(driver, weather):
+    fc.click(internal_outage.get_weather_click(driver))
+    time.sleep(3)
+    fc.modal_click(driver, internal_outage.get_internal_modal(driver))
+    time.sleep(3)
+    if weather == "temperature":
+        fc.click(internal_outage.get_temperature(driver))
+    elif weather == "rainfall":
+        fc.click(internal_outage.get_rainfall(driver))
+    elif weather == "wind_speed":
+        fc.click(internal_outage.get_wind_speed(driver))
+    elif weather == "clouds":
+        fc.click(internal_outage.get_clouds(driver))
+    time.sleep(5)
+
 
 
 

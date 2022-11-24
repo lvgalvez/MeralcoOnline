@@ -146,7 +146,7 @@ Outage = {
     'first_name': 'sample',
     'middle_name': 'middle',
     'last_name': 'report',
-    'mobile_number': '+639758880793',
+    'mobile_number': '+639276597262',
     'landline': '',
     'email': 'testautomationoutage@yopmail.com',
     'cxe_email': 'v-lvlgalvez@meralco.com.ph',
@@ -163,8 +163,9 @@ Outage = {
     'search_loc_facility':'076094',
     'search_loc_incident_id': 'INC 19001841',
     'search_loc_case_id': '21102227891',
-    'search_loc_call_id': 'CALL 19002340',
-    'switch_profile': 'w/ Meralco Online Account'
+    'search_loc_call_id': 'CALL 19001010',
+    'switch_profile': 'w/ Meralco Online Account',
+    'pole_number': '61',
 }
 
 Concern = {
