@@ -290,7 +290,9 @@ def Select_Internal_Weather(driver, weather):
         fc.click(internal_outage.get_clouds(driver))
     time.sleep(5)
 
+def assertRedBanner(element):
+    assert element.is_displayed(), log.error("Red banner does not exist")
 
-
-
+def assertBayadExpressAd(element):
+    assert element.is_displayed(), log.error("Bayad express ad is not displayed")
 
