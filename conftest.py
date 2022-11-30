@@ -8,7 +8,7 @@ from Utilities.Utils import *
 
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome")
-    parser.addoption("--tags")
+    #parser.addoption("--tags")
 
 @pytest.fixture(scope="function")
 def setup(request):
