@@ -71,6 +71,27 @@ def TC001a(driver,ts_id):
 
 
 
+def TC002(driver, ts_id, page):
+    test_case = "TC002"
+    contactUsPage = ContactUsPage()
+    homePage = HomePage()
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    Log_In_Meralco_Online(driver, Concern['username_multiple_can'], Concern['password'])
+    time.sleep(10)
+    fc.modal_click(driver, homePage.get_contact_us(driver))
+
+    if page == 'Inquiry':
+        fc.click(contactUsPage.get_log_inquiry(driver))
+    elif page == 'Feedback':
+        fc.click(contactUsPage.get_give_feedback(driver))
+    elif page == "Request":
+        fc.click(contactUsPage.get_request(driver))
+
+    fc.select_dropdown_element(contactUsPage.get_can(driver), Concern['change_selected_can'])
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+
 def TC003(driver, ts_id, page):
     test_case = "TC003"
     contactUsPage = ContactUsPage()
@@ -99,6 +120,31 @@ def TC003a(driver, ts_id, can):
     fc.verify(contactUsPage.get_CAN(driver))
     fc.verify(contactUsPage.get_concern_sn(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+def TC004(driver, ts_id, page):
+    test_case = "TC004"
+    contactUsPage = ContactUsPage()
+    homePage = HomePage()
+
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    Log_In_Meralco_Online(driver, Concern['username_multiple_can_multiple_sin'], Concern['password'])
+    time.sleep(10)
+    fc.modal_click(driver, homePage.get_contact_us(driver))
+
+    if page == 'Inquiry':
+        fc.click(contactUsPage.get_log_inquiry(driver))
+    elif page == 'Feedback':
+        fc.click(contactUsPage.get_give_feedback(driver))
+    elif page == "Request":
+        fc.click(contactUsPage.get_request(driver))
+
+    time.sleep(10)
+    fc.select_dropdown_element(contactUsPage.get_can(driver), Concern['selected_multiple_can'])
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.select_dropdown_element(contactUsPage.get_sin(driver), Concern['selected_multiple_sin'])
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
 
 
@@ -191,6 +237,11 @@ def TC006(driver, ts_id):
     contactUsPage = ContactUsPage()
 
     fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.scroll_element(driver, contactUsPage.get_ok_btn(driver))
+    fc.click(contactUsPage.get_ok_btn(driver))
+    time.sleep(5)
+    # insert Assert for validation
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
 
 def TC007(driver, ts_id, page):
     test_case = "TC007"
