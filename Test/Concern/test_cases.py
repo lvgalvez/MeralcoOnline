@@ -87,9 +87,10 @@ def TC002(driver, ts_id, page):
         fc.click(contactUsPage.get_give_feedback(driver))
     elif page == "Request":
         fc.click(contactUsPage.get_request(driver))
-
-    fc.select_dropdown_element(contactUsPage.get_can(driver), Concern['change_selected_can'])
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.select_dropdown_element(contactUsPage.get_can(driver), Concern['change_selected_can'])
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
 
 def TC003(driver, ts_id, page):
@@ -240,8 +241,11 @@ def TC006(driver, ts_id):
     fc.scroll_element(driver, contactUsPage.get_ok_btn(driver))
     fc.click(contactUsPage.get_ok_btn(driver))
     time.sleep(5)
-    # insert Assert for validation
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    # insert Assert for validation
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
 def TC007(driver, ts_id, page):
     test_case = "TC007"
