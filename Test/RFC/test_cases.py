@@ -97,7 +97,7 @@ def TC049(driver, ts_id):
     fc.screen_capture(driver, module, ts_id, test_case, "Step 8")
 
 def TC050(driver, ts_id):
-    test_case = "TC049"
+    test_case = "TC050"
 
     homePage = HomePage()
     payBillsPage = PayBillPage()
