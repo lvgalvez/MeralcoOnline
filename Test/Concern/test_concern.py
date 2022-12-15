@@ -34,7 +34,7 @@ class TestConcern:
 
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS006")
+    @pytest.mark.tags("TS006", "User_Concern")
     def test_ts006(self):
         test_scenario = "TS006"
         Functions().create_document(self.driver, self.module, test_scenario)
@@ -45,7 +45,7 @@ class TestConcern:
         #TC111(self.driver, test_scenario)
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS007")
+    @pytest.mark.tags("TS007", "User_Concern")
     def test_ts007(self):
         test_scenario = "TS007"
         Functions().create_document(self.driver, self.module, test_scenario)
@@ -55,7 +55,7 @@ class TestConcern:
         TC111a(self.driver, test_scenario, Concern['username_multiple_service'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS008")
+    @pytest.mark.tags("TS008", "User_Concern")
     def test_ts008(self):
         test_scenario = "TS008"
         Functions().create_document(self.driver, self.module, test_scenario)
@@ -65,7 +65,7 @@ class TestConcern:
         TC111a(self.driver, test_scenario, Concern['username_multiple_can'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS009")
+    @pytest.mark.tags("TS009", "User_Concern")
     def test_ts009(self):
         test_scenario = "TS009"
         Functions().create_document(self.driver, self.module, test_scenario)
@@ -75,7 +75,7 @@ class TestConcern:
         TC111a(self.driver, test_scenario, Concern['username_multiple_can_multiple_sin'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS010")
+    @pytest.mark.tags("TS010", "User_Concern")
     def test_ts010(self):
         test_scenario = "TS010"
         Functions().create_document(self.driver, self.module, test_scenario)
@@ -85,7 +85,7 @@ class TestConcern:
         TC111a(self.driver, test_scenario, Concern['username_single_service'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS011")
+    @pytest.mark.tags("TS011", "User_Concern")
     def test_ts011(self):
         test_scenario = "TS011"
         Functions().create_document(self.driver, self.module, test_scenario)
@@ -95,7 +95,7 @@ class TestConcern:
         TC111a(self.driver, test_scenario, Concern['username_multiple_service'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS012")
+    @pytest.mark.tags("TS012", "User_Concern")
     def test_ts012(self):
         test_scenario = "TS012"
         Functions().create_document(self.driver, self.module, test_scenario)
@@ -105,7 +105,7 @@ class TestConcern:
         TC111a(self.driver, test_scenario, Concern['username_multiple_can'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS013")
+    @pytest.mark.tags("TS013", "User_Concern")
     def test_ts013(self):
         test_scenario = "TS013"
         Functions().create_document(self.driver, self.module, test_scenario)
@@ -115,9 +115,9 @@ class TestConcern:
         TC111a(self.driver, test_scenario, Concern['username_multiple_can_multiple_sin'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS014")
+    @pytest.mark.tags("TS014", "User_Concern")
     def test_ts014(self):
-        test_scenario = "TS010"
+        test_scenario = "TS014"
         Functions().create_document(self.driver, self.module, test_scenario)
         TC001(self.driver, test_scenario, 'Request')
         TC005(self.driver, test_scenario, 'Request')
@@ -125,7 +125,7 @@ class TestConcern:
         TC111a(self.driver, test_scenario, Concern['username_single_service'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS015")
+    @pytest.mark.tags("TS015", "User_Concern")
     def test_ts015(self):
         test_scenario = "TS015"
         Functions().create_document(self.driver, self.module, test_scenario)
@@ -135,7 +135,7 @@ class TestConcern:
         TC111a(self.driver, test_scenario, Concern['username_multiple_service'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS016")
+    @pytest.mark.tags("TS016", "User_Concern")
     def test_ts016(self):
         test_scenario = "TS016"
         Functions().create_document(self.driver, self.module, test_scenario)
@@ -145,7 +145,7 @@ class TestConcern:
         TC111a(self.driver, test_scenario, Concern['username_multiple_can'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-    @pytest.mark.tags("TS017")
+    @pytest.mark.tags("TS017", "User_Concern")
     def test_ts017(self):
         test_scenario = "TS017"
         Functions().create_document(self.driver, self.module, test_scenario)
@@ -220,6 +220,88 @@ class TestConcern:
         TC111a(self.driver, test_scenario, Concern['concern_email'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
+    @pytest.mark.tags("TS032")
+    def test_ts032(self):
+        test_scenario = "TS032"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC012(self.driver, test_scenario)
+        TC087(self.driver, test_scenario)
+        TC014(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS033")
+    def test_ts033(self):
+        test_scenario = "TS033"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC012(self.driver, test_scenario)
+        TC087(self.driver, test_scenario)
+        TC014(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS034")
+    def test_ts034(self):
+        test_scenario = "TS034"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC020(self.driver, test_scenario)
+        TC013(self.driver, test_scenario)
+        TC014(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS035")
+    def test_ts035(self):
+        test_scenario = "TS035"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC021(self.driver, test_scenario)
+        TC013(self.driver, test_scenario)
+        TC014(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS036")
+    def test_ts036(self):
+        test_scenario = "TS036"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC022(self.driver, test_scenario)
+        TC013(self.driver, test_scenario)
+        TC014(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS037")
+    def test_ts037(self):
+        test_scenario = "TS037"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC023(self.driver, test_scenario)
+        TC013(self.driver, test_scenario)
+        TC014(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS038")
+    def test_ts038(self):
+        test_scenario = "TS038"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC023(self.driver, test_scenario)
+        TC013(self.driver, test_scenario)
+        TC014(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS039")
+    def test_ts039(self):
+        test_scenario = "TS039"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC024(self.driver, test_scenario)
+        TC013(self.driver, test_scenario)
+        TC014(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS040")
+    def test_ts040(self):
+        test_scenario = "TS040"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC024(self.driver, test_scenario)
+        TC013(self.driver, test_scenario)
+        TC014(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+
     @pytest.mark.tags("TS055")
     def test_ts055(self):
         test_scenario = "TS055"
@@ -228,3 +310,4 @@ class TestConcern:
               SAMO['mobilenumber'], SAMO['CAN'], SAMO['SIN'])
         #TC014(self.driver, test_scenario, SAMO['emailaddress'])
         Functions().tag_status(self.module, test_scenario, "Passed")
+
