@@ -21,6 +21,7 @@ class CXEHomePage:
     okay_btn = "//*[@id='profileModal']/div/div/md-card/md-card-content/form/div[4]/button[1]"
     accountdetails = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div[2]/div[6]/div/div/div[2]/div/a[3]"
     payment_history = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div[2]/div[6]/div/div/div[1]/div/div[3]/div[2]/div/ul/li[3]/a"
+    peccbm_no_modal = "//a[contains(text(), 'No')]"
 
     def get_payment_history(self, driver):
         return WebMisc().optional_wait_element(driver, self.payment_history, "payment_history")
@@ -54,3 +55,6 @@ class CXEHomePage:
 
     def get_profile_value(self, driver):
         driver.find_element(By.XPATH, self.okay_btn).click()
+
+    def get_peccbm_no(self, driver):
+        return WebMisc().clickable_element(driver, self.peccbm_no_modal, "peccbm_no_modal")

@@ -37,6 +37,9 @@ class HomePage:
     bill_and_payments = "//button[contains(text(), 'Bills & Payments')]"
     pay_bills = "//a[@href='/customers/s/paybills']"
     bayadExpress = "//img[@src='/customers/resource/1668042297000/PaymentImages/PaymentImages/BE-Banner.png']"
+    request_service = "//h3[contains(text(), 'REQUEST FOR A SERVICE')]"
+    activity_tracker = "//h3[contains(text(), 'VIEW ACTIVITY TRACKER')]"
+    search = "//input[@placeholder='Search ...']"
 
     def get_popupNO(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.popupNO)))
@@ -124,3 +127,12 @@ class HomePage:
 
     def get_bayad_express_ad(self, driver):
         return driver.find_element(By.XPATH, self.bayadExpress)
+
+    def get_request_service(self, driver):
+        return  driver.find_element(By.XPATH, self.request_service)
+
+    def get_activity_tracker(self, driver):
+        return driver.find_element(By.XPATH, self.activity_tracker)
+
+    def get_search(self, driver):
+        return driver.find_element(By.XPATH, self.search)
