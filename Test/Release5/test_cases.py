@@ -37,7 +37,7 @@ customer_document = CXECustomerDocumentPage()
 int_outage = InternalOutagePage()
 yopmail_home = YopmailHomePage()
 document = CXEDocumentPage()
-module = "Concern"
+module = "Release5"
 inquiry_reference_no = ''
 
 def TC001(driver,ts_id, page):

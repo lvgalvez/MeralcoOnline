@@ -1,13 +1,13 @@
 import pytest
 
-from Test.Concern.test_cases import *
+from Test.Release5.test_cases import *
 from Utilities.Data import *
 from Utilities.Functions import Functions
 
 
 @pytest.mark.usefixtures("setup")
 class TestConcern:
-    module = "Concern"
+    module = "Release5"
     function = Functions()
 
     @pytest.mark.tags("TS001")
