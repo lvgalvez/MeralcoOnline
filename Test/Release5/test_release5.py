@@ -311,3 +311,10 @@ class TestConcern:
         #TC014(self.driver, test_scenario, SAMO['emailaddress'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
+    @pytest.mark.tags("TS066")
+    def test_ts066(self):
+        test_scenario = "TS066"
+        Functions().create_document(self.driver, module, test_scenario)
+        Precondition_Login_CXE(self.driver, test_scenario, Concern['cxe_email'], Concern['cxe_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+

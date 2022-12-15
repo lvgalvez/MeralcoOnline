@@ -15,6 +15,7 @@ from Pages.Page_Yopmail_Home import YopmailHomePage
 from Pages.Page_ConcernStatus import ConcernStatusPage
 from Pages.Page_Home import HomePage
 from Pages.Page_ContactUs import ContactUsPage
+from Test.Module_Functions.CXE_Functions import *
 from Test.Module_Functions.MO_Functions import *
 from Utilities.Functions import *
 from Utilities.Utils import Utilities
@@ -40,7 +41,12 @@ document = CXEDocumentPage()
 module = "Release5"
 inquiry_reference_no = ''
 
-def TC001(driver,ts_id, page):
+
+def Precondition_Login_CXE(driver, ts_id, cxe_email, cxe_password):
+    Log_in_CXE(driver, cxe_email, cxe_password)
+
+
+def TC001(driver, ts_id, page):
     test_case = "TC001"
     homePage = HomePage()
     contactUsPage = ContactUsPage()
@@ -115,6 +121,7 @@ def TC003(driver, ts_id, page):
     fc.select_dropdown_element(contactUsPage.get_sin(driver), Concern['change_selected_sin'])
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
 
+
 def TC003a(driver, ts_id, can):
     test_case = "TC003"
     contactUsPage = ContactUsPage()
@@ -123,6 +130,7 @@ def TC003a(driver, ts_id, can):
     fc.verify(contactUsPage.get_CAN(driver))
     fc.verify(contactUsPage.get_concern_sn(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
 
 def TC004(driver, ts_id, page):
     test_case = "TC004"
@@ -520,6 +528,7 @@ def TC038(driver, ts_id):
     fc.bookmark(module, ts_id, test_case, "Step 2")
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
+
 def TC087(driver, ts_id):
     test_case = "TC087"
     home = HomePage()
@@ -530,6 +539,11 @@ def TC087(driver, ts_id):
 
     fc.bookmark(module, ts_id, test_case, "Step 2")
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+
+def TC090(driver, ts_id):
+    test_case = "TC087"
+    home = HomePage()
 
 
 def TC110(driver, ts_id, referencenumber, lastname):
