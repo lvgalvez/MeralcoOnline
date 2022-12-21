@@ -144,19 +144,19 @@ class TestServiceApplicationMeralcoOnline:
     def test_ts032(self):
         test_scenario = "TS032"
         Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
-        TC012a(self.driver, test_scenario)
+        TC012a(self.driver, test_scenario, SAMO['business_account_email'])
         TC087(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, SAMO['emailAddNewService'])
-        Functions().tag_status(self.module, test_scenario, "Passed")
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
 
     @pytest.mark.tags("TS033")
     def test_ts033(self):
         test_scenario = "TS033"
         Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
-        TC012(self.driver, test_scenario)
+        TC012a(self.driver, test_scenario, SAMO['business_account_email'])
         TC087(self.driver, test_scenario)
-        TC014a(self.driver, test_scenario, SAMO['emailAddNewService'])
-        Functions().tag_status(self.module, test_scenario, "Passed")
+        TC014a(self.driver, test_scenario, SAMO['business_account_email'])
+        Functions().tag_status(self.serviceAppModule, test_scenario, "Passed")
 
     @pytest.mark.tags("TS034")
     def test_ts034(self):
@@ -165,7 +165,7 @@ class TestServiceApplicationMeralcoOnline:
         TC020(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['username_multiple_service'])
-        Functions().tag_status(self.module, test_scenario, "Passed")
+        Functions().tag_status(self.serviceAppModule, test_scenario, "Passed")
 
     @pytest.mark.tags("TS035")
     def test_ts035(self):
@@ -174,7 +174,7 @@ class TestServiceApplicationMeralcoOnline:
         TC021(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['concern_email'])
-        Functions().tag_status(self.module, test_scenario, "Passed")
+        Functions().tag_status(self.serviceAppModule, test_scenario, "Passed")
 
     @pytest.mark.tags("TS036")
     def test_ts036(self):
@@ -183,7 +183,7 @@ class TestServiceApplicationMeralcoOnline:
         TC022(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['concern_email'])
-        Functions().tag_status(self.module, test_scenario, "Passed")
+        Functions().tag_status(self.serviceAppModule, test_scenario, "Passed")
 
     @pytest.mark.tags("TS037")
     def test_ts037(self):
@@ -192,7 +192,7 @@ class TestServiceApplicationMeralcoOnline:
         TC023(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['concern_email'])
-        Functions().tag_status(self.module, test_scenario, "Passed")
+        Functions().tag_status(self.serviceAppModule, test_scenario, "Passed")
 
     @pytest.mark.tags("TS038")
     def test_ts038(self):
@@ -201,7 +201,7 @@ class TestServiceApplicationMeralcoOnline:
         TC023(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['concern_email'])
-        Functions().tag_status(self.module, test_scenario, "Passed")
+        Functions().tag_status(self.serviceAppModule, test_scenario, "Passed")
 
     @pytest.mark.tags("TS039")
     def test_ts039(self):
@@ -210,7 +210,7 @@ class TestServiceApplicationMeralcoOnline:
         TC024(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['concern_email'])
-        Functions().tag_status(self.module, test_scenario, "Passed")
+        Functions().tag_status(self.serviceAppModule, test_scenario, "Passed")
 
     @pytest.mark.tags("TS040")
     def test_ts040(self):
@@ -219,6 +219,6 @@ class TestServiceApplicationMeralcoOnline:
         TC024(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['concern_email'])
-        Functions().tag_status(self.module, test_scenario, "Passed")
+        Functions().tag_status(self.serviceAppModule, test_scenario, "Passed")
 
 
