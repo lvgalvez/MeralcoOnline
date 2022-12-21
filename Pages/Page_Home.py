@@ -34,6 +34,13 @@ class HomePage:
     report_outage = "//a[@href = '/customers/s/outagemap']"
     sin_multiple = "//input[@placeholder='Service ID Number *']"
     contact_us = "//a[@title='Contact Us']"
+    bill_and_payments = "//button[contains(text(), 'Bills & Payments')]"
+    pay_bills = "//a[@href='/customers/s/paybills']"
+    bayadExpress = "//img[@src='/customers/resource/1668042297000/PaymentImages/PaymentImages/BE-Banner.png']"
+    request_service = "//h3[contains(text(), 'REQUEST FOR A SERVICE')]"
+    activity_tracker = "//h3[contains(text(), 'VIEW ACTIVITY TRACKER')]"
+    search = "//input[@placeholder='Search ...']"
+    overview = "//a[@title='Overview']"
 
     def get_popupNO(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.popupNO)))
@@ -111,4 +118,25 @@ class HomePage:
 
     def get_contact_us(self, driver):
         return WebMisc().clickable_element(driver, self.contact_us, "contact_us")
-        #return driver.find_element(By.XPATH,self.contact_us)
+
+    def get_bills_and_payments(self, driver):
+        return WebMisc().clickable_element(driver, self.bill_and_payments, "bill_and_payments")
+
+    def get_pay_bills(self, driver):
+        return WebMisc().clickable_element(driver, self.pay_bills, "pay_bills")
+        #driver.find_element(By.XPATH, self.pay_bills).click()
+
+    def get_bayad_express_ad(self, driver):
+        return driver.find_element(By.XPATH, self.bayadExpress)
+
+    def get_request_service(self, driver):
+        return  driver.find_element(By.XPATH, self.request_service)
+
+    def get_activity_tracker(self, driver):
+        return driver.find_element(By.XPATH, self.activity_tracker)
+
+    def get_search(self, driver):
+        return driver.find_element(By.XPATH, self.search)
+
+    def get_overview(self, driver):
+        return driver.find_element(By.XPATH, self.overview)

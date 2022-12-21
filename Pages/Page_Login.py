@@ -15,6 +15,7 @@ class LoginPage:
     new_password_confirmation = "//button[contains(text(), 'Send Confirmation Email')]"
     google_login = "//button[@class = 'slds-button slds-button--neutral slds-button slds-button--neutral slds-button mov-button mov-button_gplogin uiButton']"
     sign_up_here = "span.signup-pw"
+    red_banner = "//div[contains(@class, 'cCXE_Alert_Header')]"
 
 
     def get_email(self, driver):
@@ -37,3 +38,6 @@ class LoginPage:
 
     def get_sign_up_here(self, driver):
         return driver.find_element(By.CSS_SELECTOR, "span.signup-pw")
+
+    def get_red_banner(self, driver):
+        return driver.find_element(By.XPATH, self.red_banner)

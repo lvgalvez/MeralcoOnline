@@ -22,6 +22,7 @@ class ContactUsPage:
     make_request = "//h3[contains(text(), 'Make a Request')]"
     ok_btn = "//button[contains(text(),'OK')]"
     select_sin = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/div[1]/div[1]/div/div[3]/div/div/select"
+    select_can = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/div/div/select"
     firstname = "//input[@id='36:199;a']"
     email = "//input[@id='64:199;a']"
     mobile = "//input[@id='76:199;a']"
@@ -79,3 +80,6 @@ class ContactUsPage:
 
     def get_sin(self, driver):
         return Select(driver.find_element(By.XPATH, self.select_sin))
+
+    def get_can(self,driver):
+        return Select(driver.find_element(By.XPATH, self.select_can))

@@ -57,7 +57,8 @@ SAMO = {
     'lastname': 'atLastname',
     'emailaddress': "automationteam@gmail.com",
     'mobilenumber': "+639234567891",
-    'birthday': "08/08/1993"
+    'birthday': "08/08/1993",
+    'emailAddNewService': 'EarlMO@yopmail.com',
 
 
 }
@@ -150,7 +151,7 @@ Outage = {
     'landline': '',
     'email': 'testautomationoutage@yopmail.com',
     'cxe_email': 'v-lvlgalvez@meralco.com.ph',
-    'cxe_password': 'Mecopass@@!!121',
+    'cxe_password': 'Mecopass@@!!122',
     'cxe_email_2': 'v-agsealmoy@meralco.com.ph',
     'cxe_password_2': 'Meco@@##00018',
     'outage_sin': '461098700101',
@@ -178,13 +179,42 @@ Concern = {
     'concern_email': 'atmooutageaccount@yopmail.com',
     'username_single_service': 'atconcernsingle@yopmail.com',
     'username_multiple_service': 'atconcernmultiple@yopmail.com',
+    'username_multiple_can': 'multiplecansinglesin@yopmail.com',
+    'username_multiple_can_multiple_sin': 'multiplecanmultiplesin@yopmail.com',
     'password': 'Meralco01',
     'remarks': 'Sample Remarks',
     'inquiry_concern_type': 'General Inquiry',
     'feedback_concern_type': 'Customer Service Feedback',
     'request_concern_type': 'Service Maintenance',
     'change_selected_sin': '302004950101',
+    'selected_multiple_can': '3535126841',
+    'selected_multiple_sin': '303965390103',
+    'change_selected_can': '3533513231',
     'can_single_sin': '3535100272',
-    'sin_multiple': '502863370101'
-
+    'sin_multiple': '502863370101',
+    'birthday': '03/15/1999',
+    'service_address': '123 Santo Tomas',
+    'province': 'METRO MANILA',
+    'city': 'MAKATI CITY',
+    'home_ownership': 'Owned',
+    'cxe_email': 'v-lvlgalvez@meralco.com.ph',
+    'cxe_password': 'Mecopass@@!!122',
+    'alphanumeric_can': '4lp4num3r',
+    'nonexisting_can': '1234567891',
+    'less_character_can': '353508546',
+    'multiple_service_can': '3535085462',
+    'incorrect_sin': 'SERV-08965211',
 }
+
+RFC = {
+    'username_single_service': 'atconcernsingle@yopmail.com',
+    'username_multiple_service': 'atconcernmultiple@yopmail.com',
+    'password': 'Meralco01',
+    'card_number': '4012001037141112',
+    'expiry_date': '12/27',
+    'cvv': '212',
+    'first_name': 'Juan',
+    'last_name': 'Dela Cruz'
+}
+
+
