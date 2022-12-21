@@ -40,6 +40,7 @@ class HomePage:
     request_service = "//h3[contains(text(), 'REQUEST FOR A SERVICE')]"
     activity_tracker = "//h3[contains(text(), 'VIEW ACTIVITY TRACKER')]"
     search = "//input[@placeholder='Search ...']"
+    overview = "//a[@title='Overview']"
 
     def get_popupNO(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.popupNO)))
@@ -136,3 +137,6 @@ class HomePage:
 
     def get_search(self, driver):
         return driver.find_element(By.XPATH, self.search)
+
+    def get_overview(self, driver):
+        return driver.find_element(By.XPATH, self.overview)

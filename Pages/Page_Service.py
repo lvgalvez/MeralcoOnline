@@ -17,6 +17,7 @@ class PageService:
     clk_munciplity = "//select[@class = 'slds-select mov-select-aftersales mov-text_color-afafaf slds-select inline select']"
     clk_mciplity_val = "//option[@value = 'CALOOCAN CITY']"
     clk_ownership = "//select[@class = 'slds-select mov-select-aftersales mov-text_color-afafaf slds-select_container mov-select_container select']"
+    clk_reconnect_ownership = "//select[@class = 'slds-select mov-select-aftersales mov-text_color-afafaf select']"
     clk_ownshp_val = "//option[@value = 'Owned']"
     clk_radio_yes = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div[4]/div/div/label[1]/span"
     clk_next = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div[5]/div/button"
@@ -29,9 +30,11 @@ class PageService:
     submit = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[4]/div/div[3]/div[2]/div[3]/button"
     iam_not_robot = "/html/body/div[2]/div[3]/div[1]/div/div/span/div[1]"
     birthday = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div/div/div/div/div/div[4]/div[3]/div/div/div/input"
-    next_btn = "//button[@class='slds-button slds-button--neutral slds-button mov-button-transparent mov-element_max-width-170 uiButton']"
+    next_btn = "//html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div[5]/div/button"
+    next_service_btn = "//html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[3]/div/div/div[7]/button"
     submit_btn = "//button[contains(text(), 'Submit')]"
     change_service = "//input[@value='Upgrade the kWh']"
+    terms_and_conditions = "//html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[4]/div/div[3]/div[2]/div[1]/label/input"
     terms_and_condition_service_details = "//input[@id='agreeChkbx1']"
     terms_and_condition_contract_details = "//input[@id='agreeChkbx2']"
     peccbm_no_radio_btn = "//input[@id='no_radio']"
@@ -39,6 +42,13 @@ class PageService:
     transfer_service = "//input[@value='Transfer of Service']"
     ok_btn = "//button[contains(text(), 'OK')]"
     next_button = "//button[contains(text(), 'Next')]"
+    next_modify_button = "//html/body/div[3]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div/div/div[5]/div/button"
+    submit_modify_button = "//html/body/div[3]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/div[3]/div[4]/div/button"
+    back_to_home = "//button[contains(text(), 'Back to Home')]"
+    submit_modify_contract_button = "//html/body/div[3]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/div[3]/div[4]/div/button"
+    next_reconnect_button = "//html/body/div[3]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[5]/div/button"
+    next_second_recconect_button = "//html/body/div[3]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/div/div/div[3]/div/div/div[7]/button"
+    submit_reconnect_button = "//html/body/div[3]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/div/div/div[4]/div[3]/div/div[2]/div[3]/button"
 
     def get_birthday(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.birthday)))
@@ -138,3 +148,33 @@ class PageService:
 
     def get_next_button(self, driver):
         return WebMisc().wait_element(driver, self.next_button, "next_button")
+
+    def get_next_service_btn(self, driver):
+        return WebMisc().wait_element(driver, self.next_service_btn, "next_service_btn")
+
+    def get_terms_and_conditions(self, driver):
+        return WebMisc().wait_element(driver, self.terms_and_conditions, "terms_and_conditions")
+
+    def get_next_modify_button(self, driver):
+        return WebMisc().wait_element(driver, self.next_modify_button, "next_modify_button")
+
+    def get_submit_modify_button(self, driver):
+        return WebMisc().wait_element(driver, self.submit_modify_button, "submit_modify_button")
+
+    def get_back_to_home(self, driver):
+        return WebMisc().wait_element(driver, self.back_to_home, "back_to_home")
+
+    def get_submit_modify_contract(self, driver):
+        return WebMisc().wait_element(driver, self.submit_modify_contract_button, "submit_modify_contract_button")
+
+    def get_reconnect_ownership(self, driver):
+        return Select(driver.find_element(By.XPATH, self.clk_reconnect_ownership))
+
+    def get_next_recconect(self, driver):
+        return WebMisc().wait_element(driver, self.next_reconnect_button, "next_reconnect_button")
+
+    def get_second_next_reconnect(self, driver):
+        return WebMisc().wait_element(driver, self.next_second_recconect_button, "next_second_recconect_button")
+
+    def get_submit_recconect(self, driver):
+        return WebMisc().wait_element(driver, self.submit_reconnect_button, "submit_reconnect_button")
