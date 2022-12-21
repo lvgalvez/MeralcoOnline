@@ -1,13 +1,13 @@
 import pytest
 
-from Test.Concern.test_cases import *
+from Test.Release5.test_cases import *
 from Utilities.Data import *
 from Utilities.Functions import Functions
 
 
 @pytest.mark.usefixtures("setup")
 class TestConcern:
-    module = "Concern"
+    module = "Release5"
     function = Functions()
 
     @pytest.mark.tags("TS001")
@@ -228,5 +228,44 @@ class TestConcern:
         TC118(self.driver, test_scenario, SAMO['firstname'], SAMO['lastname'], SAMO['emailaddress'],
               SAMO['mobilenumber'], SAMO['CAN'], SAMO['SIN'])
         #TC014(self.driver, test_scenario, SAMO['emailaddress'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS066")
+    def test_ts066(self):
+        test_scenario = "TS066"
+        Functions().create_document(self.driver, module, test_scenario)
+        Precondition_Login_CXE(self.driver, test_scenario, Concern['cxe_email'], Concern['cxe_password'])
+        TC090(self.driver, test_scenario)
+        TC091(self.driver, test_scenario, Concern['alphanumeric_can'])
+        TC092(self.driver, test_scenario, Concern['nonexisting_can'])
+        TC093(self.driver, test_scenario, Concern['less_character_can'])
+        TC094(self.driver, test_scenario, Concern['multiple_service_can'])
+        TC095(self.driver, test_scenario, Concern['multiple_service_can'], Concern['incorrect_sin'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS067")
+    def test_ts067(self):
+        test_scenario = "TS067"
+        Functions().create_document(self.driver, module, test_scenario)
+        Precondition_Login_CXE(self.driver, test_scenario, Concern['cxe_email'], Concern['cxe_password'])
+        TC090b(self.driver, test_scenario)
+        TC091b(self.driver, test_scenario, Concern['alphanumeric_can'])
+        TC092b(self.driver, test_scenario, Concern['nonexisting_can'])
+        TC093b(self.driver, test_scenario, Concern['less_character_can'])
+        TC094b(self.driver, test_scenario, Concern['multiple_service_can'])
+        TC095b(self.driver, test_scenario, Concern['multiple_service_can'], Concern['incorrect_sin'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS068")
+    def test_ts068(self):
+        test_scenario = "TS068"
+        Functions().create_document(self.driver, module, test_scenario)
+        Precondition_Login_CXE(self.driver, test_scenario, Concern['cxe_email'], Concern['cxe_password'])
+        TC090c(self.driver, test_scenario)
+        TC091c(self.driver, test_scenario, Concern['alphanumeric_can'])
+        TC092c(self.driver, test_scenario, Concern['nonexisting_can'])
+        TC093c(self.driver, test_scenario, Concern['less_character_can'])
+        TC094c(self.driver, test_scenario, Concern['multiple_service_can'])
+        TC095c(self.driver, test_scenario, Concern['multiple_service_can'], Concern['incorrect_sin'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 

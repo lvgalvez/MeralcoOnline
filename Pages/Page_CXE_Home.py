@@ -10,7 +10,7 @@ from Utilities.Data import *
 class CXEHomePage:
 
     search_button = "//button[@class= 'slds-button slds-button_neutral search-button slds-truncate']"
-    search_input = "//input[@class= 'slds-input']"
+    search_input = "//input[@placeholder= 'Search...']"
     suggestion_case = "//*[contains(@id, 'suggestionsList')]/search_dialog-instant-result-item[1]/div[1]/div[2]/div/lightning-formatted-rich-text/span[contains(text(), 'Case')]"
     profile_options = ".mauto .userOptionBtn"
     logout_btn = "//button[text() = 'Logout']"
@@ -22,13 +22,21 @@ class CXEHomePage:
     accountdetails = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div[2]/div[6]/div/div/div[2]/div/a[3]"
     payment_history = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div[2]/div[6]/div/div/div[1]/div/div[3]/div[2]/div/ul/li[3]/a"
     peccbm_no_modal = "//html/body/div[3]/div[2]/div/div[2]/div/div/div[2]/div[8]/div/div[1]/div/div/div[2]/a[2]"
+    btn_navigation_menu_byxpath = "//button[@title= 'Show Navigation Menu']"
+    btn_navigation_cases_byxpath = "//span[text() = 'Cases']"
+    btn_navigation_home_byxpath = "//span[text() = 'Home']"
+    btn_case_new_byxpath = "//a[@title= 'New']"
+
 
     def get_payment_history(self, driver):
         return WebMisc().optional_wait_element(driver, self.payment_history, "payment_history")
+
     def get_submit(self, driver):
         return WebMisc().optional_wait_element(driver, self.submit, "submit")
+
     def get_account_details(self, driver):
         return WebMisc().optional_wait_element(driver, self.accountdetails, "accountdetails")
+
     def get_search_button(self, driver):
         return WebMisc().optional_wait_element(driver, self.search_button, "search_button")
 
@@ -58,3 +66,15 @@ class CXEHomePage:
 
     def get_peccbm_no(self, driver):
         return WebMisc().clickable_element(driver, self.peccbm_no_modal, "peccbm_no_modal")
+
+    def get_navigation_menu(self, driver):
+        return WebMisc().clickable_element(driver, self.btn_navigation_menu_byxpath, "btn_navigation_menu_byxpath")
+
+    def get_navigation_cases(self, driver):
+        return WebMisc().clickable_element(driver, self.btn_navigation_cases_byxpath, "btn_navigation_cases_byxpath")
+
+    def get_navigation_home(self, driver):
+        return WebMisc().clickable_element(driver, self.btn_navigation_home_byxpath, "btn_navigation_home_byxpath")
+
+    def get_case_new(self, driver):
+        return WebMisc().clickable_element(driver, self.btn_case_new_byxpath, "btn_case_new_byxpath")
