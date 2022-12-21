@@ -8,6 +8,7 @@ from Utilities.Functions import Functions
 @pytest.mark.usefixtures("setup")
 class TestServiceApplicationMeralcoOnline:
     module = "SAMO"
+    serviceApplicationModule = "Release5"
 
     @pytest.mark.tags("TS003")
     def test_ts003(self):
@@ -142,7 +143,7 @@ class TestServiceApplicationMeralcoOnline:
     @pytest.mark.tags("TS032")
     def test_ts032(self):
         test_scenario = "TS032"
-        Functions().create_document(self.driver, module, test_scenario)
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
         TC012a(self.driver, test_scenario)
         TC087(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, SAMO['emailAddNewService'])
@@ -151,7 +152,7 @@ class TestServiceApplicationMeralcoOnline:
     @pytest.mark.tags("TS033")
     def test_ts033(self):
         test_scenario = "TS033"
-        Functions().create_document(self.driver, module, test_scenario)
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
         TC012(self.driver, test_scenario)
         TC087(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, SAMO['emailAddNewService'])
@@ -160,7 +161,7 @@ class TestServiceApplicationMeralcoOnline:
     @pytest.mark.tags("TS034")
     def test_ts034(self):
         test_scenario = "TS034"
-        Functions().create_document(self.driver, module, test_scenario)
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
         TC020(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['username_multiple_service'])
@@ -169,7 +170,7 @@ class TestServiceApplicationMeralcoOnline:
     @pytest.mark.tags("TS035")
     def test_ts035(self):
         test_scenario = "TS035"
-        Functions().create_document(self.driver, module, test_scenario)
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
         TC021(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['concern_email'])
@@ -178,7 +179,7 @@ class TestServiceApplicationMeralcoOnline:
     @pytest.mark.tags("TS036")
     def test_ts036(self):
         test_scenario = "TS036"
-        Functions().create_document(self.driver, module, test_scenario)
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
         TC022(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['concern_email'])
@@ -187,7 +188,7 @@ class TestServiceApplicationMeralcoOnline:
     @pytest.mark.tags("TS037")
     def test_ts037(self):
         test_scenario = "TS037"
-        Functions().create_document(self.driver, module, test_scenario)
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
         TC023(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['concern_email'])
@@ -196,7 +197,7 @@ class TestServiceApplicationMeralcoOnline:
     @pytest.mark.tags("TS038")
     def test_ts038(self):
         test_scenario = "TS038"
-        Functions().create_document(self.driver, module, test_scenario)
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
         TC023(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['concern_email'])
@@ -205,7 +206,7 @@ class TestServiceApplicationMeralcoOnline:
     @pytest.mark.tags("TS039")
     def test_ts039(self):
         test_scenario = "TS039"
-        Functions().create_document(self.driver, module, test_scenario)
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
         TC024(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['concern_email'])
@@ -214,7 +215,7 @@ class TestServiceApplicationMeralcoOnline:
     @pytest.mark.tags("TS040")
     def test_ts040(self):
         test_scenario = "TS040"
-        Functions().create_document(self.driver, module, test_scenario)
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
         TC024(self.driver, test_scenario)
         TC013a(self.driver, test_scenario)
         TC014a(self.driver, test_scenario, Concern['concern_email'])

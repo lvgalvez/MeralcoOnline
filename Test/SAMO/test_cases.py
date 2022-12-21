@@ -34,6 +34,7 @@ from Pages.Page_CXE_Home import CXEHomePage
 
 log = Utilities().getlogger()
 module = "SAMO"
+serviceAppModule = "Release5"
 fc = Functions()
 yopmail_home = YopmailHomePage()
 
@@ -621,16 +622,15 @@ def TC012a(driver, ts_id):
     home = HomePage()
     cxeHome = CXEHomePage()
     service = PageService()
-    cxemodifybusiness = CXEModificationBusiness()
 
-    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
     Log_In_Meralco_Online(driver, SAMO['emailAddNewService'], SAMO['business_account_password'])
     time.sleep(10)
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
 
-    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
     fc.scroll_element(driver, home.get_request_service(driver))
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
     fc.click(home.get_request_service(driver))
     time.sleep(5)
 
@@ -638,41 +638,40 @@ def TC012a(driver, ts_id):
 
 
     time.sleep(5)
-    fc.bookmark(module, ts_id, test_case, "Step 3")
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 3")
     #fc.input_text(service.get_birthday(driver), Concern['birthday'])
     time.sleep(3)
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 3")
     fc.click(service.get_click_next(driver))
 
     time.sleep(5)
-    fc.bookmark(module, ts_id, test_case, "Step 4")
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 4")
     fc.input_text(service.get_inp_serv_add(driver), Concern['service_address'])
     fc.select_dropdown_element(service.get_province(driver), Concern['province'])
     fc.select_dropdown_element(service.get_city(driver), Concern['city'])
     fc.select_dropdown_element(service.get_ownership(driver), Concern['home_ownership'])
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 4")
     fc.click(service.get_clk_next_btn(driver))
     time.sleep(5)
 
-    fc.bookmark(module, ts_id, test_case, "Step 5")
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 5")
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 5")
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 5")
     #fc.click(cxemodifybusiness.get_next2(driver))
     fc.click(service.get_next_service_btn(driver))
     time.sleep(5)
 
-    fc.bookmark(module, ts_id, test_case, "Step 6")
-
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 6")
     time.sleep(10)
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 6")
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 6")
 
     fc.click(service.get_submit_btn(driver))
 
 
-    fc.bookmark(module, ts_id, test_case, "Step 7")
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 7")
     fc.scroll_element(driver, home.get_search(driver))
     time.sleep(2)
     fc.click(service.get_ok_btn(driver))
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 7")
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 7")
 
 def TC013(driver, ts_id, can, companyname, landline, firstname, lastname, emailaddress, designation, mobilenumber):
     test_case = "TC013"
