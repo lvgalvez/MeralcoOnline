@@ -32,3 +32,4 @@ def Log_in_CXE(driver, cxe_email, cxe_password):
     fc.click(cxe_login.get_sign_in(driver))
     time.sleep(25)
     fc.click(cxe_login.get_stay_sign_no(driver))
+    time.sleep(25)
