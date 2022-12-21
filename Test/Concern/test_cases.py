@@ -10,11 +10,7 @@ from Pages.Page_CXE_Question_Response import CXEQuestionResponsePage
 from Pages.Page_CXE_Question_Responses import CXEQuestionResponsesPage
 from Pages.Page_CXE_Account import CXEAccountPage
 from Pages.Page_Service import PageService
-from Pages.Page_Manage_Accounts import ManageAccountsPage
-from Pages.Page_Yopmail_Home import YopmailHomePage
 from Pages.Page_ConcernStatus import ConcernStatusPage
-from Pages.Page_Home import HomePage
-from Pages.Page_ContactUs import ContactUsPage
 from Test.Module_Functions.MO_Functions import *
 from Utilities.Functions import *
 from Utilities.Utils import Utilities
@@ -262,59 +258,6 @@ def TC007(driver, ts_id, page):
         fc.click(contactUsPage.get_make_request(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
 
-def TC012(driver, ts_id):
-    test_case = "TC012"
-    home = HomePage()
-    cxeHome = CXEHomePage()
-    service = PageService()
-
-    fc.bookmark(module, ts_id, test_case, "Step 1")
-    Log_In_Meralco_Online(driver, Concern['username_multiple_can_multiple_sin'], Concern['password'])
-    time.sleep(10)
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
-
-    fc.bookmark(module, ts_id, test_case, "Step 2")
-    fc.scroll_element(driver, home.get_request_service(driver))
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
-    fc.click(home.get_request_service(driver))
-    time.sleep(10)
-
-    #fc.modal_click(driver, cxeHome.get_peccbm_no(driver))
-
-    fc.bookmark(module, ts_id, test_case, "Step 3")
-    fc.input_text(service.get_birthday(driver), Concern['birthday'])
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
-    fc.click(service.get_click_next(driver))
-
-    time.sleep(5)
-    fc.bookmark(module, ts_id, test_case, "Step 4")
-    fc.input_text(service.get_inp_serv_add(driver), Concern['service_address'])
-    fc.select_dropdown_element(service.get_province(driver), Concern['province'])
-    fc.select_dropdown_element(service.get_city(driver), Concern['city'])
-    fc.select_dropdown_element(service.get_ownership(driver), Concern['home_ownership'])
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
-    fc.click(service.get_clk_next_btn(driver))
-    time.sleep(5)
-
-    fc.bookmark(module, ts_id, test_case, "Step 5")
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 5")
-    fc.click(service.get_clk_next_btn(driver))
-    time.sleep(5)
-
-    fc.bookmark(module, ts_id, test_case, "Step 6")
-    element = service.get_terms_and_conditions(driver)
-    fc.scroll_element(driver, service.get_submit_btn(driver))
-    driver.execute_script("arguments[0].click();", element)
-    #iamnotRobot
-    time.sleep(10)
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 6")
-
-    fc.click(service.get_submit_btn(driver))
-
-    fc.bookmark(module, ts_id, test_case, "Step 7")
-    fc.click(service.get_ok_btn(driver))
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 7")
-
 def TC013(driver, ts_id):
     test_case = "TC013"
     home = HomePage()
@@ -336,147 +279,6 @@ def TC014(driver, ts_id, email):
     fc.click(yopmail_home.get_check_inbox(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
     #insert Assert for validation
-
-def TC020(driver, ts_id):
-    test_case = "TC020"
-    home = HomePage()
-    account = ManageAccountsPage()
-    service = PageService()
-
-    fc.bookmark(module, ts_id, test_case, "Step 1")
-    Log_In_Meralco_Online(driver, Concern['username_single_service'], Concern['password'])
-    time.sleep(10)
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
-
-    fc.modal_click(driver, home.get_accounts(driver))
-    fc.modal_click(driver, home.get_manage_accounts(driver))
-    time.sleep(5)
-
-    fc.scroll_element(driver, account.get_change_service(driver))
-    fc.click(account.get_change_service(driver))
-    time.sleep(5)
-
-    fc.click(service.get_clk_next_btn(driver))
-    time.sleep(5)
-
-    #fc.click(service.get_no_radio_btn_peccbm(driver))
-    #fc.click(service.get_clk_next_btn(driver))
-
-    time.sleep(5)
-    #fc.click(service.get_terms_and_conditions(driver))
-    element = service.get_terms_and_conditions_service_details(driver)
-    fc.scroll_element(driver, element)
-    driver.execute_script("arguments[0].click();", element)
-    #iamrobot
-    fc.scroll_element(driver, service.get_submit_btn(driver))
-    time.sleep(10)
-    fc.click(service.get_submit_btn(driver))
-
-def TC021(driver, ts_id):
-    test_case = "TC021"
-    home = HomePage()
-    account = ManageAccountsPage()
-    service = PageService()
-
-    fc.bookmark(module, ts_id, test_case, "Step 1")
-    Log_In_Meralco_Online(driver, Concern['username_single_service'], Concern['password'])
-    time.sleep(10)
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
-
-    fc.modal_click(driver, home.get_accounts(driver))
-    fc.modal_click(driver, home.get_manage_accounts(driver))
-    time.sleep(5)
-
-    fc.scroll_element(driver, account.get_change_contract(driver))
-    fc.click(account.get_change_contract(driver))
-    time.sleep(5)
-
-    fc.click(service.get_change_contract_radio_btn(driver))
-    fc.scroll_element(driver, service.get_clk_next_btn(driver))
-    fc.click(service.get_clk_next_btn(driver))
-    time.sleep(5)
-
-    #fc.click(service.get_clk_next_btn(driver))
-
-    #time.sleep(5)
-
-    element = service.get_terms_and_conditions_contract_details(driver)
-    fc.scroll_element(driver, element)
-    driver.execute_script("arguments[0].click();", element)
-    # iamrobot
-    fc.scroll_element(driver, service.get_submit_btn(driver))
-    time.sleep(10)
-    fc.click(service.get_submit_btn(driver))
-
-def TC022(driver, ts_id):
-    test_case = "TC022"
-    home = HomePage()
-    account = ManageAccountsPage()
-    service = PageService()
-
-    fc.bookmark(module, ts_id, test_case, "Step 1")
-    Log_In_Meralco_Online(driver, Concern['username_single_service'], Concern['password'])
-    time.sleep(10)
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
-
-    fc.modal_click(driver, home.get_accounts(driver))
-    fc.modal_click(driver, home.get_manage_accounts(driver))
-    time.sleep(10)
-
-    fc.scroll_element(driver, account.get_change_contract(driver))
-    fc.click(account.get_change_contract(driver))
-
-    fc.click(service.get_transfer_service(driver))
-    fc.scroll_element(driver, service.get_clk_next_btn(driver))
-    fc.click(service.get_clk_next_btn(driver))
-    time.sleep(2)
-    fc.scroll_element(driver, home.get_search(driver))
-    time.sleep(2)
-    fc.scroll_element(driver, service.get_clk_next_btn(driver))
-    fc.click(service.get_clk_next_btn(driver))
-
-def TC023(driver, ts_id):
-    test_case = "TC023"
-    home = HomePage()
-    account = ManageAccountsPage()
-    service = PageService()
-
-    fc.bookmark(module, ts_id, test_case, "Step 1")
-    Log_In_Meralco_Online(driver, Concern['username_single_service'], Concern['password'])
-    time.sleep(10)
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
-
-    fc.modal_click(driver, home.get_accounts(driver))
-    fc.modal_click(driver, home.get_manage_accounts(driver))
-    time.sleep(10)
-
-    fc.scroll_element(driver, account.get_stop_service(driver))
-    fc.click(account.get_stop_service(driver))
-    time.sleep(20)
-
-    fc.click(service.get_next_button(driver))
-
-def TC024(driver, ts_id):
-    test_case = "TC024"
-    home = HomePage()
-    account = ManageAccountsPage()
-    service = PageService()
-
-    fc.bookmark(module, ts_id, test_case, "Step 1")
-    Log_In_Meralco_Online(driver, Concern['username_single_service'], Concern['password'])
-    time.sleep(10)
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
-
-    fc.modal_click(driver, home.get_accounts(driver))
-    fc.modal_click(driver, home.get_manage_accounts(driver))
-    time.sleep(10)
-
-    fc.scroll_element(driver, account.get_reactivate_service(driver))
-    fc.click(account.get_reactivate_service(driver))
-
-    time.sleep(5)
-    fc.click(service.get_next_button(driver))
-
 
 def TC036(driver, ts_id):
     test_case = "TC036"
@@ -519,18 +321,6 @@ def TC038(driver, ts_id):
 
     fc.bookmark(module, ts_id, test_case, "Step 2")
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
-
-def TC087(driver, ts_id):
-    test_case = "TC087"
-    home = HomePage()
-    fc.bookmark(module, ts_id, test_case, "Step 1")
-    fc.scroll_element(driver, home.get_activity_tracker(driver))
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
-    fc.click(home.get_activity_tracker(driver))
-
-    fc.bookmark(module, ts_id, test_case, "Step 2")
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
-
 
 def TC110(driver, ts_id, referencenumber, lastname):
     test_case = "TC110"

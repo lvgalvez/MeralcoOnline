@@ -57,7 +57,8 @@ SAMO = {
     'lastname': 'atLastname',
     'emailaddress': "automationteam@gmail.com",
     'mobilenumber': "+639234567891",
-    'birthday': "08/08/1993"
+    'birthday': "08/08/1993",
+    'emailAddNewService': 'EarlMO@yopmail.com',
 
 
 }

@@ -14,6 +14,7 @@ class ManageAccountsPage:
     change_contract = "//span[contains(text(), 'Change Contract Details')]"
     stop_electric_service = "//span[contains(text(), 'Stop Electric Service')]"
     reactivate_electric_service = "//span[contains(text(), 'Reactivate Electric Service')]"
+    select_sin = "//html/body/div[3]/div[2]/div/div[2]/div/div/div[1]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[3]/div/label/input"
 
     def get_manage_accounts_text(self, driver):
         return WebMisc().wait_element(driver, self.manage_accounts_text, "manage_accounts_text")
@@ -32,3 +33,6 @@ class ManageAccountsPage:
 
     def get_reactivate_service(self, driver):
         return WebMisc().wait_element(driver, self.reactivate_electric_service, "reactivate_electric_service")
+
+    def get_select_sin(self, driver):
+        return WebMisc().wait_element(driver, self.select_sin, "select_sin")
