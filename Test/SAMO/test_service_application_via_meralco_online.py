@@ -221,4 +221,11 @@ class TestServiceApplicationMeralcoOnline:
         TC014a(self.driver, test_scenario, Concern['concern_email'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
-
+    @pytest.mark.tags("TS045")
+    def test_ts045(self):
+        test_scenario = "TS045"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC028(self.driver, test_scenario, SAMO['CAN'], SAMO['business_company_name'], SAMO['business_company_landline'],
+              SAMO['business_first_name'], SAMO['business_last_name'], SAMO['business_emailaddress'],
+              SAMO['business_designation'], SAMO['business_mobile_number'])
+        Functions().tag_status(self.module, test_scenario, "Passed")

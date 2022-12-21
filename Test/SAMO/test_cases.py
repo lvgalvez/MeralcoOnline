@@ -1344,7 +1344,86 @@ def TC087(driver, ts_id):
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
 
+def TC028(driver, ts_id, can, companyname, landline, firstname, lastname, emailaddress, designation, mobilenumber):
+    test_case = "TC011"
+    function = Functions()
+    function.bookmark(module, ts_id, test_case, "Step 1")
+    function.new_tab(driver, cxe_apply)
+    cxe_apply_home = CXEApplyHomePage()
+    function.verify(cxe_apply_home.get_label_service_application(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1b")
 
+    cxemodifybusiness = CXEModificationBusiness()
+    function.bookmark(module, ts_id, test_case, "Step 2")
+    function.click(cxemodifybusiness.get_business(driver))
+    function.verify(cxemodifybusiness.get_start_service(driver))
+    function.verify(cxemodifybusiness.get_modify_service(driver))
+    function.verify(cxemodifybusiness.get_reactivate_service(driver))
+    function.verify(cxemodifybusiness.get_stop_service(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    function.bookmark(module, ts_id, test_case, "Step 3")
+    function.click(cxemodifybusiness.get_modify_service_clk(driver))
+    function.verify(cxemodifybusiness.get_request(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 3")
+
+    function.bookmark(module, ts_id, test_case, "Step 4")
+    function.verify(cxemodifybusiness.get_CAN(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 4")
+
+    function.bookmark(module, ts_id, test_case, "Step 5")
+    function.input_text(cxemodifybusiness.get_CAN(driver), can)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 5")
+
+    function.bookmark(module, ts_id, test_case, "Step 6")
+    function.click(cxemodifybusiness.get_change_contract_details(driver))
+    function.click(cxemodifybusiness.get_change_contract_name(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 6")
+
+    function.bookmark(module, ts_id, test_case, "Step 7")
+    function.input_text(cxemodifybusiness.get_company_name(driver), companyname)
+    function.input_text(cxemodifybusiness.get_landline(driver), landline)
+    function.input_text(cxemodifybusiness.get_first_name(driver), firstname)
+    function.input_text(cxemodifybusiness.get_last_name(driver), lastname)
+    function.input_text(cxemodifybusiness.get_emailaddress(driver), emailaddress)
+    function.input_text(cxemodifybusiness.get_mobile_number(driver), mobilenumber)
+    function.input_text(cxemodifybusiness.get_designation(driver), designation)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 7")
+    function.click(cxemodifybusiness.get_next1(driver))
+    function.verify(cxemodifybusiness.get_contact_info(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 7b")
+
+    function.bookmark(module, ts_id, test_case, "Step 8")
+    function.input_text(cxemodifybusiness.get_first_name_mod(driver), firstname)
+    function.input_text(cxemodifybusiness.get_last_name_mod(driver), lastname)
+    function.input_text(cxemodifybusiness.get_emailddress_mod(driver), emailaddress)
+    function.input_text(cxemodifybusiness.get_mobile_number_mod(driver), mobilenumber)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 8")
+    function.click(cxemodifybusiness.get_next2(driver))
+    function.verify(cxemodifybusiness.get_value_added(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 8b")
+
+    function.bookmark(module, ts_id, test_case, "Step 9")
+    function.click(cxemodifybusiness.get_yes(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 9")
+    function.click(cxemodifybusiness.get_next3(driver))
+    function.verify(cxemodifybusiness.get_terms_condition(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 9b")
+
+    function.bookmark(module, ts_id, test_case, "Step 10")
+    function.click(cxemodifybusiness.get_click_term_condition(driver))
+    time.sleep(20)
+    function.verify(cxemodifybusiness.get_submit(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 10")
+
+    function.bookmark(module, ts_id, test_case, "Step 11")
+    function.click(cxemodifybusiness.get_submit(driver))
+    time.sleep(8)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 11")
+    function.verify(cxemodifybusiness.get_confirmation(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 11b")
+
+    log.info(test_case + " Passed")
 
 
 
