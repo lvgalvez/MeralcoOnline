@@ -52,6 +52,7 @@ SAMO = {
     'contractor_birthday': '10/04/1993',
     'contractor_landline': '+63945113252',
     'CAN': '1780945897',
+    'CAN_singlesrvc': '3534823912',
     'SIN': '502863370101',
     'firstname': 'atFirstname',
     'lastname': 'atLastname',
