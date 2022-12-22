@@ -269,3 +269,11 @@ class TestConcern:
         TC095c(self.driver, test_scenario, Concern['multiple_service_can'], Concern['incorrect_sin'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
+    @pytest.mark.tags("TS079")
+    def test_ts068(self):
+        test_scenario = "TS079"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC079(self.driver, test_scenario, Concern['concern_email'], Concern['password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+
