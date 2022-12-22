@@ -1,0 +1,122 @@
+2022-12-22 11:19:11,266 - INFO - setup : Browser Launched!
+2022-12-22 11:19:51,840 - INFO - <module> : Login to Meralco Online
+2022-12-22 11:19:51,840 - INFO - <module> : Login to Meralco Online
+2022-12-22 11:19:51,840 - INFO - <module> : Login to Meralco Online
+2022-12-22 11:19:51,840 - INFO - <module> : Login to Meralco Online
+2022-12-22 11:19:54,500 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 11:19:54,500 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 11:19:54,500 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 11:19:54,500 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 11:19:54,966 - INFO - <module> : input: Meralco01
+2022-12-22 11:19:54,966 - INFO - <module> : input: Meralco01
+2022-12-22 11:19:54,966 - INFO - <module> : input: Meralco01
+2022-12-22 11:19:54,966 - INFO - <module> : input: Meralco01
+2022-12-22 11:19:55,741 - INFO - <module> : Clicked
+2022-12-22 11:19:55,741 - INFO - <module> : Clicked
+2022-12-22 11:19:55,741 - INFO - <module> : Clicked
+2022-12-22 11:19:55,741 - INFO - <module> : Clicked
+2022-12-22 11:20:02,999 - INFO - <module> : Hello, exists
+2022-12-22 11:20:02,999 - INFO - <module> : Hello, exists
+2022-12-22 11:20:02,999 - INFO - <module> : Hello, exists
+2022-12-22 11:20:02,999 - INFO - <module> : Hello, exists
+2022-12-22 11:20:15,969 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 11:20:15,969 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 11:20:15,969 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 11:20:15,969 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 11:20:16,106 - INFO - <module> : Accounts clicked
+2022-12-22 11:20:16,106 - INFO - <module> : Accounts clicked
+2022-12-22 11:20:16,106 - INFO - <module> : Accounts clicked
+2022-12-22 11:20:16,106 - INFO - <module> : Accounts clicked
+2022-12-22 11:20:16,268 - INFO - <module> :  clicked
+2022-12-22 11:20:16,268 - INFO - <module> :  clicked
+2022-12-22 11:20:16,268 - INFO - <module> :  clicked
+2022-12-22 11:20:16,268 - INFO - <module> :  clicked
+2022-12-22 11:20:24,174 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 11:20:24,174 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 11:20:24,174 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 11:20:24,174 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 11:20:24,395 - INFO - <module> : Clicked
+2022-12-22 11:20:24,395 - INFO - <module> : Clicked
+2022-12-22 11:20:24,395 - INFO - <module> : Clicked
+2022-12-22 11:20:24,395 - INFO - <module> : Clicked
+2022-12-22 11:20:37,498 - INFO - <module> : Clicked
+2022-12-22 11:20:37,498 - INFO - <module> : Clicked
+2022-12-22 11:20:37,498 - INFO - <module> : Clicked
+2022-12-22 11:20:37,498 - INFO - <module> : Clicked
+2022-12-22 11:20:43,160 - INFO - <module> : Select Change in Contract Name then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 11:20:43,160 - INFO - <module> : Select Change in Contract Name then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 11:20:43,160 - INFO - <module> : Select Change in Contract Name then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 11:20:43,160 - INFO - <module> : Select Change in Contract Name then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 11:20:43,478 - INFO - <module> : Clicked
+2022-12-22 11:20:43,478 - INFO - <module> : Clicked
+2022-12-22 11:20:43,478 - INFO - <module> : Clicked
+2022-12-22 11:20:43,478 - INFO - <module> : Clicked
+2022-12-22 11:20:46,509 - INFO - <module> : Clicked
+2022-12-22 11:20:46,509 - INFO - <module> : Clicked
+2022-12-22 11:20:46,509 - INFO - <module> : Clicked
+2022-12-22 11:20:46,509 - INFO - <module> : Clicked
+2022-12-22 11:20:52,056 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+> Attach documents
+> Click Next
+2022-12-22 11:20:52,056 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+> Attach documents
+> Click Next
+2022-12-22 11:20:52,056 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+> Attach documents
+> Click Next
+2022-12-22 11:20:52,056 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+> Attach documents
+> Click Next
+2022-12-22 11:21:00,179 - INFO - <module> : Clicked
+2022-12-22 11:21:00,179 - INFO - <module> : Clicked
+2022-12-22 11:21:00,179 - INFO - <module> : Clicked
+2022-12-22 11:21:00,179 - INFO - <module> : Clicked
+2022-12-22 11:21:00,749 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 11:21:00,749 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 11:21:00,749 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 11:21:00,749 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 11:21:16,541 - ERROR - <module> : element is disabled
+2022-12-22 11:21:16,541 - ERROR - <module> : element is disabled
+2022-12-22 11:21:16,541 - ERROR - <module> : element is disabled
+2022-12-22 11:21:16,541 - ERROR - <module> : element is disabled
+2022-12-22 11:21:16,602 - INFO - setup : Close Browser
