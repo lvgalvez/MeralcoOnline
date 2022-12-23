@@ -1493,6 +1493,34 @@ def TC029(driver, ts_id, can, companyname, firstname, lastname, emailaddress, mo
 
     log.info(test_case + " Passed")
 
+def TC031(driver, ts_id):
+    test_case = "TC032"
+    fc = Functions()
+    cxe_apply_home = CXEApplyHomePage()
+    cxe_terminate = CXETerminateIndividual()
+
+    fc.new_tab(driver, cxe_apply)
+
+    fc.click(cxe_apply_home.get_individual(driver))
+    fc.click(cxe_apply_home.get_individual_stop(driver))
+
+    fc.input_text(cxe_terminate.get_CAN(driver), SAMO['individual_account_can'])
+    fc.input_text(cxe_terminate.get_firstname(driver), SAMO['individual_account_first'])
+    fc.input_text(cxe_terminate.get_lastname(driver), SAMO['individual_account_last'])
+    fc.input_text(cxe_terminate.get_emailaddress(driver), SAMO['individual_account_email'])
+    fc.input_text(cxe_terminate.get_mobile_number(driver), SAMO['individual_account_mobile'])
+
+    fc.scroll_element(driver, cxe_terminate.get_next_button(driver))
+    time.sleep(10)
+    fc.click(cxe_terminate.get_next_button(driver))
+
+    time.sleep(5)
+    fc.click(cxe_terminate.get_terms_cond(driver))
+    time.sleep(10)
+    fc.click(cxe_terminate.get_submit(driver))
+
+
+
 
 def TC032(driver, ts_id, firstname, lastname, emailaddress, mobilenumber, can):
     test_case = "TC032"
@@ -1556,3 +1584,44 @@ def TC032(driver, ts_id, firstname, lastname, emailaddress, mobilenumber, can):
     function.screen_capture(driver, module, ts_id, test_case, "Step 11b")
 
     log.info(test_case + " Passed")
+
+def TC034(driver, ts_id):
+    test_case = "TC032"
+    fc = Functions()
+    cxe_apply_contractor = CXEApplyContractor()
+
+    fc.new_tab(driver, cxe_apply)
+
+    fc.click(cxe_apply_contractor.get_contractor(driver))
+    fc.click(cxe_apply_contractor.get_contractor_reactivate(driver))
+
+def TC035(driver, ts_id):
+    test_case = "TC032"
+    fc = Functions()
+    cxe_apply_contractor = CXEApplyContractor()
+
+    fc.new_tab(driver, cxe_apply)
+
+    fc.click(cxe_apply_contractor.get_contractor(driver))
+    fc.click(cxe_apply_contractor.get_contractor_reactivate(driver))
+
+
+    fc.input_text(cxe_apply_contractor.get_first_name(driver), SAMO['individual_account_first'])
+    fc.input_text(cxe_apply_contractor.get_last_name(driver), SAMO['individual_account_last'])
+    fc.input_text(cxe_apply_contractor.get_business_name(driver), SAMO['business_company_name'])
+    fc.input_text(cxe_apply_contractor.get_email_address(driver), SAMO['individual_account_email'])
+    fc.input_text(cxe_apply_contractor.get_phone_number(driver), SAMO['individual_account_mobile'])
+
+    fc.scroll_element(driver, cxe_apply_contractor.get_next_button(driver))
+    fc.click(cxe_apply_contractor.get_next_button(driver))
+
+    time.sleep(5)
+
+    fc.input_text(cxe_apply_contractor.get_can_input(driver), SAMO['business_can'])
+    fc.input_text(cxe_apply_contractor.get_first_name(driver), SAMO['individual_account_first'])
+    fc.input_text(cxe_apply_contractor.get_last_name_recontract(driver), SAMO['individual_account_last'])
+    fc.input_text(cxe_apply_contractor.get_email_address(driver), SAMO['individual_account_email'])
+    fc.input_text(cxe_apply_contractor.get_phone_number(driver), SAMO['individual_account_mobile'])
+
+
+

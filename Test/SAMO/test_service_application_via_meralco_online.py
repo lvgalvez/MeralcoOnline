@@ -239,3 +239,35 @@ class TestServiceApplicationMeralcoOnline:
               SAMO['contractor_firstName'], SAMO['contractor_lastName'], SAMO['contractor_emailAddress'], SAMO['contractor_mobileNumber'])
         TC014a(self.driver, test_scenario, Concern['concern_email'])
         Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS047")
+    def test_ts047(self):
+        test_scenario = "TS047"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC031(self.driver, test_scenario)
+        #TC014a(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS050")
+    def test_ts050(self):
+        test_scenario = "TS050"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC034(self.driver, test_scenario)
+        #TC014a(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS051")
+    def test_ts051(self):
+        test_scenario = "TS051"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC035(self.driver, test_scenario)
+        # TC014a(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS052")
+    def test_ts052(self):
+        test_scenario = "TS052"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC035(self.driver, test_scenario)
+        # TC014a(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
