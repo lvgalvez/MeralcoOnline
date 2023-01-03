@@ -41,6 +41,8 @@ class HomePage:
     activity_tracker = "//h3[contains(text(), 'VIEW ACTIVITY TRACKER')]"
     search = "//input[@placeholder='Search ...']"
     overview = "//a[@title='Overview']"
+    bayadExpress_here = "//span[contains(text(), 'CLICK HERE')]"
+    paperless_billing = "//a[contains(text(), 'Paperless Billing')]"
 
     def get_popupNO(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.popupNO)))
@@ -140,3 +142,9 @@ class HomePage:
 
     def get_overview(self, driver):
         return driver.find_element(By.XPATH, self.overview)
+
+    def get_bayadexpress_here(self, driver):
+        return WebMisc().clickable_element(driver, self.bayadExpress_here, "bayadExpress_here")
+
+    def get_paperless_billing(self, driver):
+        return WebMisc().clickable_element(driver, self.paperless_billing, "paperless_billing")

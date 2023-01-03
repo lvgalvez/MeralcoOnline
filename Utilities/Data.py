@@ -198,12 +198,18 @@ Concern = {
     'city': 'MAKATI CITY',
     'home_ownership': 'Owned',
     'cxe_email': 'v-lvlgalvez@meralco.com.ph',
-    'cxe_password': 'Mecopass@@!!122',
+    'cxe_password': 'Mecopass@@!!123',
     'alphanumeric_can': '4lp4num3r',
     'nonexisting_can': '1234567891',
     'less_character_can': '353508546',
     'multiple_service_can': '3535085462',
     'incorrect_sin': 'SERV-08965211',
+    'business_account_email': 'ATNewSAMObiz@yopmail.com',
+    'business_account_password': 'Meralco01',
+    'normal_account_email': 'ATNewSAMO@yopmail.com',
+    'normal_account_password': 'Meralco01',
+    'sacxe_single_can': '3535100272',
+    'sacxe_single_sin': '502863370101',
 }
 
 RFC = {
