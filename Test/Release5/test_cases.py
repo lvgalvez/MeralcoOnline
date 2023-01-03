@@ -12,6 +12,7 @@ from Pages.Page_CXE_Page_Search import CXESearchPage
 from Pages.Page_CXE_Question_Response import CXEQuestionResponsePage
 from Pages.Page_CXE_Question_Responses import CXEQuestionResponsesPage
 from Pages.Page_CXE_Account import CXEAccountPage
+from Pages.Page_Paperless_Billing import PaperlessBillingPage
 from Pages.Page_Service import PageService
 from Pages.Page_ConcernStatus import ConcernStatusPage
 from Pages.Page_Home import HomePage
@@ -45,6 +46,7 @@ cxe_home = CXEHomePage()
 new_case = CXENewCasePage()
 new_case_termination = CXENewCaseTerminationPage()
 new_case_recontract = CXENewCaseRecontractPage()
+paperless_billing = PaperlessBillingPage()
 
 
 def Precondition_Login_CXE(driver, ts_id, cxe_email, cxe_password):
@@ -339,6 +341,29 @@ def TC038(driver, ts_id):
     fc.bookmark(module, ts_id, test_case, "Step 2")
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
+
+def TC079(driver, ts_id, username, password):
+    test_case = "TC079"
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    Log_In_Meralco_Online(driver, username, password)
+    fc.scroll_element(driver, home.get_bayadexpress_here(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    fc.page_down(driver, 1)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+
+
+def TC080(driver, ts_id, username, password):
+    test_case = "TC079"
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    Log_In_Meralco_Online(driver, username, password)
+    fc.scroll_element(driver, home.get_paperless_billing(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    fc.click(home.get_paperless_billing(driver))
+    fc.verify(paperless_billing.get_paperless_billing(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+
+
+
 def TC087(driver, ts_id):
     test_case = "TC087"
     home = HomePage()
@@ -349,6 +374,176 @@ def TC087(driver, ts_id):
 
     fc.bookmark(module, ts_id, test_case, "Step 2")
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+
+def TC088a(driver, ts_id, can, sin):
+    test_case = "TC088"
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.click(cxe_home.get_navigation_menu(driver))
+    fc.click(cxe_home.get_navigation_cases(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    fc.click(cxe_home.get_case_new(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+    fc.click(new_case.get_modification_service(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1c")
+    fc.click(new_case.get_next(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1d")
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.input_text(new_case.get_can(driver), can)
+    fc.input_text(new_case.get_sin(driver), sin)
+    fc.click(new_case.get_sin(driver))
+    fc.arrow_down(new_case.get_sin(driver))
+    fc.arrow_down(new_case.get_sin(driver))
+    fc.enter(new_case.get_sin(driver))
+    fc.modal_click(driver, new_case.get_service(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    fc.click(new_case.get_change_name(driver))
+    fc.click(new_case.get_move_chosen(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    fc.click(new_case.get_case_origin(driver))
+    fc.click(new_case.get_origin_kiosk(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3b")
+    fc.click(new_case.get_energization_date(driver))
+    fc.click(new_case.get_energization_today(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3c")
+    fc.click(new_case.get_case_save(driver))
+    fc.scroll_element(driver, new_case.get_can_text(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3d")
+    fc.click(new_case.get_close_modification(driver))
+
+
+def TC088b(driver, ts_id, can):
+    test_case = "TC088"
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    fc.click(cxe_home.get_case_new(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+    fc.click(new_case.get_termination_service(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1c")
+    fc.click(new_case.get_next(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1d")
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.input_text(new_case_termination.get_can(driver), can)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    fc.click(new_case_termination.get_case_origin(driver))
+    fc.click(new_case_termination.get_origin_kiosk(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    fc.click(new_case_termination.get_case_save(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3b")
+    fc.click(new_case_termination.get_close_termination(driver))
+
+
+def TC088c(driver, ts_id, can):
+    test_case = "TC088"
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    fc.click(cxe_home.get_case_new(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+    fc.click(new_case.get_recontract_service(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1c")
+    fc.click(new_case.get_next(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1d")
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.input_text(new_case_recontract.get_sin(driver), can)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    fc.click(new_case_recontract.get_case_origin(driver))
+    fc.click(new_case_recontract.get_origin_kiosk(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    fc.click(new_case.get_energization_date(driver))
+    fc.click(new_case.get_energization_today(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3b")
+    fc.click(new_case_recontract.get_case_save(driver))
+    fc.scroll_element(driver, new_case_recontract.get_can(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3c")
+    fc.click(new_case_recontract.get_close_recontract(driver))
+
+
+
+def TC089a(driver, ts_id, can, sin):
+    test_case = "TC089"
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    fc.click(cxe_home.get_case_new(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+    fc.click(new_case.get_modification_service(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1c")
+    fc.click(new_case.get_next(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1d")
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.input_text(new_case.get_can(driver), can)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    fc.input_text(new_case.get_sin(driver), sin)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    fc.bookmark(module, ts_id, test_case, "Step 4")
+    fc.click(new_case.get_change_name(driver))
+    fc.click(new_case.get_move_chosen(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
+    fc.click(new_case.get_case_origin(driver))
+    fc.click(new_case.get_origin_kiosk(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4b")
+    fc.click(new_case.get_energization_date(driver))
+    fc.click(new_case.get_energization_today(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4c")
+    fc.click(new_case.get_case_save(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4d")
+    fc.click(new_case.get_close_modification(driver))
+
+
+def TC089b(driver, ts_id, can, sin):
+    test_case = "TC089"
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    fc.click(cxe_home.get_case_new(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+    fc.click(new_case.get_termination_service(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1c")
+    fc.click(new_case.get_next(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1d")
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.input_text(new_case_termination.get_can(driver), can)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    fc.input_text(new_case_termination.get_sin(driver), sin)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    fc.bookmark(module, ts_id, test_case, "Step 4")
+    fc.click(new_case_termination.get_case_origin(driver))
+    fc.click(new_case_termination.get_origin_kiosk(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
+    fc.click(new_case_termination.get_case_save(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4b")
+    fc.click(new_case_termination.get_close_termination(driver))
+
+
+def TC089c(driver, ts_id, can, sin):
+    test_case = "TC089"
+    fc.bookmark(module, ts_id, test_case, "Step 1")
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1")
+    fc.click(cxe_home.get_case_new(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1b")
+    fc.click(new_case.get_recontract_service(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1c")
+    fc.click(new_case.get_next(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 1d")
+    fc.bookmark(module, ts_id, test_case, "Step 2")
+    fc.input_text(new_case_recontract.get_can(driver), can)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
+    fc.bookmark(module, ts_id, test_case, "Step 3")
+    fc.input_text(new_case_recontract.get_sin(driver), sin)
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    fc.bookmark(module, ts_id, test_case, "Step 4")
+    fc.click(new_case_recontract.get_case_origin(driver))
+    fc.click(new_case_recontract.get_origin_kiosk(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4")
+    fc.click(new_case.get_energization_date(driver))
+    fc.click(new_case.get_energization_today(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4b")
+    fc.click(new_case_recontract.get_case_save(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 4c")
+    fc.click(new_case_recontract.get_close_recontract(driver))
 
 
 def TC090(driver, ts_id):
@@ -422,6 +617,8 @@ def TC090c(driver, ts_id):
     fc.click(new_case_recontract.get_case_save(driver))
     fc.scroll_element(driver, new_case_recontract.get_sin(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 3b")
+    fc.scroll_element(driver, new_case_recontract.get_text_reconnect(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3c")
     fc.click(new_case_recontract.get_close_recontract(driver))
 
 
@@ -488,7 +685,7 @@ def TC091c(driver, ts_id, can):
     fc.click(new_case.get_next(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1d")
     fc.bookmark(module, ts_id, test_case, "Step 2")
-    fc.input_text(new_case_recontract.get_can(driver), can)
+    fc.input_text(new_case_recontract.get_sin(driver), can)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
     fc.bookmark(module, ts_id, test_case, "Step 3")
     fc.click(new_case_recontract.get_case_origin(driver))
@@ -500,6 +697,8 @@ def TC091c(driver, ts_id, can):
     fc.click(new_case_recontract.get_case_save(driver))
     fc.scroll_element(driver, new_case_recontract.get_sin(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 3c")
+    fc.scroll_element(driver, new_case_recontract.get_text_reconnect(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3d")
     fc.click(new_case_recontract.get_close_recontract(driver))
 
 
@@ -566,7 +765,7 @@ def TC092c(driver, ts_id, can):
     fc.click(new_case.get_next(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1d")
     fc.bookmark(module, ts_id, test_case, "Step 2")
-    fc.input_text(new_case_recontract.get_can(driver), can)
+    fc.input_text(new_case_recontract.get_sin(driver), can)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
     fc.bookmark(module, ts_id, test_case, "Step 3")
     fc.click(new_case_recontract.get_case_origin(driver))
@@ -578,6 +777,10 @@ def TC092c(driver, ts_id, can):
     fc.click(new_case_recontract.get_case_save(driver))
     fc.scroll_element(driver, new_case_recontract.get_sin(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 3c")
+    fc.scroll_element(driver, new_case_recontract.get_text_reconnect(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3d")
+    fc.scroll_element(driver, new_case_recontract.get_text_reconnect(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3e")
     fc.click(new_case_recontract.get_close_recontract(driver))
 
 
@@ -644,7 +847,7 @@ def TC093c(driver, ts_id, can):
     fc.click(new_case.get_next(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1d")
     fc.bookmark(module, ts_id, test_case, "Step 2")
-    fc.input_text(new_case_recontract.get_can(driver), can)
+    fc.input_text(new_case_recontract.get_sin(driver), can)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
     fc.bookmark(module, ts_id, test_case, "Step 3")
     fc.click(new_case_recontract.get_case_origin(driver))
@@ -656,6 +859,8 @@ def TC093c(driver, ts_id, can):
     fc.click(new_case_recontract.get_case_save(driver))
     fc.scroll_element(driver, new_case_recontract.get_sin(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 3c")
+    fc.scroll_element(driver, new_case_recontract.get_text_reconnect(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3d")
     fc.click(new_case_recontract.get_close_recontract(driver))
 
 
@@ -722,7 +927,7 @@ def TC094c(driver, ts_id, can):
     fc.click(new_case.get_next(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 1d")
     fc.bookmark(module, ts_id, test_case, "Step 2")
-    fc.input_text(new_case_recontract.get_can(driver), can)
+    fc.input_text(new_case_recontract.get_sin(driver), can)
     fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
     fc.bookmark(module, ts_id, test_case, "Step 3")
     fc.click(new_case_recontract.get_case_origin(driver))
@@ -734,6 +939,8 @@ def TC094c(driver, ts_id, can):
     fc.click(new_case_recontract.get_case_save(driver))
     fc.scroll_element(driver, new_case_recontract.get_sin(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 3c")
+    fc.scroll_element(driver, new_case_recontract.get_text_reconnect(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3d")
     fc.click(new_case_recontract.get_close_recontract(driver))
 
 
@@ -823,6 +1030,8 @@ def TC095c(driver, ts_id, can, sin):
     fc.click(new_case_recontract.get_case_save(driver))
     fc.scroll_element(driver, new_case_recontract.get_sin(driver))
     fc.screen_capture(driver, module, ts_id, test_case, "Step 3c")
+    fc.scroll_element(driver, new_case_recontract.get_text_reconnect(driver))
+    fc.screen_capture(driver, module, ts_id, test_case, "Step 3d")
     fc.click(new_case_recontract.get_close_recontract(driver))
 
 def TC110(driver, ts_id, referencenumber, lastname):
