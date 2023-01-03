@@ -1,0 +1,130 @@
+2022-12-22 11:11:31,498 - INFO - setup : Browser Launched!
+2022-12-22 11:12:03,388 - INFO - <module> : Login to Meralco Online
+2022-12-22 11:12:03,388 - INFO - <module> : Login to Meralco Online
+2022-12-22 11:12:03,388 - INFO - <module> : Login to Meralco Online
+2022-12-22 11:12:03,388 - INFO - <module> : Login to Meralco Online
+2022-12-22 11:12:06,935 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 11:12:06,935 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 11:12:06,935 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 11:12:06,935 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 11:12:07,372 - INFO - <module> : input: Meralco01
+2022-12-22 11:12:07,372 - INFO - <module> : input: Meralco01
+2022-12-22 11:12:07,372 - INFO - <module> : input: Meralco01
+2022-12-22 11:12:07,372 - INFO - <module> : input: Meralco01
+2022-12-22 11:12:08,292 - INFO - <module> : Clicked
+2022-12-22 11:12:08,292 - INFO - <module> : Clicked
+2022-12-22 11:12:08,292 - INFO - <module> : Clicked
+2022-12-22 11:12:08,292 - INFO - <module> : Clicked
+2022-12-22 11:12:14,817 - INFO - <module> : Hello, Atnew exists
+2022-12-22 11:12:14,817 - INFO - <module> : Hello, Atnew exists
+2022-12-22 11:12:14,817 - INFO - <module> : Hello, Atnew exists
+2022-12-22 11:12:14,817 - INFO - <module> : Hello, Atnew exists
+2022-12-22 11:12:27,792 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 11:12:27,792 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 11:12:27,792 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 11:12:27,792 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 11:12:27,919 - INFO - <module> : Accounts clicked
+2022-12-22 11:12:27,919 - INFO - <module> : Accounts clicked
+2022-12-22 11:12:27,919 - INFO - <module> : Accounts clicked
+2022-12-22 11:12:27,919 - INFO - <module> : Accounts clicked
+2022-12-22 11:12:28,096 - INFO - <module> :  clicked
+2022-12-22 11:12:28,096 - INFO - <module> :  clicked
+2022-12-22 11:12:28,096 - INFO - <module> :  clicked
+2022-12-22 11:12:28,096 - INFO - <module> :  clicked
+2022-12-22 11:12:36,068 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 11:12:36,068 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 11:12:36,068 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 11:12:36,068 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 11:12:36,271 - INFO - <module> : Clicked
+2022-12-22 11:12:36,271 - INFO - <module> : Clicked
+2022-12-22 11:12:36,271 - INFO - <module> : Clicked
+2022-12-22 11:12:36,271 - INFO - <module> : Clicked
+2022-12-22 11:12:47,388 - INFO - <module> : Clicked
+2022-12-22 11:12:47,388 - INFO - <module> : Clicked
+2022-12-22 11:12:47,388 - INFO - <module> : Clicked
+2022-12-22 11:12:47,388 - INFO - <module> : Clicked
+2022-12-22 11:12:52,946 - INFO - <module> : Select Change in Contract Name then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 11:12:52,946 - INFO - <module> : Select Change in Contract Name then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 11:12:52,946 - INFO - <module> : Select Change in Contract Name then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 11:12:52,946 - INFO - <module> : Select Change in Contract Name then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 11:12:53,189 - INFO - <module> : Clicked
+2022-12-22 11:12:53,189 - INFO - <module> : Clicked
+2022-12-22 11:12:53,189 - INFO - <module> : Clicked
+2022-12-22 11:12:53,189 - INFO - <module> : Clicked
+2022-12-22 11:12:56,171 - INFO - <module> : Clicked
+2022-12-22 11:12:56,171 - INFO - <module> : Clicked
+2022-12-22 11:12:56,171 - INFO - <module> : Clicked
+2022-12-22 11:12:56,171 - INFO - <module> : Clicked
+2022-12-22 11:13:01,805 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+> Attach documents
+> Click Next
+2022-12-22 11:13:01,805 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+> Attach documents
+> Click Next
+2022-12-22 11:13:01,805 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+> Attach documents
+> Click Next
+2022-12-22 11:13:01,805 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+> Attach documents
+> Click Next
+2022-12-22 11:13:09,931 - INFO - <module> : Clicked
+2022-12-22 11:13:09,931 - INFO - <module> : Clicked
+2022-12-22 11:13:09,931 - INFO - <module> : Clicked
+2022-12-22 11:13:09,931 - INFO - <module> : Clicked
+2022-12-22 11:13:10,500 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 11:13:10,500 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 11:13:10,500 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 11:13:10,500 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 11:13:26,439 - INFO - <module> : Clicked
+2022-12-22 11:13:26,439 - INFO - <module> : Clicked
+2022-12-22 11:13:26,439 - INFO - <module> : Clicked
+2022-12-22 11:13:26,439 - INFO - <module> : Clicked
+2022-12-22 11:13:26,973 - INFO - <module> : Click Submit
+2022-12-22 11:13:26,973 - INFO - <module> : Click Submit
+2022-12-22 11:13:26,973 - INFO - <module> : Click Submit
+2022-12-22 11:13:26,973 - INFO - <module> : Click Submit
+2022-12-22 11:14:01,901 - ERROR - <module> : Cannot Locate: back_to_home
+2022-12-22 11:14:01,901 - ERROR - <module> : Cannot Locate: back_to_home
+2022-12-22 11:14:01,901 - ERROR - <module> : Cannot Locate: back_to_home
+2022-12-22 11:14:01,901 - ERROR - <module> : Cannot Locate: back_to_home
+2022-12-22 11:14:01,977 - INFO - setup : Close Browser

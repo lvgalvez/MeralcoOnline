@@ -1,0 +1,198 @@
+2022-12-22 12:15:50,281 - INFO - setup : Browser Launched!
+2022-12-22 12:16:24,511 - INFO - <module> : Login to Meralco Online
+2022-12-22 12:16:24,511 - INFO - <module> : Login to Meralco Online
+2022-12-22 12:16:24,511 - INFO - <module> : Login to Meralco Online
+2022-12-22 12:16:24,511 - INFO - <module> : Login to Meralco Online
+2022-12-22 12:16:27,734 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:16:27,734 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:16:27,734 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:16:27,734 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:16:28,209 - INFO - <module> : input: Meralco01
+2022-12-22 12:16:28,209 - INFO - <module> : input: Meralco01
+2022-12-22 12:16:28,209 - INFO - <module> : input: Meralco01
+2022-12-22 12:16:28,209 - INFO - <module> : input: Meralco01
+2022-12-22 12:16:29,200 - INFO - <module> : Clicked
+2022-12-22 12:16:29,200 - INFO - <module> : Clicked
+2022-12-22 12:16:29,200 - INFO - <module> : Clicked
+2022-12-22 12:16:29,200 - INFO - <module> : Clicked
+2022-12-22 12:16:36,248 - INFO - <module> : Hello, Atnew exists
+2022-12-22 12:16:36,248 - INFO - <module> : Hello, Atnew exists
+2022-12-22 12:16:36,248 - INFO - <module> : Hello, Atnew exists
+2022-12-22 12:16:36,248 - INFO - <module> : Hello, Atnew exists
+2022-12-22 12:16:49,135 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 12:16:49,135 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 12:16:49,135 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 12:16:49,135 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 12:16:49,246 - INFO - <module> : Accounts clicked
+2022-12-22 12:16:49,246 - INFO - <module> : Accounts clicked
+2022-12-22 12:16:49,246 - INFO - <module> : Accounts clicked
+2022-12-22 12:16:49,246 - INFO - <module> : Accounts clicked
+2022-12-22 12:16:49,408 - INFO - <module> :  clicked
+2022-12-22 12:16:49,408 - INFO - <module> :  clicked
+2022-12-22 12:16:49,408 - INFO - <module> :  clicked
+2022-12-22 12:16:49,408 - INFO - <module> :  clicked
+2022-12-22 12:16:57,374 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2022-12-22 12:16:57,374 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2022-12-22 12:16:57,374 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2022-12-22 12:16:57,374 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2022-12-22 12:16:58,924 - INFO - <module> : Clicked
+2022-12-22 12:16:58,924 - INFO - <module> : Clicked
+2022-12-22 12:16:58,924 - INFO - <module> : Clicked
+2022-12-22 12:16:58,924 - INFO - <module> : Clicked
+2022-12-22 12:17:08,716 - INFO - <module> : Clicked
+2022-12-22 12:17:08,716 - INFO - <module> : Clicked
+2022-12-22 12:17:08,716 - INFO - <module> : Clicked
+2022-12-22 12:17:08,716 - INFO - <module> : Clicked
+2022-12-22 12:17:14,278 - INFO - <module> : Populate the following:
+SIN
+First Name
+Middle Name (Optional)
+Last Name
+Email Address
+Mobile Number (optional)
+Landline (optional)
+Birthday (optional)
+Representative indicator
+Click Next
+2022-12-22 12:17:14,278 - INFO - <module> : Populate the following:
+SIN
+First Name
+Middle Name (Optional)
+Last Name
+Email Address
+Mobile Number (optional)
+Landline (optional)
+Birthday (optional)
+Representative indicator
+Click Next
+2022-12-22 12:17:14,278 - INFO - <module> : Populate the following:
+SIN
+First Name
+Middle Name (Optional)
+Last Name
+Email Address
+Mobile Number (optional)
+Landline (optional)
+Birthday (optional)
+Representative indicator
+Click Next
+2022-12-22 12:17:14,278 - INFO - <module> : Populate the following:
+SIN
+First Name
+Middle Name (Optional)
+Last Name
+Email Address
+Mobile Number (optional)
+Landline (optional)
+Birthday (optional)
+Representative indicator
+Click Next
+2022-12-22 12:17:17,626 - INFO - <module> : Clicked
+2022-12-22 12:17:17,626 - INFO - <module> : Clicked
+2022-12-22 12:17:17,626 - INFO - <module> : Clicked
+2022-12-22 12:17:17,626 - INFO - <module> : Clicked
+2022-12-22 12:17:23,171 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2022-12-22 12:17:23,171 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2022-12-22 12:17:23,171 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2022-12-22 12:17:23,171 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2022-12-22 12:17:29,059 - INFO - <module> : Clicked
+2022-12-22 12:17:29,059 - INFO - <module> : Clicked
+2022-12-22 12:17:29,059 - INFO - <module> : Clicked
+2022-12-22 12:17:29,059 - INFO - <module> : Clicked
+2022-12-22 12:17:34,619 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2022-12-22 12:17:34,619 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2022-12-22 12:17:34,619 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2022-12-22 12:17:34,619 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2022-12-22 12:17:35,368 - INFO - <module> : Clicked
+2022-12-22 12:17:35,368 - INFO - <module> : Clicked
+2022-12-22 12:17:35,368 - INFO - <module> : Clicked
+2022-12-22 12:17:35,368 - INFO - <module> : Clicked
+2022-12-22 12:17:43,256 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 12:17:43,256 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 12:17:43,256 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 12:17:43,256 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 12:18:05,875 - INFO - <module> : Clicked
+2022-12-22 12:18:05,875 - INFO - <module> : Clicked
+2022-12-22 12:18:05,875 - INFO - <module> : Clicked
+2022-12-22 12:18:05,875 - INFO - <module> : Clicked
+2022-12-22 12:18:06,341 - INFO - <module> : Click Submit
+2022-12-22 12:18:06,341 - INFO - <module> : Click Submit
+2022-12-22 12:18:06,341 - INFO - <module> : Click Submit
+2022-12-22 12:18:06,341 - INFO - <module> : Click Submit
+2022-12-22 12:18:17,346 - INFO - <module> : Clicked
+2022-12-22 12:18:17,346 - INFO - <module> : Clicked
+2022-12-22 12:18:17,346 - INFO - <module> : Clicked
+2022-12-22 12:18:17,346 - INFO - <module> : Clicked
+2022-12-22 12:18:25,662 - INFO - <module> : Clicked
+2022-12-22 12:18:25,662 - INFO - <module> : Clicked
+2022-12-22 12:18:25,662 - INFO - <module> : Clicked
+2022-12-22 12:18:25,662 - INFO - <module> : Clicked
+2022-12-22 12:18:28,467 - INFO - <module> : Go to Activity Tracker page
+2022-12-22 12:18:28,467 - INFO - <module> : Go to Activity Tracker page
+2022-12-22 12:18:28,467 - INFO - <module> : Go to Activity Tracker page
+2022-12-22 12:18:28,467 - INFO - <module> : Go to Activity Tracker page
+2022-12-22 12:18:31,734 - INFO - <module> : Check if created case is included in activity tracker page
+2022-12-22 12:18:31,734 - INFO - <module> : Check if created case is included in activity tracker page
+2022-12-22 12:18:31,734 - INFO - <module> : Check if created case is included in activity tracker page
+2022-12-22 12:18:31,734 - INFO - <module> : Check if created case is included in activity tracker page
+2022-12-22 12:18:36,006 - INFO - <module> : Validate email notification
+2022-12-22 12:18:36,006 - INFO - <module> : Validate email notification
+2022-12-22 12:18:36,006 - INFO - <module> : Validate email notification
+2022-12-22 12:18:36,006 - INFO - <module> : Validate email notification
+2022-12-22 12:18:52,241 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-12-22 12:18:52,241 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-12-22 12:18:52,241 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-12-22 12:18:52,241 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-12-22 12:18:53,464 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:18:53,464 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:18:53,464 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:18:53,464 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:18:55,342 - INFO - <module> : Clicked
+2022-12-22 12:18:55,342 - INFO - <module> : Clicked
+2022-12-22 12:18:55,342 - INFO - <module> : Clicked
+2022-12-22 12:18:55,342 - INFO - <module> : Clicked
+2022-12-22 12:18:57,993 - INFO - setup : Close Browser

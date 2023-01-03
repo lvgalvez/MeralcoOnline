@@ -1,0 +1,46 @@
+2022-12-22 12:11:28,253 - INFO - setup : Browser Launched!
+2022-12-22 12:12:01,412 - INFO - <module> : Login to Meralco Online
+2022-12-22 12:12:01,412 - INFO - <module> : Login to Meralco Online
+2022-12-22 12:12:01,412 - INFO - <module> : Login to Meralco Online
+2022-12-22 12:12:01,412 - INFO - <module> : Login to Meralco Online
+2022-12-22 12:12:04,694 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:12:04,694 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:12:04,694 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:12:04,694 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:12:05,241 - INFO - <module> : input: Meralco01
+2022-12-22 12:12:05,241 - INFO - <module> : input: Meralco01
+2022-12-22 12:12:05,241 - INFO - <module> : input: Meralco01
+2022-12-22 12:12:05,241 - INFO - <module> : input: Meralco01
+2022-12-22 12:12:06,034 - INFO - <module> : Clicked
+2022-12-22 12:12:06,034 - INFO - <module> : Clicked
+2022-12-22 12:12:06,034 - INFO - <module> : Clicked
+2022-12-22 12:12:06,034 - INFO - <module> : Clicked
+2022-12-22 12:12:12,669 - INFO - <module> : Hello, Atnew exists
+2022-12-22 12:12:12,669 - INFO - <module> : Hello, Atnew exists
+2022-12-22 12:12:12,669 - INFO - <module> : Hello, Atnew exists
+2022-12-22 12:12:12,669 - INFO - <module> : Hello, Atnew exists
+2022-12-22 12:12:25,584 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 12:12:25,584 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 12:12:25,584 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 12:12:25,584 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 12:12:25,713 - INFO - <module> : Accounts clicked
+2022-12-22 12:12:25,713 - INFO - <module> : Accounts clicked
+2022-12-22 12:12:25,713 - INFO - <module> : Accounts clicked
+2022-12-22 12:12:25,713 - INFO - <module> : Accounts clicked
+2022-12-22 12:12:25,916 - INFO - <module> :  clicked
+2022-12-22 12:12:25,916 - INFO - <module> :  clicked
+2022-12-22 12:12:25,916 - INFO - <module> :  clicked
+2022-12-22 12:12:25,916 - INFO - <module> :  clicked
+2022-12-22 12:12:34,838 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2022-12-22 12:12:34,838 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2022-12-22 12:12:34,838 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2022-12-22 12:12:34,838 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2022-12-22 12:12:35,058 - INFO - <module> : Clicked
+2022-12-22 12:12:35,058 - INFO - <module> : Clicked
+2022-12-22 12:12:35,058 - INFO - <module> : Clicked
+2022-12-22 12:12:35,058 - INFO - <module> : Clicked
+2022-12-22 12:13:10,477 - ERROR - <module> : Cannot Locate: reactivate_electric_service
+2022-12-22 12:13:10,477 - ERROR - <module> : Cannot Locate: reactivate_electric_service
+2022-12-22 12:13:10,477 - ERROR - <module> : Cannot Locate: reactivate_electric_service
+2022-12-22 12:13:10,477 - ERROR - <module> : Cannot Locate: reactivate_electric_service
+2022-12-22 12:13:10,625 - INFO - setup : Close Browser
