@@ -262,6 +262,22 @@ class TestConcern:
         TC089b(self.driver, test_scenario, Concern['sacxe_multiple_can'], Concern['sacxe_multiple_sin'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
+    @pytest.mark.tags("TS064")
+    def test_ts064(self):
+        test_scenario = "TS064"
+        Functions().create_document(self.driver, module, test_scenario)
+        Precondition_Login_CXE(self.driver, test_scenario, Concern['cxe_email'], Concern['cxe_password'])
+        TC088c(self.driver, test_scenario, Concern['sacxe_single_can'], Concern['sacxe_single_sin'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS065")
+    def test_ts065(self):
+        test_scenario = "TS065"
+        Functions().create_document(self.driver, module, test_scenario)
+        Precondition_Login_CXE(self.driver, test_scenario, Concern['cxe_email'], Concern['cxe_password'])
+        TC089c(self.driver, test_scenario, Concern['sacxe_multiple_can'], Concern['sacxe_multiple_sin'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
     @pytest.mark.tags("TS066")
     def test_ts066(self):
         test_scenario = "TS066"
