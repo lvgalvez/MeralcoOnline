@@ -16,7 +16,10 @@ class CXENewCaseRecontractPage:
     inp_sin_byxpath = "//div[2]/div/div/div[2]/div[1]/div/div/div/input[@class = ' input']"
     lbl_energization_date_byxpath = "//div[1]/div[1]/div/div/div/div/a[@class = 'datePicker-openIcon display']"
     btn_energization_today_byxpath = "//tr[7]/td/button[text() = 'Today']"
+    lbl_text_reconnect_byxpath = "//h2[text() = 'New Case: Recontract of Electric Service']"
 
+    def get_text_reconnect(self, driver):
+        return WebMisc().clickable_element(driver, self.lbl_text_reconnect_byxpath, "lbl_text_reconnect_byxpath")
 
     def get_origin_kiosk(self, driver):
         return WebMisc().clickable_element(driver, self.lbl_origin_kiosk_byxpath, "lbl_origin_kiosk_byxpath")
