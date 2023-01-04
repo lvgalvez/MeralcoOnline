@@ -1,0 +1,66 @@
+2022-12-27 15:42:38,475 - INFO - setup : Browser Launched!
+2022-12-27 15:42:48,365 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 15:42:48,365 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 15:42:48,365 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 15:42:48,365 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 15:42:48,539 - INFO - <module> : Service Application exists
+2022-12-27 15:42:48,539 - INFO - <module> : Service Application exists
+2022-12-27 15:42:48,539 - INFO - <module> : Service Application exists
+2022-12-27 15:42:48,539 - INFO - <module> : Service Application exists
+2022-12-27 15:42:51,595 - INFO - <module> : Clicked
+2022-12-27 15:42:51,595 - INFO - <module> : Clicked
+2022-12-27 15:42:51,595 - INFO - <module> : Clicked
+2022-12-27 15:42:51,595 - INFO - <module> : Clicked
+2022-12-27 15:42:51,648 - INFO - <module> : Start Service exists
+2022-12-27 15:42:51,648 - INFO - <module> : Start Service exists
+2022-12-27 15:42:51,648 - INFO - <module> : Start Service exists
+2022-12-27 15:42:51,648 - INFO - <module> : Start Service exists
+2022-12-27 15:42:51,692 - INFO - <module> : Modify Service exists
+2022-12-27 15:42:51,692 - INFO - <module> : Modify Service exists
+2022-12-27 15:42:51,692 - INFO - <module> : Modify Service exists
+2022-12-27 15:42:51,692 - INFO - <module> : Modify Service exists
+2022-12-27 15:42:51,739 - INFO - <module> : Reactivate Service exists
+2022-12-27 15:42:51,739 - INFO - <module> : Reactivate Service exists
+2022-12-27 15:42:51,739 - INFO - <module> : Reactivate Service exists
+2022-12-27 15:42:51,739 - INFO - <module> : Reactivate Service exists
+2022-12-27 15:42:51,781 - INFO - <module> : Stop Service exists
+2022-12-27 15:42:51,781 - INFO - <module> : Stop Service exists
+2022-12-27 15:42:51,781 - INFO - <module> : Stop Service exists
+2022-12-27 15:42:51,781 - INFO - <module> : Stop Service exists
+2022-12-27 15:42:55,840 - INFO - <module> : Clicked
+2022-12-27 15:42:55,840 - INFO - <module> : Clicked
+2022-12-27 15:42:55,840 - INFO - <module> : Clicked
+2022-12-27 15:42:55,840 - INFO - <module> : Clicked
+2022-12-27 15:42:55,949 - INFO - <module> : REQUEST DETAILS exists
+2022-12-27 15:42:55,949 - INFO - <module> : REQUEST DETAILS exists
+2022-12-27 15:42:55,949 - INFO - <module> : REQUEST DETAILS exists
+2022-12-27 15:42:55,949 - INFO - <module> : REQUEST DETAILS exists
+2022-12-27 15:42:58,910 - INFO - <module> :  exists
+2022-12-27 15:42:58,910 - INFO - <module> :  exists
+2022-12-27 15:42:58,910 - INFO - <module> :  exists
+2022-12-27 15:42:58,910 - INFO - <module> :  exists
+2022-12-27 15:43:01,920 - INFO - <module> : input: 3535069832
+2022-12-27 15:43:01,920 - INFO - <module> : input: 3535069832
+2022-12-27 15:43:01,920 - INFO - <module> : input: 3535069832
+2022-12-27 15:43:01,920 - INFO - <module> : input: 3535069832
+2022-12-27 15:43:05,014 - INFO - <module> : input: 502860340201
+2022-12-27 15:43:05,014 - INFO - <module> : input: 502860340201
+2022-12-27 15:43:05,014 - INFO - <module> : input: 502860340201
+2022-12-27 15:43:05,014 - INFO - <module> : input: 502860340201
+2022-12-27 15:43:08,049 - INFO - <module> : Clicked
+2022-12-27 15:43:08,049 - INFO - <module> : Clicked
+2022-12-27 15:43:08,049 - INFO - <module> : Clicked
+2022-12-27 15:43:08,049 - INFO - <module> : Clicked
+2022-12-27 15:43:08,112 - INFO - <module> : Clicked
+2022-12-27 15:43:08,112 - INFO - <module> : Clicked
+2022-12-27 15:43:08,112 - INFO - <module> : Clicked
+2022-12-27 15:43:08,112 - INFO - <module> : Clicked
+2022-12-27 15:43:10,366 - INFO - <module> : Clicked
+2022-12-27 15:43:10,366 - INFO - <module> : Clicked
+2022-12-27 15:43:10,366 - INFO - <module> : Clicked
+2022-12-27 15:43:10,366 - INFO - <module> : Clicked
+2022-12-27 15:43:11,151 - INFO - <module> : input: atcontCompname
+2022-12-27 15:43:11,151 - INFO - <module> : input: atcontCompname
+2022-12-27 15:43:11,151 - INFO - <module> : input: atcontCompname
+2022-12-27 15:43:11,151 - INFO - <module> : input: atcontCompname
+2022-12-27 15:43:41,707 - INFO - setup : Close Browser

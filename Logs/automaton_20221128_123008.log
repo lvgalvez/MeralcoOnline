@@ -1,0 +1,82 @@
+2022-11-28 12:30:08,648 - INFO - setup : Browser Launched!
+2022-11-28 12:30:13,974 - INFO - <module> : Go to Registration page
+2022-11-28 12:30:13,974 - INFO - <module> : Go to Registration page
+2022-11-28 12:30:13,974 - INFO - <module> : Go to Registration page
+2022-11-28 12:30:14,920 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-11-28 12:30:14,920 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-11-28 12:30:14,920 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-11-28 12:30:15,737 - INFO - <module> : Clicked
+2022-11-28 12:30:15,737 - INFO - <module> : Clicked
+2022-11-28 12:30:15,737 - INFO - <module> : Clicked
+2022-11-28 12:30:16,287 - INFO - <module> : Create a New Account exists
+2022-11-28 12:30:16,287 - INFO - <module> : Create a New Account exists
+2022-11-28 12:30:16,287 - INFO - <module> : Create a New Account exists
+2022-11-28 12:30:18,846 - INFO - <module> : Populate the following field:
+- Email
+- First Name
+- Middle Name (optional)
+- Last Name
+- Mobile Number
+Customer Account Number
+- Total kWh
+- Bill Date
+
+Note: Customer's name should be different from Contract's Account Name 
+2022-11-28 12:30:18,846 - INFO - <module> : Populate the following field:
+- Email
+- First Name
+- Middle Name (optional)
+- Last Name
+- Mobile Number
+Customer Account Number
+- Total kWh
+- Bill Date
+
+Note: Customer's name should be different from Contract's Account Name 
+2022-11-28 12:30:18,846 - INFO - <module> : Populate the following field:
+- Email
+- First Name
+- Middle Name (optional)
+- Last Name
+- Mobile Number
+Customer Account Number
+- Total kWh
+- Bill Date
+
+Note: Customer's name should be different from Contract's Account Name 
+2022-11-28 12:30:18,961 - INFO - <module> : input: nonpaysingleservice@yopmail.com
+2022-11-28 12:30:18,961 - INFO - <module> : input: nonpaysingleservice@yopmail.com
+2022-11-28 12:30:18,961 - INFO - <module> : input: nonpaysingleservice@yopmail.com
+2022-11-28 12:30:19,049 - INFO - <module> : input: Non Pay
+2022-11-28 12:30:19,049 - INFO - <module> : input: Non Pay
+2022-11-28 12:30:19,049 - INFO - <module> : input: Non Pay
+2022-11-28 12:30:19,105 - INFO - <module> : input: TS
+2022-11-28 12:30:19,105 - INFO - <module> : input: TS
+2022-11-28 12:30:19,105 - INFO - <module> : input: TS
+2022-11-28 12:30:19,175 - INFO - <module> : input: 9273437214
+2022-11-28 12:30:19,175 - INFO - <module> : input: 9273437214
+2022-11-28 12:30:19,175 - INFO - <module> : input: 9273437214
+2022-11-28 12:30:19,248 - INFO - <module> : input: 3534823912
+2022-11-28 12:30:19,248 - INFO - <module> : input: 3534823912
+2022-11-28 12:30:19,248 - INFO - <module> : input: 3534823912
+2022-11-28 12:30:19,303 - INFO - <module> : input: 224
+2022-11-28 12:30:19,303 - INFO - <module> : input: 224
+2022-11-28 12:30:19,303 - INFO - <module> : input: 224
+2022-11-28 12:30:19,394 - INFO - <module> : input: 08/02/2022
+2022-11-28 12:30:19,394 - INFO - <module> : input: 08/02/2022
+2022-11-28 12:30:19,394 - INFO - <module> : input: 08/02/2022
+2022-11-28 12:30:21,968 - INFO - <module> : Tick on Meralco Online Terms & Conditions > Click Register
+2022-11-28 12:30:21,968 - INFO - <module> : Tick on Meralco Online Terms & Conditions > Click Register
+2022-11-28 12:30:21,968 - INFO - <module> : Tick on Meralco Online Terms & Conditions > Click Register
+2022-11-28 12:30:22,066 - INFO - <module> : Clicked
+2022-11-28 12:30:22,066 - INFO - <module> : Clicked
+2022-11-28 12:30:22,066 - INFO - <module> : Clicked
+2022-11-28 12:30:24,531 - INFO - <module> : Clicked
+2022-11-28 12:30:24,531 - INFO - <module> : Clicked
+2022-11-28 12:30:24,531 - INFO - <module> : Clicked
+2022-11-28 12:30:26,992 - INFO - <module> : Clicked
+2022-11-28 12:30:26,992 - INFO - <module> : Clicked
+2022-11-28 12:30:26,992 - INFO - <module> : Clicked
+2022-11-28 12:30:27,033 - INFO - <module> : Clicked
+2022-11-28 12:30:27,033 - INFO - <module> : Clicked
+2022-11-28 12:30:27,033 - INFO - <module> : Clicked

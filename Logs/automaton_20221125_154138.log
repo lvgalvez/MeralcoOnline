@@ -1,0 +1,86 @@
+2022-11-25 15:41:40,695 - INFO - setup : Browser Launched!
+2022-11-25 15:41:56,749 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-25 15:41:56,749 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-25 15:41:56,749 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-25 15:41:59,798 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-25 15:41:59,798 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-25 15:41:59,798 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-11-25 15:42:01,946 - INFO - <module> : Service Application exists
+2022-11-25 15:42:01,946 - INFO - <module> : Service Application exists
+2022-11-25 15:42:01,946 - INFO - <module> : Service Application exists
+2022-11-25 15:42:06,272 - INFO - <module> : Click on Individual
+2022-11-25 15:42:06,272 - INFO - <module> : Click on Individual
+2022-11-25 15:42:06,272 - INFO - <module> : Click on Individual
+2022-11-25 15:42:06,412 - INFO - <module> : Clicked
+2022-11-25 15:42:06,412 - INFO - <module> : Clicked
+2022-11-25 15:42:06,412 - INFO - <module> : Clicked
+2022-11-25 15:42:06,480 - INFO - <module> : Start Service exists
+2022-11-25 15:42:06,480 - INFO - <module> : Start Service exists
+2022-11-25 15:42:06,480 - INFO - <module> : Start Service exists
+2022-11-25 15:42:06,545 - INFO - <module> : Modify Service exists
+2022-11-25 15:42:06,545 - INFO - <module> : Modify Service exists
+2022-11-25 15:42:06,545 - INFO - <module> : Modify Service exists
+2022-11-25 15:42:06,604 - INFO - <module> : Reactivate Service exists
+2022-11-25 15:42:06,604 - INFO - <module> : Reactivate Service exists
+2022-11-25 15:42:06,604 - INFO - <module> : Reactivate Service exists
+2022-11-25 15:42:06,669 - INFO - <module> : Stop Service exists
+2022-11-25 15:42:06,669 - INFO - <module> : Stop Service exists
+2022-11-25 15:42:06,669 - INFO - <module> : Stop Service exists
+2022-11-25 15:42:10,987 - INFO - <module> : Click on Start a Service
+2022-11-25 15:42:10,987 - INFO - <module> : Click on Start a Service
+2022-11-25 15:42:10,987 - INFO - <module> : Click on Start a Service
+2022-11-25 15:42:11,214 - INFO - <module> : Clicked
+2022-11-25 15:42:11,214 - INFO - <module> : Clicked
+2022-11-25 15:42:11,214 - INFO - <module> : Clicked
+2022-11-25 15:42:12,187 - INFO - <module> : Clicked
+2022-11-25 15:42:12,187 - INFO - <module> : Clicked
+2022-11-25 15:42:12,187 - INFO - <module> : Clicked
+2022-11-25 15:42:12,918 - INFO - <module> : Create a New Account exists
+2022-11-25 15:42:12,918 - INFO - <module> : Create a New Account exists
+2022-11-25 15:42:12,918 - INFO - <module> : Create a New Account exists
+2022-11-25 15:42:17,613 - INFO - <module> : Populate the following:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Mobile Number
+> Tick Terms and Condition
+> Click Register
+2022-11-25 15:42:17,613 - INFO - <module> : Populate the following:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Mobile Number
+> Tick Terms and Condition
+> Click Register
+2022-11-25 15:42:17,613 - INFO - <module> : Populate the following:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Mobile Number
+> Tick Terms and Condition
+> Click Register
+2022-11-25 15:42:17,946 - INFO - <module> : input: aaaaa@yopmail.com
+2022-11-25 15:42:17,946 - INFO - <module> : input: aaaaa@yopmail.com
+2022-11-25 15:42:17,946 - INFO - <module> : input: aaaaa@yopmail.com
+2022-11-25 15:42:18,128 - INFO - <module> : input: atfirst1
+2022-11-25 15:42:18,128 - INFO - <module> : input: atfirst1
+2022-11-25 15:42:18,128 - INFO - <module> : input: atfirst1
+2022-11-25 15:42:18,304 - INFO - <module> : input: atmiddle1
+2022-11-25 15:42:18,304 - INFO - <module> : input: atmiddle1
+2022-11-25 15:42:18,304 - INFO - <module> : input: atmiddle1
+2022-11-25 15:42:18,473 - INFO - <module> : input: atlast1
+2022-11-25 15:42:18,473 - INFO - <module> : input: atlast1
+2022-11-25 15:42:18,473 - INFO - <module> : input: atlast1
+2022-11-25 15:42:18,644 - INFO - <module> : input: 9272222235
+2022-11-25 15:42:18,644 - INFO - <module> : input: 9272222235
+2022-11-25 15:42:18,644 - INFO - <module> : input: 9272222235
+2022-11-25 15:42:18,779 - INFO - <module> : Clicked
+2022-11-25 15:42:18,779 - INFO - <module> : Clicked
+2022-11-25 15:42:18,779 - INFO - <module> : Clicked
+2022-11-25 15:42:21,735 - INFO - <module> : Clicked
+2022-11-25 15:42:21,735 - INFO - <module> : Clicked
+2022-11-25 15:42:21,735 - INFO - <module> : Clicked
+2022-11-25 15:42:52,080 - INFO - setup : Close Browser
