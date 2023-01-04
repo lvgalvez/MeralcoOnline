@@ -2186,6 +2186,7 @@ def TC122(driver, ts_id, firstname, lastname, emailaddress, businessname, mobile
 
     cxereactivatecontractor = CXEReactivateContractor()
     function.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
+
     function.click(cxereactivatecontractor.get_contractor(driver))
     function.verify(cxereactivatecontractor.get_start_service(driver))
     function.verify(cxereactivatecontractor.get_modify_service(driver))
