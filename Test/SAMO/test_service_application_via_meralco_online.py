@@ -225,7 +225,7 @@ class TestServiceApplicationMeralcoOnline:
     def test_ts045(self):
         test_scenario = "TS045"
         Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
-        TC028(self.driver, test_scenario, SAMO['CAN_singlesrvc'], SAMO['business_company_name'], SAMO['business_company_landline'],
+        TC028(self.driver, test_scenario, SAMO['CAN_singlesrvc'], SAMO['business_company_name'], SAMO['business_company_landline'], #CAN 3534823912
               SAMO['business_first_name'], SAMO['business_last_name'], SAMO['business_emailaddress'],
               SAMO['business_designation'], SAMO['business_mobile_number'])
         TC014a(self.driver, test_scenario, Concern['concern_email'])
@@ -236,6 +236,71 @@ class TestServiceApplicationMeralcoOnline:
         test_scenario = "TS046"
         Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
         TC029(self.driver, test_scenario, SAMO['CAN_singlesrvc'], SAMO['contractor_companyName'],
-              SAMO['contractor_firstName'], SAMO['contractor_lastName'], SAMO['contractor_emailAddress'], SAMO['contractor_mobileNumber'])
+              SAMO['contractor_firstName'], SAMO['contractor_lastName'], SAMO['contractor_emailAddress'], SAMO['contractor_mobileNumber']) #CAN 3534823912
         TC014a(self.driver, test_scenario, Concern['concern_email'])
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS048")
+    def test_ts048(self):
+        test_scenario = "TS048"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC032(self.driver, test_scenario, SAMO['firstname'], SAMO['lastname'], SAMO['emailaddress'], #CAN 3535087812
+              SAMO['mobilenumber'], SAMO['CAN_business_termnte'])
+        TC014a(self.driver, test_scenario, Concern['concern_email'])
+
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS049")
+    def test_ts049(self):
+        test_scenario = "TS049"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC033(self.driver, test_scenario, SAMO['firstname'], SAMO['lastname'], SAMO['emailaddress'], #CAN 3531412991
+              SAMO['mobilenumber'], SAMO['CAN_contractor_termnte'], SAMO['contractor_businessName'])
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS052")
+    def test_ts052(self):
+        test_scenario = "TS052"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario) #CAN 3535069832 #SIN 502860340101
+        TC115(self.driver, test_scenario, SAMO['indv_can_multi'], SAMO['indv_SIN'], SAMO['individual_company_name'], SAMO['individual_landline'],
+              SAMO['individual_account_first'], SAMO['individual_account_last'], SAMO['individual_account_email'],
+              SAMO['individual_designation'], SAMO['individual_account_mobile'])
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS053")
+    def test_ts053(self):
+        test_scenario = "TS053"
+        Functions().create_document(self.driver, self.serviceApplicationModule,
+                                    test_scenario)  # CAN 3535069832 #SIN 502860340201
+        TC116(self.driver, test_scenario, SAMO['indv_can_multi'], SAMO['business_SIN'], SAMO['business_company_name'],
+              SAMO['business_company_landline'],
+              SAMO['business_first_name'], SAMO['business_last_name'], SAMO['business_emailaddress'],
+              SAMO['business_designation'], SAMO['business_mobile_number'])
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS054")
+    def test_ts054(self):
+        test_scenario = "TS054"
+        Functions().create_document(self.driver, self.serviceApplicationModule,
+                                    test_scenario)  # CAN 0001365393 #SIN 200397770101
+        TC117(self.driver, test_scenario, SAMO['contractor_CAN'], SAMO['contractor_SIN'], SAMO['contractor_companyName'],
+              SAMO['contractor_landline'],
+              SAMO['contractor_firstName'], SAMO['contractor_lastName'], SAMO['contractor_emailAddress'],
+              SAMO['contractor_designation'], SAMO['contractor_mobileNumber'])
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS055")
+    def test_ts055(self):
+        test_scenario = "TS055"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC118(self.driver, test_scenario, SAMO['firstname'], SAMO['lastname'], SAMO['emailaddress'],
+              SAMO['mobilenumber'], SAMO['contractor_CAN'], SAMO['contractor_SIN'])  #CAN 0001365393 #SIN 100056140101
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS056")
+    def test_ts056(self):
+        test_scenario = "TS056"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC119(self.driver, test_scenario, SAMO['firstname'], SAMO['lastname'], SAMO['emailaddress'],
+              SAMO['mobilenumber'], SAMO['contractor_CAN'], SAMO['term_business_sin']) #CAN 0001365393 #SIN 502861380102
         Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")

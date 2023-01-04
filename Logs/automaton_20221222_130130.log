@@ -1,0 +1,110 @@
+2022-12-22 13:01:31,399 - INFO - setup : Browser Launched!
+2022-12-22 13:01:44,245 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-22 13:01:44,245 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-22 13:01:44,245 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-22 13:01:44,245 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-22 13:01:44,426 - INFO - <module> : Service Application exists
+2022-12-22 13:01:44,426 - INFO - <module> : Service Application exists
+2022-12-22 13:01:44,426 - INFO - <module> : Service Application exists
+2022-12-22 13:01:44,426 - INFO - <module> : Service Application exists
+2022-12-22 13:01:47,595 - INFO - <module> : Clicked
+2022-12-22 13:01:47,595 - INFO - <module> : Clicked
+2022-12-22 13:01:47,595 - INFO - <module> : Clicked
+2022-12-22 13:01:47,595 - INFO - <module> : Clicked
+2022-12-22 13:01:47,649 - INFO - <module> : Start Service exists
+2022-12-22 13:01:47,649 - INFO - <module> : Start Service exists
+2022-12-22 13:01:47,649 - INFO - <module> : Start Service exists
+2022-12-22 13:01:47,649 - INFO - <module> : Start Service exists
+2022-12-22 13:01:47,695 - INFO - <module> : Modify Service exists
+2022-12-22 13:01:47,695 - INFO - <module> : Modify Service exists
+2022-12-22 13:01:47,695 - INFO - <module> : Modify Service exists
+2022-12-22 13:01:47,695 - INFO - <module> : Modify Service exists
+2022-12-22 13:01:47,742 - INFO - <module> : Reactivate Service exists
+2022-12-22 13:01:47,742 - INFO - <module> : Reactivate Service exists
+2022-12-22 13:01:47,742 - INFO - <module> : Reactivate Service exists
+2022-12-22 13:01:47,742 - INFO - <module> : Reactivate Service exists
+2022-12-22 13:01:47,790 - INFO - <module> : Stop Service exists
+2022-12-22 13:01:47,790 - INFO - <module> : Stop Service exists
+2022-12-22 13:01:47,790 - INFO - <module> : Stop Service exists
+2022-12-22 13:01:47,790 - INFO - <module> : Stop Service exists
+2022-12-22 13:01:51,726 - INFO - <module> : Clicked
+2022-12-22 13:01:51,726 - INFO - <module> : Clicked
+2022-12-22 13:01:51,726 - INFO - <module> : Clicked
+2022-12-22 13:01:51,726 - INFO - <module> : Clicked
+2022-12-22 13:01:52,306 - INFO - <module> : REQUEST DETAILS exists
+2022-12-22 13:01:52,306 - INFO - <module> : REQUEST DETAILS exists
+2022-12-22 13:01:52,306 - INFO - <module> : REQUEST DETAILS exists
+2022-12-22 13:01:52,306 - INFO - <module> : REQUEST DETAILS exists
+2022-12-22 13:01:55,476 - INFO - <module> :  exists
+2022-12-22 13:01:55,476 - INFO - <module> :  exists
+2022-12-22 13:01:55,476 - INFO - <module> :  exists
+2022-12-22 13:01:55,476 - INFO - <module> :  exists
+2022-12-22 13:01:58,836 - INFO - <module> : input: 3534823912
+2022-12-22 13:01:58,836 - INFO - <module> : input: 3534823912
+2022-12-22 13:01:58,836 - INFO - <module> : input: 3534823912
+2022-12-22 13:01:58,836 - INFO - <module> : input: 3534823912
+2022-12-22 13:02:02,127 - INFO - <module> : Clicked
+2022-12-22 13:02:02,127 - INFO - <module> : Clicked
+2022-12-22 13:02:02,127 - INFO - <module> : Clicked
+2022-12-22 13:02:02,127 - INFO - <module> : Clicked
+2022-12-22 13:02:02,211 - INFO - <module> : Clicked
+2022-12-22 13:02:02,211 - INFO - <module> : Clicked
+2022-12-22 13:02:02,211 - INFO - <module> : Clicked
+2022-12-22 13:02:02,211 - INFO - <module> : Clicked
+2022-12-22 13:02:04,508 - INFO - <module> : Clicked
+2022-12-22 13:02:04,508 - INFO - <module> : Clicked
+2022-12-22 13:02:04,508 - INFO - <module> : Clicked
+2022-12-22 13:02:04,508 - INFO - <module> : Clicked
+2022-12-22 13:02:05,661 - INFO - <module> : input: atcontCompname
+2022-12-22 13:02:05,661 - INFO - <module> : input: atcontCompname
+2022-12-22 13:02:05,661 - INFO - <module> : input: atcontCompname
+2022-12-22 13:02:05,661 - INFO - <module> : input: atcontCompname
+2022-12-22 13:02:05,747 - INFO - <module> : input: atcontFname
+2022-12-22 13:02:05,747 - INFO - <module> : input: atcontFname
+2022-12-22 13:02:05,747 - INFO - <module> : input: atcontFname
+2022-12-22 13:02:05,747 - INFO - <module> : input: atcontFname
+2022-12-22 13:02:05,850 - INFO - <module> : input: atcontLname
+2022-12-22 13:02:05,850 - INFO - <module> : input: atcontLname
+2022-12-22 13:02:05,850 - INFO - <module> : input: atcontLname
+2022-12-22 13:02:05,850 - INFO - <module> : input: atcontLname
+2022-12-22 13:02:05,966 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2022-12-22 13:02:05,966 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2022-12-22 13:02:05,966 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2022-12-22 13:02:05,966 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2022-12-22 13:02:06,058 - INFO - <module> : input: +639234567891
+2022-12-22 13:02:06,058 - INFO - <module> : input: +639234567891
+2022-12-22 13:02:06,058 - INFO - <module> : input: +639234567891
+2022-12-22 13:02:06,058 - INFO - <module> : input: +639234567891
+2022-12-22 13:02:08,413 - INFO - <module> : Clicked
+2022-12-22 13:02:08,413 - INFO - <module> : Clicked
+2022-12-22 13:02:08,413 - INFO - <module> : Clicked
+2022-12-22 13:02:08,413 - INFO - <module> : Clicked
+2022-12-22 13:02:08,466 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2022-12-22 13:02:08,466 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2022-12-22 13:02:08,466 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2022-12-22 13:02:08,466 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2022-12-22 13:02:11,609 - INFO - <module> : Clicked
+2022-12-22 13:02:11,609 - INFO - <module> : Clicked
+2022-12-22 13:02:11,609 - INFO - <module> : Clicked
+2022-12-22 13:02:11,609 - INFO - <module> : Clicked
+2022-12-22 13:02:21,688 - INFO - <module> : Next exists
+2022-12-22 13:02:21,688 - INFO - <module> : Next exists
+2022-12-22 13:02:21,688 - INFO - <module> : Next exists
+2022-12-22 13:02:21,688 - INFO - <module> : Next exists
+2022-12-22 13:02:24,849 - INFO - <module> : Clicked
+2022-12-22 13:02:24,849 - INFO - <module> : Clicked
+2022-12-22 13:02:24,849 - INFO - <module> : Clicked
+2022-12-22 13:02:24,849 - INFO - <module> : Clicked
+2022-12-22 13:02:35,163 - INFO - <module> : We’ve received your request to change the service details for your customer ZERO ELEVEN TS. Your reference number is 22122252266. We sent a copy of your application to your registered email, as well as your customer. exists
+2022-12-22 13:02:35,163 - INFO - <module> : We’ve received your request to change the service details for your customer ZERO ELEVEN TS. Your reference number is 22122252266. We sent a copy of your application to your registered email, as well as your customer. exists
+2022-12-22 13:02:35,163 - INFO - <module> : We’ve received your request to change the service details for your customer ZERO ELEVEN TS. Your reference number is 22122252266. We sent a copy of your application to your registered email, as well as your customer. exists
+2022-12-22 13:02:35,163 - INFO - <module> : We’ve received your request to change the service details for your customer ZERO ELEVEN TS. Your reference number is 22122252266. We sent a copy of your application to your registered email, as well as your customer. exists
+2022-12-22 13:02:37,408 - INFO - <module> : TC029 Passed
+2022-12-22 13:02:37,408 - INFO - <module> : TC029 Passed
+2022-12-22 13:02:37,408 - INFO - <module> : TC029 Passed
+2022-12-22 13:02:37,408 - INFO - <module> : TC029 Passed
+2022-12-22 13:02:37,506 - INFO - setup : Close Browser

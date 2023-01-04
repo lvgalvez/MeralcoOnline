@@ -1,0 +1,150 @@
+2022-12-27 13:12:06,677 - INFO - setup : Browser Launched!
+2022-12-27 13:12:17,222 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 13:12:17,222 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 13:12:17,222 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 13:12:17,222 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 13:12:17,447 - INFO - <module> : Service Application exists
+2022-12-27 13:12:17,447 - INFO - <module> : Service Application exists
+2022-12-27 13:12:17,447 - INFO - <module> : Service Application exists
+2022-12-27 13:12:17,447 - INFO - <module> : Service Application exists
+2022-12-27 13:12:20,459 - INFO - <module> : Clicked
+2022-12-27 13:12:20,459 - INFO - <module> : Clicked
+2022-12-27 13:12:20,459 - INFO - <module> : Clicked
+2022-12-27 13:12:20,459 - INFO - <module> : Clicked
+2022-12-27 13:12:20,508 - INFO - <module> : Start Service exists
+2022-12-27 13:12:20,508 - INFO - <module> : Start Service exists
+2022-12-27 13:12:20,508 - INFO - <module> : Start Service exists
+2022-12-27 13:12:20,508 - INFO - <module> : Start Service exists
+2022-12-27 13:12:20,553 - INFO - <module> : Modify Service exists
+2022-12-27 13:12:20,553 - INFO - <module> : Modify Service exists
+2022-12-27 13:12:20,553 - INFO - <module> : Modify Service exists
+2022-12-27 13:12:20,553 - INFO - <module> : Modify Service exists
+2022-12-27 13:12:20,592 - INFO - <module> : Reactivate Service exists
+2022-12-27 13:12:20,592 - INFO - <module> : Reactivate Service exists
+2022-12-27 13:12:20,592 - INFO - <module> : Reactivate Service exists
+2022-12-27 13:12:20,592 - INFO - <module> : Reactivate Service exists
+2022-12-27 13:12:20,635 - INFO - <module> : Stop Service exists
+2022-12-27 13:12:20,635 - INFO - <module> : Stop Service exists
+2022-12-27 13:12:20,635 - INFO - <module> : Stop Service exists
+2022-12-27 13:12:20,635 - INFO - <module> : Stop Service exists
+2022-12-27 13:12:23,733 - INFO - <module> : Clicked
+2022-12-27 13:12:23,733 - INFO - <module> : Clicked
+2022-12-27 13:12:23,733 - INFO - <module> : Clicked
+2022-12-27 13:12:23,733 - INFO - <module> : Clicked
+2022-12-27 13:12:23,815 - INFO - <module> : Requests exists
+2022-12-27 13:12:23,815 - INFO - <module> : Requests exists
+2022-12-27 13:12:23,815 - INFO - <module> : Requests exists
+2022-12-27 13:12:23,815 - INFO - <module> : Requests exists
+2022-12-27 13:12:26,765 - INFO - <module> :  exists
+2022-12-27 13:12:26,765 - INFO - <module> :  exists
+2022-12-27 13:12:26,765 - INFO - <module> :  exists
+2022-12-27 13:12:26,765 - INFO - <module> :  exists
+2022-12-27 13:12:29,785 - INFO - <module> : input: 3535069832
+2022-12-27 13:12:29,785 - INFO - <module> : input: 3535069832
+2022-12-27 13:12:29,785 - INFO - <module> : input: 3535069832
+2022-12-27 13:12:29,785 - INFO - <module> : input: 3535069832
+2022-12-27 13:12:32,877 - INFO - <module> : input: 502860340201
+2022-12-27 13:12:32,877 - INFO - <module> : input: 502860340201
+2022-12-27 13:12:32,877 - INFO - <module> : input: 502860340201
+2022-12-27 13:12:32,877 - INFO - <module> : input: 502860340201
+2022-12-27 13:12:35,847 - INFO - <module> : Clicked
+2022-12-27 13:12:35,847 - INFO - <module> : Clicked
+2022-12-27 13:12:35,847 - INFO - <module> : Clicked
+2022-12-27 13:12:35,847 - INFO - <module> : Clicked
+2022-12-27 13:12:35,906 - INFO - <module> : Clicked
+2022-12-27 13:12:35,906 - INFO - <module> : Clicked
+2022-12-27 13:12:35,906 - INFO - <module> : Clicked
+2022-12-27 13:12:35,906 - INFO - <module> : Clicked
+2022-12-27 13:12:38,861 - INFO - <module> : input: automation1
+2022-12-27 13:12:38,861 - INFO - <module> : input: automation1
+2022-12-27 13:12:38,861 - INFO - <module> : input: automation1
+2022-12-27 13:12:38,861 - INFO - <module> : input: automation1
+2022-12-27 13:12:38,951 - INFO - <module> : input: +63945113252
+2022-12-27 13:12:38,951 - INFO - <module> : input: +63945113252
+2022-12-27 13:12:38,951 - INFO - <module> : input: +63945113252
+2022-12-27 13:12:38,951 - INFO - <module> : input: +63945113252
+2022-12-27 13:12:39,022 - INFO - <module> : input: automation5
+2022-12-27 13:12:39,022 - INFO - <module> : input: automation5
+2022-12-27 13:12:39,022 - INFO - <module> : input: automation5
+2022-12-27 13:12:39,022 - INFO - <module> : input: automation5
+2022-12-27 13:12:39,098 - INFO - <module> : input: automation6
+2022-12-27 13:12:39,098 - INFO - <module> : input: automation6
+2022-12-27 13:12:39,098 - INFO - <module> : input: automation6
+2022-12-27 13:12:39,098 - INFO - <module> : input: automation6
+2022-12-27 13:12:39,196 - INFO - <module> : input: automation2@yopmail.com
+2022-12-27 13:12:39,196 - INFO - <module> : input: automation2@yopmail.com
+2022-12-27 13:12:39,196 - INFO - <module> : input: automation2@yopmail.com
+2022-12-27 13:12:39,196 - INFO - <module> : input: automation2@yopmail.com
+2022-12-27 13:12:39,266 - INFO - <module> : input: +639234567891
+2022-12-27 13:12:39,266 - INFO - <module> : input: +639234567891
+2022-12-27 13:12:39,266 - INFO - <module> : input: +639234567891
+2022-12-27 13:12:39,266 - INFO - <module> : input: +639234567891
+2022-12-27 13:12:39,335 - INFO - <module> : input: manager
+2022-12-27 13:12:39,335 - INFO - <module> : input: manager
+2022-12-27 13:12:39,335 - INFO - <module> : input: manager
+2022-12-27 13:12:39,335 - INFO - <module> : input: manager
+2022-12-27 13:12:41,620 - INFO - <module> : Clicked
+2022-12-27 13:12:41,620 - INFO - <module> : Clicked
+2022-12-27 13:12:41,620 - INFO - <module> : Clicked
+2022-12-27 13:12:41,620 - INFO - <module> : Clicked
+2022-12-27 13:12:41,659 - INFO - <module> : 2CONTACT INFORMATION exists
+2022-12-27 13:12:41,659 - INFO - <module> : 2CONTACT INFORMATION exists
+2022-12-27 13:12:41,659 - INFO - <module> : 2CONTACT INFORMATION exists
+2022-12-27 13:12:41,659 - INFO - <module> : 2CONTACT INFORMATION exists
+2022-12-27 13:12:44,693 - INFO - <module> : input: automation5
+2022-12-27 13:12:44,693 - INFO - <module> : input: automation5
+2022-12-27 13:12:44,693 - INFO - <module> : input: automation5
+2022-12-27 13:12:44,693 - INFO - <module> : input: automation5
+2022-12-27 13:12:44,769 - INFO - <module> : input: automation6
+2022-12-27 13:12:44,769 - INFO - <module> : input: automation6
+2022-12-27 13:12:44,769 - INFO - <module> : input: automation6
+2022-12-27 13:12:44,769 - INFO - <module> : input: automation6
+2022-12-27 13:12:44,865 - INFO - <module> : input: automation2@yopmail.com
+2022-12-27 13:12:44,865 - INFO - <module> : input: automation2@yopmail.com
+2022-12-27 13:12:44,865 - INFO - <module> : input: automation2@yopmail.com
+2022-12-27 13:12:44,865 - INFO - <module> : input: automation2@yopmail.com
+2022-12-27 13:12:44,943 - INFO - <module> : input: +639234567891
+2022-12-27 13:12:44,943 - INFO - <module> : input: +639234567891
+2022-12-27 13:12:44,943 - INFO - <module> : input: +639234567891
+2022-12-27 13:12:44,943 - INFO - <module> : input: +639234567891
+2022-12-27 13:12:47,215 - INFO - <module> : Clicked
+2022-12-27 13:12:47,215 - INFO - <module> : Clicked
+2022-12-27 13:12:47,215 - INFO - <module> : Clicked
+2022-12-27 13:12:47,215 - INFO - <module> : Clicked
+2022-12-27 13:12:47,261 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2022-12-27 13:12:47,261 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2022-12-27 13:12:47,261 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2022-12-27 13:12:47,261 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2022-12-27 13:12:50,155 - INFO - <module> : Clicked
+2022-12-27 13:12:50,155 - INFO - <module> : Clicked
+2022-12-27 13:12:50,155 - INFO - <module> : Clicked
+2022-12-27 13:12:50,155 - INFO - <module> : Clicked
+2022-12-27 13:12:52,448 - INFO - <module> : Clicked
+2022-12-27 13:12:52,448 - INFO - <module> : Clicked
+2022-12-27 13:12:52,448 - INFO - <module> : Clicked
+2022-12-27 13:12:52,448 - INFO - <module> : Clicked
+2022-12-27 13:12:52,521 - INFO - <module> : 4TERMS & CONDITIONS exists
+2022-12-27 13:12:52,521 - INFO - <module> : 4TERMS & CONDITIONS exists
+2022-12-27 13:12:52,521 - INFO - <module> : 4TERMS & CONDITIONS exists
+2022-12-27 13:12:52,521 - INFO - <module> : 4TERMS & CONDITIONS exists
+2022-12-27 13:12:55,452 - INFO - <module> : Clicked
+2022-12-27 13:12:55,452 - INFO - <module> : Clicked
+2022-12-27 13:12:55,452 - INFO - <module> : Clicked
+2022-12-27 13:12:55,452 - INFO - <module> : Clicked
+2022-12-27 13:13:15,488 - INFO - <module> : Submit exists
+2022-12-27 13:13:15,488 - INFO - <module> : Submit exists
+2022-12-27 13:13:15,488 - INFO - <module> : Submit exists
+2022-12-27 13:13:15,488 - INFO - <module> : Submit exists
+2022-12-27 13:13:18,466 - INFO - <module> : Clicked
+2022-12-27 13:13:18,466 - INFO - <module> : Clicked
+2022-12-27 13:13:18,466 - INFO - <module> : Clicked
+2022-12-27 13:13:18,466 - INFO - <module> : Clicked
+2022-12-27 13:13:28,736 - INFO - <module> : Confirmation exists
+2022-12-27 13:13:28,736 - INFO - <module> : Confirmation exists
+2022-12-27 13:13:28,736 - INFO - <module> : Confirmation exists
+2022-12-27 13:13:28,736 - INFO - <module> : Confirmation exists
+2022-12-27 13:13:30,940 - INFO - <module> : TC116 Passed
+2022-12-27 13:13:30,940 - INFO - <module> : TC116 Passed
+2022-12-27 13:13:30,940 - INFO - <module> : TC116 Passed
+2022-12-27 13:13:30,940 - INFO - <module> : TC116 Passed
+2022-12-27 13:13:31,012 - INFO - setup : Close Browser

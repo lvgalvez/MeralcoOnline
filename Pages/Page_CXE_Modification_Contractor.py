@@ -24,10 +24,12 @@ class CXEModificationContractor:
     last_name = "//*[@id='247:2;a']"
     emailddress = "//*[@id='277:2;a']"
     mobile_number = "//*[@id='292:2;a']"
-    designation = "//*[@id='2296:0']"
+    designation = "//*[@id='307:2;a']"
     next1 = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div[3]/div/div[3]/button"
     contact_info = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/ul/li[2]/a"
     next2 = "//*[@id='tab-2']/div/div/div/div/div/div[3]/div/button"
+
+    SIN = "//*[@id='177:2;a']"
 
     first_name_mod = "//*[@id='232:2;a']"
     last_name_mod = "//*[@id='247:2;a']"
@@ -35,7 +37,7 @@ class CXEModificationContractor:
     mobile_number_mod = "//*[@id='292:2;a']"
     value_added = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/ul/li[3]/a"
 
-    yes = "//*[@id='value_add_services']/div/div[2]/div[2]/div/label[1]/span"
+    yes = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div[4]/div[2]/div[2]/div/label/div"
     next3 = "//*[@id='value_add_services']/div/div[5]/button"
     terms_condition = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div[4]/div[2]/div[1]/h3"
     term_condition_clk = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div[4]/div[2]/div[2]/div/label/div"
@@ -48,6 +50,10 @@ class CXEModificationContractor:
     def get_click_nxtcont(self, driver):
         return WebDriverWait(driver, wait_time).until(
             EC.element_to_be_clickable((By.XPATH, self.click_nxtcont)))
+
+    def get_SIN(self, driver):
+        return WebDriverWait(driver, wait_time).until(
+            EC.element_to_be_clickable((By.XPATH, self.SIN)))
 
     def get_change_downgrade_electrical(self, driver):
         return WebDriverWait(driver, wait_time).until(

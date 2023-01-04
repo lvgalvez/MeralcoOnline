@@ -1,0 +1,90 @@
+2022-12-28 10:13:26,295 - INFO - setup : Browser Launched!
+2022-12-28 10:13:38,338 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:13:38,338 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:13:38,338 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:13:38,338 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:13:39,888 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:13:39,888 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:13:39,888 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:13:39,888 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:13:41,212 - INFO - <module> : Service Application exists
+2022-12-28 10:13:41,212 - INFO - <module> : Service Application exists
+2022-12-28 10:13:41,212 - INFO - <module> : Service Application exists
+2022-12-28 10:13:41,212 - INFO - <module> : Service Application exists
+2022-12-28 10:13:44,331 - INFO - <module> : Click on Individual
+2022-12-28 10:13:44,331 - INFO - <module> : Click on Individual
+2022-12-28 10:13:44,331 - INFO - <module> : Click on Individual
+2022-12-28 10:13:44,331 - INFO - <module> : Click on Individual
+2022-12-28 10:13:44,428 - INFO - <module> : Clicked
+2022-12-28 10:13:44,428 - INFO - <module> : Clicked
+2022-12-28 10:13:44,428 - INFO - <module> : Clicked
+2022-12-28 10:13:44,428 - INFO - <module> : Clicked
+2022-12-28 10:13:44,478 - INFO - <module> : Start Service exists
+2022-12-28 10:13:44,478 - INFO - <module> : Start Service exists
+2022-12-28 10:13:44,478 - INFO - <module> : Start Service exists
+2022-12-28 10:13:44,478 - INFO - <module> : Start Service exists
+2022-12-28 10:13:44,528 - INFO - <module> : Modify Service exists
+2022-12-28 10:13:44,528 - INFO - <module> : Modify Service exists
+2022-12-28 10:13:44,528 - INFO - <module> : Modify Service exists
+2022-12-28 10:13:44,528 - INFO - <module> : Modify Service exists
+2022-12-28 10:13:44,575 - INFO - <module> : Reactivate Service exists
+2022-12-28 10:13:44,575 - INFO - <module> : Reactivate Service exists
+2022-12-28 10:13:44,575 - INFO - <module> : Reactivate Service exists
+2022-12-28 10:13:44,575 - INFO - <module> : Reactivate Service exists
+2022-12-28 10:13:44,625 - INFO - <module> : Stop Service exists
+2022-12-28 10:13:44,625 - INFO - <module> : Stop Service exists
+2022-12-28 10:13:44,625 - INFO - <module> : Stop Service exists
+2022-12-28 10:13:44,625 - INFO - <module> : Stop Service exists
+2022-12-28 10:13:47,612 - INFO - <module> : Select Stop Service
+2022-12-28 10:13:47,612 - INFO - <module> : Select Stop Service
+2022-12-28 10:13:47,612 - INFO - <module> : Select Stop Service
+2022-12-28 10:13:47,612 - INFO - <module> : Select Stop Service
+2022-12-28 10:13:47,801 - INFO - <module> : Clicked
+2022-12-28 10:13:47,801 - INFO - <module> : Clicked
+2022-12-28 10:13:47,801 - INFO - <module> : Clicked
+2022-12-28 10:13:47,801 - INFO - <module> : Clicked
+2022-12-28 10:13:47,849 - INFO - <module> : Stop Service exists
+2022-12-28 10:13:47,849 - INFO - <module> : Stop Service exists
+2022-12-28 10:13:47,849 - INFO - <module> : Stop Service exists
+2022-12-28 10:13:47,849 - INFO - <module> : Stop Service exists
+2022-12-28 10:13:51,059 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-12-28 10:13:51,059 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-12-28 10:13:51,059 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-12-28 10:13:51,059 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-12-28 10:13:51,148 - INFO - <module> :  exists
+2022-12-28 10:13:51,148 - INFO - <module> :  exists
+2022-12-28 10:13:51,148 - INFO - <module> :  exists
+2022-12-28 10:13:51,148 - INFO - <module> :  exists
+2022-12-28 10:13:54,140 - INFO - <module> : Populate Customer Account Number field
+2022-12-28 10:13:54,140 - INFO - <module> : Populate Customer Account Number field
+2022-12-28 10:13:54,140 - INFO - <module> : Populate Customer Account Number field
+2022-12-28 10:13:54,140 - INFO - <module> : Populate Customer Account Number field
+2022-12-28 10:13:54,290 - INFO - <module> : input: 0001365393
+2022-12-28 10:13:54,290 - INFO - <module> : input: 0001365393
+2022-12-28 10:13:54,290 - INFO - <module> : input: 0001365393
+2022-12-28 10:13:54,290 - INFO - <module> : input: 0001365393
+2022-12-28 10:13:57,335 - INFO - <module> : Populate Service ID Number 
+2022-12-28 10:13:57,335 - INFO - <module> : Populate Service ID Number 
+2022-12-28 10:13:57,335 - INFO - <module> : Populate Service ID Number 
+2022-12-28 10:13:57,335 - INFO - <module> : Populate Service ID Number 
+2022-12-28 10:13:57,447 - INFO - <module> : input: atFirstname
+2022-12-28 10:13:57,447 - INFO - <module> : input: atFirstname
+2022-12-28 10:13:57,447 - INFO - <module> : input: atFirstname
+2022-12-28 10:13:57,447 - INFO - <module> : input: atFirstname
+2022-12-28 10:13:57,527 - INFO - <module> : input: atLastname
+2022-12-28 10:13:57,527 - INFO - <module> : input: atLastname
+2022-12-28 10:13:57,527 - INFO - <module> : input: atLastname
+2022-12-28 10:13:57,527 - INFO - <module> : input: atLastname
+2022-12-28 10:13:57,616 - INFO - <module> : input: automationteam@gmail.com
+2022-12-28 10:13:57,616 - INFO - <module> : input: automationteam@gmail.com
+2022-12-28 10:13:57,616 - INFO - <module> : input: automationteam@gmail.com
+2022-12-28 10:13:57,616 - INFO - <module> : input: automationteam@gmail.com
+2022-12-28 10:13:57,704 - INFO - <module> : input: +639234567891
+2022-12-28 10:13:57,704 - INFO - <module> : input: +639234567891
+2022-12-28 10:13:57,704 - INFO - <module> : input: +639234567891
+2022-12-28 10:13:57,704 - INFO - <module> : input: +639234567891
+2022-12-28 10:14:00,000 - INFO - <module> : Clicked
+2022-12-28 10:14:00,000 - INFO - <module> : Clicked
+2022-12-28 10:14:00,000 - INFO - <module> : Clicked
+2022-12-28 10:14:00,000 - INFO - <module> : Clicked
+2022-12-28 10:14:30,152 - INFO - setup : Close Browser

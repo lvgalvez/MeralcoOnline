@@ -5,16 +5,18 @@ from selenium.webdriver.support import expected_conditions as EC
 from Utilities.Config import wait_time
 
 
-class CXEModificationBusiness:
+class CXEModificationIndividual:
 
+    individual = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[1]/div/div/div/div[2]/ul/li[1]/section/div[1]/h3/button/p/span"
     business = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[1]/div/div/div/div[2]/ul/li[2]/section/div[1]/h3/button/p"
     start_service = "//*[@id='accordion-details-02']/div/a[1]"
     modify_service = "//*[@id='accordion-details-02']/div/a[2]"
     reactivate_service = "//*[@id='accordion-details-02']/div/a[3]"
     stop_service = "//*[@id='accordion-details-02']/div/a[4]"
-    modify_service_clk = "//*[@id='accordion-details-02']/div/a[2]"
+    modify_service_clk = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[1]/div/div/div/div[2]/ul/li[1]/section/div[2]/div/a[2]"
     request = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[1]/div/h3"
     CAN = "//*[@id='503:0']"
+    SIN = "//*[@id='513:0']"
     change_contract_details = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[1]/div/div/div/div/div/div/div[4]/div/div/div[2]/div[1]/label/div"
     change_contract_name = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[1]/div/div/div/div/div/div/div[4]/div/div/div[2]/div[2]/input[1]"
 
@@ -26,14 +28,15 @@ class CXEModificationBusiness:
     mobile_number = "//input[@placeholder= '+639123456789']"
     designation = "//input[@placeholder= 'Manager*']"
 
-    next1 = "//*[@id='tab-1']/div/div/div/div/div/div[10]/div/button"
+    next1 = "//*[@id='tab-1']/div/div/div/div/div/div[8]/div/button"
     contact_info = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/ul/li[2]/a"
     next2 = "//*[@id='tab-2']/div/div/div/div/div/div[3]/div/button"
 
-    first_name_mod =  "//*[@id='571:0']"
+    first_name_mod = "//*[@id='571:0']"
     last_name_mod = "//*[@id='591:0']"
     emailddress_mod = "//*[@id='602:0']"
     mobile_number_mod = "//*[@id='612:0']"
+
     value_added = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/ul/li[3]/a"
 
     yes = "//*[@id='value_add_services']/div/div[2]/div[2]/div/label[1]/span"
@@ -43,7 +46,6 @@ class CXEModificationBusiness:
     submit = "//*[@id='tab-4']/div[3]/div[2]/div[3]/button"
     confirmation = "//*[@id='confirmation']/div/div[1]/h3"
 
-    SIN = "//*[@id='513:0']"
 
     def get_confirmation(self, driver):
         return WebDriverWait(driver, wait_time).until(
@@ -52,6 +54,10 @@ class CXEModificationBusiness:
     def get_SIN(self, driver):
         return WebDriverWait(driver, wait_time).until(
             EC.element_to_be_clickable((By.XPATH, self.SIN)))
+
+    def get_individual(self, driver):
+        return WebDriverWait(driver, wait_time).until(
+            EC.element_to_be_clickable((By.XPATH, self.individual)))
 
 
     def get_submit(self, driver):
