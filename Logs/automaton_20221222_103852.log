@@ -1,0 +1,110 @@
+2022-12-22 10:38:52,552 - INFO - setup : Browser Launched!
+2022-12-22 10:39:28,739 - INFO - <module> : Login to Meralco Online
+2022-12-22 10:39:28,739 - INFO - <module> : Login to Meralco Online
+2022-12-22 10:39:28,739 - INFO - <module> : Login to Meralco Online
+2022-12-22 10:39:28,739 - INFO - <module> : Login to Meralco Online
+2022-12-22 10:39:32,766 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:39:32,766 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:39:32,766 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:39:32,766 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:39:33,195 - INFO - <module> : input: Meralco01
+2022-12-22 10:39:33,195 - INFO - <module> : input: Meralco01
+2022-12-22 10:39:33,195 - INFO - <module> : input: Meralco01
+2022-12-22 10:39:33,195 - INFO - <module> : input: Meralco01
+2022-12-22 10:39:34,123 - INFO - <module> : Clicked
+2022-12-22 10:39:34,123 - INFO - <module> : Clicked
+2022-12-22 10:39:34,123 - INFO - <module> : Clicked
+2022-12-22 10:39:34,123 - INFO - <module> : Clicked
+2022-12-22 10:39:40,050 - INFO - <module> : Hello, AT exists
+2022-12-22 10:39:40,050 - INFO - <module> : Hello, AT exists
+2022-12-22 10:39:40,050 - INFO - <module> : Hello, AT exists
+2022-12-22 10:39:40,050 - INFO - <module> : Hello, AT exists
+2022-12-22 10:39:52,976 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 10:39:52,976 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 10:39:52,976 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 10:39:52,976 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 10:39:53,112 - INFO - <module> : Accounts clicked
+2022-12-22 10:39:53,112 - INFO - <module> : Accounts clicked
+2022-12-22 10:39:53,112 - INFO - <module> : Accounts clicked
+2022-12-22 10:39:53,112 - INFO - <module> : Accounts clicked
+2022-12-22 10:39:53,333 - INFO - <module> :  clicked
+2022-12-22 10:39:53,333 - INFO - <module> :  clicked
+2022-12-22 10:39:53,333 - INFO - <module> :  clicked
+2022-12-22 10:39:53,333 - INFO - <module> :  clicked
+2022-12-22 10:40:01,491 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 10:40:01,491 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 10:40:01,491 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 10:40:01,491 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 10:40:02,651 - INFO - <module> : Clicked
+2022-12-22 10:40:02,651 - INFO - <module> : Clicked
+2022-12-22 10:40:02,651 - INFO - <module> : Clicked
+2022-12-22 10:40:02,651 - INFO - <module> : Clicked
+2022-12-22 10:40:06,254 - INFO - <module> : Clicked
+2022-12-22 10:40:06,254 - INFO - <module> : Clicked
+2022-12-22 10:40:06,254 - INFO - <module> : Clicked
+2022-12-22 10:40:06,254 - INFO - <module> : Clicked
+2022-12-22 10:40:09,261 - INFO - <module> : Select Transfer of Service then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 10:40:09,261 - INFO - <module> : Select Transfer of Service then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 10:40:09,261 - INFO - <module> : Select Transfer of Service then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 10:40:09,261 - INFO - <module> : Select Transfer of Service then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 10:40:18,713 - INFO - <module> : Clicked
+2022-12-22 10:40:18,713 - INFO - <module> : Clicked
+2022-12-22 10:40:18,713 - INFO - <module> : Clicked
+2022-12-22 10:40:18,713 - INFO - <module> : Clicked
+2022-12-22 10:40:21,632 - INFO - <module> : Clicked
+2022-12-22 10:40:21,632 - INFO - <module> : Clicked
+2022-12-22 10:40:21,632 - INFO - <module> : Clicked
+2022-12-22 10:40:21,632 - INFO - <module> : Clicked
+2022-12-22 10:40:27,519 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+> Attach documents
+> Click Next
+2022-12-22 10:40:27,519 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+> Attach documents
+> Click Next
+2022-12-22 10:40:27,519 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+> Attach documents
+> Click Next
+2022-12-22 10:40:27,519 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+> Attach documents
+> Click Next
+2022-12-22 10:40:27,706 - INFO - setup : Close Browser

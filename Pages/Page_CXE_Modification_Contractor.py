@@ -16,7 +16,7 @@ class CXEModificationContractor:
     request = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div[1]/div/ol/li[1]/p"
     CAN = "//*[@id='158:2;a']"
     change_contract_details = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[1]/div/div/div/div/div/div/div[4]/div/div/div[2]/div[1]/label/div"
-    change_contract_name = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[1]/div/div/div/div/div/div/div[4]/div/div/div[2]/div[2]/input[1]"
+    change_contract_name = "//div/div/div[2]/div[2]/input[1]"
 
     company_name = "//*[@id='262:2;a']"
     landline = "//*[@id='2235:0']"

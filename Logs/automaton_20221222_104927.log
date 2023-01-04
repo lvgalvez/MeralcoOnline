@@ -1,0 +1,82 @@
+2022-12-22 10:49:27,742 - INFO - setup : Browser Launched!
+2022-12-22 10:50:10,632 - INFO - <module> : Login to Meralco Online
+2022-12-22 10:50:10,632 - INFO - <module> : Login to Meralco Online
+2022-12-22 10:50:10,632 - INFO - <module> : Login to Meralco Online
+2022-12-22 10:50:10,632 - INFO - <module> : Login to Meralco Online
+2022-12-22 10:50:14,907 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:50:14,907 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:50:14,907 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:50:14,907 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:50:15,496 - INFO - <module> : input: Meralco01
+2022-12-22 10:50:15,496 - INFO - <module> : input: Meralco01
+2022-12-22 10:50:15,496 - INFO - <module> : input: Meralco01
+2022-12-22 10:50:15,496 - INFO - <module> : input: Meralco01
+2022-12-22 10:50:16,335 - INFO - <module> : Clicked
+2022-12-22 10:50:16,335 - INFO - <module> : Clicked
+2022-12-22 10:50:16,335 - INFO - <module> : Clicked
+2022-12-22 10:50:16,335 - INFO - <module> : Clicked
+2022-12-22 10:50:22,273 - INFO - <module> : Hello, exists
+2022-12-22 10:50:22,273 - INFO - <module> : Hello, exists
+2022-12-22 10:50:22,273 - INFO - <module> : Hello, exists
+2022-12-22 10:50:22,273 - INFO - <module> : Hello, exists
+2022-12-22 10:50:35,335 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 10:50:35,335 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 10:50:35,335 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 10:50:35,335 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 10:50:35,464 - INFO - <module> : Accounts clicked
+2022-12-22 10:50:35,464 - INFO - <module> : Accounts clicked
+2022-12-22 10:50:35,464 - INFO - <module> : Accounts clicked
+2022-12-22 10:50:35,464 - INFO - <module> : Accounts clicked
+2022-12-22 10:50:35,647 - INFO - <module> :  clicked
+2022-12-22 10:50:35,647 - INFO - <module> :  clicked
+2022-12-22 10:50:35,647 - INFO - <module> :  clicked
+2022-12-22 10:50:35,647 - INFO - <module> :  clicked
+2022-12-22 10:50:48,631 - INFO - <module> : Search then Select Account > Click Stop Electric Service button
+2022-12-22 10:50:48,631 - INFO - <module> : Search then Select Account > Click Stop Electric Service button
+2022-12-22 10:50:48,631 - INFO - <module> : Search then Select Account > Click Stop Electric Service button
+2022-12-22 10:50:48,631 - INFO - <module> : Search then Select Account > Click Stop Electric Service button
+2022-12-22 10:50:50,198 - INFO - <module> : Clicked
+2022-12-22 10:50:50,198 - INFO - <module> : Clicked
+2022-12-22 10:50:50,198 - INFO - <module> : Clicked
+2022-12-22 10:50:50,198 - INFO - <module> : Clicked
+2022-12-22 10:50:56,629 - INFO - <module> : Clicked
+2022-12-22 10:50:56,629 - INFO - <module> : Clicked
+2022-12-22 10:50:56,629 - INFO - <module> : Clicked
+2022-12-22 10:50:56,629 - INFO - <module> : Clicked
+2022-12-22 10:51:16,825 - INFO - <module> : Clicked
+2022-12-22 10:51:16,825 - INFO - <module> : Clicked
+2022-12-22 10:51:16,825 - INFO - <module> : Clicked
+2022-12-22 10:51:16,825 - INFO - <module> : Clicked
+2022-12-22 10:51:17,954 - INFO - <module> : Clicked
+2022-12-22 10:51:17,954 - INFO - <module> : Clicked
+2022-12-22 10:51:17,954 - INFO - <module> : Clicked
+2022-12-22 10:51:17,954 - INFO - <module> : Clicked
+2022-12-22 10:51:23,905 - INFO - <module> : Go to Activity Tracker page
+2022-12-22 10:51:23,905 - INFO - <module> : Go to Activity Tracker page
+2022-12-22 10:51:23,905 - INFO - <module> : Go to Activity Tracker page
+2022-12-22 10:51:23,905 - INFO - <module> : Go to Activity Tracker page
+2022-12-22 10:51:29,894 - INFO - <module> : Clicked
+2022-12-22 10:51:29,894 - INFO - <module> : Clicked
+2022-12-22 10:51:29,894 - INFO - <module> : Clicked
+2022-12-22 10:51:29,894 - INFO - <module> : Clicked
+2022-12-22 10:51:30,399 - INFO - <module> : Check if created case is included in activity tracker page
+2022-12-22 10:51:30,399 - INFO - <module> : Check if created case is included in activity tracker page
+2022-12-22 10:51:30,399 - INFO - <module> : Check if created case is included in activity tracker page
+2022-12-22 10:51:30,399 - INFO - <module> : Check if created case is included in activity tracker page
+2022-12-22 10:51:33,726 - INFO - <module> : Validate email notification
+2022-12-22 10:51:33,726 - INFO - <module> : Validate email notification
+2022-12-22 10:51:33,726 - INFO - <module> : Validate email notification
+2022-12-22 10:51:33,726 - INFO - <module> : Validate email notification
+2022-12-22 10:51:48,013 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-12-22 10:51:48,013 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-12-22 10:51:48,013 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-12-22 10:51:48,013 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-12-22 10:51:48,773 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:51:48,773 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:51:48,773 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:51:48,773 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:51:52,353 - INFO - <module> : Clicked
+2022-12-22 10:51:52,353 - INFO - <module> : Clicked
+2022-12-22 10:51:52,353 - INFO - <module> : Clicked
+2022-12-22 10:51:52,353 - INFO - <module> : Clicked
+2022-12-22 10:51:54,888 - INFO - setup : Close Browser

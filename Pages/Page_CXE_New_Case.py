@@ -21,6 +21,10 @@ class CXENewCasePage:
     btn_case_origin_byxpath = "//div[7]/div[1]/div/div/div/div/div[1]/div/div/a[text() = '--None--']"
     inp_can_byxpath = "//div[1]/div[2]/div/div/div/input[@class = ' input']"
     inp_sin_byxpath = "//input[@placeholder= 'Search Services...']"
+    lnk_service_byxpath = "//a[contains(text(), 'SERV-')]"
+
+    def get_service(self, driver):
+        return WebMisc().clickable_element(driver, self.lnk_service_byxpath, "lnk_service_byxpath")
 
     def get_modification_service(self, driver):
         return WebMisc().clickable_element(driver, self.rbx_modification_service_byxpath, "rbx_modification_service_byxpath")

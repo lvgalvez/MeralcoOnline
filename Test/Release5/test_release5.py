@@ -230,6 +230,54 @@ class TestConcern:
         #TC014(self.driver, test_scenario, SAMO['emailaddress'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
+    @pytest.mark.tags("TS060")
+    def test_ts060(self):
+        test_scenario = "TS060"
+        Functions().create_document(self.driver, module, test_scenario)
+        Precondition_Login_CXE(self.driver, test_scenario, Concern['cxe_email'], Concern['cxe_password'])
+        TC088a(self.driver, test_scenario, Concern['sacxe_single_can'], Concern['sacxe_single_sin'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS061")
+    def test_ts061(self):
+        test_scenario = "TS061"
+        Functions().create_document(self.driver, module, test_scenario)
+        Precondition_Login_CXE(self.driver, test_scenario, Concern['cxe_email'], Concern['cxe_password'])
+        TC089a(self.driver, test_scenario, Concern['sacxe_multiple_can'], Concern['sacxe_multiple_sin'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS062")
+    def test_ts062(self):
+        test_scenario = "TS062"
+        Functions().create_document(self.driver, module, test_scenario)
+        Precondition_Login_CXE(self.driver, test_scenario, Concern['cxe_email'], Concern['cxe_password'])
+        TC088b(self.driver, test_scenario, Concern['sacxe_single_can'], Concern['sacxe_single_sin'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS063")
+    def test_ts063(self):
+        test_scenario = "TS063"
+        Functions().create_document(self.driver, module, test_scenario)
+        Precondition_Login_CXE(self.driver, test_scenario, Concern['cxe_email'], Concern['cxe_password'])
+        TC089b(self.driver, test_scenario, Concern['sacxe_multiple_can'], Concern['sacxe_multiple_sin'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS064")
+    def test_ts064(self):
+        test_scenario = "TS064"
+        Functions().create_document(self.driver, module, test_scenario)
+        Precondition_Login_CXE(self.driver, test_scenario, Concern['cxe_email'], Concern['cxe_password'])
+        TC088c(self.driver, test_scenario, Concern['sacxe_single_can'], Concern['sacxe_single_sin'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS065")
+    def test_ts065(self):
+        test_scenario = "TS065"
+        Functions().create_document(self.driver, module, test_scenario)
+        Precondition_Login_CXE(self.driver, test_scenario, Concern['cxe_email'], Concern['cxe_password'])
+        TC089c(self.driver, test_scenario, Concern['sacxe_multiple_can'], Concern['sacxe_multiple_sin'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
     @pytest.mark.tags("TS066")
     def test_ts066(self):
         test_scenario = "TS066"
@@ -268,4 +316,26 @@ class TestConcern:
         TC094c(self.driver, test_scenario, Concern['multiple_service_can'])
         TC095c(self.driver, test_scenario, Concern['multiple_service_can'], Concern['incorrect_sin'])
         Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS095")
+    def test_ts095(self):
+        test_scenario = "TS095"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC079(self.driver, test_scenario, Concern['concern_email'], Concern['password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS096")
+    def test_ts096(self):
+        test_scenario = "TS096"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC080(self.driver, test_scenario, Concern['concern_email'], Concern['password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS097")
+    def test_ts097(self):
+        test_scenario = "TS097"
+        Functions().create_document(self.driver, module, test_scenario)
+        TC080(self.driver, test_scenario, Concern['business_account_email'], Concern['business_account_password'])
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
 

@@ -662,15 +662,16 @@ def TC012a(driver, ts_id, email):
     time.sleep(5)
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 6")
-    time.sleep(10)
+    time.sleep(20)
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 6")
 
     fc.click(service.get_submit_btn(driver))
-
+    time.sleep(5)
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 7")
     fc.scroll_element(driver, home.get_search(driver))
     time.sleep(2)
+    fc.scroll_element(driver, service.get_ok_btn(driver))
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 7")
     fc.click(service.get_ok_btn(driver))
 
@@ -754,10 +755,11 @@ def TC013a(driver, ts_id):
     fc.modal_click(driver, home.get_overview(driver))
     time.sleep(5)
 
-    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
     fc.scroll_element(driver, home.get_activity_tracker(driver))
-    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
     fc.click(home.get_activity_tracker(driver))
+    time.sleep(2)
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
@@ -1114,12 +1116,14 @@ def TC020(driver, ts_id):
     fc.click(account.get_submit(driver))
     #fc.modal_click(driver, account.get_select_sin(driver))
     fc.scroll_element(driver, account.get_change_service(driver))
+    time.sleep(5)
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 3")
     fc.click(account.get_change_service(driver))
     time.sleep(5)
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 4")
     fc.click(service.get_change_service(driver))
+    fc.scroll_element(driver, service.get_next_button(driver))
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 4")
     fc.click(service.get_next_button(driver))
     fc.scroll_element(driver, home.get_search(driver))
@@ -1140,8 +1144,9 @@ def TC020(driver, ts_id):
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 7")
     fc.scroll_element(driver, home.get_search(driver))
     time.sleep(2)
-    fc.click(service.get_back_to_home(driver))
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 7")
+    fc.click(service.get_back_to_home(driver))
+    time.sleep(5)
 
 def TC021(driver, ts_id):
     test_case = "TC021"
@@ -1150,7 +1155,7 @@ def TC021(driver, ts_id):
     service = PageService()
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
-    Log_In_Meralco_Online(driver, Concern['username_single_service'], Concern['password'])
+    Log_In_Meralco_Online(driver, SAMO['business_account_email'], Concern['password'])
     time.sleep(10)
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
 
@@ -1162,7 +1167,7 @@ def TC021(driver, ts_id):
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 3")
     fc.click(account.get_submit(driver))
-    time.sleep(3)
+    time.sleep(5)
     fc.scroll_element(driver, account.get_change_contract(driver))
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 3")
     fc.click(account.get_change_contract(driver))
@@ -1170,8 +1175,8 @@ def TC021(driver, ts_id):
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 4")
     fc.click(service.get_change_contract_radio_btn(driver))
-    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 4")
     fc.scroll_element(driver, service.get_next_button(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 4")
     fc.click(service.get_next_button(driver))
     time.sleep(5)
 
@@ -1192,9 +1197,8 @@ def TC021(driver, ts_id):
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 7")
     fc.scroll_element(driver, home.get_search(driver))
     time.sleep(2)
-    fc.click(service.get_back_to_home(driver))
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 7")
-
+    fc.click(service.get_back_to_home(driver))
 
 def TC022(driver, ts_id):
     test_case = "TC022"
@@ -1222,8 +1226,8 @@ def TC022(driver, ts_id):
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 4")
     fc.click(service.get_transfer_service(driver))
-    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 4")
     fc.scroll_element(driver, service.get_next_button(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 4")
     fc.click(service.get_next_button(driver))
     time.sleep(5)
 
@@ -1244,17 +1248,17 @@ def TC022(driver, ts_id):
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 7")
     fc.scroll_element(driver, home.get_search(driver))
     time.sleep(2)
-    fc.click(service.get_back_to_home(driver))
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 7")
+    fc.click(service.get_back_to_home(driver))
 
-def TC023(driver, ts_id):
+def TC023(driver, ts_id, email):
     test_case = "TC023"
     home = HomePage()
     account = ManageAccountsPage()
     service = PageService()
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
-    Log_In_Meralco_Online(driver, Concern['username_single_service'], Concern['password'])
+    Log_In_Meralco_Online(driver, email, Concern['password'])
     time.sleep(10)
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
 
@@ -1275,47 +1279,48 @@ def TC023(driver, ts_id):
 
     fc.click(service.get_next_button(driver))
 
-def TC024(driver, ts_id):
+def TC024(driver, ts_id, email):
     test_case = "TC024"
     home = HomePage()
     account = ManageAccountsPage()
     service = PageService()
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
-    Log_In_Meralco_Online(driver, Concern['username_single_service'], Concern['password'])
+    Log_In_Meralco_Online(driver, email, Concern['password'])
     time.sleep(10)
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
     fc.modal_click(driver, home.get_accounts(driver))
     fc.modal_click(driver, home.get_manage_accounts(driver))
+    time.sleep(5)
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
-    time.sleep(10)
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 3")
     fc.click(account.get_submit(driver))
-    time.sleep(3)
+    time.sleep(5)
     fc.scroll_element(driver, account.get_reactivate_service(driver))
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 3")
     fc.click(account.get_reactivate_service(driver))
 
-    time.sleep(10)
+    time.sleep(5)
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 4")
     fc.scroll_element(driver, service.get_next_button(driver))
-    fc.click(service.get_next_button(driver))
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 4")
+    fc.click(service.get_next_button(driver))
 
     time.sleep(5)
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 5")
     fc.select_dropdown_element(service.get_reconnect_ownership(driver), Concern['home_ownership'])
+    time.sleep(3)
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 5")
     fc.click(service.get_next_recconect(driver))
     time.sleep(5)
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 6")
     fc.scroll_element(driver, service.get_second_next_reconnect(driver))
-    fc.click(service.get_second_next_reconnect(driver))
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 6")
+    fc.click(service.get_second_next_reconnect(driver))
     time.sleep(5)
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 7")
@@ -1336,14 +1341,13 @@ def TC087(driver, ts_id):
     fc.modal_click(driver, home.get_overview(driver))
 
     time.sleep(5)
-    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
     fc.scroll_element(driver, home.get_activity_tracker(driver))
-    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
     fc.click(home.get_activity_tracker(driver))
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
 
-    fc.bookmark(module, ts_id, test_case, "Step 2")
-    fc.screen_capture(driver, module, ts_id, test_case, "Step 2")
-
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
 
 def TC028(driver, ts_id, can, companyname, landline, firstname, lastname, emailaddress, designation, mobilenumber):
     test_case = "TC028"
@@ -1416,7 +1420,6 @@ def TC028(driver, ts_id, can, companyname, landline, firstname, lastname, emaila
     time.sleep(20)
     function.verify(cxemodifybusiness.get_submit(driver))
     function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 10")
-
     function.bookmark(serviceAppModule, ts_id, test_case, "Step 11")
     function.click(cxemodifybusiness.get_submit(driver))
     time.sleep(8)
@@ -1425,9 +1428,7 @@ def TC028(driver, ts_id, can, companyname, landline, firstname, lastname, emaila
     function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 11b")
 
     log.info(test_case + " Passed")
-
-    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
-    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
+    
 
 def TC029(driver, ts_id, can, companyname, firstname, lastname, emailaddress, mobilenumber):
     test_case = "TC029"
@@ -1492,6 +1493,32 @@ def TC029(driver, ts_id, can, companyname, firstname, lastname, emailaddress, mo
     function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 9b")
 
     log.info(test_case + " Passed")
+
+def TC031(driver, ts_id):
+    test_case = "TC032"
+    fc = Functions()
+    cxe_apply_home = CXEApplyHomePage()
+    cxe_terminate = CXETerminateIndividual()
+
+    fc.new_tab(driver, cxe_apply)
+
+    fc.click(cxe_apply_home.get_individual(driver))
+    fc.click(cxe_apply_home.get_individual_stop(driver))
+
+    fc.input_text(cxe_terminate.get_CAN(driver), SAMO['individual_account_can'])
+    fc.input_text(cxe_terminate.get_firstname(driver), SAMO['individual_account_first'])
+    fc.input_text(cxe_terminate.get_lastname(driver), SAMO['individual_account_last'])
+    fc.input_text(cxe_terminate.get_emailaddress(driver), SAMO['individual_account_email'])
+    fc.input_text(cxe_terminate.get_mobile_number(driver), SAMO['individual_account_mobile'])
+
+    fc.scroll_element(driver, cxe_terminate.get_next_button(driver))
+    time.sleep(10)
+    fc.click(cxe_terminate.get_next_button(driver))
+
+    time.sleep(5)
+    fc.click(cxe_terminate.get_terms_cond(driver))
+    time.sleep(10)
+    fc.click(cxe_terminate.get_submit(driver))
 
 
 def TC032(driver, ts_id, firstname, lastname, emailaddress, mobilenumber, can):
@@ -1615,6 +1642,44 @@ def TC033(driver, ts_id, firstname, lastname, emailaddress, mobilenumber, can, b
     function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 8b")
 
     log.info(test_case + " Passed")
+
+def TC034(driver, ts_id):
+    test_case = "TC032"
+    fc = Functions()
+    cxe_apply_contractor = CXEApplyContractor()
+
+    fc.new_tab(driver, cxe_apply)
+
+    fc.click(cxe_apply_contractor.get_contractor(driver))
+    fc.click(cxe_apply_contractor.get_contractor_reactivate(driver))
+
+def TC035(driver, ts_id):
+    test_case = "TC032"
+    fc = Functions()
+    cxe_apply_contractor = CXEApplyContractor()
+
+    fc.new_tab(driver, cxe_apply)
+
+    fc.click(cxe_apply_contractor.get_contractor(driver))
+    fc.click(cxe_apply_contractor.get_contractor_reactivate(driver))
+
+
+    fc.input_text(cxe_apply_contractor.get_first_name(driver), SAMO['individual_account_first'])
+    fc.input_text(cxe_apply_contractor.get_last_name(driver), SAMO['individual_account_last'])
+    fc.input_text(cxe_apply_contractor.get_business_name(driver), SAMO['business_company_name'])
+    fc.input_text(cxe_apply_contractor.get_email_address(driver), SAMO['individual_account_email'])
+    fc.input_text(cxe_apply_contractor.get_phone_number(driver), SAMO['individual_account_mobile'])
+
+    fc.scroll_element(driver, cxe_apply_contractor.get_next_button(driver))
+    fc.click(cxe_apply_contractor.get_next_button(driver))
+
+    time.sleep(5)
+
+    fc.input_text(cxe_apply_contractor.get_can_input(driver), SAMO['business_can'])
+    fc.input_text(cxe_apply_contractor.get_first_name(driver), SAMO['individual_account_first'])
+    fc.input_text(cxe_apply_contractor.get_last_name_recontract(driver), SAMO['individual_account_last'])
+    fc.input_text(cxe_apply_contractor.get_email_address(driver), SAMO['individual_account_email'])
+    fc.input_text(cxe_apply_contractor.get_phone_number(driver), SAMO['individual_account_mobile'])
 
 
 def TC115(driver, ts_id, can, sin , companyname, landline, firstname, lastname, emailaddress, designation, mobilenumber):
@@ -1974,3 +2039,4 @@ def TC119(driver, ts_id, firstname, lastname, emailaddress, mobilenumber, can, s
     function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 9b")
 
     log.info(test_case + " Passed")
+

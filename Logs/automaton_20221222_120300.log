@@ -1,0 +1,170 @@
+2022-12-22 12:03:01,438 - INFO - setup : Browser Launched!
+2022-12-22 12:03:46,690 - INFO - <module> : Login to Meralco Online
+2022-12-22 12:03:46,690 - INFO - <module> : Login to Meralco Online
+2022-12-22 12:03:46,690 - INFO - <module> : Login to Meralco Online
+2022-12-22 12:03:46,690 - INFO - <module> : Login to Meralco Online
+2022-12-22 12:03:50,348 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:03:50,348 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:03:50,348 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:03:50,348 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2022-12-22 12:03:50,938 - INFO - <module> : input: Meralco01
+2022-12-22 12:03:50,938 - INFO - <module> : input: Meralco01
+2022-12-22 12:03:50,938 - INFO - <module> : input: Meralco01
+2022-12-22 12:03:50,938 - INFO - <module> : input: Meralco01
+2022-12-22 12:03:51,848 - INFO - <module> : Clicked
+2022-12-22 12:03:51,848 - INFO - <module> : Clicked
+2022-12-22 12:03:51,848 - INFO - <module> : Clicked
+2022-12-22 12:03:51,848 - INFO - <module> : Clicked
+2022-12-22 12:03:58,839 - INFO - <module> : Hello, Atnew exists
+2022-12-22 12:03:58,839 - INFO - <module> : Hello, Atnew exists
+2022-12-22 12:03:58,839 - INFO - <module> : Hello, Atnew exists
+2022-12-22 12:03:58,839 - INFO - <module> : Hello, Atnew exists
+2022-12-22 12:04:12,012 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 12:04:12,012 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 12:04:12,012 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 12:04:12,012 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 12:04:12,125 - INFO - <module> : Accounts clicked
+2022-12-22 12:04:12,125 - INFO - <module> : Accounts clicked
+2022-12-22 12:04:12,125 - INFO - <module> : Accounts clicked
+2022-12-22 12:04:12,125 - INFO - <module> : Accounts clicked
+2022-12-22 12:04:12,276 - INFO - <module> :  clicked
+2022-12-22 12:04:12,276 - INFO - <module> :  clicked
+2022-12-22 12:04:12,276 - INFO - <module> :  clicked
+2022-12-22 12:04:12,276 - INFO - <module> :  clicked
+2022-12-22 12:04:20,273 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2022-12-22 12:04:20,273 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2022-12-22 12:04:20,273 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2022-12-22 12:04:20,273 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2022-12-22 12:04:21,592 - INFO - <module> : Clicked
+2022-12-22 12:04:21,592 - INFO - <module> : Clicked
+2022-12-22 12:04:21,592 - INFO - <module> : Clicked
+2022-12-22 12:04:21,592 - INFO - <module> : Clicked
+2022-12-22 12:04:32,695 - INFO - <module> : Clicked
+2022-12-22 12:04:32,695 - INFO - <module> : Clicked
+2022-12-22 12:04:32,695 - INFO - <module> : Clicked
+2022-12-22 12:04:32,695 - INFO - <module> : Clicked
+2022-12-22 12:04:43,260 - INFO - <module> : Populate the following:
+SIN
+First Name
+Middle Name (Optional)
+Last Name
+Email Address
+Mobile Number (optional)
+Landline (optional)
+Birthday (optional)
+Representative indicator
+Click Next
+2022-12-22 12:04:43,260 - INFO - <module> : Populate the following:
+SIN
+First Name
+Middle Name (Optional)
+Last Name
+Email Address
+Mobile Number (optional)
+Landline (optional)
+Birthday (optional)
+Representative indicator
+Click Next
+2022-12-22 12:04:43,260 - INFO - <module> : Populate the following:
+SIN
+First Name
+Middle Name (Optional)
+Last Name
+Email Address
+Mobile Number (optional)
+Landline (optional)
+Birthday (optional)
+Representative indicator
+Click Next
+2022-12-22 12:04:43,260 - INFO - <module> : Populate the following:
+SIN
+First Name
+Middle Name (Optional)
+Last Name
+Email Address
+Mobile Number (optional)
+Landline (optional)
+Birthday (optional)
+Representative indicator
+Click Next
+2022-12-22 12:04:46,508 - INFO - <module> : Clicked
+2022-12-22 12:04:46,508 - INFO - <module> : Clicked
+2022-12-22 12:04:46,508 - INFO - <module> : Clicked
+2022-12-22 12:04:46,508 - INFO - <module> : Clicked
+2022-12-22 12:04:52,039 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2022-12-22 12:04:52,039 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2022-12-22 12:04:52,039 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2022-12-22 12:04:52,039 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2022-12-22 12:04:57,950 - INFO - <module> : Clicked
+2022-12-22 12:04:57,950 - INFO - <module> : Clicked
+2022-12-22 12:04:57,950 - INFO - <module> : Clicked
+2022-12-22 12:04:57,950 - INFO - <module> : Clicked
+2022-12-22 12:05:03,478 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2022-12-22 12:05:03,478 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2022-12-22 12:05:03,478 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2022-12-22 12:05:03,478 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2022-12-22 12:05:04,144 - INFO - <module> : Clicked
+2022-12-22 12:05:04,144 - INFO - <module> : Clicked
+2022-12-22 12:05:04,144 - INFO - <module> : Clicked
+2022-12-22 12:05:04,144 - INFO - <module> : Clicked
+2022-12-22 12:05:12,031 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 12:05:12,031 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 12:05:12,031 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 12:05:12,031 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2022-12-22 12:05:34,614 - INFO - <module> : Clicked
+2022-12-22 12:05:34,614 - INFO - <module> : Clicked
+2022-12-22 12:05:34,614 - INFO - <module> : Clicked
+2022-12-22 12:05:34,614 - INFO - <module> : Clicked
+2022-12-22 12:05:35,140 - INFO - <module> : Click Submit
+2022-12-22 12:05:35,140 - INFO - <module> : Click Submit
+2022-12-22 12:05:35,140 - INFO - <module> : Click Submit
+2022-12-22 12:05:35,140 - INFO - <module> : Click Submit
+2022-12-22 12:05:46,171 - INFO - <module> : Clicked
+2022-12-22 12:05:46,171 - INFO - <module> : Clicked
+2022-12-22 12:05:46,171 - INFO - <module> : Clicked
+2022-12-22 12:05:46,171 - INFO - <module> : Clicked
+2022-12-22 12:05:47,248 - INFO - setup : Close Browser

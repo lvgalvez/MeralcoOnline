@@ -1,0 +1,86 @@
+2022-12-22 10:14:32,215 - INFO - setup : Browser Launched!
+2022-12-22 10:15:10,751 - INFO - <module> : Login to Meralco Online
+2022-12-22 10:15:10,751 - INFO - <module> : Login to Meralco Online
+2022-12-22 10:15:10,751 - INFO - <module> : Login to Meralco Online
+2022-12-22 10:15:10,751 - INFO - <module> : Login to Meralco Online
+2022-12-22 10:15:14,184 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:15:14,184 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:15:14,184 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:15:14,184 - INFO - <module> : input: atconcernsingle@yopmail.com
+2022-12-22 10:15:14,606 - INFO - <module> : input: Meralco01
+2022-12-22 10:15:14,606 - INFO - <module> : input: Meralco01
+2022-12-22 10:15:14,606 - INFO - <module> : input: Meralco01
+2022-12-22 10:15:14,606 - INFO - <module> : input: Meralco01
+2022-12-22 10:15:15,476 - INFO - <module> : Clicked
+2022-12-22 10:15:15,476 - INFO - <module> : Clicked
+2022-12-22 10:15:15,476 - INFO - <module> : Clicked
+2022-12-22 10:15:15,476 - INFO - <module> : Clicked
+2022-12-22 10:15:21,689 - INFO - <module> : Hello, exists
+2022-12-22 10:15:21,689 - INFO - <module> : Hello, exists
+2022-12-22 10:15:21,689 - INFO - <module> : Hello, exists
+2022-12-22 10:15:21,689 - INFO - <module> : Hello, exists
+2022-12-22 10:15:34,820 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 10:15:34,820 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 10:15:34,820 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 10:15:34,820 - INFO - <module> : Go to Accounts> Manage Accounts
+2022-12-22 10:15:34,955 - INFO - <module> : Accounts clicked
+2022-12-22 10:15:34,955 - INFO - <module> : Accounts clicked
+2022-12-22 10:15:34,955 - INFO - <module> : Accounts clicked
+2022-12-22 10:15:34,955 - INFO - <module> : Accounts clicked
+2022-12-22 10:15:35,115 - INFO - <module> :  clicked
+2022-12-22 10:15:35,115 - INFO - <module> :  clicked
+2022-12-22 10:15:35,115 - INFO - <module> :  clicked
+2022-12-22 10:15:35,115 - INFO - <module> :  clicked
+2022-12-22 10:15:43,089 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 10:15:43,089 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 10:15:43,089 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 10:15:43,089 - INFO - <module> : Search then Select Account > Click Change Contract Details button
+2022-12-22 10:15:43,710 - INFO - <module> : Clicked
+2022-12-22 10:15:43,710 - INFO - <module> : Clicked
+2022-12-22 10:15:43,710 - INFO - <module> : Clicked
+2022-12-22 10:15:43,710 - INFO - <module> : Clicked
+2022-12-22 10:15:47,423 - INFO - <module> : Clicked
+2022-12-22 10:15:47,423 - INFO - <module> : Clicked
+2022-12-22 10:15:47,423 - INFO - <module> : Clicked
+2022-12-22 10:15:47,423 - INFO - <module> : Clicked
+2022-12-22 10:15:50,504 - INFO - <module> : Select Transfer of Service then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 10:15:50,504 - INFO - <module> : Select Transfer of Service then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 10:15:50,504 - INFO - <module> : Select Transfer of Service then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 10:15:50,504 - INFO - <module> : Select Transfer of Service then populate the following fields:
+- Email
+- First Name
+- Middle Name (Optional)
+- Last Name
+- Email Address
+- Mobile Number
+- Telephone Number (Optional)
+Click Next
+2022-12-22 10:16:20,723 - ERROR - <module> : Cannot Locate: transfer_service
+2022-12-22 10:16:20,723 - ERROR - <module> : Cannot Locate: transfer_service
+2022-12-22 10:16:20,723 - ERROR - <module> : Cannot Locate: transfer_service
+2022-12-22 10:16:20,723 - ERROR - <module> : Cannot Locate: transfer_service
+2022-12-22 10:16:20,928 - INFO - setup : Close Browser
