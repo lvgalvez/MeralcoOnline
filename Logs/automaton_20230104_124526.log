@@ -1,0 +1,202 @@
+2023-01-04 12:45:27,050 - INFO - setup : Browser Launched!
+2023-01-04 12:45:34,072 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:45:34,072 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:45:34,072 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:45:34,072 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:45:35,486 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:45:35,486 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:45:35,486 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:45:35,486 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:45:35,641 - INFO - <module> : Service Application exists
+2023-01-04 12:45:35,641 - INFO - <module> : Service Application exists
+2023-01-04 12:45:35,641 - INFO - <module> : Service Application exists
+2023-01-04 12:45:35,641 - INFO - <module> : Service Application exists
+2023-01-04 12:45:38,667 - INFO - <module> : Click on Business
+2023-01-04 12:45:38,667 - INFO - <module> : Click on Business
+2023-01-04 12:45:38,667 - INFO - <module> : Click on Business
+2023-01-04 12:45:38,667 - INFO - <module> : Click on Business
+2023-01-04 12:45:38,750 - INFO - <module> : Clicked
+2023-01-04 12:45:38,750 - INFO - <module> : Clicked
+2023-01-04 12:45:38,750 - INFO - <module> : Clicked
+2023-01-04 12:45:38,750 - INFO - <module> : Clicked
+2023-01-04 12:45:38,804 - INFO - <module> : Start Service exists
+2023-01-04 12:45:38,804 - INFO - <module> : Start Service exists
+2023-01-04 12:45:38,804 - INFO - <module> : Start Service exists
+2023-01-04 12:45:38,804 - INFO - <module> : Start Service exists
+2023-01-04 12:45:38,857 - INFO - <module> : Modify Service exists
+2023-01-04 12:45:38,857 - INFO - <module> : Modify Service exists
+2023-01-04 12:45:38,857 - INFO - <module> : Modify Service exists
+2023-01-04 12:45:38,857 - INFO - <module> : Modify Service exists
+2023-01-04 12:45:38,897 - INFO - <module> : Reactivate Service exists
+2023-01-04 12:45:38,897 - INFO - <module> : Reactivate Service exists
+2023-01-04 12:45:38,897 - INFO - <module> : Reactivate Service exists
+2023-01-04 12:45:38,897 - INFO - <module> : Reactivate Service exists
+2023-01-04 12:45:38,936 - INFO - <module> : Stop Service exists
+2023-01-04 12:45:38,936 - INFO - <module> : Stop Service exists
+2023-01-04 12:45:38,936 - INFO - <module> : Stop Service exists
+2023-01-04 12:45:38,936 - INFO - <module> : Stop Service exists
+2023-01-04 12:45:41,842 - INFO - <module> : Click on Reactivate Service
+2023-01-04 12:45:41,842 - INFO - <module> : Click on Reactivate Service
+2023-01-04 12:45:41,842 - INFO - <module> : Click on Reactivate Service
+2023-01-04 12:45:41,842 - INFO - <module> : Click on Reactivate Service
+2023-01-04 12:45:42,105 - INFO - <module> : Clicked
+2023-01-04 12:45:42,105 - INFO - <module> : Clicked
+2023-01-04 12:45:42,105 - INFO - <module> : Clicked
+2023-01-04 12:45:42,105 - INFO - <module> : Clicked
+2023-01-04 12:45:42,204 - INFO - <module> : Reactivate a Service exists
+2023-01-04 12:45:42,204 - INFO - <module> : Reactivate a Service exists
+2023-01-04 12:45:42,204 - INFO - <module> : Reactivate a Service exists
+2023-01-04 12:45:42,204 - INFO - <module> : Reactivate a Service exists
+2023-01-04 12:45:45,295 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 12:45:45,295 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 12:45:45,295 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 12:45:45,295 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 12:45:45,399 - INFO - <module> :  exists
+2023-01-04 12:45:45,399 - INFO - <module> :  exists
+2023-01-04 12:45:45,399 - INFO - <module> :  exists
+2023-01-04 12:45:45,399 - INFO - <module> :  exists
+2023-01-04 12:45:48,406 - INFO - <module> : Populate Customer Account Number field
+2023-01-04 12:45:48,406 - INFO - <module> : Populate Customer Account Number field
+2023-01-04 12:45:48,406 - INFO - <module> : Populate Customer Account Number field
+2023-01-04 12:45:48,406 - INFO - <module> : Populate Customer Account Number field
+2023-01-04 12:45:48,537 - INFO - <module> : input: 3518724842
+2023-01-04 12:45:48,537 - INFO - <module> : input: 3518724842
+2023-01-04 12:45:48,537 - INFO - <module> : input: 3518724842
+2023-01-04 12:45:48,537 - INFO - <module> : input: 3518724842
+2023-01-04 12:45:51,803 - INFO - <module> : Populate Service ID Number 
+2023-01-04 12:45:51,803 - INFO - <module> : Populate Service ID Number 
+2023-01-04 12:45:51,803 - INFO - <module> : Populate Service ID Number 
+2023-01-04 12:45:51,803 - INFO - <module> : Populate Service ID Number 
+2023-01-04 12:45:51,912 - INFO - <module> : input: 501027710101
+2023-01-04 12:45:51,912 - INFO - <module> : input: 501027710101
+2023-01-04 12:45:51,912 - INFO - <module> : input: 501027710101
+2023-01-04 12:45:51,912 - INFO - <module> : input: 501027710101
+2023-01-04 12:45:54,884 - INFO - <module> : Populate the following fields:
+- Company Name
+- Trade Name (Optional)
+- Company Email Address (Optional)
+- Company Landline
+- First Name
+- Last Name
+- Email Address
+- Mobile Number
+- Designation
+>Click Next
+2023-01-04 12:45:54,884 - INFO - <module> : Populate the following fields:
+- Company Name
+- Trade Name (Optional)
+- Company Email Address (Optional)
+- Company Landline
+- First Name
+- Last Name
+- Email Address
+- Mobile Number
+- Designation
+>Click Next
+2023-01-04 12:45:54,884 - INFO - <module> : Populate the following fields:
+- Company Name
+- Trade Name (Optional)
+- Company Email Address (Optional)
+- Company Landline
+- First Name
+- Last Name
+- Email Address
+- Mobile Number
+- Designation
+>Click Next
+2023-01-04 12:45:54,884 - INFO - <module> : Populate the following fields:
+- Company Name
+- Trade Name (Optional)
+- Company Email Address (Optional)
+- Company Landline
+- First Name
+- Last Name
+- Email Address
+- Mobile Number
+- Designation
+>Click Next
+2023-01-04 12:45:55,022 - INFO - <module> : input: atFirstname
+2023-01-04 12:45:55,022 - INFO - <module> : input: atFirstname
+2023-01-04 12:45:55,022 - INFO - <module> : input: atFirstname
+2023-01-04 12:45:55,022 - INFO - <module> : input: atFirstname
+2023-01-04 12:45:55,096 - INFO - <module> : input: atLastname
+2023-01-04 12:45:55,096 - INFO - <module> : input: atLastname
+2023-01-04 12:45:55,096 - INFO - <module> : input: atLastname
+2023-01-04 12:45:55,096 - INFO - <module> : input: atLastname
+2023-01-04 12:45:55,191 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 12:45:55,191 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 12:45:55,191 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 12:45:55,191 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 12:45:55,269 - INFO - <module> : input: +639234567891
+2023-01-04 12:45:55,269 - INFO - <module> : input: +639234567891
+2023-01-04 12:45:55,269 - INFO - <module> : input: +639234567891
+2023-01-04 12:45:55,269 - INFO - <module> : input: +639234567891
+2023-01-04 12:45:55,339 - INFO - <module> : input: manager
+2023-01-04 12:45:55,339 - INFO - <module> : input: manager
+2023-01-04 12:45:55,339 - INFO - <module> : input: manager
+2023-01-04 12:45:55,339 - INFO - <module> : input: manager
+2023-01-04 12:45:55,451 - INFO - <module> : input: atcontCompname
+2023-01-04 12:45:55,451 - INFO - <module> : input: atcontCompname
+2023-01-04 12:45:55,451 - INFO - <module> : input: atcontCompname
+2023-01-04 12:45:55,451 - INFO - <module> : input: atcontCompname
+2023-01-04 12:45:55,536 - INFO - <module> : input: +63945113252
+2023-01-04 12:45:55,536 - INFO - <module> : input: +63945113252
+2023-01-04 12:45:55,536 - INFO - <module> : input: +63945113252
+2023-01-04 12:45:55,536 - INFO - <module> : input: +63945113252
+2023-01-04 12:45:57,845 - INFO - <module> : Clicked
+2023-01-04 12:45:57,845 - INFO - <module> : Clicked
+2023-01-04 12:45:57,845 - INFO - <module> : Clicked
+2023-01-04 12:45:57,845 - INFO - <module> : Clicked
+2023-01-04 12:45:57,887 - INFO - <module> : 2VALUE ADDED SERVICES exists
+2023-01-04 12:45:57,887 - INFO - <module> : 2VALUE ADDED SERVICES exists
+2023-01-04 12:45:57,887 - INFO - <module> : 2VALUE ADDED SERVICES exists
+2023-01-04 12:45:57,887 - INFO - <module> : 2VALUE ADDED SERVICES exists
+2023-01-04 12:46:00,965 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator> Attach documents
+> Click Next
+2023-01-04 12:46:00,965 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator> Attach documents
+> Click Next
+2023-01-04 12:46:00,965 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator> Attach documents
+> Click Next
+2023-01-04 12:46:00,965 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator> Attach documents
+> Click Next
+2023-01-04 12:46:01,103 - INFO - <module> : Clicked
+2023-01-04 12:46:01,103 - INFO - <module> : Clicked
+2023-01-04 12:46:01,103 - INFO - <module> : Clicked
+2023-01-04 12:46:01,103 - INFO - <module> : Clicked
+2023-01-04 12:46:03,427 - INFO - <module> : 3TERMS & CONDITIONS exists
+2023-01-04 12:46:03,427 - INFO - <module> : 3TERMS & CONDITIONS exists
+2023-01-04 12:46:03,427 - INFO - <module> : 3TERMS & CONDITIONS exists
+2023-01-04 12:46:03,427 - INFO - <module> : 3TERMS & CONDITIONS exists
+2023-01-04 12:46:06,590 - INFO - <module> : Tick on Terms & Conditions and  Privacy Policy agreement
+2023-01-04 12:46:06,590 - INFO - <module> : Tick on Terms & Conditions and  Privacy Policy agreement
+2023-01-04 12:46:06,590 - INFO - <module> : Tick on Terms & Conditions and  Privacy Policy agreement
+2023-01-04 12:46:06,590 - INFO - <module> : Tick on Terms & Conditions and  Privacy Policy agreement
+2023-01-04 12:46:06,698 - INFO - <module> : Clicked
+2023-01-04 12:46:06,698 - INFO - <module> : Clicked
+2023-01-04 12:46:06,698 - INFO - <module> : Clicked
+2023-01-04 12:46:06,698 - INFO - <module> : Clicked
+2023-01-04 12:46:21,765 - INFO - <module> : Submit exists
+2023-01-04 12:46:21,765 - INFO - <module> : Submit exists
+2023-01-04 12:46:21,765 - INFO - <module> : Submit exists
+2023-01-04 12:46:21,765 - INFO - <module> : Submit exists
+2023-01-04 12:46:24,889 - INFO - <module> : Click Submit
+2023-01-04 12:46:24,889 - INFO - <module> : Click Submit
+2023-01-04 12:46:24,889 - INFO - <module> : Click Submit
+2023-01-04 12:46:24,889 - INFO - <module> : Click Submit
+2023-01-04 12:46:25,030 - INFO - <module> : Clicked
+2023-01-04 12:46:25,030 - INFO - <module> : Clicked
+2023-01-04 12:46:25,030 - INFO - <module> : Clicked
+2023-01-04 12:46:25,030 - INFO - <module> : Clicked
+2023-01-04 12:46:37,457 - INFO - <module> : TC121 Passed
+2023-01-04 12:46:37,457 - INFO - <module> : TC121 Passed
+2023-01-04 12:46:37,457 - INFO - <module> : TC121 Passed
+2023-01-04 12:46:37,457 - INFO - <module> : TC121 Passed
+2023-01-04 12:46:37,541 - INFO - setup : Close Browser

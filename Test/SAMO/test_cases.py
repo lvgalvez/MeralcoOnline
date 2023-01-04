@@ -22,6 +22,7 @@ from Pages.Page_CXE_Terminate_Individual import CXETerminateIndividual
 from Pages.Page_CXE_Terminate_Business import CXETerminateBusiness
 from Pages.Page_CXE_Terminate_Contractor import CXETerminateContractor
 from Pages.Page_CXE_Reactivate_Business import CXEReactivateBusiness
+from Pages.Page_CXE_Reactivate_Contactor import CXEReactivateContractor
 from Utilities.Config import *
 from Utilities.Data import SSO
 from Utilities.Functions import Functions
@@ -2039,4 +2040,220 @@ def TC119(driver, ts_id, firstname, lastname, emailaddress, mobilenumber, can, s
     function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 9b")
 
     log.info(test_case + " Passed")
+
+def TC120(driver, ts_id, firstname, lastname, emailaddress, mobilenumber, can, businessname, sin):
+    test_case = "TC120"
+    function = Functions()
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
+    function.new_tab(driver, cxe_apply)
+    cxe_apply_home = CXEApplyHomePage()
+    function.verify(cxe_apply_home.get_label_service_application(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1b")
+
+    cxetermcontractor = CXETerminateContractor()
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
+    function.click(cxetermcontractor.get_contractor(driver))
+    function.verify(cxetermcontractor.get_start_service(driver))
+    function.verify(cxetermcontractor.get_modify_service(driver))
+    function.verify(cxetermcontractor.get_reactivate_service(driver))
+    function.verify(cxetermcontractor.get_stop_service(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 3")
+    function.click(cxetermcontractor.get_stop_service_clk(driver))
+    function.verify(cxetermcontractor.get_stop_lbl(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 3")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 4")
+    function.verify(cxetermcontractor.get_CAN(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 4")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 5")
+    function.input_text(cxetermcontractor.get_CAN(driver), can)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 5")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 6")
+    function.input_text(cxetermcontractor.get_SIN(driver), sin)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 6")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 7")
+    function.input_text(cxetermcontractor.get_firstname(driver), firstname)
+    function.input_text(cxetermcontractor.get_lastname(driver), lastname)
+    function.input_text(cxetermcontractor.get_emailaddress(driver), emailaddress)
+    function.input_text(cxetermcontractor.get_mobile_number(driver), mobilenumber)
+    function.input_text(cxetermcontractor.get_businessname(driver), businessname)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 7")
+    function.click(cxetermcontractor.get_next1(driver))
+    function.verify(cxetermcontractor.get_terms_cond(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 7b")
+
+
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 8")
+    function.click(cxetermcontractor.get_terms_cond(driver))
+    time.sleep(15)
+    function.verify(cxetermcontractor.get_submit(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 8")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 9")
+    function.click(cxetermcontractor.get_submit(driver))
+    time.sleep(8)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 9")
+    #function.verify(cxetermindividual.get_confirmation(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 9b")
+
+    log.info(test_case + " Passed")
+
+
+def TC121(driver, ts_id, firstname, lastname, emailaddress, mobilenumber, can, sin, designation, companyname, landline):
+    test_case = "TC121"
+    function = Functions()
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
+    function.new_tab(driver, cxe_apply)
+    cxe_apply_home = CXEApplyHomePage()
+    function.verify(cxe_apply_home.get_label_service_application(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1b")
+
+    cxereactivatebusiness = CXEReactivateBusiness()
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
+    function.click(cxereactivatebusiness.get_business(driver))
+    function.verify(cxereactivatebusiness.get_start_service(driver))
+    function.verify(cxereactivatebusiness.get_modify_service(driver))
+    function.verify(cxereactivatebusiness.get_reactivate_service(driver))
+    function.verify(cxereactivatebusiness.get_stop_service(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 3")
+    function.click(cxereactivatebusiness.get_reactivate_service(driver))
+    function.verify(cxereactivatebusiness.get_stop_lbl(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 3")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 4")
+    function.verify(cxereactivatebusiness.get_CAN(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 4")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 5")
+    function.input_text(cxereactivatebusiness.get_CAN(driver), can)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 5")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 6")
+    function.input_text(cxereactivatebusiness.get_SIN(driver), sin)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 6")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 7")
+    function.input_text(cxereactivatebusiness.get_firstname(driver), firstname)
+    function.input_text(cxereactivatebusiness.get_lastname(driver), lastname)
+    function.input_text(cxereactivatebusiness.get_emailaddress(driver), emailaddress)
+    function.input_text(cxereactivatebusiness.get_mobile_number(driver), mobilenumber)
+    function.input_text(cxereactivatebusiness.get_designation(driver), designation)
+    function.input_text(cxereactivatebusiness.get_companyname(driver), companyname)
+    function.input_text(cxereactivatebusiness.get_landline(driver), landline)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 7")
+    function.click(cxereactivatebusiness.get_next1(driver))
+    function.verify(cxereactivatebusiness.get_value_add(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 7b")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 8")
+    function.click(cxereactivatebusiness.get_yes(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 8")
+    #function.click(cxetermindividual.get_next3(driver))
+    function.verify(cxereactivatebusiness.get_terms_cond(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 8b")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 9")
+    function.click(cxereactivatebusiness.get_terms_cond_clk(driver))
+    time.sleep(15)
+    function.verify(cxereactivatebusiness.get_submit(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 9")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 10")
+    function.click(cxereactivatebusiness.get_submit(driver))
+    time.sleep(8)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 10")
+    #function.verify(cxetermindividual.get_confirmation(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 10b")
+
+    log.info(test_case + " Passed")
+
+def TC122(driver, ts_id, firstname, lastname, emailaddress, businessname, mobilenumber, can, sin):
+    test_case = "TC122"
+    function = Functions()
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
+    function.new_tab(driver, cxe_apply)
+    cxe_apply_home = CXEApplyHomePage()
+    function.verify(cxe_apply_home.get_label_service_application(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1b")
+
+    cxereactivatecontractor = CXEReactivateContractor()
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
+    function.click(cxereactivatecontractor.get_contractor(driver))
+    function.verify(cxereactivatecontractor.get_start_service(driver))
+    function.verify(cxereactivatecontractor.get_modify_service(driver))
+    function.verify(cxereactivatecontractor.get_reactivate_service(driver))
+    function.verify(cxereactivatecontractor.get_stop_service(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 3")
+    function.click(cxereactivatecontractor.get_reactivate_service(driver))
+    function.verify(cxereactivatecontractor.get_reactivate_page(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 3")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 4")
+    function.input_text(cxereactivatecontractor.get_firstname(driver), firstname)
+    function.input_text(cxereactivatecontractor.get_lastname(driver), lastname)
+    function.input_text(cxereactivatecontractor.get_emailaddress(driver), emailaddress)
+    function.input_text(cxereactivatecontractor.get_businessname(driver), businessname)
+    function.input_text(cxereactivatecontractor.get_mobile_number(driver), mobilenumber)
+    #function.input_text(cxereactivatecontractor.get_companyname(driver), companyname)
+    #function.input_text(cxereactivatecontractor.get_landline(driver), landline)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 4")
+    function.click(cxereactivatecontractor.get_next1(driver))
+    function.verify(cxereactivatecontractor.get_cust_info(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 4b")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 5")
+    function.verify(cxereactivatecontractor.get_CAN(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 5")
+
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 6")
+    function.input_text(cxereactivatecontractor.get_CAN(driver), can)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 6")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 7")
+    function.input_text(cxereactivatecontractor.get_SIN(driver), sin)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 7")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 8")
+    function.input_text(cxereactivatecontractor.get_firstname_cust(driver), firstname)
+    function.input_text(cxereactivatecontractor.get_lastname_cust(driver), lastname)
+    function.input_text(cxereactivatecontractor.get_emailaddress_cust(driver), emailaddress)
+    function.input_text(cxereactivatecontractor.get_mobile_number_cust(driver), mobilenumber)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 8")
+    function.click(cxereactivatecontractor.get_next2(driver))
+    function.verify(cxereactivatecontractor.get_new_address(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 8b")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 9")
+    fc.select_dropdown_element(cxereactivatecontractor.get_province(driver), Concern['province'])
+    fc.select_dropdown_element(cxereactivatecontractor.get_city(driver), Concern['city'])
+    fc.select_dropdown_element(cxereactivatecontractor.get_ownership(driver), Concern['home_ownership'])
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 9")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 9")
+    function.click(cxereactivatecontractor.get_terms_cond_clk(driver))
+    time.sleep(15)
+    function.verify(cxereactivatecontractor.get_submit(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 9")
+
+    function.bookmark(serviceAppModule, ts_id, test_case, "Step 10")
+    function.click(cxereactivatecontractor.get_submit(driver))
+    time.sleep(8)
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 10")
+    #function.verify(cxetermindividual.get_confirmation(driver))
+    function.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 10b")
+
+    log.info(test_case + " Passed")
+
+
 

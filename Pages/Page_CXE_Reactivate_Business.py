@@ -13,24 +13,27 @@ class CXEReactivateBusiness:
     reactivate_service = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[1]/div/div/div/div[2]/ul/li[2]/section/div[2]/div/a[3]"
     stop_service = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[1]/div/div/div/div[2]/ul/li[2]/section/div[2]/div/a[4]"
     stop_lbl = "//*[@id='request_to_modify']/div/div/div/div/h4"
-    CAN = "//*[@id='501:0']"
-    firstname = "//*[@id='567:0']"
-    lastname = "//*[@id='577:0']"
-    emailaddress = "//*[@id='589:0']"
-    mobile_number = "//*[@id='599:0']"
+    CAN = "//div[1]/div/div[1]/div/input"
+    SIN = "//div/div/div/div/div/div[2]/div[1]/div/div[2]/div/input"
+    firstname = "//div[3]/div/div[1]/div/div/input"
+    lastname = "//div[3]/div/div[2]/div/div/input"
+    emailaddress = "//div[4]/div/div[1]/div/div/input"
+    mobile_number = "//div[4]/div/div[2]/div/div/input"
     next1 = "//*[@id='request_to_modify']/div/div/div/div/div[2]/div[5]/div/button"
     terms_cond = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/ul/li[3]/a"
     yes = "//*[@id='value_add_services']/div/div[5]/button"
     submit = "//*[@id='terms_and_conditions']/div/div[2]/div[3]/button"
     business = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[1]/div/div/div/div[2]/ul/li[2]/section/div[1]/h3/button/p"
-    designation = "//*[@id='609:0']"
-    companyname = "//*[@id='524:0']"
-    landline = "//*[@id='555:0']"
+    designation = "//div/div/div/div/div/div[2]/div[4]/div/div[3]/div/div/input"
+    companyname = "//div/div/div/div/div/div[2]/div[2]/div[1]/div/div/input"
+    landline = "//div/div/div[1]/div/div/div/div/div/div[2]/div[2]/div[3]/div[2]/div/div/input"
     valueadd = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/ul/li[2]/a"
     terms_cond_clk = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[3]/div/div[2]/div[1]/label/div"
 
     def  get_terms_cond_clk(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.terms_cond_clk)))
+    def  get_SIN(self, driver):
+        return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.SIN)))
     def  get_value_add(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.valueadd)))
     def  get_landline(self, driver):

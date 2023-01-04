@@ -1,0 +1,70 @@
+2023-01-04 12:41:16,702 - INFO - setup : Browser Launched!
+2023-01-04 12:41:24,575 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:41:24,575 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:41:24,575 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:41:24,575 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:41:25,985 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:41:25,985 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:41:25,985 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:41:25,985 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 12:41:26,741 - INFO - <module> : Service Application exists
+2023-01-04 12:41:26,741 - INFO - <module> : Service Application exists
+2023-01-04 12:41:26,741 - INFO - <module> : Service Application exists
+2023-01-04 12:41:26,741 - INFO - <module> : Service Application exists
+2023-01-04 12:41:29,614 - INFO - <module> : Click on Business
+2023-01-04 12:41:29,614 - INFO - <module> : Click on Business
+2023-01-04 12:41:29,614 - INFO - <module> : Click on Business
+2023-01-04 12:41:29,614 - INFO - <module> : Click on Business
+2023-01-04 12:41:29,686 - INFO - <module> : Clicked
+2023-01-04 12:41:29,686 - INFO - <module> : Clicked
+2023-01-04 12:41:29,686 - INFO - <module> : Clicked
+2023-01-04 12:41:29,686 - INFO - <module> : Clicked
+2023-01-04 12:41:29,730 - INFO - <module> : Start Service exists
+2023-01-04 12:41:29,730 - INFO - <module> : Start Service exists
+2023-01-04 12:41:29,730 - INFO - <module> : Start Service exists
+2023-01-04 12:41:29,730 - INFO - <module> : Start Service exists
+2023-01-04 12:41:29,769 - INFO - <module> : Modify Service exists
+2023-01-04 12:41:29,769 - INFO - <module> : Modify Service exists
+2023-01-04 12:41:29,769 - INFO - <module> : Modify Service exists
+2023-01-04 12:41:29,769 - INFO - <module> : Modify Service exists
+2023-01-04 12:41:29,805 - INFO - <module> : Reactivate Service exists
+2023-01-04 12:41:29,805 - INFO - <module> : Reactivate Service exists
+2023-01-04 12:41:29,805 - INFO - <module> : Reactivate Service exists
+2023-01-04 12:41:29,805 - INFO - <module> : Reactivate Service exists
+2023-01-04 12:41:29,846 - INFO - <module> : Stop Service exists
+2023-01-04 12:41:29,846 - INFO - <module> : Stop Service exists
+2023-01-04 12:41:29,846 - INFO - <module> : Stop Service exists
+2023-01-04 12:41:29,846 - INFO - <module> : Stop Service exists
+2023-01-04 12:41:32,784 - INFO - <module> : Click on Reactivate Service
+2023-01-04 12:41:32,784 - INFO - <module> : Click on Reactivate Service
+2023-01-04 12:41:32,784 - INFO - <module> : Click on Reactivate Service
+2023-01-04 12:41:32,784 - INFO - <module> : Click on Reactivate Service
+2023-01-04 12:41:33,031 - INFO - <module> : Clicked
+2023-01-04 12:41:33,031 - INFO - <module> : Clicked
+2023-01-04 12:41:33,031 - INFO - <module> : Clicked
+2023-01-04 12:41:33,031 - INFO - <module> : Clicked
+2023-01-04 12:41:33,142 - INFO - <module> : Reactivate a Service exists
+2023-01-04 12:41:33,142 - INFO - <module> : Reactivate a Service exists
+2023-01-04 12:41:33,142 - INFO - <module> : Reactivate a Service exists
+2023-01-04 12:41:33,142 - INFO - <module> : Reactivate a Service exists
+2023-01-04 12:41:36,008 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 12:41:36,008 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 12:41:36,008 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 12:41:36,008 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 12:41:36,072 - INFO - <module> :  exists
+2023-01-04 12:41:36,072 - INFO - <module> :  exists
+2023-01-04 12:41:36,072 - INFO - <module> :  exists
+2023-01-04 12:41:36,072 - INFO - <module> :  exists
+2023-01-04 12:41:38,954 - INFO - <module> : Populate Customer Account Number field
+2023-01-04 12:41:38,954 - INFO - <module> : Populate Customer Account Number field
+2023-01-04 12:41:38,954 - INFO - <module> : Populate Customer Account Number field
+2023-01-04 12:41:38,954 - INFO - <module> : Populate Customer Account Number field
+2023-01-04 12:41:39,093 - INFO - <module> : input: 0002625924
+2023-01-04 12:41:39,093 - INFO - <module> : input: 0002625924
+2023-01-04 12:41:39,093 - INFO - <module> : input: 0002625924
+2023-01-04 12:41:39,093 - INFO - <module> : input: 0002625924
+2023-01-04 12:41:41,971 - INFO - <module> : Populate Service ID Number 
+2023-01-04 12:41:41,971 - INFO - <module> : Populate Service ID Number 
+2023-01-04 12:41:41,971 - INFO - <module> : Populate Service ID Number 
+2023-01-04 12:41:41,971 - INFO - <module> : Populate Service ID Number 
+2023-01-04 12:41:49,557 - INFO - setup : Close Browser

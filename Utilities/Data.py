@@ -73,6 +73,8 @@ SAMO = {
     'mobilenumber': "+639234567891",
     'birthday': "08/08/1993",
     'emailAddNewService': 'EarlMO@yopmail.com',
+    'CAN_recon': '3518724842',
+    'SIN_recon': '501027710101'
 
 
 }
