@@ -21,7 +21,7 @@ SSO = {
 
 SAMO = {
     'business_account_email': 'ATNewSAMObiz@yopmail.com',
-    'business_account_password': 'Meralco01',
+    'business_account_password': 'Meralco02',
     'individual_account_can': '0104248103',
     'individual_account_email': 'aaaaa@yopmail.com',
     'individual_account_first': 'atfirst1',
@@ -38,7 +38,7 @@ SAMO = {
     'term_business_sin': '502861380102',
     'default_password': 'Meralco01',
     'normal_account_email': 'ATNewSAMO@yopmail.com',
-    'normal_account_password': 'Meralco01',
+    'normal_account_password': 'Meralco05',
     'service_add': 'atsrviceadd',
     'business_can': '0104248103',
     'business_company_name': 'automation1',
@@ -74,7 +74,8 @@ SAMO = {
     'birthday': "08/08/1993",
     'emailAddNewService': 'EarlMO@yopmail.com',
     'CAN_recon': '3518724842',
-    'SIN_recon': '501027710101'
+    'SIN_recon': '501027710101',
+    'CAN_recon_single': '3535070118'
 
 
 }

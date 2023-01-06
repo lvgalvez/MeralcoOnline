@@ -140,6 +140,15 @@ class TestServiceApplicationMeralcoOnline:
         TC010(self.driver, test_scenario, SAMO['normal_account_email'], SAMO['normal_account_password'], SAMO['birthday'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
+    @pytest.mark.tags("TS020")
+    def test_ts020(self):
+        test_scenario = "TS020"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC017(self.driver, test_scenario, SAMO['firstname'], SAMO['lastname'], SAMO['emailaddress'],
+              SAMO['contractor_businessName'], SAMO['contractor_mobileNumber'], SAMO['CAN_recon_single'], SAMO['SIN_recon'],
+              Concern['service_address'])  # CAN 3535070118
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
     @pytest.mark.tags("TS032")
     def test_ts032(self):
         test_scenario = "TS032"
@@ -319,5 +328,5 @@ class TestServiceApplicationMeralcoOnline:
         test_scenario = "TS059"
         Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
         TC122(self.driver, test_scenario, SAMO['firstname'], SAMO['lastname'], SAMO['emailaddress'],
-              SAMO['contractor_businessName'], SAMO['contractor_mobileNumber'], SAMO['CAN_recon'], SAMO['SIN_recon']) #CAN 3518724842 #SIN 501027710101
+              SAMO['contractor_businessName'], SAMO['contractor_mobileNumber'], SAMO['CAN_recon'], SAMO['SIN_recon'],Concern['service_address']) #CAN 3518724842 #SIN 501027710101
         Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")

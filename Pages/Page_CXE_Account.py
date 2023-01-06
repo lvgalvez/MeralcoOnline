@@ -22,7 +22,7 @@ class CXEAccountPage:
     #confirmation = ""
     view_details = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div[2]/div[6]/div/div/div[2]/div/a[3]"
     submit_term = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div[1]/div[2]/div/div/div[1]/div[2]/div[1]/div/div[3]/button"
-    account_clk = "/html/body/div[3]/div[2]/div/div[2]/div/div/div[1]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/table/tbody/tr[3]/td[1]/div/label/div"
+    account_clk = "//div[1]/table/tbody/tr[6]/td[1]/div/label/div"
     stop_service = "/html/body/div[3]/div[2]/div/div[2]/div/div/div[1]/div[2]/div/div/div[1]/div[2]/div[2]/div[3]/div[2]/div[4]/a/span"
     request_page = "//*[@id='request_to_modify']/div/div/div/div/div/h4"
     submit_next = "//*[@id='request_details']/div/div[2]/div[2]/button"

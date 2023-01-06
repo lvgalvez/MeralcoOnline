@@ -21,13 +21,13 @@ class CXEReactivateContractor:
     next1 = "//div/div/div/div/div/div/div[2]/div/div[2]/div[2]/button"
     terms_cond = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/ul/li[3]/a"
     yes = "//*[@id='value_add_services']/div/div[5]/button"
-    submit = "//*[@id='terms_and_conditions']/div/div[2]/div[3]/button"
+    submit = "//div/div[5]/div[4]/button"
     business = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[1]/div/div/div/div[2]/ul/li[2]/section/div[1]/h3/button/p"
     designation = "//div/div/div/div/div/div[2]/div[4]/div/div[3]/div/div/input"
     companyname = "//div/div/div/div/div/div[2]/div[2]/div[1]/div/div/input"
     landline = "//div/div/div[1]/div/div/div/div/div/div[2]/div[2]/div[3]/div[2]/div/div/input"
     valueadd = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/ul/li[2]/a"
-    terms_cond_clk = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[3]/div/div[2]/div[1]/label/div"
+    terms_cond_clk = "//div[2]/div[2]/div/label/div"
     businessname = "//div/div[2]/div[1]/div[3]/div/div/div/input"
     reactivate_page = "//div/div/div/div/div[2]/div/h2"
     customer_info = "//div/div/div/div/div/div/div[2]/div/div[1]/div/ol/li[2]/p"
@@ -39,18 +39,31 @@ class CXEReactivateContractor:
     mobile_number_cust = "//div/div[6]/div/div/div/input"
     new_address = "//div/div/div/div/div/div/div[2]/div/div[4]/h3"
 
-    province = "//div[1]/div[2]/div[1]/div/select"
-    city = "//div/div[4]/div[1]/div[2]/div[2]/div/select"
-    ownership = "//div/div[4]/div[1]/div[3]/div/div/select"
+    province = "//div[4]/div[1]/div[6]/div/select"
+    province_value = "//div/div[4]/div[1]/div[6]/div/select/option[2]"
+    city = "//div/div[4]/div[1]/div[7]/div/select"
+    city_val = "//div[1]/div[7]/div/select/option[4]"
+    #ownership = "//div/div[4]/div[1]/div[3]/div/div/select"
+    radio_no = "//div[4]/div/div/span/div/label[2]/span"
+    serv_add = "//div/div/div/div/div/div/div[2]/div/div[4]/div[1]/div[5]/div/div/div/input"
+    next_3 = "//div/div[4]/div[2]/button"
 
-
-
+    def get_next3(self, driver):
+        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.next_3)))
+    def get_city_val(self, driver):
+        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.city_val)))
+    def get_serv_add(self, driver):
+        return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.serv_add)))
+    def get_no(self, driver):
+        return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.radio_no)))
     def get_ownership(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.ownership)))
     def get_city(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.city)))
     def get_province(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.province)))
+    def get_province_val(self, driver):
+        return WebDriverWait(driver, wait_time).until(EC.visibility_of_element_located((By.XPATH, self.province_value)))
     def get_new_address(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.new_address)))
     def get_next2(self, driver):
