@@ -1,0 +1,46 @@
+2023-01-05 12:49:07,741 - INFO - setup : Browser Launched!
+2023-01-05 12:49:43,968 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 12:49:43,968 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 12:49:43,968 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 12:49:43,968 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 12:49:50,102 - INFO - <module> : Service Application exists
+2023-01-05 12:49:50,102 - INFO - <module> : Service Application exists
+2023-01-05 12:49:50,102 - INFO - <module> : Service Application exists
+2023-01-05 12:49:50,102 - INFO - <module> : Service Application exists
+2023-01-05 12:49:53,512 - INFO - <module> : Clicked
+2023-01-05 12:49:53,512 - INFO - <module> : Clicked
+2023-01-05 12:49:53,512 - INFO - <module> : Clicked
+2023-01-05 12:49:53,512 - INFO - <module> : Clicked
+2023-01-05 12:50:00,180 - INFO - <module> : Clicked
+2023-01-05 12:50:00,180 - INFO - <module> : Clicked
+2023-01-05 12:50:00,180 - INFO - <module> : Clicked
+2023-01-05 12:50:00,180 - INFO - <module> : Clicked
+2023-01-05 12:50:03,867 - INFO - <module> : input: 0104248103
+2023-01-05 12:50:03,867 - INFO - <module> : input: 0104248103
+2023-01-05 12:50:03,867 - INFO - <module> : input: 0104248103
+2023-01-05 12:50:03,867 - INFO - <module> : input: 0104248103
+2023-01-05 12:50:04,521 - INFO - <module> : Clicked
+2023-01-05 12:50:04,521 - INFO - <module> : Clicked
+2023-01-05 12:50:04,521 - INFO - <module> : Clicked
+2023-01-05 12:50:04,521 - INFO - <module> : Clicked
+2023-01-05 12:50:04,789 - INFO - <module> : Clicked
+2023-01-05 12:50:04,789 - INFO - <module> : Clicked
+2023-01-05 12:50:04,789 - INFO - <module> : Clicked
+2023-01-05 12:50:04,789 - INFO - <module> : Clicked
+2023-01-05 12:50:04,917 - INFO - <module> : input: automation1
+2023-01-05 12:50:04,917 - INFO - <module> : input: automation1
+2023-01-05 12:50:04,917 - INFO - <module> : input: automation1
+2023-01-05 12:50:04,917 - INFO - <module> : input: automation1
+2023-01-05 12:50:05,065 - INFO - <module> : input: +6321234543
+2023-01-05 12:50:05,065 - INFO - <module> : input: +6321234543
+2023-01-05 12:50:05,065 - INFO - <module> : input: +6321234543
+2023-01-05 12:50:05,065 - INFO - <module> : input: +6321234543
+2023-01-05 12:50:05,161 - INFO - <module> : input: automation5
+2023-01-05 12:50:05,161 - INFO - <module> : input: automation5
+2023-01-05 12:50:05,161 - INFO - <module> : input: automation5
+2023-01-05 12:50:05,161 - INFO - <module> : input: automation5
+2023-01-05 12:50:05,237 - INFO - <module> : input: automation6
+2023-01-05 12:50:05,237 - INFO - <module> : input: automation6
+2023-01-05 12:50:05,237 - INFO - <module> : input: automation6
+2023-01-05 12:50:05,237 - INFO - <module> : input: automation6
+2023-01-05 12:50:35,652 - INFO - setup : Close Browser

@@ -1,0 +1,34 @@
+2023-01-05 09:48:32,911 - INFO - setup : Browser Launched!
+2023-01-05 09:49:02,935 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 09:49:02,935 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 09:49:02,935 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 09:49:02,935 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 09:49:09,078 - INFO - <module> : Service Application exists
+2023-01-05 09:49:09,078 - INFO - <module> : Service Application exists
+2023-01-05 09:49:09,078 - INFO - <module> : Service Application exists
+2023-01-05 09:49:09,078 - INFO - <module> : Service Application exists
+2023-01-05 09:49:12,670 - INFO - <module> : Clicked
+2023-01-05 09:49:12,670 - INFO - <module> : Clicked
+2023-01-05 09:49:12,670 - INFO - <module> : Clicked
+2023-01-05 09:49:12,670 - INFO - <module> : Clicked
+2023-01-05 09:49:16,124 - INFO - <module> : Clicked
+2023-01-05 09:49:16,124 - INFO - <module> : Clicked
+2023-01-05 09:49:16,124 - INFO - <module> : Clicked
+2023-01-05 09:49:16,124 - INFO - <module> : Clicked
+2023-01-05 09:49:32,002 - INFO - <module> : Clicked
+2023-01-05 09:49:32,002 - INFO - <module> : Clicked
+2023-01-05 09:49:32,002 - INFO - <module> : Clicked
+2023-01-05 09:49:32,002 - INFO - <module> : Clicked
+2023-01-05 09:49:38,524 - INFO - <module> : input: atcontFname
+2023-01-05 09:49:38,524 - INFO - <module> : input: atcontFname
+2023-01-05 09:49:38,524 - INFO - <module> : input: atcontFname
+2023-01-05 09:49:38,524 - INFO - <module> : input: atcontFname
+2023-01-05 09:49:38,831 - INFO - <module> : input: atcontLname
+2023-01-05 09:49:38,831 - INFO - <module> : input: atcontLname
+2023-01-05 09:49:38,831 - INFO - <module> : input: atcontLname
+2023-01-05 09:49:38,831 - INFO - <module> : input: atcontLname
+2023-01-05 09:50:09,213 - ERROR - <module> : Cannot Locate: business_name
+2023-01-05 09:50:09,213 - ERROR - <module> : Cannot Locate: business_name
+2023-01-05 09:50:09,213 - ERROR - <module> : Cannot Locate: business_name
+2023-01-05 09:50:09,213 - ERROR - <module> : Cannot Locate: business_name
+2023-01-05 09:50:09,375 - INFO - setup : Close Browser

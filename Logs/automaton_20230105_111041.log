@@ -1,0 +1,78 @@
+2023-01-05 11:10:42,213 - INFO - setup : Browser Launched!
+2023-01-05 11:11:20,858 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 11:11:20,858 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 11:11:20,858 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 11:11:20,858 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 11:11:27,110 - INFO - <module> : Service Application exists
+2023-01-05 11:11:27,110 - INFO - <module> : Service Application exists
+2023-01-05 11:11:27,110 - INFO - <module> : Service Application exists
+2023-01-05 11:11:27,110 - INFO - <module> : Service Application exists
+2023-01-05 11:11:30,530 - INFO - <module> : Clicked
+2023-01-05 11:11:30,530 - INFO - <module> : Clicked
+2023-01-05 11:11:30,530 - INFO - <module> : Clicked
+2023-01-05 11:11:30,530 - INFO - <module> : Clicked
+2023-01-05 11:11:33,910 - INFO - <module> : Clicked
+2023-01-05 11:11:33,910 - INFO - <module> : Clicked
+2023-01-05 11:11:33,910 - INFO - <module> : Clicked
+2023-01-05 11:11:33,910 - INFO - <module> : Clicked
+2023-01-05 11:11:50,024 - INFO - <module> : Clicked
+2023-01-05 11:11:50,024 - INFO - <module> : Clicked
+2023-01-05 11:11:50,024 - INFO - <module> : Clicked
+2023-01-05 11:11:50,024 - INFO - <module> : Clicked
+2023-01-05 11:11:57,037 - INFO - <module> : input: atcontFname
+2023-01-05 11:11:57,037 - INFO - <module> : input: atcontFname
+2023-01-05 11:11:57,037 - INFO - <module> : input: atcontFname
+2023-01-05 11:11:57,037 - INFO - <module> : input: atcontFname
+2023-01-05 11:11:57,300 - INFO - <module> : input: atcontLname
+2023-01-05 11:11:57,300 - INFO - <module> : input: atcontLname
+2023-01-05 11:11:57,300 - INFO - <module> : input: atcontLname
+2023-01-05 11:11:57,300 - INFO - <module> : input: atcontLname
+2023-01-05 11:11:57,408 - INFO - <module> : input: atcontbusinessName
+2023-01-05 11:11:57,408 - INFO - <module> : input: atcontbusinessName
+2023-01-05 11:11:57,408 - INFO - <module> : input: atcontbusinessName
+2023-01-05 11:11:57,408 - INFO - <module> : input: atcontbusinessName
+2023-01-05 11:11:57,523 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 11:11:57,523 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 11:11:57,523 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 11:11:57,523 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 11:11:57,719 - INFO - <module> : input: +639234567891
+2023-01-05 11:11:57,719 - INFO - <module> : input: +639234567891
+2023-01-05 11:11:57,719 - INFO - <module> : input: +639234567891
+2023-01-05 11:11:57,719 - INFO - <module> : input: +639234567891
+2023-01-05 11:12:01,091 - INFO - <module> : Clicked
+2023-01-05 11:12:01,091 - INFO - <module> : Clicked
+2023-01-05 11:12:01,091 - INFO - <module> : Clicked
+2023-01-05 11:12:01,091 - INFO - <module> : Clicked
+2023-01-05 11:12:09,224 - INFO - <module> : input: atfirst1
+2023-01-05 11:12:09,224 - INFO - <module> : input: atfirst1
+2023-01-05 11:12:09,224 - INFO - <module> : input: atfirst1
+2023-01-05 11:12:09,224 - INFO - <module> : input: atfirst1
+2023-01-05 11:12:09,372 - INFO - <module> : input: atlast1
+2023-01-05 11:12:09,372 - INFO - <module> : input: atlast1
+2023-01-05 11:12:09,372 - INFO - <module> : input: atlast1
+2023-01-05 11:12:09,372 - INFO - <module> : input: atlast1
+2023-01-05 11:12:09,455 - INFO - <module> : input: aaaaa@yopmail.com
+2023-01-05 11:12:09,455 - INFO - <module> : input: aaaaa@yopmail.com
+2023-01-05 11:12:09,455 - INFO - <module> : input: aaaaa@yopmail.com
+2023-01-05 11:12:09,455 - INFO - <module> : input: aaaaa@yopmail.com
+2023-01-05 11:12:09,572 - INFO - <module> : input: 10/04/1993
+2023-01-05 11:12:09,572 - INFO - <module> : input: 10/04/1993
+2023-01-05 11:12:09,572 - INFO - <module> : input: 10/04/1993
+2023-01-05 11:12:09,572 - INFO - <module> : input: 10/04/1993
+2023-01-05 11:12:09,960 - INFO - <module> : input: +639272222235
+2023-01-05 11:12:09,960 - INFO - <module> : input: +639272222235
+2023-01-05 11:12:09,960 - INFO - <module> : input: +639272222235
+2023-01-05 11:12:09,960 - INFO - <module> : input: +639272222235
+2023-01-05 11:12:12,500 - INFO - <module> : Clicked
+2023-01-05 11:12:12,500 - INFO - <module> : Clicked
+2023-01-05 11:12:12,500 - INFO - <module> : Clicked
+2023-01-05 11:12:12,500 - INFO - <module> : Clicked
+2023-01-05 11:12:20,529 - INFO - <module> : input: Quezon City
+2023-01-05 11:12:20,529 - INFO - <module> : input: Quezon City
+2023-01-05 11:12:20,529 - INFO - <module> : input: Quezon City
+2023-01-05 11:12:20,529 - INFO - <module> : input: Quezon City
+2023-01-05 11:12:23,956 - INFO - <module> : Clicked
+2023-01-05 11:12:23,956 - INFO - <module> : Clicked
+2023-01-05 11:12:23,956 - INFO - <module> : Clicked
+2023-01-05 11:12:23,956 - INFO - <module> : Clicked
+2023-01-05 11:12:24,046 - INFO - setup : Close Browser

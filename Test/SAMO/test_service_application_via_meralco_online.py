@@ -221,6 +221,36 @@ class TestServiceApplicationMeralcoOnline:
         TC014a(self.driver, test_scenario, SAMO['business_account_email'])
         Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
 
+    @pytest.mark.tags("TS041")
+    def test_ts041(self):
+        test_scenario = "TS041"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        #TC025(self.driver, test_scenario)
+        TC012a(self.driver, test_scenario, SAMO['newemail'])
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS042")
+    def test_ts042(self):
+        test_scenario = "TS042"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC026(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS043")
+    def test_ts043(self):
+        test_scenario = "TS043"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC108(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS044")
+    def test_ts044(self):
+        test_scenario = "TS044"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC027(self.driver, test_scenario)
+        TC014a(self.driver, test_scenario, SAMO['business_emailaddress'])
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
     @pytest.mark.tags("TS045")
     def test_ts045(self):
         test_scenario = "TS045"
@@ -268,6 +298,5 @@ class TestServiceApplicationMeralcoOnline:
     def test_ts052(self):
         test_scenario = "TS052"
         Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
-        TC035(self.driver, test_scenario)
         # TC014a(self.driver, test_scenario, Concern['concern_email'])
         Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")

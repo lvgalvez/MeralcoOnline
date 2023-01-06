@@ -1,0 +1,78 @@
+2023-01-05 13:37:10,023 - INFO - setup : Browser Launched!
+2023-01-05 13:37:41,093 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 13:37:41,093 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 13:37:41,093 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 13:37:41,093 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 13:37:47,429 - INFO - <module> : Service Application exists
+2023-01-05 13:37:47,429 - INFO - <module> : Service Application exists
+2023-01-05 13:37:47,429 - INFO - <module> : Service Application exists
+2023-01-05 13:37:47,429 - INFO - <module> : Service Application exists
+2023-01-05 13:37:50,905 - INFO - <module> : Clicked
+2023-01-05 13:37:50,905 - INFO - <module> : Clicked
+2023-01-05 13:37:50,905 - INFO - <module> : Clicked
+2023-01-05 13:37:50,905 - INFO - <module> : Clicked
+2023-01-05 13:37:59,418 - INFO - <module> : Clicked
+2023-01-05 13:37:59,418 - INFO - <module> : Clicked
+2023-01-05 13:37:59,418 - INFO - <module> : Clicked
+2023-01-05 13:37:59,418 - INFO - <module> : Clicked
+2023-01-05 13:38:03,365 - INFO - <module> : input: 0104248103
+2023-01-05 13:38:03,365 - INFO - <module> : input: 0104248103
+2023-01-05 13:38:03,365 - INFO - <module> : input: 0104248103
+2023-01-05 13:38:03,365 - INFO - <module> : input: 0104248103
+2023-01-05 13:38:04,152 - INFO - <module> : Clicked
+2023-01-05 13:38:04,152 - INFO - <module> : Clicked
+2023-01-05 13:38:04,152 - INFO - <module> : Clicked
+2023-01-05 13:38:04,152 - INFO - <module> : Clicked
+2023-01-05 13:38:04,317 - INFO - <module> : Clicked
+2023-01-05 13:38:04,317 - INFO - <module> : Clicked
+2023-01-05 13:38:04,317 - INFO - <module> : Clicked
+2023-01-05 13:38:04,317 - INFO - <module> : Clicked
+2023-01-05 13:38:04,474 - INFO - <module> : input: automation1
+2023-01-05 13:38:04,474 - INFO - <module> : input: automation1
+2023-01-05 13:38:04,474 - INFO - <module> : input: automation1
+2023-01-05 13:38:04,474 - INFO - <module> : input: automation1
+2023-01-05 13:38:04,620 - INFO - <module> : input: +6321234543
+2023-01-05 13:38:04,620 - INFO - <module> : input: +6321234543
+2023-01-05 13:38:04,620 - INFO - <module> : input: +6321234543
+2023-01-05 13:38:04,620 - INFO - <module> : input: +6321234543
+2023-01-05 13:38:04,713 - INFO - <module> : input: automation5
+2023-01-05 13:38:04,713 - INFO - <module> : input: automation5
+2023-01-05 13:38:04,713 - INFO - <module> : input: automation5
+2023-01-05 13:38:04,713 - INFO - <module> : input: automation5
+2023-01-05 13:38:04,852 - INFO - <module> : input: automation6
+2023-01-05 13:38:04,852 - INFO - <module> : input: automation6
+2023-01-05 13:38:04,852 - INFO - <module> : input: automation6
+2023-01-05 13:38:04,852 - INFO - <module> : input: automation6
+2023-01-05 13:38:05,003 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:38:05,003 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:38:05,003 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:38:05,003 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:38:05,095 - INFO - <module> : input: +639234567891
+2023-01-05 13:38:05,095 - INFO - <module> : input: +639234567891
+2023-01-05 13:38:05,095 - INFO - <module> : input: +639234567891
+2023-01-05 13:38:05,095 - INFO - <module> : input: +639234567891
+2023-01-05 13:38:05,155 - INFO - <module> : input: manager
+2023-01-05 13:38:05,155 - INFO - <module> : input: manager
+2023-01-05 13:38:05,155 - INFO - <module> : input: manager
+2023-01-05 13:38:05,155 - INFO - <module> : input: manager
+2023-01-05 13:38:08,091 - INFO - <module> : Clicked
+2023-01-05 13:38:08,091 - INFO - <module> : Clicked
+2023-01-05 13:38:08,091 - INFO - <module> : Clicked
+2023-01-05 13:38:08,091 - INFO - <module> : Clicked
+2023-01-05 13:38:11,349 - INFO - <module> : input: automation5
+2023-01-05 13:38:11,349 - INFO - <module> : input: automation5
+2023-01-05 13:38:11,349 - INFO - <module> : input: automation5
+2023-01-05 13:38:11,349 - INFO - <module> : input: automation5
+2023-01-05 13:38:11,438 - INFO - <module> : input: automation6
+2023-01-05 13:38:11,438 - INFO - <module> : input: automation6
+2023-01-05 13:38:11,438 - INFO - <module> : input: automation6
+2023-01-05 13:38:11,438 - INFO - <module> : input: automation6
+2023-01-05 13:38:11,544 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:38:11,544 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:38:11,544 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:38:11,544 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:38:11,605 - INFO - <module> : input: +639234567891
+2023-01-05 13:38:11,605 - INFO - <module> : input: +639234567891
+2023-01-05 13:38:11,605 - INFO - <module> : input: +639234567891
+2023-01-05 13:38:11,605 - INFO - <module> : input: +639234567891
+2023-01-05 13:38:13,925 - INFO - setup : Close Browser

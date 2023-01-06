@@ -1,0 +1,70 @@
+2023-01-05 10:42:14,582 - INFO - setup : Browser Launched!
+2023-01-05 10:42:46,143 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 10:42:46,143 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 10:42:46,143 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 10:42:46,143 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 10:42:52,411 - INFO - <module> : Service Application exists
+2023-01-05 10:42:52,411 - INFO - <module> : Service Application exists
+2023-01-05 10:42:52,411 - INFO - <module> : Service Application exists
+2023-01-05 10:42:52,411 - INFO - <module> : Service Application exists
+2023-01-05 10:42:55,923 - INFO - <module> : Clicked
+2023-01-05 10:42:55,923 - INFO - <module> : Clicked
+2023-01-05 10:42:55,923 - INFO - <module> : Clicked
+2023-01-05 10:42:55,923 - INFO - <module> : Clicked
+2023-01-05 10:42:59,277 - INFO - <module> : Clicked
+2023-01-05 10:42:59,277 - INFO - <module> : Clicked
+2023-01-05 10:42:59,277 - INFO - <module> : Clicked
+2023-01-05 10:42:59,277 - INFO - <module> : Clicked
+2023-01-05 10:43:10,393 - INFO - <module> : Submit Feedback. clicked
+2023-01-05 10:43:10,393 - INFO - <module> : Submit Feedback. clicked
+2023-01-05 10:43:10,393 - INFO - <module> : Submit Feedback. clicked
+2023-01-05 10:43:10,393 - INFO - <module> : Submit Feedback. clicked
+2023-01-05 10:43:22,297 - INFO - <module> : input: atcontFname
+2023-01-05 10:43:22,297 - INFO - <module> : input: atcontFname
+2023-01-05 10:43:22,297 - INFO - <module> : input: atcontFname
+2023-01-05 10:43:22,297 - INFO - <module> : input: atcontFname
+2023-01-05 10:43:22,446 - INFO - <module> : input: atcontLname
+2023-01-05 10:43:22,446 - INFO - <module> : input: atcontLname
+2023-01-05 10:43:22,446 - INFO - <module> : input: atcontLname
+2023-01-05 10:43:22,446 - INFO - <module> : input: atcontLname
+2023-01-05 10:43:22,575 - INFO - <module> : input: atcontbusinessName
+2023-01-05 10:43:22,575 - INFO - <module> : input: atcontbusinessName
+2023-01-05 10:43:22,575 - INFO - <module> : input: atcontbusinessName
+2023-01-05 10:43:22,575 - INFO - <module> : input: atcontbusinessName
+2023-01-05 10:43:22,725 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 10:43:22,725 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 10:43:22,725 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 10:43:22,725 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 10:43:22,933 - INFO - <module> : input: +639234567891
+2023-01-05 10:43:22,933 - INFO - <module> : input: +639234567891
+2023-01-05 10:43:22,933 - INFO - <module> : input: +639234567891
+2023-01-05 10:43:22,933 - INFO - <module> : input: +639234567891
+2023-01-05 10:43:26,032 - INFO - <module> : Clicked
+2023-01-05 10:43:26,032 - INFO - <module> : Clicked
+2023-01-05 10:43:26,032 - INFO - <module> : Clicked
+2023-01-05 10:43:26,032 - INFO - <module> : Clicked
+2023-01-05 10:43:34,781 - INFO - <module> : input: atfirst1
+2023-01-05 10:43:34,781 - INFO - <module> : input: atfirst1
+2023-01-05 10:43:34,781 - INFO - <module> : input: atfirst1
+2023-01-05 10:43:34,781 - INFO - <module> : input: atfirst1
+2023-01-05 10:43:34,903 - INFO - <module> : input: atlast1
+2023-01-05 10:43:34,903 - INFO - <module> : input: atlast1
+2023-01-05 10:43:34,903 - INFO - <module> : input: atlast1
+2023-01-05 10:43:34,903 - INFO - <module> : input: atlast1
+2023-01-05 10:43:35,097 - INFO - <module> : input: aaaaa@yopmail.com
+2023-01-05 10:43:35,097 - INFO - <module> : input: aaaaa@yopmail.com
+2023-01-05 10:43:35,097 - INFO - <module> : input: aaaaa@yopmail.com
+2023-01-05 10:43:35,097 - INFO - <module> : input: aaaaa@yopmail.com
+2023-01-05 10:43:35,225 - INFO - <module> : input: 10/04/1993
+2023-01-05 10:43:35,225 - INFO - <module> : input: 10/04/1993
+2023-01-05 10:43:35,225 - INFO - <module> : input: 10/04/1993
+2023-01-05 10:43:35,225 - INFO - <module> : input: 10/04/1993
+2023-01-05 10:43:35,918 - INFO - <module> : input: +639272222235
+2023-01-05 10:43:35,918 - INFO - <module> : input: +639272222235
+2023-01-05 10:43:35,918 - INFO - <module> : input: +639272222235
+2023-01-05 10:43:35,918 - INFO - <module> : input: +639272222235
+2023-01-05 10:44:08,571 - ERROR - <module> : Cannot Locate: next_button
+2023-01-05 10:44:08,571 - ERROR - <module> : Cannot Locate: next_button
+2023-01-05 10:44:08,571 - ERROR - <module> : Cannot Locate: next_button
+2023-01-05 10:44:08,571 - ERROR - <module> : Cannot Locate: next_button
+2023-01-05 10:44:08,788 - INFO - setup : Close Browser

@@ -37,7 +37,7 @@ SAMO = {
     'business_company_name': 'automation1',
     'business_trade_name': 'automation2',
     'business_company_email': 'automation3',
-    'business_company_landline': '+63945113252',
+    'business_company_landline': '+6321234543',
     'business_first_name': 'automation5',
     'business_last_name': 'automation6',
     'business_emailaddress': 'automation2@yopmail.com',
@@ -53,6 +53,10 @@ SAMO = {
     'contractor_mobileNumber': '+639234567891',
     'contractor_birthday': '10/04/1993',
     'contractor_landline': '+63945113252',
+    'contractor_service_add': 'Quezon City',
+    'contractor_province': 'METRO MANILA',
+    'contractor_city': 'MANILA CITY',
+    'contractor_ownership': 'Owned',
     'CAN': '1780945897',
     'CAN_singlesrvc': '3534823912',
     'SIN': '502863370101',
@@ -62,8 +66,8 @@ SAMO = {
     'mobilenumber': "+639234567891",
     'birthday': "08/08/1993",
     'emailAddNewService': 'EarlMO@yopmail.com',
-
-
+    'newemail' : 'EarlEmails@yopmail.com',
+    'mobileNumberIndividual': "9234567891"
 }
 
 Registration = {

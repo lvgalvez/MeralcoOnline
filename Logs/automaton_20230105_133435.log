@@ -1,0 +1,70 @@
+2023-01-05 13:34:35,623 - INFO - setup : Browser Launched!
+2023-01-05 13:35:06,143 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 13:35:06,143 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 13:35:06,143 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 13:35:06,143 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 13:35:12,296 - INFO - <module> : Service Application exists
+2023-01-05 13:35:12,296 - INFO - <module> : Service Application exists
+2023-01-05 13:35:12,296 - INFO - <module> : Service Application exists
+2023-01-05 13:35:12,296 - INFO - <module> : Service Application exists
+2023-01-05 13:35:15,699 - INFO - <module> : Clicked
+2023-01-05 13:35:15,699 - INFO - <module> : Clicked
+2023-01-05 13:35:15,699 - INFO - <module> : Clicked
+2023-01-05 13:35:15,699 - INFO - <module> : Clicked
+2023-01-05 13:35:23,741 - INFO - <module> : Clicked
+2023-01-05 13:35:23,741 - INFO - <module> : Clicked
+2023-01-05 13:35:23,741 - INFO - <module> : Clicked
+2023-01-05 13:35:23,741 - INFO - <module> : Clicked
+2023-01-05 13:35:27,468 - INFO - <module> : input: 0104248103
+2023-01-05 13:35:27,468 - INFO - <module> : input: 0104248103
+2023-01-05 13:35:27,468 - INFO - <module> : input: 0104248103
+2023-01-05 13:35:27,468 - INFO - <module> : input: 0104248103
+2023-01-05 13:35:28,227 - INFO - <module> : Clicked
+2023-01-05 13:35:28,227 - INFO - <module> : Clicked
+2023-01-05 13:35:28,227 - INFO - <module> : Clicked
+2023-01-05 13:35:28,227 - INFO - <module> : Clicked
+2023-01-05 13:35:28,545 - INFO - <module> : Clicked
+2023-01-05 13:35:28,545 - INFO - <module> : Clicked
+2023-01-05 13:35:28,545 - INFO - <module> : Clicked
+2023-01-05 13:35:28,545 - INFO - <module> : Clicked
+2023-01-05 13:35:28,711 - INFO - <module> : input: automation1
+2023-01-05 13:35:28,711 - INFO - <module> : input: automation1
+2023-01-05 13:35:28,711 - INFO - <module> : input: automation1
+2023-01-05 13:35:28,711 - INFO - <module> : input: automation1
+2023-01-05 13:35:28,887 - INFO - <module> : input: +6321234543
+2023-01-05 13:35:28,887 - INFO - <module> : input: +6321234543
+2023-01-05 13:35:28,887 - INFO - <module> : input: +6321234543
+2023-01-05 13:35:28,887 - INFO - <module> : input: +6321234543
+2023-01-05 13:35:28,991 - INFO - <module> : input: automation5
+2023-01-05 13:35:28,991 - INFO - <module> : input: automation5
+2023-01-05 13:35:28,991 - INFO - <module> : input: automation5
+2023-01-05 13:35:28,991 - INFO - <module> : input: automation5
+2023-01-05 13:35:29,066 - INFO - <module> : input: automation6
+2023-01-05 13:35:29,066 - INFO - <module> : input: automation6
+2023-01-05 13:35:29,066 - INFO - <module> : input: automation6
+2023-01-05 13:35:29,066 - INFO - <module> : input: automation6
+2023-01-05 13:35:29,197 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:35:29,197 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:35:29,197 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:35:29,197 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:35:29,285 - INFO - <module> : input: +639234567891
+2023-01-05 13:35:29,285 - INFO - <module> : input: +639234567891
+2023-01-05 13:35:29,285 - INFO - <module> : input: +639234567891
+2023-01-05 13:35:29,285 - INFO - <module> : input: +639234567891
+2023-01-05 13:35:29,346 - INFO - <module> : input: manager
+2023-01-05 13:35:29,346 - INFO - <module> : input: manager
+2023-01-05 13:35:29,346 - INFO - <module> : input: manager
+2023-01-05 13:35:29,346 - INFO - <module> : input: manager
+2023-01-05 13:35:32,334 - INFO - <module> : Clicked
+2023-01-05 13:35:32,334 - INFO - <module> : Clicked
+2023-01-05 13:35:32,334 - INFO - <module> : Clicked
+2023-01-05 13:35:32,334 - INFO - <module> : Clicked
+2023-01-05 13:35:35,623 - INFO - <module> : input: automation5
+2023-01-05 13:35:35,623 - INFO - <module> : input: automation5
+2023-01-05 13:35:35,623 - INFO - <module> : input: automation5
+2023-01-05 13:35:35,623 - INFO - <module> : input: automation5
+2023-01-05 13:36:05,832 - ERROR - <module> : Cannot Locate: cxe_contact_lastname
+2023-01-05 13:36:05,832 - ERROR - <module> : Cannot Locate: cxe_contact_lastname
+2023-01-05 13:36:05,832 - ERROR - <module> : Cannot Locate: cxe_contact_lastname
+2023-01-05 13:36:05,832 - ERROR - <module> : Cannot Locate: cxe_contact_lastname
+2023-01-05 13:36:05,904 - INFO - setup : Close Browser

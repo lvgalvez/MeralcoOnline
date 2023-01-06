@@ -1,0 +1,58 @@
+2023-01-05 10:32:21,786 - INFO - setup : Browser Launched!
+2023-01-05 10:33:11,652 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 10:33:11,652 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 10:33:11,652 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 10:33:11,652 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 10:33:17,910 - INFO - <module> : Service Application exists
+2023-01-05 10:33:17,910 - INFO - <module> : Service Application exists
+2023-01-05 10:33:17,910 - INFO - <module> : Service Application exists
+2023-01-05 10:33:17,910 - INFO - <module> : Service Application exists
+2023-01-05 10:33:21,231 - INFO - <module> : Clicked
+2023-01-05 10:33:21,231 - INFO - <module> : Clicked
+2023-01-05 10:33:21,231 - INFO - <module> : Clicked
+2023-01-05 10:33:21,231 - INFO - <module> : Clicked
+2023-01-05 10:33:24,545 - INFO - <module> : Clicked
+2023-01-05 10:33:24,545 - INFO - <module> : Clicked
+2023-01-05 10:33:24,545 - INFO - <module> : Clicked
+2023-01-05 10:33:24,545 - INFO - <module> : Clicked
+2023-01-05 10:33:40,263 - INFO - <module> : Clicked
+2023-01-05 10:33:40,263 - INFO - <module> : Clicked
+2023-01-05 10:33:40,263 - INFO - <module> : Clicked
+2023-01-05 10:33:40,263 - INFO - <module> : Clicked
+2023-01-05 10:33:47,018 - INFO - <module> : input: atcontFname
+2023-01-05 10:33:47,018 - INFO - <module> : input: atcontFname
+2023-01-05 10:33:47,018 - INFO - <module> : input: atcontFname
+2023-01-05 10:33:47,018 - INFO - <module> : input: atcontFname
+2023-01-05 10:33:47,223 - INFO - <module> : input: atcontLname
+2023-01-05 10:33:47,223 - INFO - <module> : input: atcontLname
+2023-01-05 10:33:47,223 - INFO - <module> : input: atcontLname
+2023-01-05 10:33:47,223 - INFO - <module> : input: atcontLname
+2023-01-05 10:33:49,343 - INFO - <module> : input: atcontbusinessName
+2023-01-05 10:33:49,343 - INFO - <module> : input: atcontbusinessName
+2023-01-05 10:33:49,343 - INFO - <module> : input: atcontbusinessName
+2023-01-05 10:33:49,343 - INFO - <module> : input: atcontbusinessName
+2023-01-05 10:33:49,508 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 10:33:49,508 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 10:33:49,508 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 10:33:49,508 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 10:33:49,610 - INFO - <module> : input: +639234567891
+2023-01-05 10:33:49,610 - INFO - <module> : input: +639234567891
+2023-01-05 10:33:49,610 - INFO - <module> : input: +639234567891
+2023-01-05 10:33:49,610 - INFO - <module> : input: +639234567891
+2023-01-05 10:33:52,840 - INFO - <module> : Clicked
+2023-01-05 10:33:52,840 - INFO - <module> : Clicked
+2023-01-05 10:33:52,840 - INFO - <module> : Clicked
+2023-01-05 10:33:52,840 - INFO - <module> : Clicked
+2023-01-05 10:34:00,889 - INFO - <module> : input: atfirst1
+2023-01-05 10:34:00,889 - INFO - <module> : input: atfirst1
+2023-01-05 10:34:00,889 - INFO - <module> : input: atfirst1
+2023-01-05 10:34:00,889 - INFO - <module> : input: atfirst1
+2023-01-05 10:34:01,018 - INFO - <module> : input: atlast1
+2023-01-05 10:34:01,018 - INFO - <module> : input: atlast1
+2023-01-05 10:34:01,018 - INFO - <module> : input: atlast1
+2023-01-05 10:34:01,018 - INFO - <module> : input: atlast1
+2023-01-05 10:34:31,572 - ERROR - <module> : Cannot Locate: cxe_apply_email
+2023-01-05 10:34:31,572 - ERROR - <module> : Cannot Locate: cxe_apply_email
+2023-01-05 10:34:31,572 - ERROR - <module> : Cannot Locate: cxe_apply_email
+2023-01-05 10:34:31,572 - ERROR - <module> : Cannot Locate: cxe_apply_email
+2023-01-05 10:34:31,692 - INFO - setup : Close Browser
