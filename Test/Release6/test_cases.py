@@ -198,3 +198,215 @@ def TC054(driver, ts_id, firstname, lastname, middlename, businessname, emailadd
     function.click(cxe_apply_contractor_reg.get_confirmation(driver))
 
     log.info(test_case + " Passed")
+
+def TC048(driver, ts_id, first_name, middle_name, last_name, mobile_number, landline, email):
+    test_case = "TC048"
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, outage_external_guest)
+    external_outage = ExternalOutagePage()
+    external_outage.get_switch_frame(driver)
+    Verify_GPS_Prompt(driver)
+    Handle_GPS_Prompt(driver, "Disagree")
+    Click_Report_Outage(driver)
+    fc.click(report_outage.get_no_power_myhouse(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
+    fc.click(report_outage.get_address(driver))
+    fc.click(report_outage.get_province_metro_manila(driver))
+    fc.click(report_outage.get_city_pasig(driver))
+    fc.click(report_outage.get_barangay_bagong_ilog(driver))
+    fc.click(report_outage.get_subdivision_kawilihan(driver))
+    fc.click(report_outage.get_street_kabutihan(driver))
+    fc.input_text(report_outage.get_street_no(driver), "123")
+
+
+    fc.click(report_outage.get_landmark_radio(driver))
+    fc.click(report_outage.get_landmark_radio(driver))
+    fc.input_text(report_outage.get_landmark_text(driver), "Sample Text")
+    fc.input_text(report_outage.get_first_name(driver), first_name)
+    fc.input_text(report_outage.get_middle_name(driver), middle_name)
+    fc.input_text(report_outage.get_last_name(driver), last_name)
+    fc.input_text(report_outage.get_mobile_number(driver), mobile_number)
+    fc.input_text(report_outage.get_landline(driver), landline)
+    fc.input_text(report_outage.get_email(driver), email)
+    fc.click(report_outage.get_sms_checkbox(driver))
+    fc.click(report_outage.get_email_checkbox(driver))
+
+    fc.click(report_outage.get_terms_checkbox(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
+
+    fc.click(report_outage.get_submit(driver))
+    time.sleep(6)
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2b")
+def TC048a(driver, ts_id, first_name, middle_name, last_name, mobile_number, landline, email):
+    test_case = "TC048"
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, outage_external_guest)
+    external_outage = ExternalOutagePage()
+    external_outage.get_switch_frame(driver)
+    Verify_GPS_Prompt(driver)
+    Handle_GPS_Prompt(driver, "Disagree")
+    Click_Report_Outage(driver)
+    fc.click(report_outage.get_no_power_street_radio(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
+    fc.click(report_outage.get_address(driver))
+    fc.click(report_outage.get_province_metro_manila(driver))
+    fc.click(report_outage.get_city_pasig(driver))
+    fc.click(report_outage.get_barangay_bagong_ilog(driver))
+    fc.click(report_outage.get_subdivision_kawilihan(driver))
+    fc.click(report_outage.get_street_kabutihan(driver))
+    fc.input_text(report_outage.get_street_no(driver), "123")
+
+
+    fc.click(report_outage.get_landmark_radio(driver))
+    fc.click(report_outage.get_landmark_radio(driver))
+    fc.input_text(report_outage.get_landmark_text(driver), "Sample Text")
+    fc.input_text(report_outage.get_first_name(driver), first_name)
+    fc.input_text(report_outage.get_middle_name(driver), middle_name)
+    fc.input_text(report_outage.get_last_name(driver), last_name)
+    fc.input_text(report_outage.get_mobile_number(driver), mobile_number)
+    fc.input_text(report_outage.get_landline(driver), landline)
+    fc.input_text(report_outage.get_email(driver), email)
+    fc.click(report_outage.get_sms_checkbox(driver))
+    fc.click(report_outage.get_email_checkbox(driver))
+
+    fc.click(report_outage.get_terms_checkbox(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
+
+    fc.click(report_outage.get_submit(driver))
+    time.sleep(6)
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2b")
+
+def TC048b(driver, ts_id, first_name, middle_name, last_name, mobile_number, landline, email):
+    test_case = "TC048"
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, outage_external_guest)
+    external_outage = ExternalOutagePage()
+    external_outage.get_switch_frame(driver)
+    Verify_GPS_Prompt(driver)
+    Handle_GPS_Prompt(driver, "Disagree")
+    Click_Report_Outage(driver)
+    fc.click(report_outage.get_unstable_power(driver))
+    fc.click(report_outage.get_lights_flickering(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
+    fc.click(report_outage.get_address(driver))
+    fc.click(report_outage.get_province_metro_manila(driver))
+    fc.click(report_outage.get_city_pasig(driver))
+    fc.click(report_outage.get_barangay_bagong_ilog(driver))
+    fc.click(report_outage.get_subdivision_kawilihan(driver))
+    fc.click(report_outage.get_street_kabutihan(driver))
+    fc.input_text(report_outage.get_street_no(driver), "123")
+
+
+    fc.click(report_outage.get_landmark_radio(driver))
+    fc.click(report_outage.get_landmark_radio(driver))
+    fc.input_text(report_outage.get_landmark_text(driver), "Sample Text")
+    fc.input_text(report_outage.get_first_name(driver), first_name)
+    fc.input_text(report_outage.get_middle_name(driver), middle_name)
+    fc.input_text(report_outage.get_last_name(driver), last_name)
+    fc.input_text(report_outage.get_mobile_number(driver), mobile_number)
+    fc.input_text(report_outage.get_landline(driver), landline)
+    fc.input_text(report_outage.get_email(driver), email)
+    fc.click(report_outage.get_sms_checkbox(driver))
+    fc.click(report_outage.get_email_checkbox(driver))
+
+    fc.click(report_outage.get_terms_checkbox(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
+
+    fc.click(report_outage.get_submit(driver))
+    time.sleep(6)
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2b")
+
+def TC048c(driver, ts_id, first_name, middle_name, last_name, mobile_number, landline, email):
+    test_case = "TC048"
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, outage_external_guest)
+    external_outage = ExternalOutagePage()
+    external_outage.get_switch_frame(driver)
+    Verify_GPS_Prompt(driver)
+    Handle_GPS_Prompt(driver, "Disagree")
+    Click_Report_Outage(driver)
+    fc.click(report_outage.get_street_concern(driver))
+    fc.click(report_outage.get_street_yes(driver))
+    fc.click(report_outage.get_dropdown_value(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
+    #fc.click(report_outage.get_address(driver))
+    fc.click(report_outage.get_province_metro_manila(driver))
+    fc.click(report_outage.get_city_pasig(driver))
+    fc.click(report_outage.get_barangay_bagong_ilog(driver))
+    fc.click(report_outage.get_subdivision_kawilihan(driver))
+    fc.click(report_outage.get_street_kabutihan(driver))
+    fc.input_text(report_outage.get_street_no(driver), "123")
+
+
+    fc.click(report_outage.get_landmark_radio(driver))
+    fc.click(report_outage.get_landmark_radio(driver))
+    fc.input_text(report_outage.get_landmark_text(driver), "Sample Text")
+    fc.input_text(report_outage.get_first_name(driver), first_name)
+    fc.input_text(report_outage.get_middle_name(driver), middle_name)
+    fc.input_text(report_outage.get_last_name(driver), last_name)
+    fc.input_text(report_outage.get_mobile_number(driver), mobile_number)
+    fc.input_text(report_outage.get_landline(driver), landline)
+    fc.input_text(report_outage.get_email(driver), email)
+    fc.click(report_outage.get_sms_checkbox(driver))
+    fc.click(report_outage.get_email_checkbox(driver))
+
+    fc.click(report_outage.get_terms_checkbox(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
+
+    fc.click(report_outage.get_submit(driver))
+    time.sleep(6)
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2b")
+
+def TC048d(driver, ts_id, first_name, middle_name, last_name, mobile_number, landline, email):
+    test_case = "TC048"
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
+    fc.new_tab(driver, outage_external_guest)
+    external_outage = ExternalOutagePage()
+    external_outage.get_switch_frame(driver)
+    Verify_GPS_Prompt(driver)
+    Handle_GPS_Prompt(driver, "Disagree")
+    Click_Report_Outage(driver)
+    fc.click(report_outage.get_safety_concern(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
+    fc.click(report_outage.get_address(driver))
+    fc.click(report_outage.get_province_metro_manila(driver))
+    fc.click(report_outage.get_city_pasig(driver))
+    fc.click(report_outage.get_barangay_bagong_ilog(driver))
+    fc.click(report_outage.get_subdivision_kawilihan(driver))
+    fc.click(report_outage.get_street_kabutihan(driver))
+    fc.input_text(report_outage.get_street_no(driver), "123")
+
+
+    fc.click(report_outage.get_landmark_radio(driver))
+    fc.click(report_outage.get_landmark_radio(driver))
+    fc.input_text(report_outage.get_landmark_text(driver), "Sample Text")
+    fc.input_text(report_outage.get_first_name(driver), first_name)
+    fc.input_text(report_outage.get_middle_name(driver), middle_name)
+    fc.input_text(report_outage.get_last_name(driver), last_name)
+    fc.input_text(report_outage.get_mobile_number(driver), mobile_number)
+    fc.input_text(report_outage.get_landline(driver), landline)
+    fc.input_text(report_outage.get_email(driver), email)
+    fc.click(report_outage.get_sms_checkbox(driver))
+    fc.click(report_outage.get_email_checkbox(driver))
+
+    fc.click(report_outage.get_terms_checkbox(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
+
+    fc.click(report_outage.get_submit(driver))
+    time.sleep(6)
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2b")

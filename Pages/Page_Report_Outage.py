@@ -11,7 +11,6 @@ class ReportOutagePage:
     no_power_radio = "//span[contains(text(), 'No Power - My house/building only')]"
     no_power_street_radio = "//span[contains(text(), 'No Power - Whole street/block')]"
     unstable_power = "//span[contains(text(), 'Unstable Power')]"
-    safety_concern = "//span[contains(text(), 'Safety Release5')]"
     select_safety_concern = "//button[@class = 'slds-combobox__input slds-input_faux'] "
     select_damage = "//div[@class = 'slds-select_container mov-select_container mov-select_container-left-align']"
     pole_broken = "//option[@label = 'Pole is broken or has fallen']"
@@ -63,6 +62,19 @@ class ReportOutagePage:
     subdivision_kawilihan = "//option[@label= 'KAWILIHAN VILL']"
     street_kabutihan = "//option[@label= 'KALAYAAN']"
     street_no = "//input[@placeholder= 'Enter House/Unit/Floor/Building Number here*']"
+    no_power_myhouse = "//div[1]/div[1]/div[1]/label/span[1]"
+    address = "//div[3]/div[2]/div/label/span[1]"
+    street_light = "//div[1]/div[1]/div[4]/label/span[1]"
+    safety_concern = "//div[1]/div[1]/div[5]/label/span[1]"
+    street_yes = "//div[5]/div/div[1]/div[1]/label/span[2]"
+    def get_address(self, driver):
+        return WebMisc().clickable_element(driver, self.address, "address")
+    def get_safety_concern(self, driver):
+        return WebMisc().clickable_element(driver, self.safetyconcern, "safetyconcern")
+    def get_street_yes(self, driver):
+        return WebMisc().clickable_element(driver, self.street_yes, "street_yes")
+    def get_street_concern(self, driver):
+        return WebMisc().clickable_element(driver, self.street_light, "street_light")
 
     def get_report_dropdown(self, driver):
         return WebMisc().wait_element(driver, self.report_dropdown, "report_dropdown")
@@ -114,6 +126,10 @@ class ReportOutagePage:
     def get_no_power_radio(self, driver):
         return WebMisc().wait_element(driver, self.no_power_radio, "no_power_radio")
 
+    def get_no_power_myhouse(self, driver):
+        return WebMisc().wait_element(driver, self.no_power_radio, "no_power_myhouse")
+    def get_no_power_street(self, driver):
+        return WebMisc().wait_element(driver, self.no_power_street, "no_power_street")
     def get_service_id_radio(self, driver):
         return WebMisc().clickable_element(driver, self.service_id_radio, "service_id_radio")
 
