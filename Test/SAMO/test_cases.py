@@ -126,15 +126,16 @@ def TC001(driver, ts_id, email, password, serviceaddress, birthday):
     #function.click(home.get_popupNO(driver))
     function.click(home.get_request_tile(driver))
     function.verify(home.get_label_start_serv(driver))
-    function.screen_capture(driver, module, ts_id, test_case, "Step ")
+    function.screen_capture(driver, module, ts_id, test_case, "Step 2")
 
     pageservice = PageService()
 
     function.bookmark(module, ts_id, test_case, "Step 3")
     function.input_text(pageservice.get_birthday(driver), birthday)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 3")
     function.click(pageservice.get_click_next(driver))
     function.verify(pageservice.get_label_serv_add(driver))
-    function.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    function.screen_capture(driver, module, ts_id, test_case, "Step 3b")
 
     function.bookmark(module, ts_id, test_case, "Step 4")
     function.input_text(pageservice.get_inp_serv_add(driver), serviceaddress)
@@ -146,23 +147,92 @@ def TC001(driver, ts_id, email, password, serviceaddress, birthday):
     function.click(pageservice.get_clk_ownership_value(driver))
     function.click(pageservice.get_clk_ownership(driver))
     function.click(pageservice.get_clk_radio(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 4")
     function.click(pageservice.get_next(driver))
     function.verify(pageservice.get_value_added(driver))
-    function.screen_capture(driver, module, ts_id, test_case, "Step 4")
+    function.screen_capture(driver, module, ts_id, test_case, "Step 4b")
 
     function.bookmark(module, ts_id, test_case, "Step 5")
     function.click(pageservice.get_automatic_payment(driver))
     #function.click(pageservice.get_attach_docu(driver)) #upload file to be follow
+    function.screen_capture(driver, module, ts_id, test_case, "Step 5")
     function.click(pageservice.get_clk_next_2(driver))
     function.verify(pageservice.get_term_condition(driver))
-    function.screen_capture(driver, module, ts_id, test_case, "Step 5")
+    function.screen_capture(driver, module, ts_id, test_case, "Step 5b")
 
     function.bookmark(module, ts_id, test_case, "Step 6")
     function.click(pageservice.get_click_term_condition(driver))
     #function.click(pageservice.get_iam_not_robot(driver)) #for manual only
     time.sleep(20)
-    function.click(pageservice.get_submit(driver))
     function.screen_capture(driver, module, ts_id, test_case, "Step 6")
+
+    function.bookmark(module, ts_id, test_case, "Step 7")
+    function.click(pageservice.get_submit(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 7")
+    #to be continued
+    log.info(test_case + " Passed")
+
+def TC001a(driver, ts_id, email, password, serviceaddress):
+    test_case = "TC001"
+    log.info("==========Log in==========")
+
+    function = Functions()
+    function.bookmark(module, ts_id, test_case, "Step 1")
+    login = LoginPage()
+    function.input_text(login.get_email(driver), email)
+    function.input_text(login.get_password(driver), password)
+    function.click(login.get_log_in(driver))
+    home = HomePage()
+    function.verify(home.get_hello_message(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 1")
+
+    function.bookmark(module, ts_id, test_case, "Step 2")
+    #function.click(home.get_popupNO(driver))
+    function.click(home.get_request_tile(driver))
+    function.verify(home.get_label_start_serv(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 2")
+
+    pageservice = PageService()
+
+    function.bookmark(module, ts_id, test_case, "Step 3")
+   # function.input_text(pageservice.get_birthday(driver), birthday)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 3")
+    function.click(pageservice.get_click_next(driver))
+    function.verify(pageservice.get_label_serv_add(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 3b")
+
+    function.bookmark(module, ts_id, test_case, "Step 4")
+    function.input_text(pageservice.get_inp_serv_add(driver), serviceaddress)
+    function.click(pageservice.get_clk_province(driver))
+    function.click(pageservice.get_province_value(driver))
+    function.click(pageservice.get_municipality(driver))
+    function.click(pageservice.get_clk_mciplity_val(driver))
+    function.click(pageservice.get_clk_ownership(driver))
+    function.click(pageservice.get_clk_ownership_value(driver))
+    function.click(pageservice.get_clk_ownership(driver))
+    function.click(pageservice.get_clk_radio(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 4")
+    function.click(pageservice.get_next(driver))
+    function.verify(pageservice.get_value_added(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 4b")
+
+    function.bookmark(module, ts_id, test_case, "Step 5")
+    function.click(pageservice.get_automatic_payment(driver))
+    #function.click(pageservice.get_attach_docu(driver)) #upload file to be follow
+    function.screen_capture(driver, module, ts_id, test_case, "Step 5")
+    function.click(pageservice.get_clk_next_2(driver))
+    function.verify(pageservice.get_term_condition(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 5b")
+
+    function.bookmark(module, ts_id, test_case, "Step 6")
+    function.click(pageservice.get_click_term_condition(driver))
+    #function.click(pageservice.get_iam_not_robot(driver)) #for manual only
+    time.sleep(20)
+    function.screen_capture(driver, module, ts_id, test_case, "Step 6")
+
+    function.bookmark(module, ts_id, test_case, "Step 7")
+    function.click(pageservice.get_submit(driver))
+    function.screen_capture(driver, module, ts_id, test_case, "Step 7")
     #to be continued
     log.info(test_case + " Passed")
 
@@ -715,37 +785,31 @@ def TC013(driver, ts_id, can, companyname, landline, firstname, lastname, emaila
 
 
     function.bookmark(module, ts_id, test_case, "Step 7")
-    function.input_text(cxemodifycontractor.get_company_name(driver), companyname)
-    function.input_text(cxemodifycontractor.get_landline(driver), landline)
     function.input_text(cxemodifycontractor.get_first_name(driver), firstname)
     function.input_text(cxemodifycontractor.get_last_name(driver), lastname)
+    function.input_text(cxemodifycontractor.get_business(driver), companyname)
     function.input_text(cxemodifycontractor.get_emailaddress(driver), emailaddress)
     function.input_text(cxemodifycontractor.get_mobile_number(driver), mobilenumber)
-    function.input_text(cxemodifycontractor.get_designation(driver), designation)
+    #function.input_text(cxemodifycontractor.get_designation(driver), designation)
     function.screen_capture(driver, module, ts_id, test_case, "Step 7")
     function.click(cxemodifycontractor.get_next1(driver))
-    function.verify(cxemodifycontractor.get_contact_info(driver))
+    #function.verify(cxemodifycontractor.get_contact_info(driver))
+    function.verify(cxemodifycontractor.get_terms_condition(driver))
     function.screen_capture(driver, module, ts_id, test_case, "Step 7b")
 
-    function.bookmark(module, ts_id, test_case, "Step 8")
-    function.click(cxemodifycontractor.get_yes(driver))
-    function.screen_capture(driver, module, ts_id, test_case, "Step 8")
-    function.click(cxemodifycontractor.get_next3(driver))
-    function.verify(cxemodifycontractor.get_terms_condition(driver))
-    function.screen_capture(driver, module, ts_id, test_case, "Step 8b")
 
-    function.bookmark(module, ts_id, test_case, "Step 10")
+    function.bookmark(module, ts_id, test_case, "Step 8")
     function.click(cxemodifycontractor.get_click_term_condition(driver))
     time.sleep(10)
     function.verify(cxemodifycontractor.get_submit(driver))
-    function.screen_capture(driver, module, ts_id, test_case, "Step 10")
+    function.screen_capture(driver, module, ts_id, test_case, "Step 8")
 
-    function.bookmark(module, ts_id, test_case, "Step 11")
+    function.bookmark(module, ts_id, test_case, "Step 9")
     function.click(cxemodifycontractor.get_submit(driver))
     time.sleep(8)
-    function.screen_capture(driver, module, ts_id, test_case, "Step 11")
+    function.screen_capture(driver, module, ts_id, test_case, "Step 9")
     function.verify(cxemodifycontractor.get_confirmation(driver))
-    function.screen_capture(driver, module, ts_id, test_case, "Step 11b")
+    function.screen_capture(driver, module, ts_id, test_case, "Step 9b")
 
     log.info(test_case + " Passed")
 

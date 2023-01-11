@@ -1,0 +1,42 @@
+2023-01-11 09:42:48,252 - INFO - setup : Browser Launched!
+2023-01-11 09:42:57,858 - INFO - <module> : Go to Outages & Incidents > Report Streetlight And Safety Concerns
+2023-01-11 09:42:57,858 - INFO - <module> : Go to Outages & Incidents > Report Streetlight And Safety Concerns
+2023-01-11 09:42:57,858 - INFO - <module> : Go to Outages & Incidents > Report Streetlight And Safety Concerns
+2023-01-11 09:42:57,858 - INFO - <module> : Go to Outages & Incidents > Report Streetlight And Safety Concerns
+2023-01-11 09:42:57,858 - INFO - <module> : Go to Outages & Incidents > Report Streetlight And Safety Concerns
+2023-01-11 09:43:08,661 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2023-01-11 09:43:08,661 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2023-01-11 09:43:08,661 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2023-01-11 09:43:08,661 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2023-01-11 09:43:08,661 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/outagemap
+2023-01-11 09:43:11,539 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2023-01-11 09:43:11,539 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2023-01-11 09:43:11,539 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2023-01-11 09:43:11,539 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2023-01-11 09:43:11,539 - INFO - <module> : Meralco would like to access your location to identify if your area is affected by an outage. exists
+2023-01-11 09:43:13,632 - INFO - <module> : Clicked
+2023-01-11 09:43:13,632 - INFO - <module> : Clicked
+2023-01-11 09:43:13,632 - INFO - <module> : Clicked
+2023-01-11 09:43:13,632 - INFO - <module> : Clicked
+2023-01-11 09:43:13,632 - INFO - <module> : Clicked
+2023-01-11 09:43:17,721 - INFO - <module> : Clicked
+2023-01-11 09:43:17,721 - INFO - <module> : Clicked
+2023-01-11 09:43:17,721 - INFO - <module> : Clicked
+2023-01-11 09:43:17,721 - INFO - <module> : Clicked
+2023-01-11 09:43:17,721 - INFO - <module> : Clicked
+2023-01-11 09:43:25,850 - INFO - <module> : Report an Outage or Incident exists
+2023-01-11 09:43:25,850 - INFO - <module> : Report an Outage or Incident exists
+2023-01-11 09:43:25,850 - INFO - <module> : Report an Outage or Incident exists
+2023-01-11 09:43:25,850 - INFO - <module> : Report an Outage or Incident exists
+2023-01-11 09:43:25,850 - INFO - <module> : Report an Outage or Incident exists
+2023-01-11 09:43:25,946 - INFO - <module> : Clicked
+2023-01-11 09:43:25,946 - INFO - <module> : Clicked
+2023-01-11 09:43:25,946 - INFO - <module> : Clicked
+2023-01-11 09:43:25,946 - INFO - <module> : Clicked
+2023-01-11 09:43:25,946 - INFO - <module> : Clicked
+2023-01-11 09:43:56,227 - ERROR - <module> : Cannot Locate: safety_pole_broken
+2023-01-11 09:43:56,227 - ERROR - <module> : Cannot Locate: safety_pole_broken
+2023-01-11 09:43:56,227 - ERROR - <module> : Cannot Locate: safety_pole_broken
+2023-01-11 09:43:56,227 - ERROR - <module> : Cannot Locate: safety_pole_broken
+2023-01-11 09:43:56,227 - ERROR - <module> : Cannot Locate: safety_pole_broken
+2023-01-11 09:43:56,265 - INFO - setup : Close Browser

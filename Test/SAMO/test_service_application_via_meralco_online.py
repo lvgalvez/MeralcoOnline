@@ -22,15 +22,15 @@ class TestServiceApplicationMeralcoOnline:
     def test_ts001(self):
         test_scenario = "TS001"
         Functions().create_document(self.driver, module, test_scenario)
-        TC001(self.driver, test_scenario, SAMO['normal_account_email'], SAMO['normal_account_password'], SAMO['service_add'], SAMO['birthday'])
+        TC001(self.driver, test_scenario, SAMO['normal_account_email'], SAMO['normal_account_password'], SAMO['service_add'], SAMO['birthday']) #FOR INDIVIDUAL
         Functions().tag_status(self.module, test_scenario, "Passed")
 
     @pytest.mark.tags("TS002")
     def test_ts002(self):
         test_scenario = "TS002"
         Functions().create_document(self.driver, module, test_scenario)
-        TC001(self.driver, test_scenario, SAMO['business_account_email'], SAMO['business_account_password'],
-              SAMO['service_add'], SAMO['birthday'])
+        TC001a(self.driver, test_scenario, SAMO['business_account_email'], SAMO['business_account_password'],
+               SAMO['service_add'])  # FOR BUSINESS
         Functions().tag_status(self.module, test_scenario, "Passed")
 
 
@@ -91,7 +91,7 @@ class TestServiceApplicationMeralcoOnline:
     def test_ts010(self):
         test_scenario = "TS011"
         Functions().create_document(self.driver, module, test_scenario)
-        TC013(self.driver, test_scenario, SAMO['CAN'], SAMO['contractor_companyName'], SAMO['contractor_landline'],
+        TC013(self.driver, test_scenario, SAMO['CAN_singlesrvc'], SAMO['contractor_companyName'], SAMO['contractor_landline'], #CAN 3534823912
               SAMO['contractor_firstName'], SAMO['contractor_lastName'], SAMO['contractor_emailAddress'],
               SAMO['contractor_designation'], SAMO['contractor_mobileNumber'])
         Functions().tag_status(self.module, test_scenario, "Passed")
