@@ -12,10 +12,12 @@ SSO = {
     'changepass_new_password': 'Meralco05',
     'facebook_email': 'htewuvrtny_1652860426@tfbnw.net',
     'facebook_password': 'Test1234567890',
-    'google_email': 'mecoautomation01@gmail.com',
-    'google_password': 'M#ralco00',
+    #'google_email': 'mecoautomation01@gmail.com',
+    'google_email': 'arcebido.earljohn@gmail.com',
+    'google_password': 'Meralco00',
     'expired_email': 'atemaild01@yopmail.com',
-    'expired_password': 'Meralco123'
+    'expired_password': 'Meralco123',
+    'appleId':'mecoautomation01@gmail.com'
 }
 
 
@@ -67,12 +69,15 @@ SAMO = {
     'birthday': "08/08/1993",
     'emailAddNewService': 'EarlMO@yopmail.com',
     'newemail' : 'EarlEmails@yopmail.com',
-    'mobileNumberIndividual': "9234567891"
+    'mobileNumberIndividual': "9234567891",
+    'newOwner': 'Angelo Tafalla',
+    'energizationDate': '01/01/2023',
+    'caseNumber': '22122252189'
 }
 
 Registration = {
     'cxe_email': 'v-lvlgalvez@meralco.com.ph',
-    'cxe_password': 'Mecopass@@!!129',
+    'cxe_password': 'Mecopass@@!!123',
     'can_single_service': '3534823912',
     'single_service_pay_email': 'paysingleservicerun2@yopmail.com',
     'single_service_pay_password': 'Meralco01',
@@ -155,7 +160,8 @@ Outage = {
     'middle_name': 'middle',
     'last_name': 'report',
     'mobile_number': '+639276597262',
-    'landline': '',
+    'landline': '6321234543',
+    'wrongLandline': '21345654',
     'email': 'testautomationoutage@yopmail.com',
     'cxe_email': 'v-lvlgalvez@meralco.com.ph',
     'cxe_password': 'Mecopass@@!!122',
@@ -227,7 +233,9 @@ RFC = {
     'expiry_date': '12/27',
     'cvv': '212',
     'first_name': 'Juan',
-    'last_name': 'Dela Cruz'
+    'last_name': 'Dela Cruz',
+    'total_kwh': '107',
+    'bill_date': '10/20/2021'
 }
 
 

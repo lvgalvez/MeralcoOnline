@@ -1,5 +1,7 @@
 import time
 
+from selenium.webdriver import Keys
+
 from Pages.Page_CXE_Apply_Home import CXEApplyHomePage
 from Pages.Page_CXE_Apply_Individual import CXEApplyIndividual
 from Pages.Page_CXE_Apply_Reg import CXEApplyRegPage
@@ -903,6 +905,75 @@ def TC015(driver, ts_id, firstname, lastname, emailaddress, mobilenumber, can):
     function.screen_capture(driver, module, ts_id, test_case, "Step 11b")
 
     log.info(test_case + " Passed")
+
+def TC015(driver, ts_id):
+    test_case = "TC015"
+    cxe_apply_case = CXELoginPage()
+    cxe_home = CXEHomePage()
+
+    fc.new_tab(driver, cxe)
+
+    fc.click(cxe_apply_case.get_meralco_user_id(driver))
+    fc.input_text(cxe_apply_case.get_email(driver), Registration['cxe_email'])
+    fc.click(cxe_apply_case.get_next(driver))
+    fc.input_text(cxe_apply_case.get_password(driver), Registration['cxe_password'])
+    fc.click(cxe_apply_case.get_sign_in(driver))
+    fc.click(cxe_apply_case.get_sms(driver))
+    time.sleep(15)
+
+    fc.click(cxe_apply_case.get_stay_sign_no(driver))
+    time.sleep(10)
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 1")
+    fc.click(cxe_home.get_cxe_search(driver))
+    fc.input_text(cxe_home.get_cxe_search_case(driver), SAMO['caseNumber'])
+    cxe_home.get_cxe_search_case(driver).send_keys(Keys.ENTER)
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
+    fc.click(cxe_home.get_cxe_change_owner(driver))
+    fc.input_text(cxe_home.get_cxe_assign_new_owner(driver), SAMO['newOwner'])
+    fc.click(cxe_home.get_cxe_case_owner(driver))
+    fc.click(cxe_home.get_cxe_case_submit(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 2")
+
+    #Step #3
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 4")
+    fc.click(cxe_home.get_cxe_edit_case(driver))
+    fc.click(cxe_home.get_case_status(driver))
+    fc.click(cxe_home.get_application_validated_stat(driver))
+    fc.scroll_element(driver,cxe_home.get_energization_date(driver))
+    fc.input_text(cxe_home.get_energization_date(driver), SAMO['energizationDate'])
+    time.sleep(10)
+    #fc.click(cxe_home.get_case_status_save(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 4")
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 10")
+    fc.click(cxe_home.get_cxe_edit_case(driver))
+    fc.click(cxe_home.get_case_status(driver))
+    fc.click(cxe_home.get_meter_socket_stat(driver))
+    fc.input_text(cxe_home.get_energization_date(driver), SAMO['energizationDate'])
+    fc.click(cxe_home.get_cxe_customer_type(driver))
+    fc.click(cxe_home.get_cxe_customer_private(driver))
+    fc.click(cxe_home.get_case_status_save(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 10")
+
+    fc.bookmark(serviceAppModule, ts_id, test_case, "Step 13")
+    fc.click(cxe_home.get_cxe_edit_case(driver))
+    fc.click(cxe_home.get_case_status(driver))
+    fc.click(cxe_home.get_meter_socket_stat(driver))
+    fc.input_text(cxe_home.get_energization_date(driver), SAMO['energizationDate'])
+    fc.click(cxe_home.get_cxe_customer_type(driver))
+    fc.click(cxe_home.get_cxe_customer_private(driver))
+    fc.click(cxe_home.get_case_status_save(driver))
+    fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 13")
+
+    fc.click(cxe_home.get_cxe_search(driver))
+    fc.input_text(cxe_home.get_cxe_search_case(driver), SAMO['caseNumber'])
+    cxe_home.get_cxe_search_case(driver).send_keys(Keys.ENTER)
+    fc.click(cxe_home.get_case_number_table(driver, SAMO['caseNumber']))
+
 
 def TC016(driver, ts_id, firstname, lastname, emailaddress, mobilenumber, can, businessname):
     test_case = "TC016"

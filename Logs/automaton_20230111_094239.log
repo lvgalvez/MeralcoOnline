@@ -1,0 +1,18 @@
+2023-01-11 09:42:39,857 - INFO - setup : Browser Launched!
+2023-01-11 09:43:12,248 - INFO - <module> : Clicked
+2023-01-11 09:43:12,248 - INFO - <module> : Clicked
+2023-01-11 09:43:12,248 - INFO - <module> : Clicked
+2023-01-11 09:43:12,248 - INFO - <module> : Clicked
+2023-01-11 09:43:15,809 - INFO - <module> : input: arcebido.earljohn@gmail.com
+2023-01-11 09:43:15,809 - INFO - <module> : input: arcebido.earljohn@gmail.com
+2023-01-11 09:43:15,809 - INFO - <module> : input: arcebido.earljohn@gmail.com
+2023-01-11 09:43:15,809 - INFO - <module> : input: arcebido.earljohn@gmail.com
+2023-01-11 09:43:17,538 - INFO - <module> : Clicked
+2023-01-11 09:43:17,538 - INFO - <module> : Clicked
+2023-01-11 09:43:17,538 - INFO - <module> : Clicked
+2023-01-11 09:43:17,538 - INFO - <module> : Clicked
+2023-01-11 09:43:48,001 - ERROR - <module> : Cannot Locate: password
+2023-01-11 09:43:48,001 - ERROR - <module> : Cannot Locate: password
+2023-01-11 09:43:48,001 - ERROR - <module> : Cannot Locate: password
+2023-01-11 09:43:48,001 - ERROR - <module> : Cannot Locate: password
+2023-01-11 09:43:48,057 - INFO - setup : Close Browser

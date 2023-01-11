@@ -14,7 +14,7 @@ class CXELoginPage:
     password = "//input[@class = 'form-control input ext-input text-box ext-text-box']"
     sign_in = "//input[@value= 'Sign in']"
     stay_sign_no = "//input[@class= 'win-button button-secondary button ext-button secondary ext-secondary']"
-    sms = "//*[@id='idDiv_SAOTCS_Proofs']/div[1]/div/div/div[2]"
+    sms = "//div[2]/div/div[2]/div/div[3]/div/div/div[2]"
     loginBtn = "//*[@id='mainAppBody']/div[2]/md-content/md-card/md-card-content/form/button"
 
     def get_meralco_user_id(self, driver):

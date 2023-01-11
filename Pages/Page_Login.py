@@ -16,6 +16,7 @@ class LoginPage:
     google_login = "//button[@class = 'slds-button slds-button--neutral slds-button slds-button--neutral slds-button mov-button mov-button_gplogin uiButton']"
     sign_up_here = "span.signup-pw"
     red_banner = "//div[contains(@class, 'cCXE_Alert_Header')]"
+    apple_login = "//form/div/div[4]/div/div[3]/div/div[3]/div[2]/button"
 
 
     def get_email(self, driver):
@@ -41,3 +42,6 @@ class LoginPage:
 
     def get_red_banner(self, driver):
         return driver.find_element(By.XPATH, self.red_banner)
+
+    def get_apple_login(self, driver):
+        return WebMisc().wait_element(driver, self.apple_login, "apple_login")

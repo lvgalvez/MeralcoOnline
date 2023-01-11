@@ -26,7 +26,22 @@ class CXEHomePage:
     btn_navigation_cases_byxpath = "//span[text() = 'Cases']"
     btn_navigation_home_byxpath = "//span[text() = 'Home']"
     btn_case_new_byxpath = "//a[@title= 'New']"
-
+    cxe_search = "//div[4]/div[1]/section/header/div[2]/div[2]/div/button"
+    cxe_search_case = "//div[4]/div[2]/div/div/div[1]/div/div[1]/lightning-input/div/input"
+    cxe_change_owner = "//section/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div[1]/div/div/div[1]/div/div/span[2]/ul/li[2]/a"
+    cxe_search_user = "//div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div/div/div/div[1]/div[1]/div[2]/input"
+    cxe_user = "//div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div/div/div/div[1]/div[1]/div[2]/div/div[2]/ul/li/a"
+    cxe_assign_new_owner = "//div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div/div/div/div[1]/div[1]/div[2]/input"
+    cxe_case_owner = "//div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div/div/div/div[1]/div[1]/div[2]/div/div[2]/ul/li/a/div[2]"
+    cxe_case_submit = "//div[2]/div[2]/div/div[2]/div/div[3]/div/button[2]"
+    cxe_edit_case = "//section/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div[1]/div/div/div[1]/div/div/span[2]/ul/li[1]/a"
+    cxe_case_status = "//div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[1]/div/article/div[3]/div/div[1]/div/div/div[3]/div[2]/div/div/div/div/div[1]/div/div/a"
+    cxe_app_validated_status = "//a[@title='Application Validated']"
+    cxe_enegrization_date = "//div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[1]/div/article/div[3]/div/div[3]/div/div/div[1]/div[1]/div/div/div/div/input"
+    cxe_case_status_save_btn = "//html/body/div[4]/div[1]/section/div[1]/div/div[2]/div[2]/section/div/div/section/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div/div/div[2]/button[3]"
+    cxe_meter_socket_status = "//a[@title='Meter Socket Issued']"
+    cxe_customer_type = "//div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[1]/div/article/div[3]/div/div[3]/div/div/div[9]/div[2]/div/div/div/div/div[1]/div/div/a"
+    cxe_private_customer = "//a[@title='Private']"
 
     def get_payment_history(self, driver):
         return WebMisc().optional_wait_element(driver, self.payment_history, "payment_history")
@@ -78,3 +93,52 @@ class CXEHomePage:
 
     def get_case_new(self, driver):
         return WebMisc().clickable_element(driver, self.btn_case_new_byxpath, "btn_case_new_byxpath")
+
+    def get_cxe_search(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_search, "cxe_search")
+
+    def get_cxe_search_case(self, driver):
+        return driver.find_element(By.XPATH, self.cxe_search_case)
+
+    def get_cxe_change_owner(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_change_owner, "cxe_change_owner")
+
+    def get_cxe_user(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_search_user, "cxe_search_user")
+
+    def get_cxe_assign_new_owner(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_assign_new_owner, "cxe_assign_new_owner")
+
+    def get_cxe_case_owner(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_case_owner, "cxe_case_owner")
+
+    def get_cxe_case_submit(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_case_submit, "cxe_case_submit")
+
+    def get_cxe_edit_case(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_edit_case, "cxe_edit_case")
+
+    def get_case_status(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_case_status, "cxe_case_status")
+
+    def get_application_validated_stat(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_app_validated_status, "cxe_app_validated_status")
+
+    def get_energization_date(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_enegrization_date, "cxe_enegrization_date")
+
+    def get_case_status_save(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_case_status_save_btn, "cxe_case_status_save_btn")
+
+    def get_meter_socket_stat(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_meter_socket_status, "cxe_meter_socket_status")
+
+    def get_cxe_customer_type(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_customer_type, "cxe_customer_type")
+
+    def get_cxe_customer_private(self, driver):
+        return WebMisc().clickable_element(driver, self.cxe_private_customer, "cxe_private_customer")
+
+    def get_case_number_table(self, driver, caseNumber):
+        cxe_case_number = "//a[@title='"+caseNumber+"']"
+        return WebMisc().clickable_element(driver, cxe_case_number, "cxe_case_number")

@@ -225,8 +225,9 @@ class TestServiceApplicationMeralcoOnline:
     def test_ts041(self):
         test_scenario = "TS041"
         Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC015(self.driver, test_scenario)
         #TC025(self.driver, test_scenario)
-        TC012a(self.driver, test_scenario, SAMO['newemail'])
+        #TC012a(self.driver, test_scenario, SAMO['newemail'])
         Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
 
     @pytest.mark.tags("TS042")
