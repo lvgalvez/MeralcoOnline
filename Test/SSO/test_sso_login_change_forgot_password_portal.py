@@ -13,6 +13,59 @@ class TestSSOLoginChangeForgotPass:
         TC005(self.driver, test_scenario, SSO['facebook_email'], SSO['facebook_password'])
         Functions().tag_status(self.module, test_scenario, "Passed")
 
+    @pytest.mark.tags("TS001a")
+    def test_ts001a(self):
+        test_scenario = "TS001"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC002a(self.driver, test_scenario)
+        TC003a(self.driver, test_scenario)
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS002a")
+    def test_ts002a(self):
+        test_scenario = "TS002a"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC005a(self.driver, test_scenario)
+        TC006a(self.driver, test_scenario)
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS003a")
+    def test_ts003a(self):
+        test_scenario = "TS003"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC008a(self.driver, test_scenario)
+        TC009a(self.driver, test_scenario)
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS003a")
+    def test_ts004a(self):
+        test_scenario = "TS003"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC011a(self.driver, test_scenario)
+        TC012a(self.driver, test_scenario)
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS019a")
+    def test_ts019a(self):
+        test_scenario = "TS019a"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC039a(self.driver, test_scenario)
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS022a")
+    def test_ts022a(self):
+        test_scenario = "TS022a"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC042a(self.driver, test_scenario)
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS025a")
+    def test_ts025a(self):
+        test_scenario = "TS025a"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC045a(self.driver, test_scenario)
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
     @pytest.mark.tags("TS002")
     def test_ts002(self):
         test_scenario = "TS002"
