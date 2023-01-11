@@ -1,0 +1,210 @@
+2023-01-06 12:50:24,124 - INFO - setup : Browser Launched!
+2023-01-06 12:50:31,594 - INFO - <module> : ==========Log in==========
+2023-01-06 12:50:31,594 - INFO - <module> : ==========Log in==========
+2023-01-06 12:50:31,594 - INFO - <module> : ==========Log in==========
+2023-01-06 12:50:31,594 - INFO - <module> : ==========Log in==========
+2023-01-06 12:50:33,244 - INFO - <module> : Login to Meralco Online
+2023-01-06 12:50:33,244 - INFO - <module> : Login to Meralco Online
+2023-01-06 12:50:33,244 - INFO - <module> : Login to Meralco Online
+2023-01-06 12:50:33,244 - INFO - <module> : Login to Meralco Online
+2023-01-06 12:50:33,487 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-06 12:50:33,487 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-06 12:50:33,487 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-06 12:50:33,487 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-06 12:50:33,602 - INFO - <module> : input: Meralco05
+2023-01-06 12:50:33,602 - INFO - <module> : input: Meralco05
+2023-01-06 12:50:33,602 - INFO - <module> : input: Meralco05
+2023-01-06 12:50:33,602 - INFO - <module> : input: Meralco05
+2023-01-06 12:50:33,728 - INFO - <module> : Clicked
+2023-01-06 12:50:33,728 - INFO - <module> : Clicked
+2023-01-06 12:50:33,728 - INFO - <module> : Clicked
+2023-01-06 12:50:33,728 - INFO - <module> : Clicked
+2023-01-06 12:50:36,473 - INFO - <module> : Hello, exists
+2023-01-06 12:50:36,473 - INFO - <module> : Hello, exists
+2023-01-06 12:50:36,473 - INFO - <module> : Hello, exists
+2023-01-06 12:50:36,473 - INFO - <module> : Hello, exists
+2023-01-06 12:50:40,101 - INFO - <module> : Go to Accounts> Manage Accounts
+2023-01-06 12:50:40,101 - INFO - <module> : Go to Accounts> Manage Accounts
+2023-01-06 12:50:40,101 - INFO - <module> : Go to Accounts> Manage Accounts
+2023-01-06 12:50:40,101 - INFO - <module> : Go to Accounts> Manage Accounts
+2023-01-06 12:50:40,224 - INFO - <module> : Clicked
+2023-01-06 12:50:40,224 - INFO - <module> : Clicked
+2023-01-06 12:50:40,224 - INFO - <module> : Clicked
+2023-01-06 12:50:40,224 - INFO - <module> : Clicked
+2023-01-06 12:50:41,882 - INFO - <module> : Accounts exists
+2023-01-06 12:50:41,882 - INFO - <module> : Accounts exists
+2023-01-06 12:50:41,882 - INFO - <module> : Accounts exists
+2023-01-06 12:50:41,882 - INFO - <module> : Accounts exists
+2023-01-06 12:50:45,649 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2023-01-06 12:50:45,649 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2023-01-06 12:50:45,649 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2023-01-06 12:50:45,649 - INFO - <module> : Search then Select Account > Click Reactivate Electric Service button
+2023-01-06 12:50:45,838 - INFO - <module> : Clicked
+2023-01-06 12:50:45,838 - INFO - <module> : Clicked
+2023-01-06 12:50:45,838 - INFO - <module> : Clicked
+2023-01-06 12:50:45,838 - INFO - <module> : Clicked
+2023-01-06 12:50:46,570 - INFO - <module> : Clicked
+2023-01-06 12:50:46,570 - INFO - <module> : Clicked
+2023-01-06 12:50:46,570 - INFO - <module> : Clicked
+2023-01-06 12:50:46,570 - INFO - <module> : Clicked
+2023-01-06 12:50:46,903 - INFO - <module> : Clicked
+2023-01-06 12:50:46,903 - INFO - <module> : Clicked
+2023-01-06 12:50:46,903 - INFO - <module> : Clicked
+2023-01-06 12:50:46,903 - INFO - <module> : Clicked
+2023-01-06 12:50:49,321 - INFO - <module> : Reactivate a Service exists
+2023-01-06 12:50:49,321 - INFO - <module> : Reactivate a Service exists
+2023-01-06 12:50:49,321 - INFO - <module> : Reactivate a Service exists
+2023-01-06 12:50:49,321 - INFO - <module> : Reactivate a Service exists
+2023-01-06 12:50:52,521 - INFO - <module> : Populate the following:
+SIN
+First Name
+Middle Name (Optional)
+Last Name
+Email Address
+Mobile Number (optional)
+Landline (optional)
+Birthday (optional)
+Representative indicator
+Click Next
+2023-01-06 12:50:52,521 - INFO - <module> : Populate the following:
+SIN
+First Name
+Middle Name (Optional)
+Last Name
+Email Address
+Mobile Number (optional)
+Landline (optional)
+Birthday (optional)
+Representative indicator
+Click Next
+2023-01-06 12:50:52,521 - INFO - <module> : Populate the following:
+SIN
+First Name
+Middle Name (Optional)
+Last Name
+Email Address
+Mobile Number (optional)
+Landline (optional)
+Birthday (optional)
+Representative indicator
+Click Next
+2023-01-06 12:50:52,521 - INFO - <module> : Populate the following:
+SIN
+First Name
+Middle Name (Optional)
+Last Name
+Email Address
+Mobile Number (optional)
+Landline (optional)
+Birthday (optional)
+Representative indicator
+Click Next
+2023-01-06 12:50:54,970 - INFO - <module> : input: 08/08/1993
+2023-01-06 12:50:54,970 - INFO - <module> : input: 08/08/1993
+2023-01-06 12:50:54,970 - INFO - <module> : input: 08/08/1993
+2023-01-06 12:50:54,970 - INFO - <module> : input: 08/08/1993
+2023-01-06 12:50:57,353 - INFO - <module> : Clicked
+2023-01-06 12:50:57,353 - INFO - <module> : Clicked
+2023-01-06 12:50:57,353 - INFO - <module> : Clicked
+2023-01-06 12:50:57,353 - INFO - <module> : Clicked
+2023-01-06 12:50:57,415 - INFO - <module> : Reactivate a Service exists
+2023-01-06 12:50:57,415 - INFO - <module> : Reactivate a Service exists
+2023-01-06 12:50:57,415 - INFO - <module> : Reactivate a Service exists
+2023-01-06 12:50:57,415 - INFO - <module> : Reactivate a Service exists
+2023-01-06 12:51:00,812 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2023-01-06 12:51:00,812 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2023-01-06 12:51:00,812 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2023-01-06 12:51:00,812 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2023-01-06 12:51:00,954 - INFO - <module> : Clicked
+2023-01-06 12:51:00,954 - INFO - <module> : Clicked
+2023-01-06 12:51:00,954 - INFO - <module> : Clicked
+2023-01-06 12:51:00,954 - INFO - <module> : Clicked
+2023-01-06 12:51:01,063 - INFO - <module> : Clicked
+2023-01-06 12:51:01,063 - INFO - <module> : Clicked
+2023-01-06 12:51:01,063 - INFO - <module> : Clicked
+2023-01-06 12:51:01,063 - INFO - <module> : Clicked
+2023-01-06 12:51:01,170 - INFO - <module> : Clicked
+2023-01-06 12:51:01,170 - INFO - <module> : Clicked
+2023-01-06 12:51:01,170 - INFO - <module> : Clicked
+2023-01-06 12:51:01,170 - INFO - <module> : Clicked
+2023-01-06 12:51:03,486 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2023-01-06 12:51:03,486 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2023-01-06 12:51:03,486 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2023-01-06 12:51:03,486 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2023-01-06 12:51:06,864 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2023-01-06 12:51:06,864 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2023-01-06 12:51:06,864 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2023-01-06 12:51:06,864 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2023-01-06 12:51:09,483 - INFO - <module> : Clicked
+2023-01-06 12:51:09,483 - INFO - <module> : Clicked
+2023-01-06 12:51:09,483 - INFO - <module> : Clicked
+2023-01-06 12:51:09,483 - INFO - <module> : Clicked
+2023-01-06 12:51:09,559 - INFO - <module> :  exists
+2023-01-06 12:51:09,559 - INFO - <module> :  exists
+2023-01-06 12:51:09,559 - INFO - <module> :  exists
+2023-01-06 12:51:09,559 - INFO - <module> :  exists
+2023-01-06 12:51:13,012 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2023-01-06 12:51:13,012 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2023-01-06 12:51:13,012 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2023-01-06 12:51:13,012 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2023-01-06 12:51:13,163 - INFO - <module> : Clicked
+2023-01-06 12:51:13,163 - INFO - <module> : Clicked
+2023-01-06 12:51:13,163 - INFO - <module> : Clicked
+2023-01-06 12:51:13,163 - INFO - <module> : Clicked
+2023-01-06 12:51:28,250 - INFO - <module> : Submit exists
+2023-01-06 12:51:28,250 - INFO - <module> : Submit exists
+2023-01-06 12:51:28,250 - INFO - <module> : Submit exists
+2023-01-06 12:51:28,250 - INFO - <module> : Submit exists
+2023-01-06 12:51:32,077 - INFO - <module> : Click Submit
+2023-01-06 12:51:32,077 - INFO - <module> : Click Submit
+2023-01-06 12:51:32,077 - INFO - <module> : Click Submit
+2023-01-06 12:51:32,077 - INFO - <module> : Click Submit
+2023-01-06 12:51:32,223 - ERROR - <module> : element is disabled
+2023-01-06 12:51:32,223 - ERROR - <module> : element is disabled
+2023-01-06 12:51:32,223 - ERROR - <module> : element is disabled
+2023-01-06 12:51:32,223 - ERROR - <module> : element is disabled
+2023-01-06 12:51:32,413 - INFO - setup : Close Browser

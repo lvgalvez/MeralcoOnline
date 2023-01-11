@@ -13,12 +13,13 @@ class CXETerminateContractor:
     reactivate_service = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[1]/div/div/div/div[2]/ul/li[3]/section/div[2]/div/a[3]"
     stop_service = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[1]/div/div/div/div[2]/ul/li[3]/section/div[2]/div/a[4]"
     stop_lbl = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/h2"
-    CAN = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div[1]/div/div/div/div/input"
-    firstname = "//*[@id='191:2;a']"
-    lastname = "//*[@id='206:2;a']"
-    emailaddress = "//*[@id='236:2;a']"
-    mobile_number = "//*[@id='251:2;a']"
-    businessname = "//*[@id='221:2;a']"
+    CAN = "//div/div[2]/div[1]/div/div/div/div/input"
+    SIN = "//div[2]/div/div/div/div/input"
+    firstname = "//div/div[2]/div[3]/div[1]/div/div/div/input"
+    lastname = "//div[2]/div/div/div/input"
+    emailaddress = "//div[3]/div[4]/div/div/div/input"
+    mobile_number = "//div[5]/div/div/div/input"
+    businessname = "//div[3]/div[3]/div/div/div/input"
     next1 = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div[4]/button"
     terms_cond = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div[3]/div[1]/div[3]/div/label/div"
     yes = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[2]/div[2]/div[2]/label/div"
@@ -27,6 +28,9 @@ class CXETerminateContractor:
 
     def  get_businessname(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.businessname)))
+
+    def get_SIN(self, driver):
+        return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.SIN)))
     def  get_submit(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.submit)))
     def  get_yes(self, driver):

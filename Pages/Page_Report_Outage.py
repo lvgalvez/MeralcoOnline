@@ -11,11 +11,13 @@ class ReportOutagePage:
     no_power_radio = "//span[contains(text(), 'No Power - My house/building only')]"
     no_power_street_radio = "//span[contains(text(), 'No Power - Whole street/block')]"
     unstable_power = "//span[contains(text(), 'Unstable Power')]"
-    safety_concern = "//span[contains(text(), 'Safety Release5')]"
     select_safety_concern = "//button[@class = 'slds-combobox__input slds-input_faux'] "
     select_damage = "//div[@class = 'slds-select_container mov-select_container mov-select_container-left-align']"
     pole_broken = "//option[@label = 'Pole is broken or has fallen']"
-    safety_pole_broken = "//lightning-base-combobox-item[span/span[contains(text(), 'Pole is broken')]]"
+    safety_pole_broken = "//lightning-base-combobox-item[span/span[contains(text(), 'Wire has fallen')]]"
+    safety_select = "//lightning-combobox/div/lightning-base-combobox/div/div[1]/button"
+    safety_pole_fallen = "//span[contains(text(), 'Unstable Power')]"
+    broken_pole = "//div/lightning-combobox/div/lightning-base-combobox/div/div[1]/button/span"
     lights_flickering = "//option[@label = 'My lights are flickering']"
     service_id_radio = "//span[contains(text(), 'Service ID Number') and @class = 'slds-form-element__label mov-text_weight-semi-bold']"
     service_id_dropdown = "//select[@class = 'slds-select mov-select-aftersales CXE_selectInvalid select uiInput uiInputSelect uiInput--default uiInput--select']"
@@ -33,6 +35,7 @@ class ReportOutagePage:
     select_yes = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[1]/div[1]/div[5]/div/div[1]/div[1]/label/span[2]"
     dropdown = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[1]/div[1]/div[6]/div/div/select"
     dropdownvalue =  "//option[@value = 'Streetlight is always on, even during daytime']"
+    dropdownvalue_pole =  "//option[@value = 'Pole is broken']"
     polenumber = "/html/body/div[3]/div[2]/div/div[2]/div/div/div/div/div[1]/div[3]/div[3]/input"
     flickeringvalue = "//option[@label = 'Streetlight is flickering']"
     no_option = "//*[@id='modal-content-id-5']/div/a[1]"
@@ -63,6 +66,27 @@ class ReportOutagePage:
     subdivision_kawilihan = "//option[@label= 'KAWILIHAN VILL']"
     street_kabutihan = "//option[@label= 'KALAYAAN']"
     street_no = "//input[@placeholder= 'Enter House/Unit/Floor/Building Number here*']"
+    no_power_myhouse = "//div[1]/div[1]/div[1]/label/span[1]"
+    address = "//div[3]/div[2]/div/label/span[1]"
+    street_light = "//div[1]/div[1]/div[4]/label/span[1]"
+    safety_concern = "//div[1]/div[1]/div[5]/label/span[1]"
+    street_yes = "//div[5]/div/div[1]/div[1]/label/span[2]"
+
+
+    def get_safety_select(self, driver):
+        return WebMisc().clickable_element(driver, self.safety_select, "safety_select")
+    def get_pole_value(self, driver):
+        return WebMisc().clickable_element(driver, self.dropdownvalue_pole, "dropdownvalue_pole")
+    def get_broken_pole(self, driver):
+        return WebMisc().clickable_element(driver, self.broken_pole, "broken_pole")
+    def get_address(self, driver):
+        return WebMisc().clickable_element(driver, self.address, "address")
+    def get_safety_concern(self, driver):
+        return WebMisc().clickable_element(driver, self.safetyconcern, "safetyconcern")
+    def get_street_yes(self, driver):
+        return WebMisc().clickable_element(driver, self.street_yes, "street_yes")
+    def get_street_concern(self, driver):
+        return WebMisc().clickable_element(driver, self.street_light, "street_light")
 
     def get_report_dropdown(self, driver):
         return WebMisc().wait_element(driver, self.report_dropdown, "report_dropdown")
@@ -114,6 +138,10 @@ class ReportOutagePage:
     def get_no_power_radio(self, driver):
         return WebMisc().wait_element(driver, self.no_power_radio, "no_power_radio")
 
+    def get_no_power_myhouse(self, driver):
+        return WebMisc().wait_element(driver, self.no_power_radio, "no_power_myhouse")
+    def get_no_power_street(self, driver):
+        return WebMisc().wait_element(driver, self.no_power_street, "no_power_street")
     def get_service_id_radio(self, driver):
         return WebMisc().clickable_element(driver, self.service_id_radio, "service_id_radio")
 
@@ -149,6 +177,8 @@ class ReportOutagePage:
 
     def get_safety_pole_broken(self, driver):
         return WebMisc().clickable_element(driver, self.safety_pole_broken, "safety_pole_broken")
+    def get_safety_pole_fallen(self, driver):
+        return WebMisc().clickable_element(driver, self.safety_pole_fallen, "safety_pole_fallen")
 
     def get_lights_flickering(self, driver):
         return WebMisc().clickable_element(driver, self.lights_flickering, "lights_flickering")

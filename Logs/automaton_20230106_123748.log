@@ -1,0 +1,26 @@
+2023-01-06 12:37:49,556 - INFO - setup : Browser Launched!
+2023-01-06 12:38:10,930 - INFO - <module> : ==========Log in==========
+2023-01-06 12:38:10,930 - INFO - <module> : ==========Log in==========
+2023-01-06 12:38:10,930 - INFO - <module> : ==========Log in==========
+2023-01-06 12:38:10,930 - INFO - <module> : ==========Log in==========
+2023-01-06 12:38:12,125 - INFO - <module> : Login to Meralco Online
+2023-01-06 12:38:12,125 - INFO - <module> : Login to Meralco Online
+2023-01-06 12:38:12,125 - INFO - <module> : Login to Meralco Online
+2023-01-06 12:38:12,125 - INFO - <module> : Login to Meralco Online
+2023-01-06 12:38:12,273 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-06 12:38:12,273 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-06 12:38:12,273 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-06 12:38:12,273 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-06 12:38:12,353 - INFO - <module> : input: Meralco01
+2023-01-06 12:38:12,353 - INFO - <module> : input: Meralco01
+2023-01-06 12:38:12,353 - INFO - <module> : input: Meralco01
+2023-01-06 12:38:12,353 - INFO - <module> : input: Meralco01
+2023-01-06 12:38:12,422 - INFO - <module> : Clicked
+2023-01-06 12:38:12,422 - INFO - <module> : Clicked
+2023-01-06 12:38:12,422 - INFO - <module> : Clicked
+2023-01-06 12:38:12,422 - INFO - <module> : Clicked
+2023-01-06 12:38:42,638 - ERROR - <module> : Cannot Locate: hello_message
+2023-01-06 12:38:42,638 - ERROR - <module> : Cannot Locate: hello_message
+2023-01-06 12:38:42,638 - ERROR - <module> : Cannot Locate: hello_message
+2023-01-06 12:38:42,638 - ERROR - <module> : Cannot Locate: hello_message
+2023-01-06 12:38:42,758 - INFO - setup : Close Browser

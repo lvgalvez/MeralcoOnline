@@ -1,0 +1,90 @@
+2022-12-22 15:30:59,423 - INFO - setup : Browser Launched!
+2022-12-22 15:31:09,285 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-22 15:31:09,285 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-22 15:31:09,285 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-22 15:31:09,285 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-22 15:31:09,554 - INFO - <module> : Service Application exists
+2022-12-22 15:31:09,554 - INFO - <module> : Service Application exists
+2022-12-22 15:31:09,554 - INFO - <module> : Service Application exists
+2022-12-22 15:31:09,554 - INFO - <module> : Service Application exists
+2022-12-22 15:31:12,638 - INFO - <module> : Clicked
+2022-12-22 15:31:12,638 - INFO - <module> : Clicked
+2022-12-22 15:31:12,638 - INFO - <module> : Clicked
+2022-12-22 15:31:12,638 - INFO - <module> : Clicked
+2022-12-22 15:31:12,679 - INFO - <module> : Start Service exists
+2022-12-22 15:31:12,679 - INFO - <module> : Start Service exists
+2022-12-22 15:31:12,679 - INFO - <module> : Start Service exists
+2022-12-22 15:31:12,679 - INFO - <module> : Start Service exists
+2022-12-22 15:31:12,722 - INFO - <module> : Modify Service exists
+2022-12-22 15:31:12,722 - INFO - <module> : Modify Service exists
+2022-12-22 15:31:12,722 - INFO - <module> : Modify Service exists
+2022-12-22 15:31:12,722 - INFO - <module> : Modify Service exists
+2022-12-22 15:31:12,767 - INFO - <module> : Reactivate Service exists
+2022-12-22 15:31:12,767 - INFO - <module> : Reactivate Service exists
+2022-12-22 15:31:12,767 - INFO - <module> : Reactivate Service exists
+2022-12-22 15:31:12,767 - INFO - <module> : Reactivate Service exists
+2022-12-22 15:31:12,810 - INFO - <module> : Stop Service exists
+2022-12-22 15:31:12,810 - INFO - <module> : Stop Service exists
+2022-12-22 15:31:12,810 - INFO - <module> : Stop Service exists
+2022-12-22 15:31:12,810 - INFO - <module> : Stop Service exists
+2022-12-22 15:31:16,505 - INFO - <module> : Clicked
+2022-12-22 15:31:16,505 - INFO - <module> : Clicked
+2022-12-22 15:31:16,505 - INFO - <module> : Clicked
+2022-12-22 15:31:16,505 - INFO - <module> : Clicked
+2022-12-22 15:31:17,108 - INFO - <module> : Stop a Service exists
+2022-12-22 15:31:17,108 - INFO - <module> : Stop a Service exists
+2022-12-22 15:31:17,108 - INFO - <module> : Stop a Service exists
+2022-12-22 15:31:17,108 - INFO - <module> : Stop a Service exists
+2022-12-22 15:31:20,323 - INFO - <module> :  exists
+2022-12-22 15:31:20,323 - INFO - <module> :  exists
+2022-12-22 15:31:20,323 - INFO - <module> :  exists
+2022-12-22 15:31:20,323 - INFO - <module> :  exists
+2022-12-22 15:31:23,483 - INFO - <module> : input: 3531412991
+2022-12-22 15:31:23,483 - INFO - <module> : input: 3531412991
+2022-12-22 15:31:23,483 - INFO - <module> : input: 3531412991
+2022-12-22 15:31:23,483 - INFO - <module> : input: 3531412991
+2022-12-22 15:31:26,554 - INFO - <module> : input: atFirstname
+2022-12-22 15:31:26,554 - INFO - <module> : input: atFirstname
+2022-12-22 15:31:26,554 - INFO - <module> : input: atFirstname
+2022-12-22 15:31:26,554 - INFO - <module> : input: atFirstname
+2022-12-22 15:31:26,636 - INFO - <module> : input: atLastname
+2022-12-22 15:31:26,636 - INFO - <module> : input: atLastname
+2022-12-22 15:31:26,636 - INFO - <module> : input: atLastname
+2022-12-22 15:31:26,636 - INFO - <module> : input: atLastname
+2022-12-22 15:31:26,731 - INFO - <module> : input: automationteam@gmail.com
+2022-12-22 15:31:26,731 - INFO - <module> : input: automationteam@gmail.com
+2022-12-22 15:31:26,731 - INFO - <module> : input: automationteam@gmail.com
+2022-12-22 15:31:26,731 - INFO - <module> : input: automationteam@gmail.com
+2022-12-22 15:31:26,836 - INFO - <module> : input: +639234567891
+2022-12-22 15:31:26,836 - INFO - <module> : input: +639234567891
+2022-12-22 15:31:26,836 - INFO - <module> : input: +639234567891
+2022-12-22 15:31:26,836 - INFO - <module> : input: +639234567891
+2022-12-22 15:31:26,942 - INFO - <module> : input: atcontbusinessName
+2022-12-22 15:31:26,942 - INFO - <module> : input: atcontbusinessName
+2022-12-22 15:31:26,942 - INFO - <module> : input: atcontbusinessName
+2022-12-22 15:31:26,942 - INFO - <module> : input: atcontbusinessName
+2022-12-22 15:31:29,349 - INFO - <module> : Clicked
+2022-12-22 15:31:29,349 - INFO - <module> : Clicked
+2022-12-22 15:31:29,349 - INFO - <module> : Clicked
+2022-12-22 15:31:29,349 - INFO - <module> : Clicked
+2022-12-22 15:31:29,411 - INFO - <module> :  exists
+2022-12-22 15:31:29,411 - INFO - <module> :  exists
+2022-12-22 15:31:29,411 - INFO - <module> :  exists
+2022-12-22 15:31:29,411 - INFO - <module> :  exists
+2022-12-22 15:31:32,741 - INFO - <module> : Clicked
+2022-12-22 15:31:32,741 - INFO - <module> : Clicked
+2022-12-22 15:31:32,741 - INFO - <module> : Clicked
+2022-12-22 15:31:32,741 - INFO - <module> : Clicked
+2022-12-22 15:31:47,797 - INFO - <module> : Next exists
+2022-12-22 15:31:47,797 - INFO - <module> : Next exists
+2022-12-22 15:31:47,797 - INFO - <module> : Next exists
+2022-12-22 15:31:47,797 - INFO - <module> : Next exists
+2022-12-22 15:31:50,862 - INFO - <module> : Clicked
+2022-12-22 15:31:50,862 - INFO - <module> : Clicked
+2022-12-22 15:31:50,862 - INFO - <module> : Clicked
+2022-12-22 15:31:50,862 - INFO - <module> : Clicked
+2022-12-22 15:32:03,568 - INFO - <module> : TC033 Passed
+2022-12-22 15:32:03,568 - INFO - <module> : TC033 Passed
+2022-12-22 15:32:03,568 - INFO - <module> : TC033 Passed
+2022-12-22 15:32:03,568 - INFO - <module> : TC033 Passed
+2022-12-22 15:32:03,892 - INFO - setup : Close Browser

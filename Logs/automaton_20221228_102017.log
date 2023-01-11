@@ -1,0 +1,158 @@
+2022-12-28 10:20:18,899 - INFO - setup : Browser Launched!
+2022-12-28 10:20:28,945 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:20:28,945 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:20:28,945 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:20:28,945 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:20:29,975 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:20:29,975 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:20:29,975 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:20:29,975 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 10:20:30,643 - INFO - <module> : Service Application exists
+2022-12-28 10:20:30,643 - INFO - <module> : Service Application exists
+2022-12-28 10:20:30,643 - INFO - <module> : Service Application exists
+2022-12-28 10:20:30,643 - INFO - <module> : Service Application exists
+2022-12-28 10:20:33,521 - INFO - <module> : Click on Individual
+2022-12-28 10:20:33,521 - INFO - <module> : Click on Individual
+2022-12-28 10:20:33,521 - INFO - <module> : Click on Individual
+2022-12-28 10:20:33,521 - INFO - <module> : Click on Individual
+2022-12-28 10:20:33,593 - INFO - <module> : Clicked
+2022-12-28 10:20:33,593 - INFO - <module> : Clicked
+2022-12-28 10:20:33,593 - INFO - <module> : Clicked
+2022-12-28 10:20:33,593 - INFO - <module> : Clicked
+2022-12-28 10:20:33,637 - INFO - <module> : Start Service exists
+2022-12-28 10:20:33,637 - INFO - <module> : Start Service exists
+2022-12-28 10:20:33,637 - INFO - <module> : Start Service exists
+2022-12-28 10:20:33,637 - INFO - <module> : Start Service exists
+2022-12-28 10:20:33,680 - INFO - <module> : Modify Service exists
+2022-12-28 10:20:33,680 - INFO - <module> : Modify Service exists
+2022-12-28 10:20:33,680 - INFO - <module> : Modify Service exists
+2022-12-28 10:20:33,680 - INFO - <module> : Modify Service exists
+2022-12-28 10:20:33,718 - INFO - <module> : Reactivate Service exists
+2022-12-28 10:20:33,718 - INFO - <module> : Reactivate Service exists
+2022-12-28 10:20:33,718 - INFO - <module> : Reactivate Service exists
+2022-12-28 10:20:33,718 - INFO - <module> : Reactivate Service exists
+2022-12-28 10:20:33,759 - INFO - <module> : Stop Service exists
+2022-12-28 10:20:33,759 - INFO - <module> : Stop Service exists
+2022-12-28 10:20:33,759 - INFO - <module> : Stop Service exists
+2022-12-28 10:20:33,759 - INFO - <module> : Stop Service exists
+2022-12-28 10:20:36,593 - INFO - <module> : Select Stop Service
+2022-12-28 10:20:36,593 - INFO - <module> : Select Stop Service
+2022-12-28 10:20:36,593 - INFO - <module> : Select Stop Service
+2022-12-28 10:20:36,593 - INFO - <module> : Select Stop Service
+2022-12-28 10:20:36,852 - INFO - <module> : Clicked
+2022-12-28 10:20:36,852 - INFO - <module> : Clicked
+2022-12-28 10:20:36,852 - INFO - <module> : Clicked
+2022-12-28 10:20:36,852 - INFO - <module> : Clicked
+2022-12-28 10:20:36,896 - INFO - <module> : Stop Service exists
+2022-12-28 10:20:36,896 - INFO - <module> : Stop Service exists
+2022-12-28 10:20:36,896 - INFO - <module> : Stop Service exists
+2022-12-28 10:20:36,896 - INFO - <module> : Stop Service exists
+2022-12-28 10:20:39,753 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-12-28 10:20:39,753 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-12-28 10:20:39,753 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-12-28 10:20:39,753 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-12-28 10:20:39,821 - INFO - <module> :  exists
+2022-12-28 10:20:39,821 - INFO - <module> :  exists
+2022-12-28 10:20:39,821 - INFO - <module> :  exists
+2022-12-28 10:20:39,821 - INFO - <module> :  exists
+2022-12-28 10:20:42,704 - INFO - <module> : Populate Customer Account Number field
+2022-12-28 10:20:42,704 - INFO - <module> : Populate Customer Account Number field
+2022-12-28 10:20:42,704 - INFO - <module> : Populate Customer Account Number field
+2022-12-28 10:20:42,704 - INFO - <module> : Populate Customer Account Number field
+2022-12-28 10:20:42,847 - INFO - <module> : input: 0001365393
+2022-12-28 10:20:42,847 - INFO - <module> : input: 0001365393
+2022-12-28 10:20:42,847 - INFO - <module> : input: 0001365393
+2022-12-28 10:20:42,847 - INFO - <module> : input: 0001365393
+2022-12-28 10:20:45,759 - INFO - <module> : Populate Service ID Number 
+2022-12-28 10:20:45,759 - INFO - <module> : Populate Service ID Number 
+2022-12-28 10:20:45,759 - INFO - <module> : Populate Service ID Number 
+2022-12-28 10:20:45,759 - INFO - <module> : Populate Service ID Number 
+2022-12-28 10:20:45,861 - INFO - <module> : input: 200397770101
+2022-12-28 10:20:45,861 - INFO - <module> : input: 200397770101
+2022-12-28 10:20:45,861 - INFO - <module> : input: 200397770101
+2022-12-28 10:20:45,861 - INFO - <module> : input: 200397770101
+2022-12-28 10:20:48,699 - INFO - <module> : Populate the following:
+First Name*
+Middle Name
+Last Name*
+Email Address*
+Mobile Number*
+Relation to Customer
+> Attach Documents
+> Click Next
+2022-12-28 10:20:48,699 - INFO - <module> : Populate the following:
+First Name*
+Middle Name
+Last Name*
+Email Address*
+Mobile Number*
+Relation to Customer
+> Attach Documents
+> Click Next
+2022-12-28 10:20:48,699 - INFO - <module> : Populate the following:
+First Name*
+Middle Name
+Last Name*
+Email Address*
+Mobile Number*
+Relation to Customer
+> Attach Documents
+> Click Next
+2022-12-28 10:20:48,699 - INFO - <module> : Populate the following:
+First Name*
+Middle Name
+Last Name*
+Email Address*
+Mobile Number*
+Relation to Customer
+> Attach Documents
+> Click Next
+2022-12-28 10:20:48,801 - INFO - <module> : input: atFirstname
+2022-12-28 10:20:48,801 - INFO - <module> : input: atFirstname
+2022-12-28 10:20:48,801 - INFO - <module> : input: atFirstname
+2022-12-28 10:20:48,801 - INFO - <module> : input: atFirstname
+2022-12-28 10:20:48,873 - INFO - <module> : input: atLastname
+2022-12-28 10:20:48,873 - INFO - <module> : input: atLastname
+2022-12-28 10:20:48,873 - INFO - <module> : input: atLastname
+2022-12-28 10:20:48,873 - INFO - <module> : input: atLastname
+2022-12-28 10:20:48,963 - INFO - <module> : input: automationteam@gmail.com
+2022-12-28 10:20:48,963 - INFO - <module> : input: automationteam@gmail.com
+2022-12-28 10:20:48,963 - INFO - <module> : input: automationteam@gmail.com
+2022-12-28 10:20:48,963 - INFO - <module> : input: automationteam@gmail.com
+2022-12-28 10:20:49,032 - INFO - <module> : input: +639234567891
+2022-12-28 10:20:49,032 - INFO - <module> : input: +639234567891
+2022-12-28 10:20:49,032 - INFO - <module> : input: +639234567891
+2022-12-28 10:20:49,032 - INFO - <module> : input: +639234567891
+2022-12-28 10:20:51,325 - INFO - <module> : Clicked
+2022-12-28 10:20:51,325 - INFO - <module> : Clicked
+2022-12-28 10:20:51,325 - INFO - <module> : Clicked
+2022-12-28 10:20:51,325 - INFO - <module> : Clicked
+2022-12-28 10:20:51,367 - INFO - <module> :  exists
+2022-12-28 10:20:51,367 - INFO - <module> :  exists
+2022-12-28 10:20:51,367 - INFO - <module> :  exists
+2022-12-28 10:20:51,367 - INFO - <module> :  exists
+2022-12-28 10:20:54,186 - INFO - <module> : Tick on Terms & Conditions and  Privacy Policy agreement
+2022-12-28 10:20:54,186 - INFO - <module> : Tick on Terms & Conditions and  Privacy Policy agreement
+2022-12-28 10:20:54,186 - INFO - <module> : Tick on Terms & Conditions and  Privacy Policy agreement
+2022-12-28 10:20:54,186 - INFO - <module> : Tick on Terms & Conditions and  Privacy Policy agreement
+2022-12-28 10:20:54,271 - INFO - <module> : Clicked
+2022-12-28 10:20:54,271 - INFO - <module> : Clicked
+2022-12-28 10:20:54,271 - INFO - <module> : Clicked
+2022-12-28 10:20:54,271 - INFO - <module> : Clicked
+2022-12-28 10:21:09,329 - INFO - <module> : Submit exists
+2022-12-28 10:21:09,329 - INFO - <module> : Submit exists
+2022-12-28 10:21:09,329 - INFO - <module> : Submit exists
+2022-12-28 10:21:09,329 - INFO - <module> : Submit exists
+2022-12-28 10:21:12,267 - INFO - <module> : Click Submit
+2022-12-28 10:21:12,267 - INFO - <module> : Click Submit
+2022-12-28 10:21:12,267 - INFO - <module> : Click Submit
+2022-12-28 10:21:12,267 - INFO - <module> : Click Submit
+2022-12-28 10:21:12,366 - INFO - <module> : Clicked
+2022-12-28 10:21:12,366 - INFO - <module> : Clicked
+2022-12-28 10:21:12,366 - INFO - <module> : Clicked
+2022-12-28 10:21:12,366 - INFO - <module> : Clicked
+2022-12-28 10:21:24,850 - INFO - <module> : TC118 Passed
+2022-12-28 10:21:24,850 - INFO - <module> : TC118 Passed
+2022-12-28 10:21:24,850 - INFO - <module> : TC118 Passed
+2022-12-28 10:21:24,850 - INFO - <module> : TC118 Passed
+2022-12-28 10:21:24,934 - INFO - setup : Close Browser

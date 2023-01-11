@@ -1,0 +1,17 @@
+2022-11-25 12:41:03,631 - INFO - setup : Browser Launched!
+2022-11-25 12:41:12,271 - INFO - <module> : Click Forgot Password? In login page
+2022-11-25 12:41:12,271 - INFO - <module> : Click Forgot Password? In login page
+2022-11-25 12:41:12,271 - INFO - <module> : Click Forgot Password? In login page
+2022-11-25 12:41:12,876 - INFO - <module> : Clicked
+2022-11-25 12:41:12,876 - INFO - <module> : Clicked
+2022-11-25 12:41:12,876 - INFO - <module> : Clicked
+2022-11-25 12:41:15,536 - INFO - <module> : Input SSO email in Email field then click Send Confirmation Email button
+2022-11-25 12:41:15,536 - INFO - <module> : Input SSO email in Email field then click Send Confirmation Email button
+2022-11-25 12:41:15,536 - INFO - <module> : Input SSO email in Email field then click Send Confirmation Email button
+2022-11-25 12:41:15,665 - INFO - <module> : input: htewuvrtny_1652860426@tfbnw.net
+2022-11-25 12:41:15,665 - INFO - <module> : input: htewuvrtny_1652860426@tfbnw.net
+2022-11-25 12:41:15,665 - INFO - <module> : input: htewuvrtny_1652860426@tfbnw.net
+2022-11-25 12:41:48,670 - ERROR - <module> : Cannot Locate: send_confirmation_email
+2022-11-25 12:41:48,670 - ERROR - <module> : Cannot Locate: send_confirmation_email
+2022-11-25 12:41:48,670 - ERROR - <module> : Cannot Locate: send_confirmation_email
+2022-11-25 12:41:48,702 - INFO - setup : Close Browser

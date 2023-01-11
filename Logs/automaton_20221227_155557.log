@@ -1,0 +1,102 @@
+2022-12-27 15:55:58,740 - INFO - setup : Browser Launched!
+2022-12-27 15:56:08,436 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 15:56:08,436 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 15:56:08,436 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 15:56:08,436 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 15:56:08,641 - INFO - <module> : Service Application exists
+2022-12-27 15:56:08,641 - INFO - <module> : Service Application exists
+2022-12-27 15:56:08,641 - INFO - <module> : Service Application exists
+2022-12-27 15:56:08,641 - INFO - <module> : Service Application exists
+2022-12-27 15:56:11,982 - INFO - <module> : Clicked
+2022-12-27 15:56:11,982 - INFO - <module> : Clicked
+2022-12-27 15:56:11,982 - INFO - <module> : Clicked
+2022-12-27 15:56:11,982 - INFO - <module> : Clicked
+2022-12-27 15:56:12,035 - INFO - <module> : Start Service exists
+2022-12-27 15:56:12,035 - INFO - <module> : Start Service exists
+2022-12-27 15:56:12,035 - INFO - <module> : Start Service exists
+2022-12-27 15:56:12,035 - INFO - <module> : Start Service exists
+2022-12-27 15:56:12,085 - INFO - <module> : Modify Service exists
+2022-12-27 15:56:12,085 - INFO - <module> : Modify Service exists
+2022-12-27 15:56:12,085 - INFO - <module> : Modify Service exists
+2022-12-27 15:56:12,085 - INFO - <module> : Modify Service exists
+2022-12-27 15:56:12,138 - INFO - <module> : Reactivate Service exists
+2022-12-27 15:56:12,138 - INFO - <module> : Reactivate Service exists
+2022-12-27 15:56:12,138 - INFO - <module> : Reactivate Service exists
+2022-12-27 15:56:12,138 - INFO - <module> : Reactivate Service exists
+2022-12-27 15:56:12,187 - INFO - <module> : Stop Service exists
+2022-12-27 15:56:12,187 - INFO - <module> : Stop Service exists
+2022-12-27 15:56:12,187 - INFO - <module> : Stop Service exists
+2022-12-27 15:56:12,187 - INFO - <module> : Stop Service exists
+2022-12-27 15:56:16,694 - INFO - <module> : Clicked
+2022-12-27 15:56:16,694 - INFO - <module> : Clicked
+2022-12-27 15:56:16,694 - INFO - <module> : Clicked
+2022-12-27 15:56:16,694 - INFO - <module> : Clicked
+2022-12-27 15:56:16,779 - INFO - <module> : REQUEST DETAILS exists
+2022-12-27 15:56:16,779 - INFO - <module> : REQUEST DETAILS exists
+2022-12-27 15:56:16,779 - INFO - <module> : REQUEST DETAILS exists
+2022-12-27 15:56:16,779 - INFO - <module> : REQUEST DETAILS exists
+2022-12-27 15:56:19,822 - INFO - <module> :  exists
+2022-12-27 15:56:19,822 - INFO - <module> :  exists
+2022-12-27 15:56:19,822 - INFO - <module> :  exists
+2022-12-27 15:56:19,822 - INFO - <module> :  exists
+2022-12-27 15:56:23,117 - INFO - <module> : input: 3535069832
+2022-12-27 15:56:23,117 - INFO - <module> : input: 3535069832
+2022-12-27 15:56:23,117 - INFO - <module> : input: 3535069832
+2022-12-27 15:56:23,117 - INFO - <module> : input: 3535069832
+2022-12-27 15:56:26,372 - INFO - <module> : input: 502860340201
+2022-12-27 15:56:26,372 - INFO - <module> : input: 502860340201
+2022-12-27 15:56:26,372 - INFO - <module> : input: 502860340201
+2022-12-27 15:56:26,372 - INFO - <module> : input: 502860340201
+2022-12-27 15:56:29,538 - INFO - <module> : Clicked
+2022-12-27 15:56:29,538 - INFO - <module> : Clicked
+2022-12-27 15:56:29,538 - INFO - <module> : Clicked
+2022-12-27 15:56:29,538 - INFO - <module> : Clicked
+2022-12-27 15:56:29,613 - INFO - <module> : Clicked
+2022-12-27 15:56:29,613 - INFO - <module> : Clicked
+2022-12-27 15:56:29,613 - INFO - <module> : Clicked
+2022-12-27 15:56:29,613 - INFO - <module> : Clicked
+2022-12-27 15:56:31,919 - INFO - <module> : Clicked
+2022-12-27 15:56:31,919 - INFO - <module> : Clicked
+2022-12-27 15:56:31,919 - INFO - <module> : Clicked
+2022-12-27 15:56:31,919 - INFO - <module> : Clicked
+2022-12-27 15:56:32,874 - INFO - <module> : input: atcontCompname
+2022-12-27 15:56:32,874 - INFO - <module> : input: atcontCompname
+2022-12-27 15:56:32,874 - INFO - <module> : input: atcontCompname
+2022-12-27 15:56:32,874 - INFO - <module> : input: atcontCompname
+2022-12-27 15:56:32,973 - INFO - <module> : input: atcontFname
+2022-12-27 15:56:32,973 - INFO - <module> : input: atcontFname
+2022-12-27 15:56:32,973 - INFO - <module> : input: atcontFname
+2022-12-27 15:56:32,973 - INFO - <module> : input: atcontFname
+2022-12-27 15:56:33,055 - INFO - <module> : input: atcontLname
+2022-12-27 15:56:33,055 - INFO - <module> : input: atcontLname
+2022-12-27 15:56:33,055 - INFO - <module> : input: atcontLname
+2022-12-27 15:56:33,055 - INFO - <module> : input: atcontLname
+2022-12-27 15:56:33,148 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2022-12-27 15:56:33,148 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2022-12-27 15:56:33,148 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2022-12-27 15:56:33,148 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2022-12-27 15:56:33,225 - INFO - <module> : input: +639234567891
+2022-12-27 15:56:33,225 - INFO - <module> : input: +639234567891
+2022-12-27 15:56:33,225 - INFO - <module> : input: +639234567891
+2022-12-27 15:56:33,225 - INFO - <module> : input: +639234567891
+2022-12-27 15:56:33,302 - INFO - <module> : input: Contractormanager
+2022-12-27 15:56:33,302 - INFO - <module> : input: Contractormanager
+2022-12-27 15:56:33,302 - INFO - <module> : input: Contractormanager
+2022-12-27 15:56:33,302 - INFO - <module> : input: Contractormanager
+2022-12-27 15:56:35,596 - INFO - <module> : Clicked
+2022-12-27 15:56:35,596 - INFO - <module> : Clicked
+2022-12-27 15:56:35,596 - INFO - <module> : Clicked
+2022-12-27 15:56:35,596 - INFO - <module> : Clicked
+2022-12-27 15:56:38,878 - INFO - <module> : Clicked
+2022-12-27 15:56:38,878 - INFO - <module> : Clicked
+2022-12-27 15:56:38,878 - INFO - <module> : Clicked
+2022-12-27 15:56:38,878 - INFO - <module> : Clicked
+2022-12-27 15:56:48,938 - INFO - <module> : Next exists
+2022-12-27 15:56:48,938 - INFO - <module> : Next exists
+2022-12-27 15:56:48,938 - INFO - <module> : Next exists
+2022-12-27 15:56:48,938 - INFO - <module> : Next exists
+2022-12-27 15:56:52,008 - INFO - <module> : Clicked
+2022-12-27 15:56:52,008 - INFO - <module> : Clicked
+2022-12-27 15:56:52,008 - INFO - <module> : Clicked
+2022-12-27 15:56:52,008 - INFO - <module> : Clicked
+2022-12-27 15:57:02,255 - INFO - setup : Close Browser

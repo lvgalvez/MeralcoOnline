@@ -13,15 +13,15 @@ class CXETerminateIndividual:
     reactivate_service = "//*[@id='accordion-details-01']/div/a[3]"
     stop_service = "//*[@id='accordion-details-01']/div/a[4]"
     stop_lbl = "//*[@id='request_to_modify']/div/div/div/div/div/h3[1]"
-    CAN = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[1]/div/div/div/div/div/div/div[1]/div[2]/div[1]/div/input"
+    CAN = "//div[2]/div[1]/div/input"
     SIN = "//input[@placeholder= 'Service ID Number']"
     firstname = "//input[@placeholder= 'First Name']"
     lastname = "//input[@placeholder= 'Last Name']"
     emailaddress = "//input[@placeholder= 'Email Address']"
     mobile_number = "//input[@placeholder= 'Mobile Number']"
     next1 = "//*[@id='request_to_modify']/div/div/div/div/div/div[6]/div/button"
-    terms_cond = "//*[@id='terms_and_conditions']/div[2]/div[1]/div/h3"
-    yes = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[2]/div[2]/div[2]/label/div"
+    terms_cond = "//*[@id='terms_and_conditions']/div[2]/div[2]/label/div"
+    yes = "//div[2]/div[2]/div[2]/label/div"
     submit = "//*[@id='terms_and_conditions']/div[2]/div[4]/button"
     next_button = "//button[contains(text(), 'Next')]"
 
@@ -34,8 +34,6 @@ class CXETerminateIndividual:
     def get_terms_cond(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.terms_cond)))
 
-    def get_terms_cond(self, driver):
-        return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.terms_cond)))
     def get_next1(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.next1)))
     def get_mobile_number(self, driver):

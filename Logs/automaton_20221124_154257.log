@@ -1,0 +1,80 @@
+2022-11-24 15:42:59,228 - INFO - setup : Browser Launched!
+2022-11-24 15:43:12,257 - INFO - <module> : Go to Registration page
+2022-11-24 15:43:12,257 - INFO - <module> : Go to Registration page
+2022-11-24 15:43:12,257 - INFO - <module> : Go to Registration page
+2022-11-24 15:43:13,681 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-11-24 15:43:13,681 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-11-24 15:43:13,681 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-11-24 15:43:14,744 - INFO - <module> : Clicked
+2022-11-24 15:43:14,744 - INFO - <module> : Clicked
+2022-11-24 15:43:14,744 - INFO - <module> : Clicked
+2022-11-24 15:43:15,585 - INFO - <module> : Create a New Account exists
+2022-11-24 15:43:15,585 - INFO - <module> : Create a New Account exists
+2022-11-24 15:43:15,585 - INFO - <module> : Create a New Account exists
+2022-11-24 15:43:19,150 - INFO - <module> : Populate the following field:
+- Email
+- First Name
+- Middle Name (optional)
+- Last Name
+- Mobile Number
+Customer Account Number
+- Total kWh
+- Bill Date
+
+Note: Customer's name should match the Contract's Account Name 
+2022-11-24 15:43:19,150 - INFO - <module> : Populate the following field:
+- Email
+- First Name
+- Middle Name (optional)
+- Last Name
+- Mobile Number
+Customer Account Number
+- Total kWh
+- Bill Date
+
+Note: Customer's name should match the Contract's Account Name 
+2022-11-24 15:43:19,150 - INFO - <module> : Populate the following field:
+- Email
+- First Name
+- Middle Name (optional)
+- Last Name
+- Mobile Number
+Customer Account Number
+- Total kWh
+- Bill Date
+
+Note: Customer's name should match the Contract's Account Name 
+2022-11-24 15:43:19,490 - INFO - <module> : input: paysingleservicerun2@yopmail.com
+2022-11-24 15:43:19,490 - INFO - <module> : input: paysingleservicerun2@yopmail.com
+2022-11-24 15:43:19,490 - INFO - <module> : input: paysingleservicerun2@yopmail.com
+2022-11-24 15:43:19,737 - INFO - <module> : input: Zero Eleven
+2022-11-24 15:43:19,737 - INFO - <module> : input: Zero Eleven
+2022-11-24 15:43:19,737 - INFO - <module> : input: Zero Eleven
+2022-11-24 15:43:19,934 - INFO - <module> : input: TS
+2022-11-24 15:43:19,934 - INFO - <module> : input: TS
+2022-11-24 15:43:19,934 - INFO - <module> : input: TS
+2022-11-24 15:43:20,137 - INFO - <module> : input: 9272437214
+2022-11-24 15:43:20,137 - INFO - <module> : input: 9272437214
+2022-11-24 15:43:20,137 - INFO - <module> : input: 9272437214
+2022-11-24 15:43:20,379 - INFO - <module> : input: 3534823912
+2022-11-24 15:43:20,379 - INFO - <module> : input: 3534823912
+2022-11-24 15:43:20,379 - INFO - <module> : input: 3534823912
+2022-11-24 15:43:20,568 - INFO - <module> : input: 224
+2022-11-24 15:43:20,568 - INFO - <module> : input: 224
+2022-11-24 15:43:20,568 - INFO - <module> : input: 224
+2022-11-24 15:43:20,831 - INFO - <module> : input: 08/02/2022
+2022-11-24 15:43:20,831 - INFO - <module> : input: 08/02/2022
+2022-11-24 15:43:20,831 - INFO - <module> : input: 08/02/2022
+2022-11-24 15:43:24,639 - INFO - <module> : Tick on Meralco Online Terms & Conditions > Click Register
+2022-11-24 15:43:24,639 - INFO - <module> : Tick on Meralco Online Terms & Conditions > Click Register
+2022-11-24 15:43:24,639 - INFO - <module> : Tick on Meralco Online Terms & Conditions > Click Register
+2022-11-24 15:43:24,969 - INFO - <module> : Clicked
+2022-11-24 15:43:24,969 - INFO - <module> : Clicked
+2022-11-24 15:43:24,969 - INFO - <module> : Clicked
+2022-11-24 15:43:27,976 - INFO - <module> : Clicked
+2022-11-24 15:43:27,976 - INFO - <module> : Clicked
+2022-11-24 15:43:27,976 - INFO - <module> : Clicked
+2022-11-24 15:44:01,014 - ERROR - <module> : Cannot Locate: confirmation_ok
+2022-11-24 15:44:01,014 - ERROR - <module> : Cannot Locate: confirmation_ok
+2022-11-24 15:44:01,014 - ERROR - <module> : Cannot Locate: confirmation_ok
+2022-11-24 15:44:01,245 - INFO - setup : Close Browser

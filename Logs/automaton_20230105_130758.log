@@ -1,0 +1,138 @@
+2023-01-05 13:08:00,547 - INFO - setup : Browser Launched!
+2023-01-05 13:08:18,392 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 13:08:18,392 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 13:08:18,392 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 13:08:18,392 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 13:08:19,504 - INFO - <module> : Service Application exists
+2023-01-05 13:08:19,504 - INFO - <module> : Service Application exists
+2023-01-05 13:08:19,504 - INFO - <module> : Service Application exists
+2023-01-05 13:08:19,504 - INFO - <module> : Service Application exists
+2023-01-05 13:08:23,040 - INFO - <module> : Clicked
+2023-01-05 13:08:23,040 - INFO - <module> : Clicked
+2023-01-05 13:08:23,040 - INFO - <module> : Clicked
+2023-01-05 13:08:23,040 - INFO - <module> : Clicked
+2023-01-05 13:08:23,093 - INFO - <module> : Start Service exists
+2023-01-05 13:08:23,093 - INFO - <module> : Start Service exists
+2023-01-05 13:08:23,093 - INFO - <module> : Start Service exists
+2023-01-05 13:08:23,093 - INFO - <module> : Start Service exists
+2023-01-05 13:08:23,150 - INFO - <module> : Modify Service exists
+2023-01-05 13:08:23,150 - INFO - <module> : Modify Service exists
+2023-01-05 13:08:23,150 - INFO - <module> : Modify Service exists
+2023-01-05 13:08:23,150 - INFO - <module> : Modify Service exists
+2023-01-05 13:08:23,205 - INFO - <module> : Reactivate Service exists
+2023-01-05 13:08:23,205 - INFO - <module> : Reactivate Service exists
+2023-01-05 13:08:23,205 - INFO - <module> : Reactivate Service exists
+2023-01-05 13:08:23,205 - INFO - <module> : Reactivate Service exists
+2023-01-05 13:08:23,268 - INFO - <module> : Stop Service exists
+2023-01-05 13:08:23,268 - INFO - <module> : Stop Service exists
+2023-01-05 13:08:23,268 - INFO - <module> : Stop Service exists
+2023-01-05 13:08:23,268 - INFO - <module> : Stop Service exists
+2023-01-05 13:08:27,723 - INFO - <module> : Clicked
+2023-01-05 13:08:27,723 - INFO - <module> : Clicked
+2023-01-05 13:08:27,723 - INFO - <module> : Clicked
+2023-01-05 13:08:27,723 - INFO - <module> : Clicked
+2023-01-05 13:08:28,338 - INFO - <module> : Requests exists
+2023-01-05 13:08:28,338 - INFO - <module> : Requests exists
+2023-01-05 13:08:28,338 - INFO - <module> : Requests exists
+2023-01-05 13:08:28,338 - INFO - <module> : Requests exists
+2023-01-05 13:08:32,390 - INFO - <module> :  exists
+2023-01-05 13:08:32,390 - INFO - <module> :  exists
+2023-01-05 13:08:32,390 - INFO - <module> :  exists
+2023-01-05 13:08:32,390 - INFO - <module> :  exists
+2023-01-05 13:08:36,533 - INFO - <module> : input: 3534823912
+2023-01-05 13:08:36,533 - INFO - <module> : input: 3534823912
+2023-01-05 13:08:36,533 - INFO - <module> : input: 3534823912
+2023-01-05 13:08:36,533 - INFO - <module> : input: 3534823912
+2023-01-05 13:08:40,792 - INFO - <module> : Clicked
+2023-01-05 13:08:40,792 - INFO - <module> : Clicked
+2023-01-05 13:08:40,792 - INFO - <module> : Clicked
+2023-01-05 13:08:40,792 - INFO - <module> : Clicked
+2023-01-05 13:08:40,926 - INFO - <module> : Clicked
+2023-01-05 13:08:40,926 - INFO - <module> : Clicked
+2023-01-05 13:08:40,926 - INFO - <module> : Clicked
+2023-01-05 13:08:40,926 - INFO - <module> : Clicked
+2023-01-05 13:08:44,402 - INFO - <module> : input: automation1
+2023-01-05 13:08:44,402 - INFO - <module> : input: automation1
+2023-01-05 13:08:44,402 - INFO - <module> : input: automation1
+2023-01-05 13:08:44,402 - INFO - <module> : input: automation1
+2023-01-05 13:08:44,506 - INFO - <module> : input: +63945113252
+2023-01-05 13:08:44,506 - INFO - <module> : input: +63945113252
+2023-01-05 13:08:44,506 - INFO - <module> : input: +63945113252
+2023-01-05 13:08:44,506 - INFO - <module> : input: +63945113252
+2023-01-05 13:08:44,604 - INFO - <module> : input: automation5
+2023-01-05 13:08:44,604 - INFO - <module> : input: automation5
+2023-01-05 13:08:44,604 - INFO - <module> : input: automation5
+2023-01-05 13:08:44,604 - INFO - <module> : input: automation5
+2023-01-05 13:08:44,716 - INFO - <module> : input: automation6
+2023-01-05 13:08:44,716 - INFO - <module> : input: automation6
+2023-01-05 13:08:44,716 - INFO - <module> : input: automation6
+2023-01-05 13:08:44,716 - INFO - <module> : input: automation6
+2023-01-05 13:08:44,896 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:08:44,896 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:08:44,896 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:08:44,896 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:08:45,071 - INFO - <module> : input: +639234567891
+2023-01-05 13:08:45,071 - INFO - <module> : input: +639234567891
+2023-01-05 13:08:45,071 - INFO - <module> : input: +639234567891
+2023-01-05 13:08:45,071 - INFO - <module> : input: +639234567891
+2023-01-05 13:08:45,205 - INFO - <module> : input: manager
+2023-01-05 13:08:45,205 - INFO - <module> : input: manager
+2023-01-05 13:08:45,205 - INFO - <module> : input: manager
+2023-01-05 13:08:45,205 - INFO - <module> : input: manager
+2023-01-05 13:08:47,627 - INFO - <module> : Clicked
+2023-01-05 13:08:47,627 - INFO - <module> : Clicked
+2023-01-05 13:08:47,627 - INFO - <module> : Clicked
+2023-01-05 13:08:47,627 - INFO - <module> : Clicked
+2023-01-05 13:08:47,687 - INFO - <module> : 2CONTACT INFORMATION exists
+2023-01-05 13:08:47,687 - INFO - <module> : 2CONTACT INFORMATION exists
+2023-01-05 13:08:47,687 - INFO - <module> : 2CONTACT INFORMATION exists
+2023-01-05 13:08:47,687 - INFO - <module> : 2CONTACT INFORMATION exists
+2023-01-05 13:08:51,793 - INFO - <module> : input: automation5
+2023-01-05 13:08:51,793 - INFO - <module> : input: automation5
+2023-01-05 13:08:51,793 - INFO - <module> : input: automation5
+2023-01-05 13:08:51,793 - INFO - <module> : input: automation5
+2023-01-05 13:08:51,958 - INFO - <module> : input: automation6
+2023-01-05 13:08:51,958 - INFO - <module> : input: automation6
+2023-01-05 13:08:51,958 - INFO - <module> : input: automation6
+2023-01-05 13:08:51,958 - INFO - <module> : input: automation6
+2023-01-05 13:08:52,141 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:08:52,141 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:08:52,141 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:08:52,141 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 13:08:52,306 - INFO - <module> : input: +639234567891
+2023-01-05 13:08:52,306 - INFO - <module> : input: +639234567891
+2023-01-05 13:08:52,306 - INFO - <module> : input: +639234567891
+2023-01-05 13:08:52,306 - INFO - <module> : input: +639234567891
+2023-01-05 13:08:54,651 - INFO - <module> : Clicked
+2023-01-05 13:08:54,651 - INFO - <module> : Clicked
+2023-01-05 13:08:54,651 - INFO - <module> : Clicked
+2023-01-05 13:08:54,651 - INFO - <module> : Clicked
+2023-01-05 13:08:54,713 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2023-01-05 13:08:54,713 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2023-01-05 13:08:54,713 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2023-01-05 13:08:54,713 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2023-01-05 13:08:58,873 - INFO - <module> : Clicked
+2023-01-05 13:08:58,873 - INFO - <module> : Clicked
+2023-01-05 13:08:58,873 - INFO - <module> : Clicked
+2023-01-05 13:08:58,873 - INFO - <module> : Clicked
+2023-01-05 13:09:01,422 - INFO - <module> : Clicked
+2023-01-05 13:09:01,422 - INFO - <module> : Clicked
+2023-01-05 13:09:01,422 - INFO - <module> : Clicked
+2023-01-05 13:09:01,422 - INFO - <module> : Clicked
+2023-01-05 13:09:01,531 - INFO - <module> : 4TERMS & CONDITIONS exists
+2023-01-05 13:09:01,531 - INFO - <module> : 4TERMS & CONDITIONS exists
+2023-01-05 13:09:01,531 - INFO - <module> : 4TERMS & CONDITIONS exists
+2023-01-05 13:09:01,531 - INFO - <module> : 4TERMS & CONDITIONS exists
+2023-01-05 13:09:05,302 - INFO - <module> : Clicked
+2023-01-05 13:09:05,302 - INFO - <module> : Clicked
+2023-01-05 13:09:05,302 - INFO - <module> : Clicked
+2023-01-05 13:09:05,302 - INFO - <module> : Clicked
+2023-01-05 13:09:25,361 - INFO - <module> : Submit exists
+2023-01-05 13:09:25,361 - INFO - <module> : Submit exists
+2023-01-05 13:09:25,361 - INFO - <module> : Submit exists
+2023-01-05 13:09:25,361 - INFO - <module> : Submit exists
+2023-01-05 13:09:29,197 - INFO - <module> : Clicked
+2023-01-05 13:09:29,197 - INFO - <module> : Clicked
+2023-01-05 13:09:29,197 - INFO - <module> : Clicked
+2023-01-05 13:09:29,197 - INFO - <module> : Clicked
+2023-01-05 13:10:10,555 - INFO - setup : Close Browser

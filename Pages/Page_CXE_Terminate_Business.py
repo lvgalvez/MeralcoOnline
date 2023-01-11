@@ -13,18 +13,22 @@ class CXETerminateBusiness:
     reactivate_service = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[1]/div/div/div/div[2]/ul/li[2]/section/div[2]/div/a[4]"
     stop_service = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[1]/div/div/div/div[2]/ul/li[2]/section/div[2]/div/a[4]"
     stop_lbl = "//*[@id='request_to_modify']/div/div/div/div/div/h3[1]"
-    CAN = "//*[@id='154:2;a']"
-    firstname = "//*[@id='521:0']"
-    lastname = "//*[@id='541:0']"
-    emailaddress = "//*[@id='553:0']"
-    mobile_number = "//*[@id='565:0']"
+    CAN = "//input[@placeholder= '1234567890']"
+    SIN = "//*[@id='504:0']"
+    firstname = "//input[@placeholder= 'First Name']"
+    lastname = "//input[@placeholder= 'Last Name']"
+    emailaddress = "//input[@placeholder= 'Email Address']"
+    mobile_number = "//input[@placeholder= 'Mobile Number']"
     next1 = "//*[@id='request_to_modify']/div/div/div/div/div/div[6]/div/button"
-    terms_cond = "//*[@id='terms_and_conditions']/div[2]/div[1]/div/h3"
+    terms_cond = "//*[@id='terms_and_conditions']/div[2]/div[2]/label/div"
     yes = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[2]/div[2]/div[2]/label/div"
     submit = "//*[@id='terms_and_conditions']/div[2]/div[4]/button"
 
     def  get_submit(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.submit)))
+
+    def get_SIN(self, driver):
+        return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.SIN)))
     def  get_yes(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.yes)))
     def get_terms_cond(self, driver):

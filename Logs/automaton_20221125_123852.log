@@ -1,0 +1,14 @@
+2022-11-25 12:38:53,470 - INFO - setup : Browser Launched!
+2022-11-25 12:38:59,880 - INFO - <module> : Click Forgot Password? In login page
+2022-11-25 12:38:59,880 - INFO - <module> : Click Forgot Password? In login page
+2022-11-25 12:38:59,880 - INFO - <module> : Click Forgot Password? In login page
+2022-11-25 12:39:00,481 - INFO - <module> : Clicked
+2022-11-25 12:39:00,481 - INFO - <module> : Clicked
+2022-11-25 12:39:00,481 - INFO - <module> : Clicked
+2022-11-25 12:39:03,075 - INFO - <module> : Input SSO email in Email field then click Send Confirmation Email button
+2022-11-25 12:39:03,075 - INFO - <module> : Input SSO email in Email field then click Send Confirmation Email button
+2022-11-25 12:39:03,075 - INFO - <module> : Input SSO email in Email field then click Send Confirmation Email button
+2022-11-25 12:39:33,163 - ERROR - <module> : Cannot Locate: email
+2022-11-25 12:39:33,163 - ERROR - <module> : Cannot Locate: email
+2022-11-25 12:39:33,163 - ERROR - <module> : Cannot Locate: email
+2022-11-25 12:39:33,225 - INFO - setup : Close Browser
