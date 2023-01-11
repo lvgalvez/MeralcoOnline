@@ -350,6 +350,7 @@ def TC048c(driver, ts_id, first_name, middle_name, last_name, mobile_number, lan
     fc.input_text(report_outage.get_street_no(driver), "123")
 
 
+
     fc.click(report_outage.get_landmark_radio(driver))
     fc.click(report_outage.get_landmark_radio(driver))
     fc.input_text(report_outage.get_landmark_text(driver), "Sample Text")
@@ -380,10 +381,13 @@ def TC048d(driver, ts_id, first_name, middle_name, last_name, mobile_number, lan
     Handle_GPS_Prompt(driver, "Disagree")
     Click_Report_Outage(driver)
     fc.click(report_outage.get_safety_concern(driver))
+    fc.click(report_outage.get_safety_select(driver))
+    fc.click(report_outage.get_safety_pole_broken(driver))
+    #fc.click(report_outage.get_pole_value(driver))
     fc.screen_capture(driver, serviceAppModule, ts_id, test_case, "Step 1")
 
     fc.bookmark(serviceAppModule, ts_id, test_case, "Step 2")
-    fc.click(report_outage.get_address(driver))
+    #fc.click(report_outage.get_address(driver))
     fc.click(report_outage.get_province_metro_manila(driver))
     fc.click(report_outage.get_city_pasig(driver))
     fc.click(report_outage.get_barangay_bagong_ilog(driver))
@@ -393,7 +397,9 @@ def TC048d(driver, ts_id, first_name, middle_name, last_name, mobile_number, lan
 
 
     fc.click(report_outage.get_landmark_radio(driver))
+    fc.modal_click(driver, report_outage.get_yes_option(driver))
     fc.click(report_outage.get_landmark_radio(driver))
+
     fc.input_text(report_outage.get_landmark_text(driver), "Sample Text")
     fc.input_text(report_outage.get_first_name(driver), first_name)
     fc.input_text(report_outage.get_middle_name(driver), middle_name)
