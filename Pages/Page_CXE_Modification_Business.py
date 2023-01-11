@@ -43,9 +43,15 @@ class CXEModificationBusiness:
     submit = "//*[@id='tab-4']/div[3]/div[2]/div[3]/button"
     confirmation = "//*[@id='confirmation']/div/div[1]/h3"
 
+    SIN = "//*[@id='513:0']"
+
     def get_confirmation(self, driver):
         return WebDriverWait(driver, wait_time).until(
             EC.element_to_be_clickable((By.XPATH, self.confirmation)))
+
+    def get_SIN(self, driver):
+        return WebDriverWait(driver, wait_time).until(
+            EC.element_to_be_clickable((By.XPATH, self.SIN)))
 
 
     def get_submit(self, driver):

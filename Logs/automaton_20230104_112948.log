@@ -1,0 +1,54 @@
+2023-01-04 11:29:49,179 - INFO - setup : Browser Launched!
+2023-01-04 11:29:57,229 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 11:29:57,229 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 11:29:57,229 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 11:29:57,229 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 11:30:00,569 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 11:30:00,569 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 11:30:00,569 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 11:30:00,569 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 11:30:03,901 - INFO - <module> : Service Application exists
+2023-01-04 11:30:03,901 - INFO - <module> : Service Application exists
+2023-01-04 11:30:03,901 - INFO - <module> : Service Application exists
+2023-01-04 11:30:03,901 - INFO - <module> : Service Application exists
+2023-01-04 11:30:06,963 - INFO - <module> : Click on Business
+2023-01-04 11:30:06,963 - INFO - <module> : Click on Business
+2023-01-04 11:30:06,963 - INFO - <module> : Click on Business
+2023-01-04 11:30:06,963 - INFO - <module> : Click on Business
+2023-01-04 11:30:07,057 - INFO - <module> : Clicked
+2023-01-04 11:30:07,057 - INFO - <module> : Clicked
+2023-01-04 11:30:07,057 - INFO - <module> : Clicked
+2023-01-04 11:30:07,057 - INFO - <module> : Clicked
+2023-01-04 11:30:07,101 - INFO - <module> : Start Service exists
+2023-01-04 11:30:07,101 - INFO - <module> : Start Service exists
+2023-01-04 11:30:07,101 - INFO - <module> : Start Service exists
+2023-01-04 11:30:07,101 - INFO - <module> : Start Service exists
+2023-01-04 11:30:07,148 - INFO - <module> : Modify Service exists
+2023-01-04 11:30:07,148 - INFO - <module> : Modify Service exists
+2023-01-04 11:30:07,148 - INFO - <module> : Modify Service exists
+2023-01-04 11:30:07,148 - INFO - <module> : Modify Service exists
+2023-01-04 11:30:07,198 - INFO - <module> : Reactivate Service exists
+2023-01-04 11:30:07,198 - INFO - <module> : Reactivate Service exists
+2023-01-04 11:30:07,198 - INFO - <module> : Reactivate Service exists
+2023-01-04 11:30:07,198 - INFO - <module> : Reactivate Service exists
+2023-01-04 11:30:07,238 - INFO - <module> : Stop Service exists
+2023-01-04 11:30:07,238 - INFO - <module> : Stop Service exists
+2023-01-04 11:30:07,238 - INFO - <module> : Stop Service exists
+2023-01-04 11:30:07,238 - INFO - <module> : Stop Service exists
+2023-01-04 11:30:10,316 - INFO - <module> : Click on Reactivate Service
+2023-01-04 11:30:10,316 - INFO - <module> : Click on Reactivate Service
+2023-01-04 11:30:10,316 - INFO - <module> : Click on Reactivate Service
+2023-01-04 11:30:10,316 - INFO - <module> : Click on Reactivate Service
+2023-01-04 11:30:10,560 - INFO - <module> : Clicked
+2023-01-04 11:30:10,560 - INFO - <module> : Clicked
+2023-01-04 11:30:10,560 - INFO - <module> : Clicked
+2023-01-04 11:30:10,560 - INFO - <module> : Clicked
+2023-01-04 11:30:10,656 - INFO - <module> : Reactivate a Service exists
+2023-01-04 11:30:10,656 - INFO - <module> : Reactivate a Service exists
+2023-01-04 11:30:10,656 - INFO - <module> : Reactivate a Service exists
+2023-01-04 11:30:10,656 - INFO - <module> : Reactivate a Service exists
+2023-01-04 11:30:13,755 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 11:30:13,755 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 11:30:13,755 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 11:30:13,755 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 11:30:44,343 - INFO - setup : Close Browser

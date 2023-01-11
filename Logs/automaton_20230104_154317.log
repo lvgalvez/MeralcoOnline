@@ -1,0 +1,218 @@
+2023-01-04 15:43:18,518 - INFO - setup : Browser Launched!
+2023-01-04 15:43:28,955 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 15:43:28,955 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 15:43:28,955 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 15:43:28,955 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 15:43:29,194 - INFO - <module> : Service Application exists
+2023-01-04 15:43:29,194 - INFO - <module> : Service Application exists
+2023-01-04 15:43:29,194 - INFO - <module> : Service Application exists
+2023-01-04 15:43:29,194 - INFO - <module> : Service Application exists
+2023-01-04 15:43:31,986 - INFO - <module> : Click on Contractor
+2023-01-04 15:43:31,986 - INFO - <module> : Click on Contractor
+2023-01-04 15:43:31,986 - INFO - <module> : Click on Contractor
+2023-01-04 15:43:31,986 - INFO - <module> : Click on Contractor
+2023-01-04 15:43:32,049 - INFO - <module> : Clicked
+2023-01-04 15:43:32,049 - INFO - <module> : Clicked
+2023-01-04 15:43:32,049 - INFO - <module> : Clicked
+2023-01-04 15:43:32,049 - INFO - <module> : Clicked
+2023-01-04 15:43:32,091 - INFO - <module> : Start Service exists
+2023-01-04 15:43:32,091 - INFO - <module> : Start Service exists
+2023-01-04 15:43:32,091 - INFO - <module> : Start Service exists
+2023-01-04 15:43:32,091 - INFO - <module> : Start Service exists
+2023-01-04 15:43:32,133 - INFO - <module> : Modify Service exists
+2023-01-04 15:43:32,133 - INFO - <module> : Modify Service exists
+2023-01-04 15:43:32,133 - INFO - <module> : Modify Service exists
+2023-01-04 15:43:32,133 - INFO - <module> : Modify Service exists
+2023-01-04 15:43:32,177 - INFO - <module> : Reactivate Service exists
+2023-01-04 15:43:32,177 - INFO - <module> : Reactivate Service exists
+2023-01-04 15:43:32,177 - INFO - <module> : Reactivate Service exists
+2023-01-04 15:43:32,177 - INFO - <module> : Reactivate Service exists
+2023-01-04 15:43:32,217 - INFO - <module> : Stop Service exists
+2023-01-04 15:43:32,217 - INFO - <module> : Stop Service exists
+2023-01-04 15:43:32,217 - INFO - <module> : Stop Service exists
+2023-01-04 15:43:32,217 - INFO - <module> : Stop Service exists
+2023-01-04 15:43:35,017 - INFO - <module> : Click on Reactivate Service
+2023-01-04 15:43:35,017 - INFO - <module> : Click on Reactivate Service
+2023-01-04 15:43:35,017 - INFO - <module> : Click on Reactivate Service
+2023-01-04 15:43:35,017 - INFO - <module> : Click on Reactivate Service
+2023-01-04 15:43:36,228 - INFO - <module> : Clicked
+2023-01-04 15:43:36,228 - INFO - <module> : Clicked
+2023-01-04 15:43:36,228 - INFO - <module> : Clicked
+2023-01-04 15:43:36,228 - INFO - <module> : Clicked
+2023-01-04 15:43:36,321 - INFO - <module> : Reactivate a Service exists
+2023-01-04 15:43:36,321 - INFO - <module> : Reactivate a Service exists
+2023-01-04 15:43:36,321 - INFO - <module> : Reactivate a Service exists
+2023-01-04 15:43:36,321 - INFO - <module> : Reactivate a Service exists
+2023-01-04 15:43:39,418 - INFO - <module> : Populate the following:
+First Name*
+Last Name*
+Business Name*
+Email Address*
+Mobile Number*
+Relationship to Customer*
+>Click Next
+2023-01-04 15:43:39,418 - INFO - <module> : Populate the following:
+First Name*
+Last Name*
+Business Name*
+Email Address*
+Mobile Number*
+Relationship to Customer*
+>Click Next
+2023-01-04 15:43:39,418 - INFO - <module> : Populate the following:
+First Name*
+Last Name*
+Business Name*
+Email Address*
+Mobile Number*
+Relationship to Customer*
+>Click Next
+2023-01-04 15:43:39,418 - INFO - <module> : Populate the following:
+First Name*
+Last Name*
+Business Name*
+Email Address*
+Mobile Number*
+Relationship to Customer*
+>Click Next
+2023-01-04 15:43:39,551 - INFO - <module> : input: atFirstname
+2023-01-04 15:43:39,551 - INFO - <module> : input: atFirstname
+2023-01-04 15:43:39,551 - INFO - <module> : input: atFirstname
+2023-01-04 15:43:39,551 - INFO - <module> : input: atFirstname
+2023-01-04 15:43:39,636 - INFO - <module> : input: atLastname
+2023-01-04 15:43:39,636 - INFO - <module> : input: atLastname
+2023-01-04 15:43:39,636 - INFO - <module> : input: atLastname
+2023-01-04 15:43:39,636 - INFO - <module> : input: atLastname
+2023-01-04 15:43:39,735 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 15:43:39,735 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 15:43:39,735 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 15:43:39,735 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 15:43:39,821 - INFO - <module> : input: atcontbusinessName
+2023-01-04 15:43:39,821 - INFO - <module> : input: atcontbusinessName
+2023-01-04 15:43:39,821 - INFO - <module> : input: atcontbusinessName
+2023-01-04 15:43:39,821 - INFO - <module> : input: atcontbusinessName
+2023-01-04 15:43:39,906 - INFO - <module> : input: +639234567891
+2023-01-04 15:43:39,906 - INFO - <module> : input: +639234567891
+2023-01-04 15:43:39,906 - INFO - <module> : input: +639234567891
+2023-01-04 15:43:39,906 - INFO - <module> : input: +639234567891
+2023-01-04 15:43:42,196 - INFO - <module> : Clicked
+2023-01-04 15:43:42,196 - INFO - <module> : Clicked
+2023-01-04 15:43:42,196 - INFO - <module> : Clicked
+2023-01-04 15:43:42,196 - INFO - <module> : Clicked
+2023-01-04 15:43:42,242 - INFO - <module> : CUSTOMER INFO exists
+2023-01-04 15:43:42,242 - INFO - <module> : CUSTOMER INFO exists
+2023-01-04 15:43:42,242 - INFO - <module> : CUSTOMER INFO exists
+2023-01-04 15:43:42,242 - INFO - <module> : CUSTOMER INFO exists
+2023-01-04 15:43:45,293 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 15:43:45,293 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 15:43:45,293 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 15:43:45,293 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-04 15:43:45,366 - INFO - <module> :  exists
+2023-01-04 15:43:45,366 - INFO - <module> :  exists
+2023-01-04 15:43:45,366 - INFO - <module> :  exists
+2023-01-04 15:43:45,366 - INFO - <module> :  exists
+2023-01-04 15:43:48,234 - INFO - <module> : Populate Customer Account Number field
+2023-01-04 15:43:48,234 - INFO - <module> : Populate Customer Account Number field
+2023-01-04 15:43:48,234 - INFO - <module> : Populate Customer Account Number field
+2023-01-04 15:43:48,234 - INFO - <module> : Populate Customer Account Number field
+2023-01-04 15:43:48,370 - INFO - <module> : input: 3518724842
+2023-01-04 15:43:48,370 - INFO - <module> : input: 3518724842
+2023-01-04 15:43:48,370 - INFO - <module> : input: 3518724842
+2023-01-04 15:43:48,370 - INFO - <module> : input: 3518724842
+2023-01-04 15:43:51,381 - INFO - <module> : Populate Service ID Number 
+2023-01-04 15:43:51,381 - INFO - <module> : Populate Service ID Number 
+2023-01-04 15:43:51,381 - INFO - <module> : Populate Service ID Number 
+2023-01-04 15:43:51,381 - INFO - <module> : Populate Service ID Number 
+2023-01-04 15:43:51,497 - INFO - <module> : input: 501027710101
+2023-01-04 15:43:51,497 - INFO - <module> : input: 501027710101
+2023-01-04 15:43:51,497 - INFO - <module> : input: 501027710101
+2023-01-04 15:43:51,497 - INFO - <module> : input: 501027710101
+2023-01-04 15:43:54,337 - INFO - <module> : Populate the following field:
+First Name*
+Last Name*
+Email address*
+Mobile Number*
+Landline (optional)
+Birthday (optional)
+> Click Next
+2023-01-04 15:43:54,337 - INFO - <module> : Populate the following field:
+First Name*
+Last Name*
+Email address*
+Mobile Number*
+Landline (optional)
+Birthday (optional)
+> Click Next
+2023-01-04 15:43:54,337 - INFO - <module> : Populate the following field:
+First Name*
+Last Name*
+Email address*
+Mobile Number*
+Landline (optional)
+Birthday (optional)
+> Click Next
+2023-01-04 15:43:54,337 - INFO - <module> : Populate the following field:
+First Name*
+Last Name*
+Email address*
+Mobile Number*
+Landline (optional)
+Birthday (optional)
+> Click Next
+2023-01-04 15:43:54,463 - INFO - <module> : input: atFirstname
+2023-01-04 15:43:54,463 - INFO - <module> : input: atFirstname
+2023-01-04 15:43:54,463 - INFO - <module> : input: atFirstname
+2023-01-04 15:43:54,463 - INFO - <module> : input: atFirstname
+2023-01-04 15:43:54,541 - INFO - <module> : input: atLastname
+2023-01-04 15:43:54,541 - INFO - <module> : input: atLastname
+2023-01-04 15:43:54,541 - INFO - <module> : input: atLastname
+2023-01-04 15:43:54,541 - INFO - <module> : input: atLastname
+2023-01-04 15:43:54,628 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 15:43:54,628 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 15:43:54,628 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 15:43:54,628 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 15:43:54,729 - INFO - <module> : input: +639234567891
+2023-01-04 15:43:54,729 - INFO - <module> : input: +639234567891
+2023-01-04 15:43:54,729 - INFO - <module> : input: +639234567891
+2023-01-04 15:43:54,729 - INFO - <module> : input: +639234567891
+2023-01-04 15:43:57,016 - INFO - <module> : Clicked
+2023-01-04 15:43:57,016 - INFO - <module> : Clicked
+2023-01-04 15:43:57,016 - INFO - <module> : Clicked
+2023-01-04 15:43:57,016 - INFO - <module> : Clicked
+2023-01-04 15:43:57,057 - INFO - <module> : Where will the electric service be used? exists
+2023-01-04 15:43:57,057 - INFO - <module> : Where will the electric service be used? exists
+2023-01-04 15:43:57,057 - INFO - <module> : Where will the electric service be used? exists
+2023-01-04 15:43:57,057 - INFO - <module> : Where will the electric service be used? exists
+2023-01-04 15:43:59,928 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address indicator
+> Attach Documents
+> Click Next
+2023-01-04 15:43:59,928 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address indicator
+> Attach Documents
+> Click Next
+2023-01-04 15:43:59,928 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address indicator
+> Attach Documents
+> Click Next
+2023-01-04 15:43:59,928 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address indicator
+> Attach Documents
+> Click Next
+2023-01-04 15:44:30,576 - INFO - setup : Close Browser

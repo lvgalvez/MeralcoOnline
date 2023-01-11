@@ -1,0 +1,66 @@
+2022-12-27 15:38:10,868 - INFO - setup : Browser Launched!
+2022-12-27 15:38:19,893 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 15:38:19,893 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 15:38:19,893 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 15:38:19,893 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 15:38:20,233 - INFO - <module> : Service Application exists
+2022-12-27 15:38:20,233 - INFO - <module> : Service Application exists
+2022-12-27 15:38:20,233 - INFO - <module> : Service Application exists
+2022-12-27 15:38:20,233 - INFO - <module> : Service Application exists
+2022-12-27 15:38:23,224 - INFO - <module> : Clicked
+2022-12-27 15:38:23,224 - INFO - <module> : Clicked
+2022-12-27 15:38:23,224 - INFO - <module> : Clicked
+2022-12-27 15:38:23,224 - INFO - <module> : Clicked
+2022-12-27 15:38:23,277 - INFO - <module> : Start Service exists
+2022-12-27 15:38:23,277 - INFO - <module> : Start Service exists
+2022-12-27 15:38:23,277 - INFO - <module> : Start Service exists
+2022-12-27 15:38:23,277 - INFO - <module> : Start Service exists
+2022-12-27 15:38:23,321 - INFO - <module> : Modify Service exists
+2022-12-27 15:38:23,321 - INFO - <module> : Modify Service exists
+2022-12-27 15:38:23,321 - INFO - <module> : Modify Service exists
+2022-12-27 15:38:23,321 - INFO - <module> : Modify Service exists
+2022-12-27 15:38:23,370 - INFO - <module> : Reactivate Service exists
+2022-12-27 15:38:23,370 - INFO - <module> : Reactivate Service exists
+2022-12-27 15:38:23,370 - INFO - <module> : Reactivate Service exists
+2022-12-27 15:38:23,370 - INFO - <module> : Reactivate Service exists
+2022-12-27 15:38:23,408 - INFO - <module> : Stop Service exists
+2022-12-27 15:38:23,408 - INFO - <module> : Stop Service exists
+2022-12-27 15:38:23,408 - INFO - <module> : Stop Service exists
+2022-12-27 15:38:23,408 - INFO - <module> : Stop Service exists
+2022-12-27 15:38:27,763 - INFO - <module> : Clicked
+2022-12-27 15:38:27,763 - INFO - <module> : Clicked
+2022-12-27 15:38:27,763 - INFO - <module> : Clicked
+2022-12-27 15:38:27,763 - INFO - <module> : Clicked
+2022-12-27 15:38:27,858 - INFO - <module> : REQUEST DETAILS exists
+2022-12-27 15:38:27,858 - INFO - <module> : REQUEST DETAILS exists
+2022-12-27 15:38:27,858 - INFO - <module> : REQUEST DETAILS exists
+2022-12-27 15:38:27,858 - INFO - <module> : REQUEST DETAILS exists
+2022-12-27 15:38:30,836 - INFO - <module> :  exists
+2022-12-27 15:38:30,836 - INFO - <module> :  exists
+2022-12-27 15:38:30,836 - INFO - <module> :  exists
+2022-12-27 15:38:30,836 - INFO - <module> :  exists
+2022-12-27 15:38:33,907 - INFO - <module> : input: 3535069832
+2022-12-27 15:38:33,907 - INFO - <module> : input: 3535069832
+2022-12-27 15:38:33,907 - INFO - <module> : input: 3535069832
+2022-12-27 15:38:33,907 - INFO - <module> : input: 3535069832
+2022-12-27 15:38:37,229 - INFO - <module> : input: 502860340201
+2022-12-27 15:38:37,229 - INFO - <module> : input: 502860340201
+2022-12-27 15:38:37,229 - INFO - <module> : input: 502860340201
+2022-12-27 15:38:37,229 - INFO - <module> : input: 502860340201
+2022-12-27 15:38:40,390 - INFO - <module> : Clicked
+2022-12-27 15:38:40,390 - INFO - <module> : Clicked
+2022-12-27 15:38:40,390 - INFO - <module> : Clicked
+2022-12-27 15:38:40,390 - INFO - <module> : Clicked
+2022-12-27 15:38:40,457 - INFO - <module> : Clicked
+2022-12-27 15:38:40,457 - INFO - <module> : Clicked
+2022-12-27 15:38:40,457 - INFO - <module> : Clicked
+2022-12-27 15:38:40,457 - INFO - <module> : Clicked
+2022-12-27 15:38:42,748 - INFO - <module> : Clicked
+2022-12-27 15:38:42,748 - INFO - <module> : Clicked
+2022-12-27 15:38:42,748 - INFO - <module> : Clicked
+2022-12-27 15:38:42,748 - INFO - <module> : Clicked
+2022-12-27 15:38:43,508 - INFO - <module> : input: atcontCompname
+2022-12-27 15:38:43,508 - INFO - <module> : input: atcontCompname
+2022-12-27 15:38:43,508 - INFO - <module> : input: atcontCompname
+2022-12-27 15:38:43,508 - INFO - <module> : input: atcontCompname
+2022-12-27 15:39:13,639 - INFO - setup : Close Browser

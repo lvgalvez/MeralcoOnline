@@ -1,0 +1,70 @@
+2022-12-28 12:01:17,446 - INFO - setup : Browser Launched!
+2022-12-28 12:01:24,442 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 12:01:24,442 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 12:01:24,442 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 12:01:24,442 - INFO - <module> : Go tohttps://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 12:01:28,358 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 12:01:28,358 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 12:01:28,358 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 12:01:28,358 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-28 12:01:28,589 - INFO - <module> : Service Application exists
+2022-12-28 12:01:28,589 - INFO - <module> : Service Application exists
+2022-12-28 12:01:28,589 - INFO - <module> : Service Application exists
+2022-12-28 12:01:28,589 - INFO - <module> : Service Application exists
+2022-12-28 12:01:31,467 - INFO - <module> : Click on Business
+2022-12-28 12:01:31,467 - INFO - <module> : Click on Business
+2022-12-28 12:01:31,467 - INFO - <module> : Click on Business
+2022-12-28 12:01:31,467 - INFO - <module> : Click on Business
+2022-12-28 12:01:31,540 - INFO - <module> : Clicked
+2022-12-28 12:01:31,540 - INFO - <module> : Clicked
+2022-12-28 12:01:31,540 - INFO - <module> : Clicked
+2022-12-28 12:01:31,540 - INFO - <module> : Clicked
+2022-12-28 12:01:31,584 - INFO - <module> : Start Service exists
+2022-12-28 12:01:31,584 - INFO - <module> : Start Service exists
+2022-12-28 12:01:31,584 - INFO - <module> : Start Service exists
+2022-12-28 12:01:31,584 - INFO - <module> : Start Service exists
+2022-12-28 12:01:31,627 - INFO - <module> : Modify Service exists
+2022-12-28 12:01:31,627 - INFO - <module> : Modify Service exists
+2022-12-28 12:01:31,627 - INFO - <module> : Modify Service exists
+2022-12-28 12:01:31,627 - INFO - <module> : Modify Service exists
+2022-12-28 12:01:31,665 - INFO - <module> : Stop Service exists
+2022-12-28 12:01:31,665 - INFO - <module> : Stop Service exists
+2022-12-28 12:01:31,665 - INFO - <module> : Stop Service exists
+2022-12-28 12:01:31,665 - INFO - <module> : Stop Service exists
+2022-12-28 12:01:31,697 - INFO - <module> : Stop Service exists
+2022-12-28 12:01:31,697 - INFO - <module> : Stop Service exists
+2022-12-28 12:01:31,697 - INFO - <module> : Stop Service exists
+2022-12-28 12:01:31,697 - INFO - <module> : Stop Service exists
+2022-12-28 12:01:34,575 - INFO - <module> : Select Stop Service
+2022-12-28 12:01:34,575 - INFO - <module> : Select Stop Service
+2022-12-28 12:01:34,575 - INFO - <module> : Select Stop Service
+2022-12-28 12:01:34,575 - INFO - <module> : Select Stop Service
+2022-12-28 12:01:34,790 - INFO - <module> : Clicked
+2022-12-28 12:01:34,790 - INFO - <module> : Clicked
+2022-12-28 12:01:34,790 - INFO - <module> : Clicked
+2022-12-28 12:01:34,790 - INFO - <module> : Clicked
+2022-12-28 12:01:34,948 - INFO - <module> : Stop Service exists
+2022-12-28 12:01:34,948 - INFO - <module> : Stop Service exists
+2022-12-28 12:01:34,948 - INFO - <module> : Stop Service exists
+2022-12-28 12:01:34,948 - INFO - <module> : Stop Service exists
+2022-12-28 12:01:37,859 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-12-28 12:01:37,859 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-12-28 12:01:37,859 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-12-28 12:01:37,859 - INFO - <module> : Validate if CAN field is visible and enabled
+2022-12-28 12:01:37,920 - INFO - <module> :  exists
+2022-12-28 12:01:37,920 - INFO - <module> :  exists
+2022-12-28 12:01:37,920 - INFO - <module> :  exists
+2022-12-28 12:01:37,920 - INFO - <module> :  exists
+2022-12-28 12:01:40,803 - INFO - <module> : Populate Customer Account Number field
+2022-12-28 12:01:40,803 - INFO - <module> : Populate Customer Account Number field
+2022-12-28 12:01:40,803 - INFO - <module> : Populate Customer Account Number field
+2022-12-28 12:01:40,803 - INFO - <module> : Populate Customer Account Number field
+2022-12-28 12:01:40,936 - INFO - <module> : input: 0001365393
+2022-12-28 12:01:40,936 - INFO - <module> : input: 0001365393
+2022-12-28 12:01:40,936 - INFO - <module> : input: 0001365393
+2022-12-28 12:01:40,936 - INFO - <module> : input: 0001365393
+2022-12-28 12:01:44,017 - INFO - <module> : Populate Service ID Number 
+2022-12-28 12:01:44,017 - INFO - <module> : Populate Service ID Number 
+2022-12-28 12:01:44,017 - INFO - <module> : Populate Service ID Number 
+2022-12-28 12:01:44,017 - INFO - <module> : Populate Service ID Number 
+2022-12-28 12:01:44,183 - INFO - setup : Close Browser

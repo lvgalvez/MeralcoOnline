@@ -1,0 +1,102 @@
+2022-12-21 15:58:21,536 - INFO - setup : Browser Launched!
+2022-12-21 15:58:33,338 - INFO - <module> : Go to Meralco Mobile App > Login using account with expired password
+2022-12-21 15:58:33,338 - INFO - <module> : Go to Meralco Mobile App > Login using account with expired password
+2022-12-21 15:58:33,338 - INFO - <module> : Go to Meralco Mobile App > Login using account with expired password
+2022-12-21 15:58:33,338 - INFO - <module> : Go to Meralco Mobile App > Login using account with expired password
+2022-12-21 15:58:35,128 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-21 15:58:35,128 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-21 15:58:35,128 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-21 15:58:35,128 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-21 15:58:35,919 - INFO - <module> : Service Application exists
+2022-12-21 15:58:35,919 - INFO - <module> : Service Application exists
+2022-12-21 15:58:35,919 - INFO - <module> : Service Application exists
+2022-12-21 15:58:35,919 - INFO - <module> : Service Application exists
+2022-12-21 15:58:41,238 - INFO - <module> : Update Password
+2022-12-21 15:58:41,238 - INFO - <module> : Update Password
+2022-12-21 15:58:41,238 - INFO - <module> : Update Password
+2022-12-21 15:58:41,238 - INFO - <module> : Update Password
+2022-12-21 15:58:41,466 - INFO - <module> : Clicked
+2022-12-21 15:58:41,466 - INFO - <module> : Clicked
+2022-12-21 15:58:41,466 - INFO - <module> : Clicked
+2022-12-21 15:58:41,466 - INFO - <module> : Clicked
+2022-12-21 15:58:41,555 - INFO - <module> : Start Service exists
+2022-12-21 15:58:41,555 - INFO - <module> : Start Service exists
+2022-12-21 15:58:41,555 - INFO - <module> : Start Service exists
+2022-12-21 15:58:41,555 - INFO - <module> : Start Service exists
+2022-12-21 15:58:41,682 - INFO - <module> : Modify Service exists
+2022-12-21 15:58:41,682 - INFO - <module> : Modify Service exists
+2022-12-21 15:58:41,682 - INFO - <module> : Modify Service exists
+2022-12-21 15:58:41,682 - INFO - <module> : Modify Service exists
+2022-12-21 15:58:41,812 - INFO - <module> : Reactivate Service exists
+2022-12-21 15:58:41,812 - INFO - <module> : Reactivate Service exists
+2022-12-21 15:58:41,812 - INFO - <module> : Reactivate Service exists
+2022-12-21 15:58:41,812 - INFO - <module> : Reactivate Service exists
+2022-12-21 15:58:41,932 - INFO - <module> : Stop Service exists
+2022-12-21 15:58:41,932 - INFO - <module> : Stop Service exists
+2022-12-21 15:58:41,932 - INFO - <module> : Stop Service exists
+2022-12-21 15:58:41,932 - INFO - <module> : Stop Service exists
+2022-12-21 15:58:47,383 - INFO - <module> : Login using new password
+2022-12-21 15:58:47,383 - INFO - <module> : Login using new password
+2022-12-21 15:58:47,383 - INFO - <module> : Login using new password
+2022-12-21 15:58:47,383 - INFO - <module> : Login using new password
+2022-12-21 15:58:47,962 - INFO - <module> : Clicked
+2022-12-21 15:58:47,962 - INFO - <module> : Clicked
+2022-12-21 15:58:47,962 - INFO - <module> : Clicked
+2022-12-21 15:58:47,962 - INFO - <module> : Clicked
+2022-12-21 15:58:48,096 - INFO - <module> : Requests exists
+2022-12-21 15:58:48,096 - INFO - <module> : Requests exists
+2022-12-21 15:58:48,096 - INFO - <module> : Requests exists
+2022-12-21 15:58:48,096 - INFO - <module> : Requests exists
+2022-12-21 15:58:53,805 - INFO - <module> :  exists
+2022-12-21 15:58:53,805 - INFO - <module> :  exists
+2022-12-21 15:58:53,805 - INFO - <module> :  exists
+2022-12-21 15:58:53,805 - INFO - <module> :  exists
+2022-12-21 15:58:59,838 - INFO - <module> : input: 3534823912
+2022-12-21 15:58:59,838 - INFO - <module> : input: 3534823912
+2022-12-21 15:58:59,838 - INFO - <module> : input: 3534823912
+2022-12-21 15:58:59,838 - INFO - <module> : input: 3534823912
+2022-12-21 15:59:05,735 - INFO - <module> : Clicked
+2022-12-21 15:59:05,735 - INFO - <module> : Clicked
+2022-12-21 15:59:05,735 - INFO - <module> : Clicked
+2022-12-21 15:59:05,735 - INFO - <module> : Clicked
+2022-12-21 15:59:05,924 - INFO - <module> : Clicked
+2022-12-21 15:59:05,924 - INFO - <module> : Clicked
+2022-12-21 15:59:05,924 - INFO - <module> : Clicked
+2022-12-21 15:59:05,924 - INFO - <module> : Clicked
+2022-12-21 15:59:11,639 - INFO - <module> : input: automation1
+2022-12-21 15:59:11,639 - INFO - <module> : input: automation1
+2022-12-21 15:59:11,639 - INFO - <module> : input: automation1
+2022-12-21 15:59:11,639 - INFO - <module> : input: automation1
+2022-12-21 15:59:11,940 - INFO - <module> : input: +63945113252
+2022-12-21 15:59:11,940 - INFO - <module> : input: +63945113252
+2022-12-21 15:59:11,940 - INFO - <module> : input: +63945113252
+2022-12-21 15:59:11,940 - INFO - <module> : input: +63945113252
+2022-12-21 15:59:12,159 - INFO - <module> : input: automation5
+2022-12-21 15:59:12,159 - INFO - <module> : input: automation5
+2022-12-21 15:59:12,159 - INFO - <module> : input: automation5
+2022-12-21 15:59:12,159 - INFO - <module> : input: automation5
+2022-12-21 15:59:12,360 - INFO - <module> : input: automation6
+2022-12-21 15:59:12,360 - INFO - <module> : input: automation6
+2022-12-21 15:59:12,360 - INFO - <module> : input: automation6
+2022-12-21 15:59:12,360 - INFO - <module> : input: automation6
+2022-12-21 15:59:12,569 - INFO - <module> : input: automation2@yopmail.com
+2022-12-21 15:59:12,569 - INFO - <module> : input: automation2@yopmail.com
+2022-12-21 15:59:12,569 - INFO - <module> : input: automation2@yopmail.com
+2022-12-21 15:59:12,569 - INFO - <module> : input: automation2@yopmail.com
+2022-12-21 15:59:12,783 - INFO - <module> : input: +639234567891
+2022-12-21 15:59:12,783 - INFO - <module> : input: +639234567891
+2022-12-21 15:59:12,783 - INFO - <module> : input: +639234567891
+2022-12-21 15:59:12,783 - INFO - <module> : input: +639234567891
+2022-12-21 15:59:12,988 - INFO - <module> : input: manager
+2022-12-21 15:59:12,988 - INFO - <module> : input: manager
+2022-12-21 15:59:12,988 - INFO - <module> : input: manager
+2022-12-21 15:59:12,988 - INFO - <module> : input: manager
+2022-12-21 15:59:15,623 - INFO - <module> : Clicked
+2022-12-21 15:59:15,623 - INFO - <module> : Clicked
+2022-12-21 15:59:15,623 - INFO - <module> : Clicked
+2022-12-21 15:59:15,623 - INFO - <module> : Clicked
+2022-12-21 15:59:15,749 - INFO - <module> : 2CONTACT INFORMATION exists
+2022-12-21 15:59:15,749 - INFO - <module> : 2CONTACT INFORMATION exists
+2022-12-21 15:59:15,749 - INFO - <module> : 2CONTACT INFORMATION exists
+2022-12-21 15:59:15,749 - INFO - <module> : 2CONTACT INFORMATION exists
+2022-12-21 15:59:51,951 - INFO - setup : Close Browser

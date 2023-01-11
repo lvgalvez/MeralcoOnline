@@ -1,0 +1,146 @@
+2022-11-28 12:31:21,609 - INFO - setup : Browser Launched!
+2022-11-28 12:31:26,861 - INFO - <module> : Go to Registration page
+2022-11-28 12:31:26,861 - INFO - <module> : Go to Registration page
+2022-11-28 12:31:26,861 - INFO - <module> : Go to Registration page
+2022-11-28 12:31:27,725 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-11-28 12:31:27,725 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-11-28 12:31:27,725 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/splash
+2022-11-28 12:31:28,276 - INFO - <module> : Clicked
+2022-11-28 12:31:28,276 - INFO - <module> : Clicked
+2022-11-28 12:31:28,276 - INFO - <module> : Clicked
+2022-11-28 12:31:28,950 - INFO - <module> : Create a New Account exists
+2022-11-28 12:31:28,950 - INFO - <module> : Create a New Account exists
+2022-11-28 12:31:28,950 - INFO - <module> : Create a New Account exists
+2022-11-28 12:31:31,526 - INFO - <module> : Populate the following field:
+- Email
+- First Name
+- Middle Name (optional)
+- Last Name
+- Mobile Number
+Customer Account Number
+- Total kWh
+- Bill Date
+
+Note: Customer's name should be different from Contract's Account Name 
+2022-11-28 12:31:31,526 - INFO - <module> : Populate the following field:
+- Email
+- First Name
+- Middle Name (optional)
+- Last Name
+- Mobile Number
+Customer Account Number
+- Total kWh
+- Bill Date
+
+Note: Customer's name should be different from Contract's Account Name 
+2022-11-28 12:31:31,526 - INFO - <module> : Populate the following field:
+- Email
+- First Name
+- Middle Name (optional)
+- Last Name
+- Mobile Number
+Customer Account Number
+- Total kWh
+- Bill Date
+
+Note: Customer's name should be different from Contract's Account Name 
+2022-11-28 12:31:31,646 - INFO - <module> : input: becroufficudo-3894@yopmail.com
+2022-11-28 12:31:31,646 - INFO - <module> : input: becroufficudo-3894@yopmail.com
+2022-11-28 12:31:31,646 - INFO - <module> : input: becroufficudo-3894@yopmail.com
+2022-11-28 12:31:31,734 - INFO - <module> : input: Non Pay
+2022-11-28 12:31:31,734 - INFO - <module> : input: Non Pay
+2022-11-28 12:31:31,734 - INFO - <module> : input: Non Pay
+2022-11-28 12:31:31,803 - INFO - <module> : input: TS
+2022-11-28 12:31:31,803 - INFO - <module> : input: TS
+2022-11-28 12:31:31,803 - INFO - <module> : input: TS
+2022-11-28 12:31:31,896 - INFO - <module> : input: 9273437214
+2022-11-28 12:31:31,896 - INFO - <module> : input: 9273437214
+2022-11-28 12:31:31,896 - INFO - <module> : input: 9273437214
+2022-11-28 12:31:31,979 - INFO - <module> : input: 3534823912
+2022-11-28 12:31:31,979 - INFO - <module> : input: 3534823912
+2022-11-28 12:31:31,979 - INFO - <module> : input: 3534823912
+2022-11-28 12:31:32,041 - INFO - <module> : input: 224
+2022-11-28 12:31:32,041 - INFO - <module> : input: 224
+2022-11-28 12:31:32,041 - INFO - <module> : input: 224
+2022-11-28 12:31:32,127 - INFO - <module> : input: 08/02/2022
+2022-11-28 12:31:32,127 - INFO - <module> : input: 08/02/2022
+2022-11-28 12:31:32,127 - INFO - <module> : input: 08/02/2022
+2022-11-28 12:31:34,742 - INFO - <module> : Tick on Meralco Online Terms & Conditions > Click Register
+2022-11-28 12:31:34,742 - INFO - <module> : Tick on Meralco Online Terms & Conditions > Click Register
+2022-11-28 12:31:34,742 - INFO - <module> : Tick on Meralco Online Terms & Conditions > Click Register
+2022-11-28 12:31:34,839 - INFO - <module> : Clicked
+2022-11-28 12:31:34,839 - INFO - <module> : Clicked
+2022-11-28 12:31:34,839 - INFO - <module> : Clicked
+2022-11-28 12:31:37,259 - INFO - <module> : Clicked
+2022-11-28 12:31:37,259 - INFO - <module> : Clicked
+2022-11-28 12:31:37,259 - INFO - <module> : Clicked
+2022-11-28 12:31:39,665 - INFO - <module> : Clicked
+2022-11-28 12:31:39,665 - INFO - <module> : Clicked
+2022-11-28 12:31:39,665 - INFO - <module> : Clicked
+2022-11-28 12:31:39,697 - INFO - <module> : Clicked
+2022-11-28 12:31:39,697 - INFO - <module> : Clicked
+2022-11-28 12:31:39,697 - INFO - <module> : Clicked
+2022-11-28 12:32:09,746 - INFO - <module> : We've sent you a confirmation email. Please click on the link to proceed with your registration.
+
+If you can't find the confirmation email in your inbox, please check your spam folder. exists
+2022-11-28 12:32:09,746 - INFO - <module> : We've sent you a confirmation email. Please click on the link to proceed with your registration.
+
+If you can't find the confirmation email in your inbox, please check your spam folder. exists
+2022-11-28 12:32:09,746 - INFO - <module> : We've sent you a confirmation email. Please click on the link to proceed with your registration.
+
+If you can't find the confirmation email in your inbox, please check your spam folder. exists
+2022-11-28 12:32:12,550 - INFO - <module> : Verify email confirmation
+2022-11-28 12:32:12,550 - INFO - <module> : Verify email confirmation
+2022-11-28 12:32:12,550 - INFO - <module> : Verify email confirmation
+2022-11-28 12:32:16,135 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-11-28 12:32:16,135 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-11-28 12:32:16,135 - INFO - <module> : Opened: https://yopmail.com/en/
+2022-11-28 12:32:16,284 - INFO - <module> : input: becroufficudo-3894@yopmail.com
+2022-11-28 12:32:16,284 - INFO - <module> : input: becroufficudo-3894@yopmail.com
+2022-11-28 12:32:16,284 - INFO - <module> : input: becroufficudo-3894@yopmail.com
+2022-11-28 12:32:17,224 - INFO - <module> : Clicked
+2022-11-28 12:32:17,224 - INFO - <module> : Clicked
+2022-11-28 12:32:17,224 - INFO - <module> : Clicked
+2022-11-28 12:32:19,835 - INFO - <module> : Click here on email
+2022-11-28 12:32:19,835 - INFO - <module> : Click here on email
+2022-11-28 12:32:19,835 - INFO - <module> : Click here on email
+2022-11-28 12:32:24,763 - INFO - <module> : Set password
+2022-11-28 12:32:24,763 - INFO - <module> : Set password
+2022-11-28 12:32:24,763 - INFO - <module> : Set password
+2022-11-28 12:32:25,052 - INFO - <module> : input: Meralco01
+2022-11-28 12:32:25,052 - INFO - <module> : input: Meralco01
+2022-11-28 12:32:25,052 - INFO - <module> : input: Meralco01
+2022-11-28 12:32:25,159 - INFO - <module> : input: Meralco01
+2022-11-28 12:32:25,159 - INFO - <module> : input: Meralco01
+2022-11-28 12:32:25,159 - INFO - <module> : input: Meralco01
+2022-11-28 12:32:27,686 - INFO - <module> : Clicked
+2022-11-28 12:32:27,686 - INFO - <module> : Clicked
+2022-11-28 12:32:27,686 - INFO - <module> : Clicked
+2022-11-28 12:32:32,425 - INFO - <module> : Login to Meralco Online using newly registered account
+2022-11-28 12:32:32,425 - INFO - <module> : Login to Meralco Online using newly registered account
+2022-11-28 12:32:32,425 - INFO - <module> : Login to Meralco Online using newly registered account
+2022-11-28 12:32:32,745 - INFO - <module> : input: becroufficudo-3894@yopmail.com
+2022-11-28 12:32:32,745 - INFO - <module> : input: becroufficudo-3894@yopmail.com
+2022-11-28 12:32:32,745 - INFO - <module> : input: becroufficudo-3894@yopmail.com
+2022-11-28 12:32:32,821 - INFO - <module> : input: Meralco01
+2022-11-28 12:32:32,821 - INFO - <module> : input: Meralco01
+2022-11-28 12:32:32,821 - INFO - <module> : input: Meralco01
+2022-11-28 12:32:35,351 - INFO - <module> : Clicked
+2022-11-28 12:32:35,351 - INFO - <module> : Clicked
+2022-11-28 12:32:35,351 - INFO - <module> : Clicked
+2022-11-28 12:32:38,796 - INFO - <module> : Hello, exists
+2022-11-28 12:32:38,796 - INFO - <module> : Hello, exists
+2022-11-28 12:32:38,796 - INFO - <module> : Hello, exists
+2022-11-28 12:32:41,516 - INFO - <module> : Go to Accounts > Manage Accounts > Click Submit button > Validate Enrolled CAN and Service
+2022-11-28 12:32:41,516 - INFO - <module> : Go to Accounts > Manage Accounts > Click Submit button > Validate Enrolled CAN and Service
+2022-11-28 12:32:41,516 - INFO - <module> : Go to Accounts > Manage Accounts > Click Submit button > Validate Enrolled CAN and Service
+2022-11-28 12:32:41,729 - INFO - <module> : Clicked
+2022-11-28 12:32:41,729 - INFO - <module> : Clicked
+2022-11-28 12:32:41,729 - INFO - <module> : Clicked
+2022-11-28 12:32:44,179 - INFO - <module> : Clicked
+2022-11-28 12:32:44,179 - INFO - <module> : Clicked
+2022-11-28 12:32:44,179 - INFO - <module> : Clicked
+2022-11-28 12:32:45,753 - INFO - <module> : Manage your service account here. exists
+2022-11-28 12:32:45,753 - INFO - <module> : Manage your service account here. exists
+2022-11-28 12:32:45,753 - INFO - <module> : Manage your service account here. exists
+2022-11-28 12:32:53,924 - INFO - setup : Close Browser

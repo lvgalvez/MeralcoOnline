@@ -1,0 +1,78 @@
+2022-12-27 12:14:25,678 - INFO - setup : Browser Launched!
+2022-12-27 12:14:32,228 - INFO - <module> : Go to Meralco Mobile App > Login using account with expired password
+2022-12-27 12:14:32,228 - INFO - <module> : Go to Meralco Mobile App > Login using account with expired password
+2022-12-27 12:14:32,228 - INFO - <module> : Go to Meralco Mobile App > Login using account with expired password
+2022-12-27 12:14:32,228 - INFO - <module> : Go to Meralco Mobile App > Login using account with expired password
+2022-12-27 12:14:34,045 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 12:14:34,045 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 12:14:34,045 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 12:14:34,045 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2022-12-27 12:14:34,240 - INFO - <module> : Service Application exists
+2022-12-27 12:14:34,240 - INFO - <module> : Service Application exists
+2022-12-27 12:14:34,240 - INFO - <module> : Service Application exists
+2022-12-27 12:14:34,240 - INFO - <module> : Service Application exists
+2022-12-27 12:14:37,432 - INFO - <module> : Update Password
+2022-12-27 12:14:37,432 - INFO - <module> : Update Password
+2022-12-27 12:14:37,432 - INFO - <module> : Update Password
+2022-12-27 12:14:37,432 - INFO - <module> : Update Password
+2022-12-27 12:14:37,515 - INFO - <module> : Clicked
+2022-12-27 12:14:37,515 - INFO - <module> : Clicked
+2022-12-27 12:14:37,515 - INFO - <module> : Clicked
+2022-12-27 12:14:37,515 - INFO - <module> : Clicked
+2022-12-27 12:14:40,557 - INFO - <module> : Login using new password
+2022-12-27 12:14:40,557 - INFO - <module> : Login using new password
+2022-12-27 12:14:40,557 - INFO - <module> : Login using new password
+2022-12-27 12:14:40,557 - INFO - <module> : Login using new password
+2022-12-27 12:14:40,789 - INFO - <module> : Clicked
+2022-12-27 12:14:40,789 - INFO - <module> : Clicked
+2022-12-27 12:14:40,789 - INFO - <module> : Clicked
+2022-12-27 12:14:40,789 - INFO - <module> : Clicked
+2022-12-27 12:14:40,911 - INFO - <module> : Requests exists
+2022-12-27 12:14:40,911 - INFO - <module> : Requests exists
+2022-12-27 12:14:40,911 - INFO - <module> : Requests exists
+2022-12-27 12:14:40,911 - INFO - <module> : Requests exists
+2022-12-27 12:14:44,064 - INFO - <module> :  exists
+2022-12-27 12:14:44,064 - INFO - <module> :  exists
+2022-12-27 12:14:44,064 - INFO - <module> :  exists
+2022-12-27 12:14:44,064 - INFO - <module> :  exists
+2022-12-27 12:14:47,281 - INFO - <module> : input: 3535069832
+2022-12-27 12:14:47,281 - INFO - <module> : input: 3535069832
+2022-12-27 12:14:47,281 - INFO - <module> : input: 3535069832
+2022-12-27 12:14:47,281 - INFO - <module> : input: 3535069832
+2022-12-27 12:14:50,579 - INFO - <module> : input: 502860340101
+2022-12-27 12:14:50,579 - INFO - <module> : input: 502860340101
+2022-12-27 12:14:50,579 - INFO - <module> : input: 502860340101
+2022-12-27 12:14:50,579 - INFO - <module> : input: 502860340101
+2022-12-27 12:14:53,708 - INFO - <module> : Clicked
+2022-12-27 12:14:53,708 - INFO - <module> : Clicked
+2022-12-27 12:14:53,708 - INFO - <module> : Clicked
+2022-12-27 12:14:53,708 - INFO - <module> : Clicked
+2022-12-27 12:14:53,774 - INFO - <module> : Clicked
+2022-12-27 12:14:53,774 - INFO - <module> : Clicked
+2022-12-27 12:14:53,774 - INFO - <module> : Clicked
+2022-12-27 12:14:53,774 - INFO - <module> : Clicked
+2022-12-27 12:14:56,886 - INFO - <module> : input: atfirst1
+2022-12-27 12:14:56,886 - INFO - <module> : input: atfirst1
+2022-12-27 12:14:56,886 - INFO - <module> : input: atfirst1
+2022-12-27 12:14:56,886 - INFO - <module> : input: atfirst1
+2022-12-27 12:14:56,985 - INFO - <module> : input: atlast1
+2022-12-27 12:14:56,985 - INFO - <module> : input: atlast1
+2022-12-27 12:14:56,985 - INFO - <module> : input: atlast1
+2022-12-27 12:14:56,985 - INFO - <module> : input: atlast1
+2022-12-27 12:14:57,063 - INFO - <module> : input: aaaaa@yopmail.com
+2022-12-27 12:14:57,063 - INFO - <module> : input: aaaaa@yopmail.com
+2022-12-27 12:14:57,063 - INFO - <module> : input: aaaaa@yopmail.com
+2022-12-27 12:14:57,063 - INFO - <module> : input: aaaaa@yopmail.com
+2022-12-27 12:14:57,141 - INFO - <module> : input: +639234567891
+2022-12-27 12:14:57,141 - INFO - <module> : input: +639234567891
+2022-12-27 12:14:57,141 - INFO - <module> : input: +639234567891
+2022-12-27 12:14:57,141 - INFO - <module> : input: +639234567891
+2022-12-27 12:14:59,426 - INFO - <module> : Clicked
+2022-12-27 12:14:59,426 - INFO - <module> : Clicked
+2022-12-27 12:14:59,426 - INFO - <module> : Clicked
+2022-12-27 12:14:59,426 - INFO - <module> : Clicked
+2022-12-27 12:14:59,468 - INFO - <module> : 2CONTACT INFORMATION exists
+2022-12-27 12:14:59,468 - INFO - <module> : 2CONTACT INFORMATION exists
+2022-12-27 12:14:59,468 - INFO - <module> : 2CONTACT INFORMATION exists
+2022-12-27 12:14:59,468 - INFO - <module> : 2CONTACT INFORMATION exists
+2022-12-27 12:15:32,695 - INFO - setup : Close Browser

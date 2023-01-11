@@ -1,0 +1,62 @@
+2023-01-04 15:12:32,903 - INFO - setup : Browser Launched!
+2023-01-04 15:12:42,160 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 15:12:42,160 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 15:12:42,160 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 15:12:42,160 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-04 15:12:42,911 - INFO - <module> : Service Application exists
+2023-01-04 15:12:42,911 - INFO - <module> : Service Application exists
+2023-01-04 15:12:42,911 - INFO - <module> : Service Application exists
+2023-01-04 15:12:42,911 - INFO - <module> : Service Application exists
+2023-01-04 15:12:46,316 - INFO - <module> : Clicked
+2023-01-04 15:12:46,316 - INFO - <module> : Clicked
+2023-01-04 15:12:46,316 - INFO - <module> : Clicked
+2023-01-04 15:12:46,316 - INFO - <module> : Clicked
+2023-01-04 15:12:46,368 - INFO - <module> : Start Service exists
+2023-01-04 15:12:46,368 - INFO - <module> : Start Service exists
+2023-01-04 15:12:46,368 - INFO - <module> : Start Service exists
+2023-01-04 15:12:46,368 - INFO - <module> : Start Service exists
+2023-01-04 15:12:46,412 - INFO - <module> : Modify Service exists
+2023-01-04 15:12:46,412 - INFO - <module> : Modify Service exists
+2023-01-04 15:12:46,412 - INFO - <module> : Modify Service exists
+2023-01-04 15:12:46,412 - INFO - <module> : Modify Service exists
+2023-01-04 15:12:46,456 - INFO - <module> : Reactivate Service exists
+2023-01-04 15:12:46,456 - INFO - <module> : Reactivate Service exists
+2023-01-04 15:12:46,456 - INFO - <module> : Reactivate Service exists
+2023-01-04 15:12:46,456 - INFO - <module> : Reactivate Service exists
+2023-01-04 15:12:46,499 - INFO - <module> : Stop Service exists
+2023-01-04 15:12:46,499 - INFO - <module> : Stop Service exists
+2023-01-04 15:12:46,499 - INFO - <module> : Stop Service exists
+2023-01-04 15:12:46,499 - INFO - <module> : Stop Service exists
+2023-01-04 15:12:50,273 - INFO - <module> : Clicked
+2023-01-04 15:12:50,273 - INFO - <module> : Clicked
+2023-01-04 15:12:50,273 - INFO - <module> : Clicked
+2023-01-04 15:12:50,273 - INFO - <module> : Clicked
+2023-01-04 15:12:51,212 - INFO - <module> : Reactivate a Service exists
+2023-01-04 15:12:51,212 - INFO - <module> : Reactivate a Service exists
+2023-01-04 15:12:51,212 - INFO - <module> : Reactivate a Service exists
+2023-01-04 15:12:51,212 - INFO - <module> : Reactivate a Service exists
+2023-01-04 15:12:54,415 - INFO - <module> : input: atFirstname
+2023-01-04 15:12:54,415 - INFO - <module> : input: atFirstname
+2023-01-04 15:12:54,415 - INFO - <module> : input: atFirstname
+2023-01-04 15:12:54,415 - INFO - <module> : input: atFirstname
+2023-01-04 15:12:54,488 - INFO - <module> : input: atLastname
+2023-01-04 15:12:54,488 - INFO - <module> : input: atLastname
+2023-01-04 15:12:54,488 - INFO - <module> : input: atLastname
+2023-01-04 15:12:54,488 - INFO - <module> : input: atLastname
+2023-01-04 15:12:54,573 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 15:12:54,573 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 15:12:54,573 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 15:12:54,573 - INFO - <module> : input: automationteam@gmail.com
+2023-01-04 15:12:54,665 - INFO - <module> : input: atcontbusinessName
+2023-01-04 15:12:54,665 - INFO - <module> : input: atcontbusinessName
+2023-01-04 15:12:54,665 - INFO - <module> : input: atcontbusinessName
+2023-01-04 15:12:54,665 - INFO - <module> : input: atcontbusinessName
+2023-01-04 15:12:54,755 - INFO - <module> : input: +639234567891
+2023-01-04 15:12:54,755 - INFO - <module> : input: +639234567891
+2023-01-04 15:12:54,755 - INFO - <module> : input: +639234567891
+2023-01-04 15:12:54,755 - INFO - <module> : input: +639234567891
+2023-01-04 15:12:57,084 - INFO - <module> : Clicked
+2023-01-04 15:12:57,084 - INFO - <module> : Clicked
+2023-01-04 15:12:57,084 - INFO - <module> : Clicked
+2023-01-04 15:12:57,084 - INFO - <module> : Clicked
+2023-01-04 15:13:27,240 - INFO - setup : Close Browser
