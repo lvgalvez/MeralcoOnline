@@ -3,6 +3,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from Utilities.Config import wait_time
+from Utilities.WebMisc import WebMisc
 
 
 class CXEModificationIndividual:
@@ -19,7 +20,7 @@ class CXEModificationIndividual:
     SIN = "//*[@id='513:0']"
     change_contract_details = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[1]/div/div/div/div/div/div/div[4]/div/div/div[2]/div[1]/label/div"
     change_contract_name = "/html/body/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[1]/div/div/div/div/div/div/div[4]/div/div/div[2]/div[2]/input[1]"
-
+    change_service_detail = "//div[2]/div/div/div[1]/div/div/div/div/div/div/div[4]/div/div/div[1]/div/label/div"
     company_name = "//input[@placeholder= 'Meralco']"
     landline = "//input[@placeholder= '+6321234567']"
     first_name = "//input[@placeholder= 'Juan']"
@@ -45,6 +46,8 @@ class CXEModificationIndividual:
     term_condition_clk = "//*[@id='tab-4']/div[3]/div[2]/div[1]/label/div"
     submit = "//*[@id='tab-4']/div[3]/div[2]/div[3]/button"
     confirmation = "//*[@id='confirmation']/div/div[1]/h3"
+
+    additional_load = "//div[1]/div/div/div/div/div/div/div[4]/div/div/div[1]/div[2]/input[1]"
 
 
     def get_confirmation(self, driver):
@@ -169,7 +172,10 @@ class CXEModificationIndividual:
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.business)))
 
 
+    def get_change_service_detail(self, driver):
+        return WebMisc().wait_element(driver, self.change_service_detail, "change_service_detail")
 
-
+    def get_additional_load(self, driver):
+        return WebMisc().wait_element(driver, self.additional_load, "additional_load")
 
 

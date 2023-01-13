@@ -17,7 +17,8 @@ SSO = {
     'google_password': 'Meralco00',
     'expired_email': 'atemaild01@yopmail.com',
     'expired_password': 'Meralco123',
-    'appleId':'mecoautomation01@gmail.com'
+    'appleId':'arcebido.earljohn@gmail.com',
+    'apple_password': 'Eja09202903164!'
 }
 
 
@@ -83,10 +84,13 @@ SAMO = {
     'mobileNumberIndividual': "9234567891",
     'newOwner': 'Angelo Tafalla',
     'energizationDate': '01/01/2023',
-    'caseNumber': '22122252189'
+    'caseNumber': '22122252189',
     'CAN_recon': '3518724842',
     'SIN_recon': '501027710101',
-    'CAN_recon_single': '3535070118'
+    'CAN_recon_single': '3535070118',
+    'CAN_appleid': '3534057721',
+    'apple_kwh': '400',
+    'apple_bill_date': '12/13/2022'
 
 
 }
@@ -163,8 +167,9 @@ Registration = {
     'match_bills_first_name': 'matching',
     'match_bills_middle_name': 'non',
     'match_bills_last_name': 'pay',
-    'match_bills_mobile_num': '9299437216',
-    'can_no_bill_pmultiple_gmobile_num': '92231239078'
+    'match_bills_mobile_num': '9299437218',
+    'can_no_bill_pmultiple_gmobile_num': '92231239078',
+    'cxe_apply_email': 'aaaa7@yopmail.com',
 }
 
 Outage = {

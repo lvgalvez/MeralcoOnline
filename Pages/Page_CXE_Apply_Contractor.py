@@ -27,6 +27,8 @@ class CXEApplyContractor:
     can_input = "//input[@placeholder='1234567890']"
     last_name_recontract = "//div[3]/div/div/div/input"
     submit_btn_contractor = "//a[contains(text(), 'Submit')]"
+    peccbm = "//div[2]/div/div[1]/div/div/div[2]/div/div[1]/div/div/div[1]/label[1]/div"
+    applying_as = "//div[2]/div/div[1]/div/div/div[2]/div/div[1]/div/div"
     cxe_apply_business_name = "//div[3]/div/div/div/input"
     cxe_apply_firstname = "//div/div[2]/div/div[1]/div/div/div/input"
     cxe_apply_lastname = "//div[2]/div/div[3]/div/div/div/input"
@@ -141,3 +143,9 @@ class CXEApplyContractor:
 
     def get_terms_next_btn(self, driver):
         return WebMisc().wait_element(driver, self.cxe_apply_terms_next_btn, "cxe_apply_terms_next_btn")
+
+    def get_peccbm(self, driver):
+        return WebMisc().wait_element(driver, self.peccbm, "peccbm")
+
+    def get_applying_us(self, driver):
+        return WebMisc().wait_element(driver, self.applying_as, "applying_as")

@@ -1,0 +1,62 @@
+2023-01-12 18:00:13,466 - INFO - setup : Browser Launched!
+2023-01-12 18:00:52,535 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-12 18:00:52,535 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-12 18:00:52,535 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-12 18:00:52,535 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-12 18:00:53,405 - INFO - <module> : Service Application exists
+2023-01-12 18:00:53,405 - INFO - <module> : Service Application exists
+2023-01-12 18:00:53,405 - INFO - <module> : Service Application exists
+2023-01-12 18:00:53,405 - INFO - <module> : Service Application exists
+2023-01-12 18:00:56,564 - INFO - <module> : Clicked
+2023-01-12 18:00:56,564 - INFO - <module> : Clicked
+2023-01-12 18:00:56,564 - INFO - <module> : Clicked
+2023-01-12 18:00:56,564 - INFO - <module> : Clicked
+2023-01-12 18:00:59,681 - INFO - <module> : Clicked
+2023-01-12 18:00:59,681 - INFO - <module> : Clicked
+2023-01-12 18:00:59,681 - INFO - <module> : Clicked
+2023-01-12 18:00:59,681 - INFO - <module> : Clicked
+2023-01-12 18:01:05,997 - INFO - <module> : Clicked
+2023-01-12 18:01:05,997 - INFO - <module> : Clicked
+2023-01-12 18:01:05,997 - INFO - <module> : Clicked
+2023-01-12 18:01:05,997 - INFO - <module> : Clicked
+2023-01-12 18:01:09,487 - INFO - <module> : input: aaaaa2@yopmail.com
+2023-01-12 18:01:09,487 - INFO - <module> : input: aaaaa2@yopmail.com
+2023-01-12 18:01:09,487 - INFO - <module> : input: aaaaa2@yopmail.com
+2023-01-12 18:01:09,487 - INFO - <module> : input: aaaaa2@yopmail.com
+2023-01-12 18:01:09,612 - INFO - <module> : input: Zero Eleven
+2023-01-12 18:01:09,612 - INFO - <module> : input: Zero Eleven
+2023-01-12 18:01:09,612 - INFO - <module> : input: Zero Eleven
+2023-01-12 18:01:09,612 - INFO - <module> : input: Zero Eleven
+2023-01-12 18:01:09,716 - INFO - <module> : input: TS
+2023-01-12 18:01:09,716 - INFO - <module> : input: TS
+2023-01-12 18:01:09,716 - INFO - <module> : input: TS
+2023-01-12 18:01:09,716 - INFO - <module> : input: TS
+2023-01-12 18:01:09,793 - INFO - <module> : input: 9272437214
+2023-01-12 18:01:09,793 - INFO - <module> : input: 9272437214
+2023-01-12 18:01:09,793 - INFO - <module> : input: 9272437214
+2023-01-12 18:01:09,793 - INFO - <module> : input: 9272437214
+2023-01-12 18:01:10,262 - INFO - <module> : Clicked
+2023-01-12 18:01:10,262 - INFO - <module> : Clicked
+2023-01-12 18:01:10,262 - INFO - <module> : Clicked
+2023-01-12 18:01:10,262 - INFO - <module> : Clicked
+2023-01-12 18:01:13,320 - INFO - <module> : Clicked
+2023-01-12 18:01:13,320 - INFO - <module> : Clicked
+2023-01-12 18:01:13,320 - INFO - <module> : Clicked
+2023-01-12 18:01:13,320 - INFO - <module> : Clicked
+2023-01-12 18:01:35,428 - INFO - <module> : Opened: https://yopmail.com/en/
+2023-01-12 18:01:35,428 - INFO - <module> : Opened: https://yopmail.com/en/
+2023-01-12 18:01:35,428 - INFO - <module> : Opened: https://yopmail.com/en/
+2023-01-12 18:01:35,428 - INFO - <module> : Opened: https://yopmail.com/en/
+2023-01-12 18:01:36,551 - INFO - <module> : input: aaaaa2@yopmail.com
+2023-01-12 18:01:36,551 - INFO - <module> : input: aaaaa2@yopmail.com
+2023-01-12 18:01:36,551 - INFO - <module> : input: aaaaa2@yopmail.com
+2023-01-12 18:01:36,551 - INFO - <module> : input: aaaaa2@yopmail.com
+2023-01-12 18:01:40,442 - INFO - <module> : Clicked
+2023-01-12 18:01:40,442 - INFO - <module> : Clicked
+2023-01-12 18:01:40,442 - INFO - <module> : Clicked
+2023-01-12 18:01:40,442 - INFO - <module> : Clicked
+2023-01-12 18:02:10,896 - ERROR - <module> : Cannot Locate: here_link
+2023-01-12 18:02:10,896 - ERROR - <module> : Cannot Locate: here_link
+2023-01-12 18:02:10,896 - ERROR - <module> : Cannot Locate: here_link
+2023-01-12 18:02:10,896 - ERROR - <module> : Cannot Locate: here_link
+2023-01-12 18:02:11,003 - INFO - setup : Close Browser

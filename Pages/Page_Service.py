@@ -35,7 +35,7 @@ class PageService:
     submit_btn = "//button[contains(text(), 'Submit')]"
     change_service = "//input[@value='Upgrade the kWh']"
     terms_and_conditions = "//html/body/div[3]/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[4]/div/div[3]/div[2]/div[1]/label/input"
-    terms_and_condition_service_details = "//input[@id='agreeChkbx1']"
+    terms_and_condition_service_details = "//div[@class='checkbox-custom']"
     terms_and_condition_contract_details = "//input[@id='agreeChkbx2']"
     peccbm_no_radio_btn = "//input[@id='no_radio']"
     change_contract_name = "//input[@value='Change in Contract Name']"

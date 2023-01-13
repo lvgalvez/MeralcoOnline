@@ -18,13 +18,13 @@ class Drivers:
 
     def getDriver(browser):
         if browser == "Chrome":
-            driver = uc.Chrome(service=ChromeService(ChromeDriverManager().install()))
-            #driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
+            #driver = uc.Chrome(service=ChromeService(ChromeDriverManager().install()))
+            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
         elif browser == "Edge":
             driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
         elif browser == "Firefox":
             driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
 
         driver.maximize_window()
-        driver.get(meralco_online, verify=True)
+        driver.get(meralco_online)
         return driver
