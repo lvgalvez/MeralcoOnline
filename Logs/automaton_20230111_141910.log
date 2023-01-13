@@ -1,0 +1,142 @@
+2023-01-11 14:19:11,541 - INFO - setup : Browser Launched!
+2023-01-11 14:19:29,129 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:19:29,129 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:19:29,129 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:19:29,129 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:19:37,646 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:19:37,646 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:19:37,646 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:19:37,646 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:19:37,822 - INFO - <module> : Service Application exists
+2023-01-11 14:19:37,822 - INFO - <module> : Service Application exists
+2023-01-11 14:19:37,822 - INFO - <module> : Service Application exists
+2023-01-11 14:19:37,822 - INFO - <module> : Service Application exists
+2023-01-11 14:19:40,902 - INFO - <module> : Click on Contractor
+2023-01-11 14:19:40,902 - INFO - <module> : Click on Contractor
+2023-01-11 14:19:40,902 - INFO - <module> : Click on Contractor
+2023-01-11 14:19:40,902 - INFO - <module> : Click on Contractor
+2023-01-11 14:19:40,985 - INFO - <module> : Clicked
+2023-01-11 14:19:40,985 - INFO - <module> : Clicked
+2023-01-11 14:19:40,985 - INFO - <module> : Clicked
+2023-01-11 14:19:40,985 - INFO - <module> : Clicked
+2023-01-11 14:19:41,036 - INFO - <module> : Start Service exists
+2023-01-11 14:19:41,036 - INFO - <module> : Start Service exists
+2023-01-11 14:19:41,036 - INFO - <module> : Start Service exists
+2023-01-11 14:19:41,036 - INFO - <module> : Start Service exists
+2023-01-11 14:19:41,084 - INFO - <module> : Modify Service exists
+2023-01-11 14:19:41,084 - INFO - <module> : Modify Service exists
+2023-01-11 14:19:41,084 - INFO - <module> : Modify Service exists
+2023-01-11 14:19:41,084 - INFO - <module> : Modify Service exists
+2023-01-11 14:19:41,127 - INFO - <module> : Reactivate Service exists
+2023-01-11 14:19:41,127 - INFO - <module> : Reactivate Service exists
+2023-01-11 14:19:41,127 - INFO - <module> : Reactivate Service exists
+2023-01-11 14:19:41,127 - INFO - <module> : Reactivate Service exists
+2023-01-11 14:19:41,188 - INFO - <module> : Stop Service exists
+2023-01-11 14:19:41,188 - INFO - <module> : Stop Service exists
+2023-01-11 14:19:41,188 - INFO - <module> : Stop Service exists
+2023-01-11 14:19:41,188 - INFO - <module> : Stop Service exists
+2023-01-11 14:19:44,159 - INFO - <module> : Click on Modify Service
+2023-01-11 14:19:44,159 - INFO - <module> : Click on Modify Service
+2023-01-11 14:19:44,159 - INFO - <module> : Click on Modify Service
+2023-01-11 14:19:44,159 - INFO - <module> : Click on Modify Service
+2023-01-11 14:19:54,395 - INFO - <module> : Clicked
+2023-01-11 14:19:54,395 - INFO - <module> : Clicked
+2023-01-11 14:19:54,395 - INFO - <module> : Clicked
+2023-01-11 14:19:54,395 - INFO - <module> : Clicked
+2023-01-11 14:19:54,437 - INFO - <module> : REQUEST DETAILS exists
+2023-01-11 14:19:54,437 - INFO - <module> : REQUEST DETAILS exists
+2023-01-11 14:19:54,437 - INFO - <module> : REQUEST DETAILS exists
+2023-01-11 14:19:54,437 - INFO - <module> : REQUEST DETAILS exists
+2023-01-11 14:19:57,429 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-11 14:19:57,429 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-11 14:19:57,429 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-11 14:19:57,429 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-11 14:19:57,495 - INFO - <module> :  exists
+2023-01-11 14:19:57,495 - INFO - <module> :  exists
+2023-01-11 14:19:57,495 - INFO - <module> :  exists
+2023-01-11 14:19:57,495 - INFO - <module> :  exists
+2023-01-11 14:20:00,521 - INFO - <module> : Populate CAN field
+2023-01-11 14:20:00,521 - INFO - <module> : Populate CAN field
+2023-01-11 14:20:00,521 - INFO - <module> : Populate CAN field
+2023-01-11 14:20:00,521 - INFO - <module> : Populate CAN field
+2023-01-11 14:20:00,687 - INFO - <module> : input: 3534823912
+2023-01-11 14:20:00,687 - INFO - <module> : input: 3534823912
+2023-01-11 14:20:00,687 - INFO - <module> : input: 3534823912
+2023-01-11 14:20:00,687 - INFO - <module> : input: 3534823912
+2023-01-11 14:20:03,722 - INFO - <module> : Tick Change my Service Details > tick Request to downgrade electrical load > click Next
+2023-01-11 14:20:03,722 - INFO - <module> : Tick Change my Service Details > tick Request to downgrade electrical load > click Next
+2023-01-11 14:20:03,722 - INFO - <module> : Tick Change my Service Details > tick Request to downgrade electrical load > click Next
+2023-01-11 14:20:03,722 - INFO - <module> : Tick Change my Service Details > tick Request to downgrade electrical load > click Next
+2023-01-11 14:20:03,826 - INFO - <module> : Clicked
+2023-01-11 14:20:03,826 - INFO - <module> : Clicked
+2023-01-11 14:20:03,826 - INFO - <module> : Clicked
+2023-01-11 14:20:03,826 - INFO - <module> : Clicked
+2023-01-11 14:20:03,914 - INFO - <module> : Clicked
+2023-01-11 14:20:03,914 - INFO - <module> : Clicked
+2023-01-11 14:20:03,914 - INFO - <module> : Clicked
+2023-01-11 14:20:03,914 - INFO - <module> : Clicked
+2023-01-11 14:20:06,167 - INFO - <module> : Clicked
+2023-01-11 14:20:06,167 - INFO - <module> : Clicked
+2023-01-11 14:20:06,167 - INFO - <module> : Clicked
+2023-01-11 14:20:06,167 - INFO - <module> : Clicked
+2023-01-11 14:20:06,954 - INFO - <module> : input: atcontFname
+2023-01-11 14:20:06,954 - INFO - <module> : input: atcontFname
+2023-01-11 14:20:06,954 - INFO - <module> : input: atcontFname
+2023-01-11 14:20:06,954 - INFO - <module> : input: atcontFname
+2023-01-11 14:20:07,035 - INFO - <module> : input: atcontLname
+2023-01-11 14:20:07,035 - INFO - <module> : input: atcontLname
+2023-01-11 14:20:07,035 - INFO - <module> : input: atcontLname
+2023-01-11 14:20:07,035 - INFO - <module> : input: atcontLname
+2023-01-11 14:20:07,119 - INFO - <module> : input: atcontCompname
+2023-01-11 14:20:07,119 - INFO - <module> : input: atcontCompname
+2023-01-11 14:20:07,119 - INFO - <module> : input: atcontCompname
+2023-01-11 14:20:07,119 - INFO - <module> : input: atcontCompname
+2023-01-11 14:20:07,238 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-11 14:20:07,238 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-11 14:20:07,238 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-11 14:20:07,238 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-11 14:20:07,330 - INFO - <module> : input: +639234567891
+2023-01-11 14:20:07,330 - INFO - <module> : input: +639234567891
+2023-01-11 14:20:07,330 - INFO - <module> : input: +639234567891
+2023-01-11 14:20:07,330 - INFO - <module> : input: +639234567891
+2023-01-11 14:20:09,627 - INFO - <module> : Clicked
+2023-01-11 14:20:09,627 - INFO - <module> : Clicked
+2023-01-11 14:20:09,627 - INFO - <module> : Clicked
+2023-01-11 14:20:09,627 - INFO - <module> : Clicked
+2023-01-11 14:20:09,683 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2023-01-11 14:20:09,683 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2023-01-11 14:20:09,683 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2023-01-11 14:20:09,683 - INFO - <module> : TERMS AND CONDITIONS
+(FOR THE ACCESS AND USE OF MERALCO WEBSITE, MERALCO ONLINE, MERALCO MOBILE APPLICATION AND SUBSCRIBERS TO MERALCO NOTIFICATIONS) exists
+2023-01-11 14:20:12,683 - INFO - <module> : Populate the following field:
+2023-01-11 14:20:12,683 - INFO - <module> : Populate the following field:
+2023-01-11 14:20:12,683 - INFO - <module> : Populate the following field:
+2023-01-11 14:20:12,683 - INFO - <module> : Populate the following field:
+2023-01-11 14:20:12,776 - INFO - <module> : Clicked
+2023-01-11 14:20:12,776 - INFO - <module> : Clicked
+2023-01-11 14:20:12,776 - INFO - <module> : Clicked
+2023-01-11 14:20:12,776 - INFO - <module> : Clicked
+2023-01-11 14:20:22,825 - INFO - <module> : Next exists
+2023-01-11 14:20:22,825 - INFO - <module> : Next exists
+2023-01-11 14:20:22,825 - INFO - <module> : Next exists
+2023-01-11 14:20:22,825 - INFO - <module> : Next exists
+2023-01-11 14:20:25,853 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2023-01-11 14:20:25,853 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2023-01-11 14:20:25,853 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2023-01-11 14:20:25,853 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2023-01-11 14:20:25,963 - INFO - <module> : Clicked
+2023-01-11 14:20:25,963 - INFO - <module> : Clicked
+2023-01-11 14:20:25,963 - INFO - <module> : Clicked
+2023-01-11 14:20:25,963 - INFO - <module> : Clicked
+2023-01-11 14:20:36,260 - INFO - <module> : We’ve received your request to change the service details for your customer ZERO ELEVEN TS. Your reference number is 23012252760. We sent a copy of your application to your registered email, as well as your customer. exists
+2023-01-11 14:20:36,260 - INFO - <module> : We’ve received your request to change the service details for your customer ZERO ELEVEN TS. Your reference number is 23012252760. We sent a copy of your application to your registered email, as well as your customer. exists
+2023-01-11 14:20:36,260 - INFO - <module> : We’ve received your request to change the service details for your customer ZERO ELEVEN TS. Your reference number is 23012252760. We sent a copy of your application to your registered email, as well as your customer. exists
+2023-01-11 14:20:36,260 - INFO - <module> : We’ve received your request to change the service details for your customer ZERO ELEVEN TS. Your reference number is 23012252760. We sent a copy of your application to your registered email, as well as your customer. exists
+2023-01-11 14:20:38,531 - INFO - <module> : TC013 Passed
+2023-01-11 14:20:38,531 - INFO - <module> : TC013 Passed
+2023-01-11 14:20:38,531 - INFO - <module> : TC013 Passed
+2023-01-11 14:20:38,531 - INFO - <module> : TC013 Passed
+2023-01-11 14:20:38,610 - INFO - setup : Close Browser

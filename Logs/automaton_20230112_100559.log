@@ -1,0 +1,22 @@
+2023-01-12 10:06:00,427 - INFO - setup : Browser Launched!
+2023-01-12 10:06:16,079 - INFO - <module> : Login to Meralco Online
+2023-01-12 10:06:16,079 - INFO - <module> : Login to Meralco Online
+2023-01-12 10:06:16,079 - INFO - <module> : Login to Meralco Online
+2023-01-12 10:06:16,079 - INFO - <module> : Login to Meralco Online
+2023-01-12 10:06:16,217 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-12 10:06:16,217 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-12 10:06:16,217 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-12 10:06:16,217 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-12 10:06:16,315 - INFO - <module> : input: Meralco01
+2023-01-12 10:06:16,315 - INFO - <module> : input: Meralco01
+2023-01-12 10:06:16,315 - INFO - <module> : input: Meralco01
+2023-01-12 10:06:16,315 - INFO - <module> : input: Meralco01
+2023-01-12 10:06:16,374 - INFO - <module> : Clicked
+2023-01-12 10:06:16,374 - INFO - <module> : Clicked
+2023-01-12 10:06:16,374 - INFO - <module> : Clicked
+2023-01-12 10:06:16,374 - INFO - <module> : Clicked
+2023-01-12 10:06:46,585 - ERROR - <module> : Cannot Locate: hello_message
+2023-01-12 10:06:46,585 - ERROR - <module> : Cannot Locate: hello_message
+2023-01-12 10:06:46,585 - ERROR - <module> : Cannot Locate: hello_message
+2023-01-12 10:06:46,585 - ERROR - <module> : Cannot Locate: hello_message
+2023-01-12 10:06:46,658 - INFO - setup : Close Browser
