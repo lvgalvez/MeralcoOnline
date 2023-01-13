@@ -1,0 +1,62 @@
+2023-01-05 12:51:17,011 - INFO - setup : Browser Launched!
+2023-01-05 12:51:47,241 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 12:51:47,241 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 12:51:47,241 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 12:51:47,241 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 12:51:53,624 - INFO - <module> : Service Application exists
+2023-01-05 12:51:53,624 - INFO - <module> : Service Application exists
+2023-01-05 12:51:53,624 - INFO - <module> : Service Application exists
+2023-01-05 12:51:53,624 - INFO - <module> : Service Application exists
+2023-01-05 12:51:57,002 - INFO - <module> : Clicked
+2023-01-05 12:51:57,002 - INFO - <module> : Clicked
+2023-01-05 12:51:57,002 - INFO - <module> : Clicked
+2023-01-05 12:51:57,002 - INFO - <module> : Clicked
+2023-01-05 12:52:05,208 - INFO - <module> : Clicked
+2023-01-05 12:52:05,208 - INFO - <module> : Clicked
+2023-01-05 12:52:05,208 - INFO - <module> : Clicked
+2023-01-05 12:52:05,208 - INFO - <module> : Clicked
+2023-01-05 12:52:08,946 - INFO - <module> : input: 0104248103
+2023-01-05 12:52:08,946 - INFO - <module> : input: 0104248103
+2023-01-05 12:52:08,946 - INFO - <module> : input: 0104248103
+2023-01-05 12:52:08,946 - INFO - <module> : input: 0104248103
+2023-01-05 12:52:09,605 - INFO - <module> : Clicked
+2023-01-05 12:52:09,605 - INFO - <module> : Clicked
+2023-01-05 12:52:09,605 - INFO - <module> : Clicked
+2023-01-05 12:52:09,605 - INFO - <module> : Clicked
+2023-01-05 12:52:09,972 - INFO - <module> : Clicked
+2023-01-05 12:52:09,972 - INFO - <module> : Clicked
+2023-01-05 12:52:09,972 - INFO - <module> : Clicked
+2023-01-05 12:52:09,972 - INFO - <module> : Clicked
+2023-01-05 12:52:10,126 - INFO - <module> : input: automation1
+2023-01-05 12:52:10,126 - INFO - <module> : input: automation1
+2023-01-05 12:52:10,126 - INFO - <module> : input: automation1
+2023-01-05 12:52:10,126 - INFO - <module> : input: automation1
+2023-01-05 12:52:10,246 - INFO - <module> : input: +6321234543
+2023-01-05 12:52:10,246 - INFO - <module> : input: +6321234543
+2023-01-05 12:52:10,246 - INFO - <module> : input: +6321234543
+2023-01-05 12:52:10,246 - INFO - <module> : input: +6321234543
+2023-01-05 12:52:10,373 - INFO - <module> : input: automation5
+2023-01-05 12:52:10,373 - INFO - <module> : input: automation5
+2023-01-05 12:52:10,373 - INFO - <module> : input: automation5
+2023-01-05 12:52:10,373 - INFO - <module> : input: automation5
+2023-01-05 12:52:10,443 - INFO - <module> : input: automation6
+2023-01-05 12:52:10,443 - INFO - <module> : input: automation6
+2023-01-05 12:52:10,443 - INFO - <module> : input: automation6
+2023-01-05 12:52:10,443 - INFO - <module> : input: automation6
+2023-01-05 12:52:10,588 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 12:52:10,588 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 12:52:10,588 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 12:52:10,588 - INFO - <module> : input: automation2@yopmail.com
+2023-01-05 12:52:10,687 - INFO - <module> : input: +639234567891
+2023-01-05 12:52:10,687 - INFO - <module> : input: +639234567891
+2023-01-05 12:52:10,687 - INFO - <module> : input: +639234567891
+2023-01-05 12:52:10,687 - INFO - <module> : input: +639234567891
+2023-01-05 12:52:10,749 - INFO - <module> : input: manager
+2023-01-05 12:52:10,749 - INFO - <module> : input: manager
+2023-01-05 12:52:10,749 - INFO - <module> : input: manager
+2023-01-05 12:52:10,749 - INFO - <module> : input: manager
+2023-01-05 12:52:43,565 - ERROR - <module> : Cannot Locate: cxe_modify_next_btn
+2023-01-05 12:52:43,565 - ERROR - <module> : Cannot Locate: cxe_modify_next_btn
+2023-01-05 12:52:43,565 - ERROR - <module> : Cannot Locate: cxe_modify_next_btn
+2023-01-05 12:52:43,565 - ERROR - <module> : Cannot Locate: cxe_modify_next_btn
+2023-01-05 12:52:43,838 - INFO - setup : Close Browser

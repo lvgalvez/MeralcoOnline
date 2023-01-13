@@ -1,0 +1,18 @@
+2023-01-12 17:04:03,645 - INFO - setup : Browser Launched!
+2023-01-12 17:04:33,083 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-12 17:04:33,083 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-12 17:04:33,083 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-12 17:04:33,083 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-12 17:04:33,562 - INFO - <module> : input: Meralco01
+2023-01-12 17:04:33,562 - INFO - <module> : input: Meralco01
+2023-01-12 17:04:33,562 - INFO - <module> : input: Meralco01
+2023-01-12 17:04:33,562 - INFO - <module> : input: Meralco01
+2023-01-12 17:04:34,573 - INFO - <module> : Clicked
+2023-01-12 17:04:34,573 - INFO - <module> : Clicked
+2023-01-12 17:04:34,573 - INFO - <module> : Clicked
+2023-01-12 17:04:34,573 - INFO - <module> : Clicked
+2023-01-12 17:05:05,037 - ERROR - <module> : Cannot Locate: hello_message
+2023-01-12 17:05:05,037 - ERROR - <module> : Cannot Locate: hello_message
+2023-01-12 17:05:05,037 - ERROR - <module> : Cannot Locate: hello_message
+2023-01-12 17:05:05,037 - ERROR - <module> : Cannot Locate: hello_message
+2023-01-12 17:05:05,109 - INFO - setup : Close Browser

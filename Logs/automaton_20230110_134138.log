@@ -1,0 +1,14 @@
+2023-01-10 13:41:38,694 - INFO - setup : Browser Launched!
+2023-01-10 13:42:16,443 - INFO - <module> : Clicked
+2023-01-10 13:42:16,443 - INFO - <module> : Clicked
+2023-01-10 13:42:16,443 - INFO - <module> : Clicked
+2023-01-10 13:42:20,013 - INFO - <module> : input: mecoautomation01@gmail.com
+2023-01-10 13:42:20,013 - INFO - <module> : input: mecoautomation01@gmail.com
+2023-01-10 13:42:20,013 - INFO - <module> : input: mecoautomation01@gmail.com
+2023-01-10 13:42:21,060 - INFO - <module> : Clicked
+2023-01-10 13:42:21,060 - INFO - <module> : Clicked
+2023-01-10 13:42:21,060 - INFO - <module> : Clicked
+2023-01-10 13:42:51,246 - ERROR - <module> : Cannot Locate: password
+2023-01-10 13:42:51,246 - ERROR - <module> : Cannot Locate: password
+2023-01-10 13:42:51,246 - ERROR - <module> : Cannot Locate: password
+2023-01-10 13:42:51,320 - INFO - setup : Close Browser

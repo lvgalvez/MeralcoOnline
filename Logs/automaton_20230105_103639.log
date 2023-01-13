@@ -1,0 +1,66 @@
+2023-01-05 10:36:39,773 - INFO - setup : Browser Launched!
+2023-01-05 10:37:10,964 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 10:37:10,964 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 10:37:10,964 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 10:37:10,964 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-05 10:37:17,262 - INFO - <module> : Service Application exists
+2023-01-05 10:37:17,262 - INFO - <module> : Service Application exists
+2023-01-05 10:37:17,262 - INFO - <module> : Service Application exists
+2023-01-05 10:37:17,262 - INFO - <module> : Service Application exists
+2023-01-05 10:37:20,620 - INFO - <module> : Clicked
+2023-01-05 10:37:20,620 - INFO - <module> : Clicked
+2023-01-05 10:37:20,620 - INFO - <module> : Clicked
+2023-01-05 10:37:20,620 - INFO - <module> : Clicked
+2023-01-05 10:37:23,951 - INFO - <module> : Clicked
+2023-01-05 10:37:23,951 - INFO - <module> : Clicked
+2023-01-05 10:37:23,951 - INFO - <module> : Clicked
+2023-01-05 10:37:23,951 - INFO - <module> : Clicked
+2023-01-05 10:37:39,217 - INFO - <module> : Clicked
+2023-01-05 10:37:39,217 - INFO - <module> : Clicked
+2023-01-05 10:37:39,217 - INFO - <module> : Clicked
+2023-01-05 10:37:39,217 - INFO - <module> : Clicked
+2023-01-05 10:37:46,282 - INFO - <module> : input: atcontFname
+2023-01-05 10:37:46,282 - INFO - <module> : input: atcontFname
+2023-01-05 10:37:46,282 - INFO - <module> : input: atcontFname
+2023-01-05 10:37:46,282 - INFO - <module> : input: atcontFname
+2023-01-05 10:37:46,503 - INFO - <module> : input: atcontLname
+2023-01-05 10:37:46,503 - INFO - <module> : input: atcontLname
+2023-01-05 10:37:46,503 - INFO - <module> : input: atcontLname
+2023-01-05 10:37:46,503 - INFO - <module> : input: atcontLname
+2023-01-05 10:37:46,655 - INFO - <module> : input: atcontbusinessName
+2023-01-05 10:37:46,655 - INFO - <module> : input: atcontbusinessName
+2023-01-05 10:37:46,655 - INFO - <module> : input: atcontbusinessName
+2023-01-05 10:37:46,655 - INFO - <module> : input: atcontbusinessName
+2023-01-05 10:37:46,819 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 10:37:46,819 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 10:37:46,819 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 10:37:46,819 - INFO - <module> : input: atcontEmailAddress@yopmail.com
+2023-01-05 10:37:46,990 - INFO - <module> : input: +639234567891
+2023-01-05 10:37:46,990 - INFO - <module> : input: +639234567891
+2023-01-05 10:37:46,990 - INFO - <module> : input: +639234567891
+2023-01-05 10:37:46,990 - INFO - <module> : input: +639234567891
+2023-01-05 10:37:50,295 - INFO - <module> : Clicked
+2023-01-05 10:37:50,295 - INFO - <module> : Clicked
+2023-01-05 10:37:50,295 - INFO - <module> : Clicked
+2023-01-05 10:37:50,295 - INFO - <module> : Clicked
+2023-01-05 10:37:58,289 - INFO - <module> : input: atfirst1
+2023-01-05 10:37:58,289 - INFO - <module> : input: atfirst1
+2023-01-05 10:37:58,289 - INFO - <module> : input: atfirst1
+2023-01-05 10:37:58,289 - INFO - <module> : input: atfirst1
+2023-01-05 10:37:58,417 - INFO - <module> : input: atlast1
+2023-01-05 10:37:58,417 - INFO - <module> : input: atlast1
+2023-01-05 10:37:58,417 - INFO - <module> : input: atlast1
+2023-01-05 10:37:58,417 - INFO - <module> : input: atlast1
+2023-01-05 10:37:58,521 - INFO - <module> : input: aaaaa@yopmail.com
+2023-01-05 10:37:58,521 - INFO - <module> : input: aaaaa@yopmail.com
+2023-01-05 10:37:58,521 - INFO - <module> : input: aaaaa@yopmail.com
+2023-01-05 10:37:58,521 - INFO - <module> : input: aaaaa@yopmail.com
+2023-01-05 10:37:58,588 - INFO - <module> : input: 10/04/1993
+2023-01-05 10:37:58,588 - INFO - <module> : input: 10/04/1993
+2023-01-05 10:37:58,588 - INFO - <module> : input: 10/04/1993
+2023-01-05 10:37:58,588 - INFO - <module> : input: 10/04/1993
+2023-01-05 10:38:28,745 - ERROR - <module> : Cannot Locate: phone_number
+2023-01-05 10:38:28,745 - ERROR - <module> : Cannot Locate: phone_number
+2023-01-05 10:38:28,745 - ERROR - <module> : Cannot Locate: phone_number
+2023-01-05 10:38:28,745 - ERROR - <module> : Cannot Locate: phone_number
+2023-01-05 10:38:28,952 - INFO - setup : Close Browser

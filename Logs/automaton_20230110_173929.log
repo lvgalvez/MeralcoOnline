@@ -1,0 +1,26 @@
+2023-01-10 17:39:29,510 - INFO - setup : Browser Launched!
+2023-01-10 17:39:57,939 - INFO - <module> : input: atconcernsingle@yopmail.com
+2023-01-10 17:39:57,939 - INFO - <module> : input: atconcernsingle@yopmail.com
+2023-01-10 17:39:57,939 - INFO - <module> : input: atconcernsingle@yopmail.com
+2023-01-10 17:39:57,939 - INFO - <module> : input: atconcernsingle@yopmail.com
+2023-01-10 17:39:58,372 - INFO - <module> : input: Meralco01
+2023-01-10 17:39:58,372 - INFO - <module> : input: Meralco01
+2023-01-10 17:39:58,372 - INFO - <module> : input: Meralco01
+2023-01-10 17:39:58,372 - INFO - <module> : input: Meralco01
+2023-01-10 17:39:59,270 - INFO - <module> : Clicked
+2023-01-10 17:39:59,270 - INFO - <module> : Clicked
+2023-01-10 17:39:59,270 - INFO - <module> : Clicked
+2023-01-10 17:39:59,270 - INFO - <module> : Clicked
+2023-01-10 17:40:04,457 - INFO - <module> : Hello, exists
+2023-01-10 17:40:04,457 - INFO - <module> : Hello, exists
+2023-01-10 17:40:04,457 - INFO - <module> : Hello, exists
+2023-01-10 17:40:04,457 - INFO - <module> : Hello, exists
+2023-01-10 17:40:06,109 - INFO - <module> : VIEW ACCOUNT DETAILS clicked
+2023-01-10 17:40:06,109 - INFO - <module> : VIEW ACCOUNT DETAILS clicked
+2023-01-10 17:40:06,109 - INFO - <module> : VIEW ACCOUNT DETAILS clicked
+2023-01-10 17:40:06,109 - INFO - <module> : VIEW ACCOUNT DETAILS clicked
+2023-01-10 17:40:36,389 - ERROR - <module> : Cannot Locate: enroll_service
+2023-01-10 17:40:36,389 - ERROR - <module> : Cannot Locate: enroll_service
+2023-01-10 17:40:36,389 - ERROR - <module> : Cannot Locate: enroll_service
+2023-01-10 17:40:36,389 - ERROR - <module> : Cannot Locate: enroll_service
+2023-01-10 17:40:36,441 - INFO - setup : Close Browser

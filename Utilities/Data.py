@@ -12,10 +12,13 @@ SSO = {
     'changepass_new_password': 'Meralco05',
     'facebook_email': 'htewuvrtny_1652860426@tfbnw.net',
     'facebook_password': 'Test1234567890',
-    'google_email': 'mecoautomation01@gmail.com',
-    'google_password': 'M#ralco00',
+    #'google_email': 'mecoautomation01@gmail.com',
+    'google_email': 'arcebido.earljohn@gmail.com',
+    'google_password': 'Meralco00',
     'expired_email': 'atemaild01@yopmail.com',
-    'expired_password': 'Meralco123'
+    'expired_password': 'Meralco123',
+    'appleId':'arcebido.earljohn@gmail.com',
+    'apple_password': 'Eja09202903164!'
 }
 
 
@@ -44,7 +47,7 @@ SAMO = {
     'business_company_name': 'automation1',
     'business_trade_name': 'automation2',
     'business_company_email': 'automation3',
-    'business_company_landline': '+63945113252',
+    'business_company_landline': '+6321234543',
     'business_first_name': 'automation5',
     'business_last_name': 'automation6',
     'business_emailaddress': 'automation2@yopmail.com',
@@ -62,6 +65,10 @@ SAMO = {
     'contractor_mobileNumber': '+639234567891',
     'contractor_birthday': '10/04/1993',
     'contractor_landline': '+63945113252',
+    'contractor_service_add': 'Quezon City',
+    'contractor_province': 'METRO MANILA',
+    'contractor_city': 'MANILA CITY',
+    'contractor_ownership': 'Owned',
     'CAN': '1780945897',
     'CAN_singlesrvc': '3534823912',
     'CAN_business_termnte': '3535087812',
@@ -73,16 +80,24 @@ SAMO = {
     'mobilenumber': "+639234567891",
     'birthday': "08/08/1993",
     'emailAddNewService': 'EarlMO@yopmail.com',
+    'newemail' : 'EarlEmails@yopmail.com',
+    'mobileNumberIndividual': "9234567891",
+    'newOwner': 'Angelo Tafalla',
+    'energizationDate': '01/01/2023',
+    'caseNumber': '22122252189',
     'CAN_recon': '3518724842',
     'SIN_recon': '501027710101',
-    'CAN_recon_single': '3535070118'
+    'CAN_recon_single': '3535070118',
+    'CAN_appleid': '3534057721',
+    'apple_kwh': '400',
+    'apple_bill_date': '12/13/2022'
 
 
 }
 
 Registration = {
     'cxe_email': 'v-lvlgalvez@meralco.com.ph',
-    'cxe_password': 'Mecopass@@!!129',
+    'cxe_password': 'Mecopass@@!!123',
     'can_single_service': '3534823912',
     'single_service_pay_email': 'paysingleservicerun2@yopmail.com',
     'single_service_pay_password': 'Meralco01',
@@ -152,8 +167,9 @@ Registration = {
     'match_bills_first_name': 'matching',
     'match_bills_middle_name': 'non',
     'match_bills_last_name': 'pay',
-    'match_bills_mobile_num': '9299437216',
-    'can_no_bill_pmultiple_gmobile_num': '92231239078'
+    'match_bills_mobile_num': '9299437218',
+    'can_no_bill_pmultiple_gmobile_num': '92231239078',
+    'cxe_apply_email': 'aaaa7@yopmail.com',
 }
 
 Outage = {
@@ -165,7 +181,8 @@ Outage = {
     'middle_name': 'middle',
     'last_name': 'report',
     'mobile_number': '+639276597262',
-    'landline': '',
+    'landline': '6321234543',
+    'wrongLandline': '21345654',
     'email': 'testautomationoutage@yopmail.com',
     'cxe_email': 'v-lvlgalvez@meralco.com.ph',
     'cxe_password': 'Mecopass@@!!122',
@@ -237,7 +254,9 @@ RFC = {
     'expiry_date': '12/27',
     'cvv': '212',
     'first_name': 'Juan',
-    'last_name': 'Dela Cruz'
+    'last_name': 'Dela Cruz',
+    'total_kwh': '107',
+    'bill_date': '10/20/2021'
 }
 
 

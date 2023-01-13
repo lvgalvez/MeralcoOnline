@@ -1,0 +1,50 @@
+2023-01-05 14:52:22,149 - INFO - setup : Browser Launched!
+2023-01-05 14:52:51,559 - INFO - <module> : input: EarlEmails@yopmail.com
+2023-01-05 14:52:51,559 - INFO - <module> : input: EarlEmails@yopmail.com
+2023-01-05 14:52:51,559 - INFO - <module> : input: EarlEmails@yopmail.com
+2023-01-05 14:52:51,559 - INFO - <module> : input: EarlEmails@yopmail.com
+2023-01-05 14:52:51,824 - INFO - <module> : input: Meralco01
+2023-01-05 14:52:51,824 - INFO - <module> : input: Meralco01
+2023-01-05 14:52:51,824 - INFO - <module> : input: Meralco01
+2023-01-05 14:52:51,824 - INFO - <module> : input: Meralco01
+2023-01-05 14:52:58,245 - INFO - <module> : Clicked
+2023-01-05 14:52:58,245 - INFO - <module> : Clicked
+2023-01-05 14:52:58,245 - INFO - <module> : Clicked
+2023-01-05 14:52:58,245 - INFO - <module> : Clicked
+2023-01-05 14:52:58,481 - INFO - <module> : Hello, exists
+2023-01-05 14:52:58,481 - INFO - <module> : Hello, exists
+2023-01-05 14:52:58,481 - INFO - <module> : Hello, exists
+2023-01-05 14:52:58,481 - INFO - <module> : Hello, exists
+2023-01-05 14:53:12,210 - INFO - <module> : Clicked
+2023-01-05 14:53:12,210 - INFO - <module> : Clicked
+2023-01-05 14:53:12,210 - INFO - <module> : Clicked
+2023-01-05 14:53:12,210 - INFO - <module> : Clicked
+2023-01-05 14:53:22,983 - INFO - <module> :  clicked
+2023-01-05 14:53:22,983 - INFO - <module> :  clicked
+2023-01-05 14:53:22,983 - INFO - <module> :  clicked
+2023-01-05 14:53:22,983 - INFO - <module> :  clicked
+2023-01-05 14:53:47,548 - INFO - <module> : Clicked
+2023-01-05 14:53:47,548 - INFO - <module> : Clicked
+2023-01-05 14:53:47,548 - INFO - <module> : Clicked
+2023-01-05 14:53:47,548 - INFO - <module> : Clicked
+2023-01-05 14:53:55,772 - INFO - <module> : input: 123 Santo Tomas
+2023-01-05 14:53:55,772 - INFO - <module> : input: 123 Santo Tomas
+2023-01-05 14:53:55,772 - INFO - <module> : input: 123 Santo Tomas
+2023-01-05 14:53:55,772 - INFO - <module> : input: 123 Santo Tomas
+2023-01-05 14:53:58,851 - INFO - <module> : Clicked
+2023-01-05 14:53:58,851 - INFO - <module> : Clicked
+2023-01-05 14:53:58,851 - INFO - <module> : Clicked
+2023-01-05 14:53:58,851 - INFO - <module> : Clicked
+2023-01-05 14:54:07,127 - INFO - <module> : Clicked
+2023-01-05 14:54:07,127 - INFO - <module> : Clicked
+2023-01-05 14:54:07,127 - INFO - <module> : Clicked
+2023-01-05 14:54:07,127 - INFO - <module> : Clicked
+2023-01-05 14:54:38,270 - INFO - <module> : Clicked
+2023-01-05 14:54:38,270 - INFO - <module> : Clicked
+2023-01-05 14:54:38,270 - INFO - <module> : Clicked
+2023-01-05 14:54:38,270 - INFO - <module> : Clicked
+2023-01-05 14:55:17,242 - ERROR - <module> : Cannot Locate: ok_btn
+2023-01-05 14:55:17,242 - ERROR - <module> : Cannot Locate: ok_btn
+2023-01-05 14:55:17,242 - ERROR - <module> : Cannot Locate: ok_btn
+2023-01-05 14:55:17,242 - ERROR - <module> : Cannot Locate: ok_btn
+2023-01-05 14:55:17,310 - INFO - setup : Close Browser

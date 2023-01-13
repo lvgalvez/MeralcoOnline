@@ -1,6 +1,5 @@
 import pytest
 
-from Test.SAMO.test_cases import *
 from Test.Release6.test_cases import *
 from Utilities.Data import *
 from Utilities.Functions import Functions
@@ -10,6 +9,59 @@ from Utilities.Functions import Functions
 class TestServiceApplicationMeralcoOnline:
     module = "SAMO"
     serviceApplicationModule = "Release6"
+
+    @pytest.mark.tags("TS001")
+    def test_ts001(self):
+        test_scenario = "TS001"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        #TC002a(self.driver, test_scenario)
+        TC003a(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS002")
+    def test_ts002(self):
+        test_scenario = "TS002"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC005a(self.driver, test_scenario)
+        TC006a(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS003")
+    def test_ts003(self):
+        test_scenario = "TS003"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        #TC008a(self.driver, test_scenario)
+        TC009a(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS004")
+    def test_ts004(self):
+        test_scenario = "TS004"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        #TC011a(self.driver, test_scenario)
+        TC012a(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS019a")
+    def test_ts019a(self):
+        test_scenario = "TS019a"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC039a(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS022a")
+    def test_ts022a(self):
+        test_scenario = "TS022a"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC042a(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS025a")
+    def test_ts025a(self):
+        test_scenario = "TS025a"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC045a(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
 
     @pytest.mark.tags("TS035")
     def test_ts035(self):
@@ -67,4 +119,49 @@ class TestServiceApplicationMeralcoOnline:
         Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
         TC048d(self.driver, test_scenario, Outage['first_name'], Outage['middle_name'],
                Outage['last_name'], Outage['mobile_number'], Outage['landline'], Outage['email'])
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS045")
+    def test_ts045(self):
+        test_scenario = "TS045"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC062(self.driver, test_scenario)
+        TC063(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS046")
+    def test_ts046(self):
+        test_scenario = "TS046"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC064(self.driver, test_scenario)
+        TC065(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS047")
+    def test_ts047(self):
+        test_scenario = "TS047"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC066(self.driver, test_scenario)
+        TC067(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS048")
+    def test_ts048(self):
+        test_scenario = "TS048"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC068(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS050")
+    def test_ts050(self):
+        test_scenario = "TS050"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC070(self.driver, test_scenario)
+        Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS054")
+    def test_ts054(self):
+        test_scenario = "TS054"
+        Functions().create_document(self.driver, self.serviceApplicationModule, test_scenario)
+        TC074(self.driver, test_scenario)
         Functions().tag_status(self.serviceApplicationModule, test_scenario, "Passed")

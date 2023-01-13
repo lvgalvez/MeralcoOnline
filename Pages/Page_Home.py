@@ -43,6 +43,7 @@ class HomePage:
     overview = "//a[@title='Overview']"
     bayadExpress_here = "//span[contains(text(), 'CLICK HERE')]"
     paperless_billing = "//a[contains(text(), 'Paperless Billing')]"
+    faqs_btn = "//a[@title='FAQs']"
 
     def get_popupNO(self, driver):
         return WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, self.popupNO)))
@@ -148,3 +149,6 @@ class HomePage:
 
     def get_paperless_billing(self, driver):
         return WebMisc().clickable_element(driver, self.paperless_billing, "paperless_billing")
+
+    def get_faqs(self, driver):
+        return WebMisc().clickable_element(driver, self.faqs_btn, "faqs_btn")

@@ -1,0 +1,22 @@
+2023-01-03 12:49:03,600 - INFO - setup : Browser Launched!
+2023-01-03 12:49:38,762 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-03 12:49:38,762 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-03 12:49:38,762 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-03 12:49:38,762 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-03 12:49:45,148 - INFO - <module> : Service Application exists
+2023-01-03 12:49:45,148 - INFO - <module> : Service Application exists
+2023-01-03 12:49:45,148 - INFO - <module> : Service Application exists
+2023-01-03 12:49:45,148 - INFO - <module> : Service Application exists
+2023-01-03 12:49:49,281 - INFO - <module> : Clicked
+2023-01-03 12:49:49,281 - INFO - <module> : Clicked
+2023-01-03 12:49:49,281 - INFO - <module> : Clicked
+2023-01-03 12:49:49,281 - INFO - <module> : Clicked
+2023-01-03 12:49:53,451 - INFO - <module> : Clicked
+2023-01-03 12:49:53,451 - INFO - <module> : Clicked
+2023-01-03 12:49:53,451 - INFO - <module> : Clicked
+2023-01-03 12:49:53,451 - INFO - <module> : Clicked
+2023-01-03 12:50:26,026 - ERROR - <module> : Cannot Locate: peccbm_no_modal
+2023-01-03 12:50:26,026 - ERROR - <module> : Cannot Locate: peccbm_no_modal
+2023-01-03 12:50:26,026 - ERROR - <module> : Cannot Locate: peccbm_no_modal
+2023-01-03 12:50:26,026 - ERROR - <module> : Cannot Locate: peccbm_no_modal
+2023-01-03 12:50:26,118 - INFO - setup : Close Browser

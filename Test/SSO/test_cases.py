@@ -1,5 +1,7 @@
 import time
 
+from Pages.Page_AppleID_Login import AppleLoginPage
+from Pages.Page_Enroll_Service import EnrollServicePage
 from Pages.Page_Forgot_Password import ForgotPasswordPage
 from Pages.Page_Google_Login import GoogleLoginPage
 from Pages.Page_Home import HomePage
@@ -12,10 +14,12 @@ from Utilities.Config import *
 from Utilities.Data import SSO
 from Utilities.Functions import Functions
 from Utilities.Utils import Utilities
+from Test.Module_Functions.MO_Functions import *
 
 
 log = Utilities().getlogger()
 module = "SSO"
+fc = Functions()
 
 
 def TC001(driver, ts_id, email):
@@ -34,7 +38,6 @@ def TC001(driver, ts_id, email):
     error_prompt = "Please use your Facebook, Google, or Apple account to login. Your Meralco Online account is registered and/or previously accessed in using these options."
     function.verify_text(forgot_password.get_sso_forgot(driver), error_prompt)
     function.screen_capture(driver, module, ts_id, test_case, "Step 2b")
-
 
 def TC002(driver, ts_id, email, password):
     test_case = "TC002"
