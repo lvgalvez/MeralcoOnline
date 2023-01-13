@@ -1,0 +1,82 @@
+2023-01-11 14:08:20,028 - INFO - setup : Browser Launched!
+2023-01-11 14:08:33,265 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:08:33,265 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:08:33,265 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:08:33,265 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:08:37,823 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:08:37,823 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:08:37,823 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:08:37,823 - INFO - <module> : Opened: https://fuat-meralco.cs73.force.com/customers/s/cxe-apply
+2023-01-11 14:08:37,990 - INFO - <module> : Service Application exists
+2023-01-11 14:08:37,990 - INFO - <module> : Service Application exists
+2023-01-11 14:08:37,990 - INFO - <module> : Service Application exists
+2023-01-11 14:08:37,990 - INFO - <module> : Service Application exists
+2023-01-11 14:08:40,987 - INFO - <module> : Click on Contractor
+2023-01-11 14:08:40,987 - INFO - <module> : Click on Contractor
+2023-01-11 14:08:40,987 - INFO - <module> : Click on Contractor
+2023-01-11 14:08:40,987 - INFO - <module> : Click on Contractor
+2023-01-11 14:08:41,080 - INFO - <module> : Clicked
+2023-01-11 14:08:41,080 - INFO - <module> : Clicked
+2023-01-11 14:08:41,080 - INFO - <module> : Clicked
+2023-01-11 14:08:41,080 - INFO - <module> : Clicked
+2023-01-11 14:08:41,128 - INFO - <module> : Start Service exists
+2023-01-11 14:08:41,128 - INFO - <module> : Start Service exists
+2023-01-11 14:08:41,128 - INFO - <module> : Start Service exists
+2023-01-11 14:08:41,128 - INFO - <module> : Start Service exists
+2023-01-11 14:08:41,183 - INFO - <module> : Modify Service exists
+2023-01-11 14:08:41,183 - INFO - <module> : Modify Service exists
+2023-01-11 14:08:41,183 - INFO - <module> : Modify Service exists
+2023-01-11 14:08:41,183 - INFO - <module> : Modify Service exists
+2023-01-11 14:08:41,239 - INFO - <module> : Reactivate Service exists
+2023-01-11 14:08:41,239 - INFO - <module> : Reactivate Service exists
+2023-01-11 14:08:41,239 - INFO - <module> : Reactivate Service exists
+2023-01-11 14:08:41,239 - INFO - <module> : Reactivate Service exists
+2023-01-11 14:08:41,282 - INFO - <module> : Stop Service exists
+2023-01-11 14:08:41,282 - INFO - <module> : Stop Service exists
+2023-01-11 14:08:41,282 - INFO - <module> : Stop Service exists
+2023-01-11 14:08:41,282 - INFO - <module> : Stop Service exists
+2023-01-11 14:08:44,172 - INFO - <module> : Click on Modify Service
+2023-01-11 14:08:44,172 - INFO - <module> : Click on Modify Service
+2023-01-11 14:08:44,172 - INFO - <module> : Click on Modify Service
+2023-01-11 14:08:44,172 - INFO - <module> : Click on Modify Service
+2023-01-11 14:08:45,579 - INFO - <module> : Clicked
+2023-01-11 14:08:45,579 - INFO - <module> : Clicked
+2023-01-11 14:08:45,579 - INFO - <module> : Clicked
+2023-01-11 14:08:45,579 - INFO - <module> : Clicked
+2023-01-11 14:08:49,262 - INFO - <module> : REQUEST DETAILS exists
+2023-01-11 14:08:49,262 - INFO - <module> : REQUEST DETAILS exists
+2023-01-11 14:08:49,262 - INFO - <module> : REQUEST DETAILS exists
+2023-01-11 14:08:49,262 - INFO - <module> : REQUEST DETAILS exists
+2023-01-11 14:08:52,253 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-11 14:08:52,253 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-11 14:08:52,253 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-11 14:08:52,253 - INFO - <module> : Validate if CAN field is visible and enabled
+2023-01-11 14:08:52,331 - INFO - <module> :  exists
+2023-01-11 14:08:52,331 - INFO - <module> :  exists
+2023-01-11 14:08:52,331 - INFO - <module> :  exists
+2023-01-11 14:08:52,331 - INFO - <module> :  exists
+2023-01-11 14:08:55,351 - INFO - <module> : Populate CAN field
+2023-01-11 14:08:55,351 - INFO - <module> : Populate CAN field
+2023-01-11 14:08:55,351 - INFO - <module> : Populate CAN field
+2023-01-11 14:08:55,351 - INFO - <module> : Populate CAN field
+2023-01-11 14:08:55,515 - INFO - <module> : input: 3534823912
+2023-01-11 14:08:55,515 - INFO - <module> : input: 3534823912
+2023-01-11 14:08:55,515 - INFO - <module> : input: 3534823912
+2023-01-11 14:08:55,515 - INFO - <module> : input: 3534823912
+2023-01-11 14:08:58,450 - INFO - <module> : Tick Change my Service Details > tick Request to downgrade electrical load > click Next
+2023-01-11 14:08:58,450 - INFO - <module> : Tick Change my Service Details > tick Request to downgrade electrical load > click Next
+2023-01-11 14:08:58,450 - INFO - <module> : Tick Change my Service Details > tick Request to downgrade electrical load > click Next
+2023-01-11 14:08:58,450 - INFO - <module> : Tick Change my Service Details > tick Request to downgrade electrical load > click Next
+2023-01-11 14:08:58,552 - INFO - <module> : Clicked
+2023-01-11 14:08:58,552 - INFO - <module> : Clicked
+2023-01-11 14:08:58,552 - INFO - <module> : Clicked
+2023-01-11 14:08:58,552 - INFO - <module> : Clicked
+2023-01-11 14:08:58,635 - INFO - <module> : Clicked
+2023-01-11 14:08:58,635 - INFO - <module> : Clicked
+2023-01-11 14:08:58,635 - INFO - <module> : Clicked
+2023-01-11 14:08:58,635 - INFO - <module> : Clicked
+2023-01-11 14:09:00,905 - INFO - <module> : Clicked
+2023-01-11 14:09:00,905 - INFO - <module> : Clicked
+2023-01-11 14:09:00,905 - INFO - <module> : Clicked
+2023-01-11 14:09:00,905 - INFO - <module> : Clicked
+2023-01-11 14:09:31,836 - INFO - setup : Close Browser

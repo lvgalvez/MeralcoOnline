@@ -20,11 +20,12 @@ class CXEModificationContractor:
 
     company_name = "//*[@id='262:2;a']"
     landline = "//*[@id='2235:0']"
-    first_name = "//*[@id='232:2;a']"
-    last_name = "//*[@id='247:2;a']"
-    emailddress = "//*[@id='277:2;a']"
-    mobile_number = "//*[@id='292:2;a']"
+    first_name = "//div/div[3]/div/div[1]/div[1]/div/div/div/input"
+    last_name = "//div/div[3]/div/div[1]/div[2]/div/div/div/input"
+    emailddress = "//div/div[3]/div/div[1]/div[4]/div/div/div/input"
+    mobile_number = "//div/div[1]/div[5]/div/div/div/input"
     designation = "//*[@id='307:2;a']"
+    business = "//div/div[1]/div[3]/div/div/div/input"
     next1 = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div[3]/div/div[3]/button"
     contact_info = "//*[@id='ServiceCommunityTemplate']/div[2]/div/div[1]/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/ul/li[2]/a"
     next2 = "//*[@id='tab-2']/div/div/div/div/div/div[3]/div/button"
@@ -50,6 +51,10 @@ class CXEModificationContractor:
     def get_click_nxtcont(self, driver):
         return WebDriverWait(driver, wait_time).until(
             EC.element_to_be_clickable((By.XPATH, self.click_nxtcont)))
+
+    def get_business(self, driver):
+        return WebDriverWait(driver, wait_time).until(
+            EC.element_to_be_clickable((By.XPATH, self.business)))
 
     def get_SIN(self, driver):
         return WebDriverWait(driver, wait_time).until(

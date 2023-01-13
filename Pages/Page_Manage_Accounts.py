@@ -9,13 +9,22 @@ from Utilities.WebMisc import WebMisc
 
 class ManageAccountsPage:
     manage_accounts_text = "//p[contains(text(), 'Manage your service account here.')]"
-    submit = "//button[contains(text(), 'Submit')]"
+    submit = "//div/div/div[1]/div[2]/div[1]/div/div[3]/button"
     change_service = "//span[contains(text(), 'Change Service Details')]"
     change_contract = "//span[contains(text(), 'Change Contract Details')]"
     stop_electric_service = "//span[contains(text(), 'Stop Electric Service')]"
     reactivate_electric_service = "//span[contains(text(), 'Reactivate Electric Service')]"
     select_sin = "//html/body/div[3]/div[2]/div/div[2]/div/div/div[1]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[3]/div/label/input"
+    account = "//div[2]/div[1]/table/tbody/tr[2]/td[1]/div/label/div"
+    terms = "//div/div/div[3]/div/div[3]/div[2]/div/label/div"
+    transfer = "//div/div/div[1]/div/div/div[1]/ul/li[2]/input"
 
+    def get_transfer(self, driver):
+        return WebMisc().wait_element(driver, self.transfer, "transfer")
+    def get_terms(self, driver):
+        return WebMisc().wait_element(driver, self.terms, "terms")
+    def get_account(self, driver):
+        return WebMisc().wait_element(driver, self.account, "account")
     def get_manage_accounts_text(self, driver):
         return WebMisc().wait_element(driver, self.manage_accounts_text, "manage_accounts_text")
 
