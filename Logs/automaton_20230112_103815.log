@@ -1,0 +1,46 @@
+2023-01-12 10:38:16,473 - INFO - setup : Browser Launched!
+2023-01-12 10:38:35,389 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/contact
+2023-01-12 10:38:35,389 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/contact
+2023-01-12 10:38:35,389 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/contact
+2023-01-12 10:38:35,389 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/contact
+2023-01-12 10:38:35,554 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-12 10:38:35,554 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-12 10:38:35,554 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-12 10:38:35,554 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-12 10:38:35,640 - INFO - <module> : input: Meralco004
+2023-01-12 10:38:35,640 - INFO - <module> : input: Meralco004
+2023-01-12 10:38:35,640 - INFO - <module> : input: Meralco004
+2023-01-12 10:38:35,640 - INFO - <module> : input: Meralco004
+2023-01-12 10:38:35,702 - INFO - <module> : Clicked
+2023-01-12 10:38:35,702 - INFO - <module> : Clicked
+2023-01-12 10:38:35,702 - INFO - <module> : Clicked
+2023-01-12 10:38:35,702 - INFO - <module> : Clicked
+2023-01-12 10:38:41,967 - INFO - <module> : Hello, exists
+2023-01-12 10:38:41,967 - INFO - <module> : Hello, exists
+2023-01-12 10:38:41,967 - INFO - <module> : Hello, exists
+2023-01-12 10:38:41,967 - INFO - <module> : Hello, exists
+2023-01-12 10:38:55,063 - INFO - <module> : Click on page indicated in scenario
+2023-01-12 10:38:55,063 - INFO - <module> : Click on page indicated in scenario
+2023-01-12 10:38:55,063 - INFO - <module> : Click on page indicated in scenario
+2023-01-12 10:38:55,063 - INFO - <module> : Click on page indicated in scenario
+2023-01-12 10:38:55,141 - INFO - <module> : Accounts clicked
+2023-01-12 10:38:55,141 - INFO - <module> : Accounts clicked
+2023-01-12 10:38:55,141 - INFO - <module> : Accounts clicked
+2023-01-12 10:38:55,141 - INFO - <module> : Accounts clicked
+2023-01-12 10:38:55,196 - INFO - <module> :  clicked
+2023-01-12 10:38:55,196 - INFO - <module> :  clicked
+2023-01-12 10:38:55,196 - INFO - <module> :  clicked
+2023-01-12 10:38:55,196 - INFO - <module> :  clicked
+2023-01-12 10:39:12,040 - INFO - <module> : Clicked
+2023-01-12 10:39:12,040 - INFO - <module> : Clicked
+2023-01-12 10:39:12,040 - INFO - <module> : Clicked
+2023-01-12 10:39:12,040 - INFO - <module> : Clicked
+2023-01-12 10:39:12,082 - INFO - <module> : Clicked
+2023-01-12 10:39:12,082 - INFO - <module> : Clicked
+2023-01-12 10:39:12,082 - INFO - <module> : Clicked
+2023-01-12 10:39:12,082 - INFO - <module> : Clicked
+2023-01-12 10:39:47,128 - ERROR - <module> : Cannot Locate: change_contract
+2023-01-12 10:39:47,128 - ERROR - <module> : Cannot Locate: change_contract
+2023-01-12 10:39:47,128 - ERROR - <module> : Cannot Locate: change_contract
+2023-01-12 10:39:47,128 - ERROR - <module> : Cannot Locate: change_contract
+2023-01-12 10:39:47,262 - INFO - setup : Close Browser

@@ -1,0 +1,62 @@
+2023-01-12 13:11:07,323 - INFO - setup : Browser Launched!
+2023-01-12 13:12:07,507 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/contact
+2023-01-12 13:12:07,507 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/contact
+2023-01-12 13:12:07,507 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/contact
+2023-01-12 13:12:07,507 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/contact
+2023-01-12 13:12:07,737 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-12 13:12:07,737 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-12 13:12:07,737 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-12 13:12:07,737 - INFO - <module> : input: ATNewSAMO@yopmail.com
+2023-01-12 13:12:07,840 - INFO - <module> : input: Meralco05
+2023-01-12 13:12:07,840 - INFO - <module> : input: Meralco05
+2023-01-12 13:12:07,840 - INFO - <module> : input: Meralco05
+2023-01-12 13:12:07,840 - INFO - <module> : input: Meralco05
+2023-01-12 13:12:07,900 - INFO - <module> : Clicked
+2023-01-12 13:12:07,900 - INFO - <module> : Clicked
+2023-01-12 13:12:07,900 - INFO - <module> : Clicked
+2023-01-12 13:12:07,900 - INFO - <module> : Clicked
+2023-01-12 13:12:19,694 - INFO - <module> : Hello, ATNew exists
+2023-01-12 13:12:19,694 - INFO - <module> : Hello, ATNew exists
+2023-01-12 13:12:19,694 - INFO - <module> : Hello, ATNew exists
+2023-01-12 13:12:19,694 - INFO - <module> : Hello, ATNew exists
+2023-01-12 13:12:32,925 - INFO - <module> : Click on page indicated in scenario
+2023-01-12 13:12:32,925 - INFO - <module> : Click on page indicated in scenario
+2023-01-12 13:12:32,925 - INFO - <module> : Click on page indicated in scenario
+2023-01-12 13:12:32,925 - INFO - <module> : Click on page indicated in scenario
+2023-01-12 13:12:33,007 - INFO - <module> : Accounts clicked
+2023-01-12 13:12:33,007 - INFO - <module> : Accounts clicked
+2023-01-12 13:12:33,007 - INFO - <module> : Accounts clicked
+2023-01-12 13:12:33,007 - INFO - <module> : Accounts clicked
+2023-01-12 13:12:33,063 - INFO - <module> :  clicked
+2023-01-12 13:12:33,063 - INFO - <module> :  clicked
+2023-01-12 13:12:33,063 - INFO - <module> :  clicked
+2023-01-12 13:12:33,063 - INFO - <module> :  clicked
+2023-01-12 13:12:46,479 - INFO - <module> : Clicked
+2023-01-12 13:12:46,479 - INFO - <module> : Clicked
+2023-01-12 13:12:46,479 - INFO - <module> : Clicked
+2023-01-12 13:12:46,479 - INFO - <module> : Clicked
+2023-01-12 13:12:51,556 - INFO - <module> : Clicked
+2023-01-12 13:12:51,556 - INFO - <module> : Clicked
+2023-01-12 13:12:51,556 - INFO - <module> : Clicked
+2023-01-12 13:12:51,556 - INFO - <module> : Clicked
+2023-01-12 13:12:54,207 - INFO - <module> : Clicked
+2023-01-12 13:12:54,207 - INFO - <module> : Clicked
+2023-01-12 13:12:54,207 - INFO - <module> : Clicked
+2023-01-12 13:12:54,207 - INFO - <module> : Clicked
+2023-01-12 13:13:00,078 - INFO - <module> : Clicked
+2023-01-12 13:13:00,078 - INFO - <module> : Clicked
+2023-01-12 13:13:00,078 - INFO - <module> : Clicked
+2023-01-12 13:13:00,078 - INFO - <module> : Clicked
+2023-01-12 13:13:02,643 - INFO - <module> : Clicked
+2023-01-12 13:13:02,643 - INFO - <module> : Clicked
+2023-01-12 13:13:02,643 - INFO - <module> : Clicked
+2023-01-12 13:13:02,643 - INFO - <module> : Clicked
+2023-01-12 13:13:16,362 - INFO - <module> : Clicked
+2023-01-12 13:13:16,362 - INFO - <module> : Clicked
+2023-01-12 13:13:16,362 - INFO - <module> : Clicked
+2023-01-12 13:13:16,362 - INFO - <module> : Clicked
+2023-01-12 13:13:32,864 - ERROR - <module> : element is disabled
+2023-01-12 13:13:32,864 - ERROR - <module> : element is disabled
+2023-01-12 13:13:32,864 - ERROR - <module> : element is disabled
+2023-01-12 13:13:32,864 - ERROR - <module> : element is disabled
+2023-01-12 13:13:32,978 - INFO - setup : Close Browser

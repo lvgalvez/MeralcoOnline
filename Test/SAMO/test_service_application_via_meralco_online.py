@@ -56,9 +56,15 @@ class TestServiceApplicationMeralcoOnline:
     @pytest.mark.tags("TS007")
     def test_ts007(self):
         test_scenario = "TS007"
-        Functions().create_document(self.driver, module, test_scenario)
-        TC007(self.driver, test_scenario, SAMO['business_account_email'], SAMO['business_account_password'],
-              SAMO['service_add'])
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC007(self.driver, test_scenario)
+        Functions().tag_status(self.module, test_scenario, "Passed")
+
+    @pytest.mark.tags("TS008")
+    def test_ts008(self):
+        test_scenario = "TS008"
+        Functions().create_document(self.driver, self.module, test_scenario)
+        TC008(self.driver, test_scenario)
         Functions().tag_status(self.module, test_scenario, "Passed")
 
     @pytest.mark.tags("TS009")

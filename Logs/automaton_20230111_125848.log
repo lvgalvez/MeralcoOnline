@@ -1,0 +1,178 @@
+2023-01-11 12:58:49,173 - INFO - setup : Browser Launched!
+2023-01-11 12:58:59,401 - INFO - <module> : ==========Log in==========
+2023-01-11 12:58:59,401 - INFO - <module> : ==========Log in==========
+2023-01-11 12:58:59,401 - INFO - <module> : ==========Log in==========
+2023-01-11 12:58:59,401 - INFO - <module> : ==========Log in==========
+2023-01-11 12:59:00,680 - INFO - <module> : Login to Meralco Online
+2023-01-11 12:59:00,680 - INFO - <module> : Login to Meralco Online
+2023-01-11 12:59:00,680 - INFO - <module> : Login to Meralco Online
+2023-01-11 12:59:00,680 - INFO - <module> : Login to Meralco Online
+2023-01-11 12:59:00,902 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-11 12:59:00,902 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-11 12:59:00,902 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-11 12:59:00,902 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-11 12:59:01,118 - INFO - <module> : input: Meralco003
+2023-01-11 12:59:01,118 - INFO - <module> : input: Meralco003
+2023-01-11 12:59:01,118 - INFO - <module> : input: Meralco003
+2023-01-11 12:59:01,118 - INFO - <module> : input: Meralco003
+2023-01-11 12:59:01,221 - INFO - <module> : Clicked
+2023-01-11 12:59:01,221 - INFO - <module> : Clicked
+2023-01-11 12:59:01,221 - INFO - <module> : Clicked
+2023-01-11 12:59:01,221 - INFO - <module> : Clicked
+2023-01-11 12:59:05,936 - INFO - <module> : Hello, exists
+2023-01-11 12:59:05,936 - INFO - <module> : Hello, exists
+2023-01-11 12:59:05,936 - INFO - <module> : Hello, exists
+2023-01-11 12:59:05,936 - INFO - <module> : Hello, exists
+2023-01-11 12:59:09,077 - INFO - <module> : Click on Request for a Service tile
+2023-01-11 12:59:09,077 - INFO - <module> : Click on Request for a Service tile
+2023-01-11 12:59:09,077 - INFO - <module> : Click on Request for a Service tile
+2023-01-11 12:59:09,077 - INFO - <module> : Click on Request for a Service tile
+2023-01-11 12:59:09,152 - INFO - <module> : Clicked
+2023-01-11 12:59:09,152 - INFO - <module> : Clicked
+2023-01-11 12:59:09,152 - INFO - <module> : Clicked
+2023-01-11 12:59:09,152 - INFO - <module> : Clicked
+2023-01-11 12:59:13,835 - INFO - <module> : Start a Service exists
+2023-01-11 12:59:13,835 - INFO - <module> : Start a Service exists
+2023-01-11 12:59:13,835 - INFO - <module> : Start a Service exists
+2023-01-11 12:59:13,835 - INFO - <module> : Start a Service exists
+2023-01-11 12:59:16,896 - INFO - <module> : Populate all required fields in Contact Information tab > Click Next
+2023-01-11 12:59:16,896 - INFO - <module> : Populate all required fields in Contact Information tab > Click Next
+2023-01-11 12:59:16,896 - INFO - <module> : Populate all required fields in Contact Information tab > Click Next
+2023-01-11 12:59:16,896 - INFO - <module> : Populate all required fields in Contact Information tab > Click Next
+2023-01-11 12:59:19,169 - INFO - <module> : Clicked
+2023-01-11 12:59:19,169 - INFO - <module> : Clicked
+2023-01-11 12:59:19,169 - INFO - <module> : Clicked
+2023-01-11 12:59:19,169 - INFO - <module> : Clicked
+2023-01-11 12:59:19,210 - INFO - <module> : Start a Service exists
+2023-01-11 12:59:19,210 - INFO - <module> : Start a Service exists
+2023-01-11 12:59:19,210 - INFO - <module> : Start a Service exists
+2023-01-11 12:59:19,210 - INFO - <module> : Start a Service exists
+2023-01-11 12:59:22,266 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2023-01-11 12:59:22,266 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2023-01-11 12:59:22,266 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2023-01-11 12:59:22,266 - INFO - <module> : Populate the following:
+Service Address
+Province
+City / Municipality
+Home Ownership
+Billing Address Indicator
+2023-01-11 12:59:22,369 - INFO - <module> : input: atsrviceadd
+2023-01-11 12:59:22,369 - INFO - <module> : input: atsrviceadd
+2023-01-11 12:59:22,369 - INFO - <module> : input: atsrviceadd
+2023-01-11 12:59:22,369 - INFO - <module> : input: atsrviceadd
+2023-01-11 12:59:22,453 - INFO - <module> : Clicked
+2023-01-11 12:59:22,453 - INFO - <module> : Clicked
+2023-01-11 12:59:22,453 - INFO - <module> : Clicked
+2023-01-11 12:59:22,453 - INFO - <module> : Clicked
+2023-01-11 12:59:22,517 - INFO - <module> : Clicked
+2023-01-11 12:59:22,517 - INFO - <module> : Clicked
+2023-01-11 12:59:22,517 - INFO - <module> : Clicked
+2023-01-11 12:59:22,517 - INFO - <module> : Clicked
+2023-01-11 12:59:22,605 - INFO - <module> : Clicked
+2023-01-11 12:59:22,605 - INFO - <module> : Clicked
+2023-01-11 12:59:22,605 - INFO - <module> : Clicked
+2023-01-11 12:59:22,605 - INFO - <module> : Clicked
+2023-01-11 12:59:22,660 - INFO - <module> : Clicked
+2023-01-11 12:59:22,660 - INFO - <module> : Clicked
+2023-01-11 12:59:22,660 - INFO - <module> : Clicked
+2023-01-11 12:59:22,660 - INFO - <module> : Clicked
+2023-01-11 12:59:22,737 - INFO - <module> : Clicked
+2023-01-11 12:59:22,737 - INFO - <module> : Clicked
+2023-01-11 12:59:22,737 - INFO - <module> : Clicked
+2023-01-11 12:59:22,737 - INFO - <module> : Clicked
+2023-01-11 12:59:22,787 - INFO - <module> : Clicked
+2023-01-11 12:59:22,787 - INFO - <module> : Clicked
+2023-01-11 12:59:22,787 - INFO - <module> : Clicked
+2023-01-11 12:59:22,787 - INFO - <module> : Clicked
+2023-01-11 12:59:22,848 - INFO - <module> : Clicked
+2023-01-11 12:59:22,848 - INFO - <module> : Clicked
+2023-01-11 12:59:22,848 - INFO - <module> : Clicked
+2023-01-11 12:59:22,848 - INFO - <module> : Clicked
+2023-01-11 12:59:22,922 - INFO - <module> : Clicked
+2023-01-11 12:59:22,922 - INFO - <module> : Clicked
+2023-01-11 12:59:22,922 - INFO - <module> : Clicked
+2023-01-11 12:59:22,922 - INFO - <module> : Clicked
+2023-01-11 12:59:25,219 - INFO - <module> : Clicked
+2023-01-11 12:59:25,219 - INFO - <module> : Clicked
+2023-01-11 12:59:25,219 - INFO - <module> : Clicked
+2023-01-11 12:59:25,219 - INFO - <module> : Clicked
+2023-01-11 12:59:25,266 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2023-01-11 12:59:25,266 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2023-01-11 12:59:25,266 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2023-01-11 12:59:25,266 - INFO - <module> : 3VALUE ADDED SERVICES exists
+2023-01-11 12:59:28,274 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2023-01-11 12:59:28,274 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2023-01-11 12:59:28,274 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2023-01-11 12:59:28,274 - INFO - <module> : Populate the following:
+Notification indicator
+AMC indicator
+Paperless Billing indicator
+APA indicator
+> Attach documents
+> Click Next
+2023-01-11 12:59:28,376 - INFO - <module> : Clicked
+2023-01-11 12:59:28,376 - INFO - <module> : Clicked
+2023-01-11 12:59:28,376 - INFO - <module> : Clicked
+2023-01-11 12:59:28,376 - INFO - <module> : Clicked
+2023-01-11 12:59:30,685 - INFO - <module> : Clicked
+2023-01-11 12:59:30,685 - INFO - <module> : Clicked
+2023-01-11 12:59:30,685 - INFO - <module> : Clicked
+2023-01-11 12:59:30,685 - INFO - <module> : Clicked
+2023-01-11 12:59:30,731 - INFO - <module> : 4TERMS & CONDITIONS exists
+2023-01-11 12:59:30,731 - INFO - <module> : 4TERMS & CONDITIONS exists
+2023-01-11 12:59:30,731 - INFO - <module> : 4TERMS & CONDITIONS exists
+2023-01-11 12:59:30,731 - INFO - <module> : 4TERMS & CONDITIONS exists
+2023-01-11 12:59:33,819 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2023-01-11 12:59:33,819 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2023-01-11 12:59:33,819 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2023-01-11 12:59:33,819 - INFO - <module> : Tick on I have read and agree to the Meralco Online Terms & Conditions and consent to the processing of my personal data in accordance with the Privacy Policy
+2023-01-11 12:59:33,929 - INFO - <module> : Clicked
+2023-01-11 12:59:33,929 - INFO - <module> : Clicked
+2023-01-11 12:59:33,929 - INFO - <module> : Clicked
+2023-01-11 12:59:33,929 - INFO - <module> : Clicked
+2023-01-11 12:59:56,886 - INFO - <module> : Click Submit
+2023-01-11 12:59:56,886 - INFO - <module> : Click Submit
+2023-01-11 12:59:56,886 - INFO - <module> : Click Submit
+2023-01-11 12:59:56,886 - INFO - <module> : Click Submit
+2023-01-11 12:59:56,999 - INFO - <module> : Clicked
+2023-01-11 12:59:56,999 - INFO - <module> : Clicked
+2023-01-11 12:59:56,999 - INFO - <module> : Clicked
+2023-01-11 12:59:56,999 - INFO - <module> : Clicked
+2023-01-11 12:59:59,280 - INFO - <module> : TC001 Passed
+2023-01-11 12:59:59,280 - INFO - <module> : TC001 Passed
+2023-01-11 12:59:59,280 - INFO - <module> : TC001 Passed
+2023-01-11 12:59:59,280 - INFO - <module> : TC001 Passed
+2023-01-11 12:59:59,366 - INFO - setup : Close Browser

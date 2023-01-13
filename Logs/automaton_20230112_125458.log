@@ -1,0 +1,38 @@
+2023-01-12 12:55:00,554 - INFO - setup : Browser Launched!
+2023-01-12 12:55:19,932 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/contact
+2023-01-12 12:55:19,932 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/contact
+2023-01-12 12:55:19,932 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/contact
+2023-01-12 12:55:19,932 - INFO - <module> : Go to https://fuat-meralco.cs73.force.com/customers/s/contact
+2023-01-12 12:55:20,133 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-12 12:55:20,133 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-12 12:55:20,133 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-12 12:55:20,133 - INFO - <module> : input: ATNewSAMObiz@yopmail.com
+2023-01-12 12:55:20,220 - INFO - <module> : input: Meralco004
+2023-01-12 12:55:20,220 - INFO - <module> : input: Meralco004
+2023-01-12 12:55:20,220 - INFO - <module> : input: Meralco004
+2023-01-12 12:55:20,220 - INFO - <module> : input: Meralco004
+2023-01-12 12:55:20,284 - INFO - <module> : Clicked
+2023-01-12 12:55:20,284 - INFO - <module> : Clicked
+2023-01-12 12:55:20,284 - INFO - <module> : Clicked
+2023-01-12 12:55:20,284 - INFO - <module> : Clicked
+2023-01-12 12:55:25,159 - INFO - <module> : Hello, exists
+2023-01-12 12:55:25,159 - INFO - <module> : Hello, exists
+2023-01-12 12:55:25,159 - INFO - <module> : Hello, exists
+2023-01-12 12:55:25,159 - INFO - <module> : Hello, exists
+2023-01-12 12:55:38,268 - INFO - <module> : Click on page indicated in scenario
+2023-01-12 12:55:38,268 - INFO - <module> : Click on page indicated in scenario
+2023-01-12 12:55:38,268 - INFO - <module> : Click on page indicated in scenario
+2023-01-12 12:55:38,268 - INFO - <module> : Click on page indicated in scenario
+2023-01-12 12:55:38,345 - INFO - <module> : Accounts clicked
+2023-01-12 12:55:38,345 - INFO - <module> : Accounts clicked
+2023-01-12 12:55:38,345 - INFO - <module> : Accounts clicked
+2023-01-12 12:55:38,345 - INFO - <module> : Accounts clicked
+2023-01-12 12:55:38,395 - INFO - <module> :  clicked
+2023-01-12 12:55:38,395 - INFO - <module> :  clicked
+2023-01-12 12:55:38,395 - INFO - <module> :  clicked
+2023-01-12 12:55:38,395 - INFO - <module> :  clicked
+2023-01-12 12:55:49,668 - INFO - <module> : Clicked
+2023-01-12 12:55:49,668 - INFO - <module> : Clicked
+2023-01-12 12:55:49,668 - INFO - <module> : Clicked
+2023-01-12 12:55:49,668 - INFO - <module> : Clicked
+2023-01-12 12:56:22,029 - INFO - setup : Close Browser

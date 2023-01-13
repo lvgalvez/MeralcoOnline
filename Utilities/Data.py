@@ -21,7 +21,7 @@ SSO = {
 
 SAMO = {
     'business_account_email': 'ATNewSAMObiz@yopmail.com',
-    'business_account_password': 'Meralco003',
+    'business_account_password': 'Meralco004',
     'individual_account_can': '0104248103',
     'individual_account_email': 'aaaaa@yopmail.com',
     'individual_account_first': 'atfirst1',
